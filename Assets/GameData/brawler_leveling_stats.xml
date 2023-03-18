@@ -1,0 +1,40 @@
+<brawler_leveling_stats>
+	<health_bonuses>
+		<level>2</level>
+		<level>4</level>
+		<level>6</level>
+		<level>13</level>
+		<level>14</level>
+		<level>16</level>
+		<level>17</level>
+		<level>19</level>
+	</health_bonuses>
+
+	<combo_start> 5 </combo_start>
+	<power_start> 1 </power_start>
+	
+	<power_attacks>
+		<power_attack>
+			<level>1</level>
+			<level>5</level>
+			<level>12</level>
+		</power_attack>
+		<power_attack>
+			<level>3</level>
+			<level>8</level>
+			<level>15</level>
+		</power_attack>
+		<power_attack>
+			<level>7</level>
+			<level>9</level>
+			<level>18</level>
+		</power_attack>
+	</power_attacks>
+	
+	<heroup_attack>
+		<level>1</level>
+		<level>10</level>
+		<level>20</level>
+	</heroup_attack>
+  
+</brawler_leveling_stats>

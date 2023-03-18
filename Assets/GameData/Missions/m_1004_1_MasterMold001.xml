@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_1004_1_MasterMold001>
+  <name>It's a Master (Mold) Piece!</name>
+  <description>The Super Hero Squad has found a warehouse full of Master Mold parts.  They must dispose of them before someone can assemble the pieces into a new giant Sentinel!</description>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+  <map>
+    <x>78</x>
+    <y>140</y>
+  </map>
+  <target_level>1</target_level>
+
+<!-- This stuff might not be necessary START -->
+
+<stages>
+	<stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Streets_M01_S02_geometry</geometry_bundle>
+    <scenario_bundle>Streets_M01_S02_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+</stages>
+
+<prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+
+  <rating>
+    <bronze>
+      <score_needed>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+      </score_needed>
+    </bronze>
+    <silver>
+      <score_needed>
+        <player>20480</player>
+        <player>34032</player>
+        <player>49520</player>
+        <player>59200</player>
+      </score_needed>
+    </silver>
+    <gold>
+      <score_needed>
+        <player>25600</player>
+        <player>42540</player>
+        <player>61900</player>
+        <player>74000</player>
+      </score_needed>
+    </gold>
+    <adamantium>
+      <score_needed>
+        <player>32000</player>
+        <player>53175</player>
+        <player>77375</player>
+        <player>92500</player>
+      </score_needed>
+    </adamantium>
+  </rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>100</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>100</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>100</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>100</lootTableIDs>
+    </adamantium>
+  </awards>
+</m_1004_1_MasterMold001>

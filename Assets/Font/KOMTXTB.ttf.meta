@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f563f8b8a6d94eb888d33d7b842fc5dc
+timeCreated: 1583319590
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "KOMTXTB"
+  fontNames:
+  - Komika Text Bold
+  - Arial
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

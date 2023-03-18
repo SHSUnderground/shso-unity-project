@@ -1,0 +1,220 @@
+
+
+    daily_bugle2_bundle:
+      preloadIndex: 15995
+      preloadSize: 11339
+      asset: {fileID: 5449}
+
+
+The returned asset bundle was not an AssetBundle.  The request failed with status code <500>. The request was for bundle <localfile$AssetBundles/Audio/city_ambiance_audio.unity3d>.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:OnAssetBundleLoaded(ShsWebResponse) (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:1042)
+<ProcessWebRequest>c__IteratorF7:MoveNext() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:756)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineMonoBehaviour.cs:43)
+ShsWebService:Update() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:464)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 1042)
+
+
+
+
+
+requestUri=Characters/6e70635f6d616c655f3031
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameDataManager:LoadGameData(String, GameDataLoadedCallback, StaticDataDefinition, Object) (at Assets\mainData\Assets\Scripts\GameDataManager.cs:232)
+GameDataManager:LoadGameData(String, GameDataLoadedCallback, Object) (at Assets\mainData\Assets\Scripts\GameDataManager.cs:222)
+<Spawn>c__Iterator54:MoveNext() (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:258)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineMonoBehaviour.cs:43)
+<SpawnOnNextFrame>c__Iterator56:MoveNext() (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:2078)
+ 
+(Filename: Assets/mainData/Assets/Scripts/GameDataManager.cs Line: 232)
+
+
+
+(Filename: Assets/mainData/Assets/Scripts/TransactionMonitor.cs Line: 385)
+
+Transaction: 6e70635f66656d616c655f3031_spawnTransaction
+
+ open: assetLoad  
+
+ completed: ownership  
+
+children: 
+
+
+
+Cache failed for <6e70635f66656d616c655f3031 > with error: The requested data at <localfile$GameData/Characters/6e70635f66656d616c655f3031.xml> could not be loaded.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+SimpleCharacterCache:FailCacheCharacter(String, String) (at Assets\mainData\Assets\Scripts\SimpleCharacterCache.cs:90)
+CharacterSpawn:OnCharacterDataLoaded(GameDataLoadResponse, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:313)
+GameDataManager:Update() (at Assets\mainData\Assets\Scripts\GameDataManager.cs:204)
+
+
+
+
+AssetName=416d625f5377656574656e65725f4261787465725f526f6f6656656e7431
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:755)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 755)
+
+
+
+
+Error loading bundle: 536f6369616c53706163652f67616d65776f726c645f61637469766974795f6f626a65637473
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ActivitySpawnPoint:OnActivityObjectSpawned(AssetBundleLoadResponse, Object) (at Assets\mainData\Assets\Scripts\ActivitySpawnPoint.cs:57)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:740)
+ 
+(Filename: Assets/mainData/Assets/Scripts/ActivitySpawnPoint.cs Line: 57)
+
+
+
+The requested asset bundle at <536f6369616c53706163652f67616d65776f726c645f61637469766974795f6f626a65637473> could not be loaded.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:722)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 722)
+
+
+
+
+Did not find spawn point <start>
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+DebugLogger:invoke_void__this___object(Object)
+SocialSpaceControllerImpl:PickSpawnPoint() (at Assets\mainData\Assets\Scripts\SocialSpaceControllerImpl.cs:1177)
+SocialSpaceControllerLoad:Update() (at Assets\mainData\Assets\Scripts\SocialSpaceControllerImpl.cs:350)
+ShsFSM:Update() (at Assets\mainData\Assets\Scripts\ShsFSM.cs:153)
+SocialSpaceControllerImpl:Update() (at Assets\mainData\Assets\Scripts\SocialSpaceControllerImpl.cs:1049)
+SocialSpaceController:Update() (at Assets\mainData\Assets\Scripts\SocialSpaceController.cs:203)
+ 
+(Filename: Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs Line: 1177)
+
+
+
+
+file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/GameData/Characters/6e70635f66656d616c655f3031.xml : The returned game data was an empty string.  The request failed.
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+GameDataManager:OnGameDataLoaded(ShsWebResponse) (at Assets/mainData/Assets/Scripts/GameDataManager.cs:359)
+<ProcessWebRequest>c__IteratorF7:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:756)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+
+6e70635f66656d616c655f3031
+6e70635f6    d616c655f3031
+
+
+	CharacterSpawn characterSpawn = gameObject.GetComponent(typeof(CharacterSpawn)) as CharacterSpawn;
+
+
+Failed to load character prefab from asset bundle for character <mr_placeholder>.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+CharacterSpawn:OnCharacterPrefabLoaded(Object, AssetBundle, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:490)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:771)
+ 
+(Filename: Assets/mainData/Assets/Scripts/CharacterSpawn.cs Line: 490)
+
+
+
+Searching for character VO bundles... vo/mr_placeholder_vo
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+VOBundleLoader:GetBundlesFromManifest(String) (at Assets\mainData\Assets\Scripts\VOBundleLoader.cs:39)
+VOBundleLoader:GetBundlesUsedByCharacter(String) (at Assets\mainData\Assets\Scripts\VOBundleLoader.cs:29)
+VOBundleLoader:LoadCharacter(String, TransactionMonitor) (at Assets\mainData\Assets\Scripts\VOBundleLoader.cs:17)
+VOBundleLoader:LoadCharacter(String) (at Assets\mainData\Assets\Scripts\VOBundleLoader.cs:12)
+CharacterSpawn:OnReadyForSpawn(ExitCondition, String, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:969)
+TransactionMonitor:CloseTransaction() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:403)
+TransactionMonitor:checkForCompletion() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:392)
+TransactionMonitor:CompleteStep(String, String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:353)
+TransactionMonitor:CompleteStep(String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:321)
+CharacterSpawn:OnAssetsLoaded(ExitCondition, String, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:553)
+TransactionMonitor:CloseTransaction() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:403)
+TransactionMonitor:checkForCompletion() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:392)
+TransactionMonitor:CompleteStep(String, String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:353)
+TransactionMonitor:CompleteStep(String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:321)
+CharacterSpawn:OnCharacterPrefabLoaded(Object, AssetBundle, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:495)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:771)
+ 
+(Filename: Assets/mainData/Assets/Scripts/VOBundleLoader.cs Line: 39)
+
+
+
+
+
+The referenced script on this Behaviour is missing!
+UnityEngine.Resources:Load(String, Type)
+UnityEngine.Resources:Load(String) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\BaseClass.cs:1559)
+CharacterSpawn:ConnectCameras(GameObject) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1790)
+CharacterSpawn:FinalSpawnSetup(GameObject, CharacterSpawnData) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1900)
+CharacterSpawn:OnCharacterSpawned(GameObject, CharacterSpawnData) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1858)
+CharacterSpawn:OnReadyForSpawn(ExitCondition, String, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:971)
+TransactionMonitor:CloseTransaction() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:403)
+TransactionMonitor:checkForCompletion() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:392)
+TransactionMonitor:CompleteStep(String, String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:353)
+TransactionMonitor:CompleteStep(String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:321)
+CharacterSpawn:OnAssetsLoaded(ExitCondition, String, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:553)
+TransactionMonitor:CloseTransaction() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:403)
+TransactionMonitor:checkForCompletion() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:392)
+TransactionMonitor:CompleteStep(String, String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:353)
+TransactionMonitor:CompleteStep(String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:321)
+CharacterSpawn:OnCharacterPrefabLoaded(Object, AssetBundle, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:495)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:771)
+
+[C:/BuildAgent/work/d9c061b1c154f5ae/Runtime/Mono/MonoBehaviour.cpp line 1509] 
+(Filename: Assets/mainData/Assets/Scripts/CharacterSpawn.cs Line: 1790)
+
+
+
+
+The returned asset bundle was not an AssetBundle.  The request failed with status code <500>. The request was for bundle <localfile$AssetBundles/FX/mr_placeholder_fx.unity3d>.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:OnAssetBundleLoaded(ShsWebResponse) (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:1042)
+<ProcessWebRequest>c__IteratorF7:MoveNext() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:756)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineMonoBehaviour.cs:43)
+ShsWebService:Update() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:464)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 1042)
+
+
+
+77805
+Destroying player <-10,1> since they are no longer in the room.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+DebugLogger:invoke_void__this___object(Object)
+NetGameManager:OnEntitySpawn(EntitySpawnMessage) (at Assets\mainData\Assets\Scripts\NetGameManager.cs:1093)
+Callback`1:Fire(ShsEventMessage) (at Assets\mainData\Assets\Scripts\ShsEventMgr.cs:37)
+ShsEventMgr:FireEventWithFilter(Object, Object, ShsEventMessage) (at Assets\mainData\Assets\Scripts\ShsEventMgr.cs:171)
+ShsEventMgr:Fire(Object, ShsEventMessage) (at Assets\mainData\Assets\Scripts\ShsEventMgr.cs:148)
+<FireSpawnEvent>c__IteratorFC:MoveNext() (at Assets\mainData\Assets\Scripts\SpawnData.cs:214)
+
+
+
+
+78144  Delayed destroying <mr_placeholder>
+
+
+
+cameratargethelper

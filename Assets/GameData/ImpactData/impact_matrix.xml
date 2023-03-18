@@ -1,0 +1,14 @@
+<impact_matrix>
+  <flesh>
+    <flesh>Flesh_HitFlesh_sequence</flesh>
+    <metal>Flesh_HitMetal_sequence</metal>
+  </flesh>
+  <metal>
+    <flesh>Metal_HitFlesh_sequence</flesh>
+    <metal>Metal_HitMetal_sequence</metal>
+  </metal>
+  <energy>
+    <flesh>Energy_HitFlesh_sequence</flesh>
+    <metal>Energy_HitMetal_sequence</metal>
+  </energy>
+</impact_matrix>

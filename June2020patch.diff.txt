@@ -1,0 +1,181 @@
+diff --git a/Assets/mainData/Assets/Scripts/AssetBundleLoader.cs b/Assets/mainData/Assets/Scripts/AssetBundleLoader.cs
+index 00dce0c..db61c36 100644
+--- a/Assets/mainData/Assets/Scripts/AssetBundleLoader.cs
++++ b/Assets/mainData/Assets/Scripts/AssetBundleLoader.cs
+@@ -751,7 +751,7 @@ public class AssetBundleLoader : MonoBehaviour
+ 		}
+ 		if (assetLoadRequests.Count > 0)
+ 		{
+-			//Debug.Log("*assetLoadRequests Queue* size = " + assetLoadRequests.Count);
++			Debug.Log("*assetLoadRequests Queue* size = " + assetLoadRequests.Count);
+ 			//foreach (var e in assetLoadRequests)   // for loop added by CSP for debugging
+ 			//{
+ 			//	Debug.Log("e: " + e.AssetName);
+diff --git a/Assets/mainData/Assets/Scripts/CharacterMotionController.cs b/Assets/mainData/Assets/Scripts/CharacterMotionController.cs
+index 34128a5..5e6ef94 100644
+--- a/Assets/mainData/Assets/Scripts/CharacterMotionController.cs
++++ b/Assets/mainData/Assets/Scripts/CharacterMotionController.cs
+@@ -931,6 +931,16 @@ public class CharacterMotionController : MonoBehaviour
+ 				verticalVelocity = 0f;
+ 			}
+ 		}
++		//// this test black added by CSP   /////
++		NetActionPositionFull action14 = new NetActionPositionFull(base.gameObject);
++		networkComponent.QueueNetAction(action14);
++		NetActionPositionFullRotation action13 = new NetActionPositionFullRotation(base.gameObject);
++		networkComponent.QueueNetAction(action13);
++		//Vector3 delta2 = base.gameObject.transform.position - positionLastSent;
++		//NetActionPositionUpdate action15 = new NetActionPositionUpdate(delta2);
++		//networkComponent.QueueNetAction(action15);
++		Debug.Log("NetActionPosition msgs queued!");
++		/////////////////////////////////////////
+ 		if (networkComponent != null && networkComponent.IsOwner() && !NetUpdatesDisabled && checkForNetCatchups && spawnData != null && (spawnData.spawnType & CharacterSpawn.Type.Local) != 0 && positionLastSentTime + positionSampleRate <= Time.time)
+ 		{
+ 			bool flag2 = inMotion || verticalVelocity != 0f;
+@@ -962,6 +972,7 @@ public class CharacterMotionController : MonoBehaviour
+ 				{
+ 					NetActionPositionUpdate action5 = new NetActionPositionUpdate(delta);
+ 					networkComponent.QueueNetAction(action5);
++					Debug.Log("NetActionPositionUpdate queued!");
+ 				}
+ 			}
+ 		}
+diff --git a/Assets/mainData/Assets/Scripts/NetGameManager.cs b/Assets/mainData/Assets/Scripts/NetGameManager.cs
+index 0c73511..f4b7409 100644
+--- a/Assets/mainData/Assets/Scripts/NetGameManager.cs
++++ b/Assets/mainData/Assets/Scripts/NetGameManager.cs
+@@ -293,6 +293,7 @@ public class NetGameManager : IDisposable
+ 				if (value.queuedActions != null)
+ 				{
+ 					NetActionMessage netActionMessage = new NetActionMessage(value.goNetId);
++					Debug.Log("NGM Update netActionMessage.GetType()=" + netActionMessage.GetType().ToString());
+ 					netActionMessage.actions = value.queuedActions;
+ 					while (netActionMessage.actions.Count > sendMaxActionCount)
+ 					{
+@@ -403,6 +404,7 @@ public class NetGameManager : IDisposable
+ 
+ 	public void QueueNetAction(GoNetId goNetId, NetAction action)
+ 	{
++		Debug.Log("QueueNetAction NetActionPositionFull");
+ 		NetEntity value = null;
+ 		if (dictNetObjs.TryGetValue(goNetId, out value))
+ 		{
+@@ -434,6 +436,11 @@ public class NetGameManager : IDisposable
+ 
+ 	public void ProcessMessage(NetworkMessage msg)
+ 	{
++		Debug.Log("ProcessMessage msg.GetType()= " + msg.GetType().ToString());  //CSP
++		
++		if (msg.GetType() == typeof(NetActionPositionFull))
++			Debug.Log("ProcessMessage NetActionPositionFull type");  //CSP .
++
+ 		if (msg.GetType() == typeof(ClientReadyMessage))
+ 		{
+ 			int gameUserId = AppShell.Instance.ServerConnection.GetGameUserId();
+@@ -521,8 +528,10 @@ public class NetGameManager : IDisposable
+ 		}
+ 		else
+ 		{
++			clientReady = true;   // CSP  temporary force to true to test...get rid of this later!
+ 			if (!clientReady)
+ 			{
++				Debug.Log("ProcessMessage client not ready...returning!");  //CSP
+ 				return;
+ 			}
+ 			if (msg.GetType() == typeof(AggregateMessage))
+@@ -531,6 +540,7 @@ public class NetGameManager : IDisposable
+ 				foreach (NetworkMessage message in aggregateMessage.messages)
+ 				{
+ 					message.senderRTCId = msg.senderRTCId;
++					Debug.Log("AggregateMessage message.GetType()= " + message.GetType().ToString());  //CSP
+ 					ProcessMessage(message);
+ 				}
+ 			}
+@@ -709,15 +719,19 @@ public class NetGameManager : IDisposable
+ 			}
+ 			else if (msg.goNetId.IsValid())
+ 			{
++				Debug.Log("msg.goNetId.IsValid() msg.GetType()= " + msg.GetType().ToString());  //CSP
++
+ 				NetEntity value6 = null;
+ 				if (dictNetObjs.TryGetValue(msg.goNetId, out value6))
+ 				{
+ 					if (value6.netComp != null)
+ 					{
++						Debug.Log("ProcessMessage value6");
+ 						value6.netComp.ProcessMessage(msg);
+ 					}
+ 					else
+ 					{
++						Debug.Log("ProcessMessage  caching message!");
+ 						CacheMessage(msg);
+ 					}
+ 				}
+diff --git a/Assets/mainData/Assets/Scripts/NetworkComponent.cs b/Assets/mainData/Assets/Scripts/NetworkComponent.cs
+index fad3646..46dd27f 100644
+--- a/Assets/mainData/Assets/Scripts/NetworkComponent.cs
++++ b/Assets/mainData/Assets/Scripts/NetworkComponent.cs
+@@ -150,6 +150,7 @@ public class NetworkComponent : MonoBehaviour
+ 
+ 	public void ProcessActionPosition()
+ 	{
++		Debug.Log("ProcessActionPosition() called!");
+ 		NetAction netAction = netActionPositionQueue[0];
+ 		netActionPositionQueue.RemoveAt(0);
+ 		if (debugHistory != null)
+@@ -167,10 +168,12 @@ public class NetworkComponent : MonoBehaviour
+ 				remotePositionOnGround = netActionPositionFull.onGround;
+ 				if (netActionPositionFullRotation != null)
+ 				{
++					Debug.Log("NetActionPositionFullRotation recvd!");
+ 					characterMotionController.setDestination(netActionPositionFull.position, netActionPositionFullRotation.lookVector);
+ 				}
+ 				else
+ 				{
++					Debug.Log("NetActionPositionFull recvd!");
+ 					characterMotionController.setDestination(netActionPositionFull.position);
+ 				}
+ 				behaviorManager.getBehavior().destinationChanged();
+@@ -181,6 +184,7 @@ public class NetworkComponent : MonoBehaviour
+ 		{
+ 			if (!characterMotionController.NetUpdatesDisabled && lastFullPosition >= 0f)
+ 			{
++				Debug.Log("NetActionPositionUpdate recvd!");
+ 				NetActionPositionUpdate netActionPositionUpdate = netAction as NetActionPositionUpdate;
+ 				lastDestinationSet += netActionPositionUpdate.getDelta();
+ 				checkYDiscrepancy(lastDestinationSet);
+@@ -491,6 +495,8 @@ public class NetworkComponent : MonoBehaviour
+ 
+ 	public void QueueNetAction(NetAction action)
+ 	{
++		Debug.Log("QueueNetAction IsOwner()=" + IsOwner());
++		Debug.Log("QueueNetAction goNetId child/parent=" + goNetId.childId + " " + goNetId.parentId);
+ 		if (goNetId.IsValid() && IsOwner())
+ 		{
+ 			QueueNetActionRelay(action);
+@@ -530,6 +536,7 @@ public class NetworkComponent : MonoBehaviour
+ 				charGlobals.motionController.positionSent(false);
+ 			}
+ 		}
++		Debug.Log("QueueNetActionRelay NetActionPositionFull");
+ 		AppShell.Instance.ServerConnection.Game.QueueNetAction(goNetId, action);
+ 	}
+ 
+diff --git a/Assets/mainData/Assets/Scripts/NetworkManager.cs b/Assets/mainData/Assets/Scripts/NetworkManager.cs
+index 6c0d787..a5401a3 100644
+--- a/Assets/mainData/Assets/Scripts/NetworkManager.cs
++++ b/Assets/mainData/Assets/Scripts/NetworkManager.cs
+@@ -316,6 +316,13 @@ public class NetworkManager : IDisposable, IServerConnection
+ 
+ 	public void SendGameMsg(NetworkMessage msg)
+ 	{
++		Debug.Log("SendGameMsg NetActionPositionFull msg.GetType()= " + msg.GetType().ToString());
++		if (msg.GetType() == typeof(NetActionMessage)) //CSP 
++			Debug.Log("SendGameMsg NetActionMessage");
++
++		if (msg.GetType() == typeof(NetActionPositionFull)) //CSP 
++			Debug.Log("SendGameMsg NetActionPositionFull");
++
+ 		if (gameServer != null)
+ 		{
+ 			gameServer.SendToAll(msg);

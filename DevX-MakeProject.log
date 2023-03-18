@@ -1,0 +1,1768 @@
+Resolve4: UnityEngine
+Resolve3: C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\UnityEngine.dll - from resources
+Resolve4: mscorlib
+Resolve3: C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\mscorlib.dll - from resources
+Warning: pos: 24 != len: 348 for: {fileID: 0 (maindata), pathID: 32, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (maindata), pathID: 1, m_Name: , type: PlayerSettings}
+End export-ok: {fileID: 0 (maindata), pathID: 1, m_Name: , type: PlayerSettings}
+Mem  61 Mb (+0) on {fileID: 0 (maindata), pathID: 1, m_Name: , type: PlayerSettings}
+Begin export: {fileID: 0 (maindata), pathID: 2, m_Name: , type: InputManager}
+End export-ok: {fileID: 0 (maindata), pathID: 2, m_Name: , type: InputManager}
+Mem  59 Mb (+0) on {fileID: 0 (maindata), pathID: 2, m_Name: , type: InputManager}
+Begin export: {fileID: 0 (maindata), pathID: 3, m_Name: , type: TagManager}
+End export-ok: {fileID: 0 (maindata), pathID: 3, m_Name: , type: TagManager}
+Mem  59 Mb (+0) on {fileID: 0 (maindata), pathID: 3, m_Name: , type: TagManager}
+Begin export: {fileID: 0 (maindata), pathID: 4, m_Name: , type: AudioManager}
+End export-ok: {fileID: 0 (maindata), pathID: 4, m_Name: , type: AudioManager}
+Mem  59 Mb (+0) on {fileID: 0 (maindata), pathID: 4, m_Name: , type: AudioManager}
+Begin export: {fileID: 0 (maindata), pathID: 8, m_Name: , type: TimeManager}
+End export-ok: {fileID: 0 (maindata), pathID: 8, m_Name: , type: TimeManager}
+Mem  59 Mb (+0) on {fileID: 0 (maindata), pathID: 8, m_Name: , type: TimeManager}
+Begin export: {fileID: 0 (maindata), pathID: 11, m_Name: , type: PhysicsManager}
+End export-ok: {fileID: 0 (maindata), pathID: 11, m_Name: , type: PhysicsManager}
+Mem  59 Mb (+0) on {fileID: 0 (maindata), pathID: 11, m_Name: , type: PhysicsManager}
+Begin export: {fileID: 0 (maindata), pathID: 12, m_Name: , type: BuildSettings}
+End export-ok: {fileID: 0 (maindata), pathID: 12, m_Name: , type: BuildSettings}
+Mem  60 Mb (+1) on {fileID: 0 (maindata), pathID: 12, m_Name: , type: BuildSettings}
+Warning: pos: 24 != len: 348 for: {fileID: 0 (maindata), pathID: 32, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (maindata), pathID: 32, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (maindata), pathID: 33, m_Name: , type: MonoBehaviour}
+{fileID: 1 (unity default resources), pathID: 10302} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+{fileID: 1 (unity default resources), pathID: 10202} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+{fileID: 1 (unity default resources), pathID: 10208} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+Scene analize:attacking enemy sequence.prefab
+MonoBehaviour: 1790110663678557690 !!!!  link to missed asset: {FileID: 1790110663678556301} tag: 1790110663678556301}
+MonoBehaviour: 1790110663678557690 !!!!  link to missed asset: {FileID: 1790110663678556258} tag: 1790110663678556258}
+Bad links count: 2
+{fileID: 1 (unity default resources), pathID: 10209} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+Begin export: {fileID: 0 (resources.assets), pathID: 1, m_Name: apple_apple_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 1, m_Name: apple_apple_VC_0, type: Material}
+Mem  90 Mb (+2) on {fileID: 0 (resources.assets), pathID: 1, m_Name: apple_apple_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 2, m_Name: EmoteChatTextureContainer, type: Material}
+{fileID: 1 (unity default resources), pathID: 30} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 2, m_Name: EmoteChatTextureContainer, type: Material}
+Mem  90 Mb (+0) on {fileID: 0 (resources.assets), pathID: 2, m_Name: EmoteChatTextureContainer, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 3, m_Name: Thought Bubble Icon, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 3, m_Name: Thought Bubble Icon, type: Material}
+Mem  91 Mb (+1) on {fileID: 0 (resources.assets), pathID: 3, m_Name: Thought Bubble Icon, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 4, m_Name: Grid Material (Blue) (Alpha), type: Material}
+{fileID: 1 (unity default resources), pathID: 203} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 4, m_Name: Grid Material (Blue) (Alpha), type: Material}
+Mem  81 Mb (+-10) on {fileID: 0 (resources.assets), pathID: 4, m_Name: Grid Material (Blue) (Alpha), type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 5, m_Name: interactive_a, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 5, m_Name: interactive_a, type: Material}
+Mem  81 Mb (+0) on {fileID: 0 (resources.assets), pathID: 5, m_Name: interactive_a, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 6, m_Name: interactive_b, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 6, m_Name: interactive_b, type: Material}
+Mem  81 Mb (+0) on {fileID: 0 (resources.assets), pathID: 6, m_Name: interactive_b, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 7, m_Name: attacking_item_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 7, m_Name: attacking_item_tex, type: Material}
+Mem  82 Mb (+1) on {fileID: 0 (resources.assets), pathID: 7, m_Name: attacking_item_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 8, m_Name: enemyselected_arrows, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 8, m_Name: enemyselected_arrows, type: Material}
+Mem  82 Mb (+0) on {fileID: 0 (resources.assets), pathID: 8, m_Name: enemyselected_arrows, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 9, m_Name: enemyselected_ring, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 9, m_Name: enemyselected_ring, type: Material}
+Mem  82 Mb (+0) on {fileID: 0 (resources.assets), pathID: 9, m_Name: enemyselected_ring, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 10, m_Name: ui_target_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 10, m_Name: ui_target_tex, type: Material}
+Mem  81 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 10, m_Name: ui_target_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 11, m_Name: ring_white_additive_tex, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 11, m_Name: ring_white_additive_tex, type: Material}
+Mem  82 Mb (+1) on {fileID: 0 (resources.assets), pathID: 11, m_Name: ring_white_additive_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 12, m_Name: hazard-hazzard (Alpha), type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 12, m_Name: hazard-hazzard (Alpha), type: Material}
+Mem  82 Mb (+0) on {fileID: 0 (resources.assets), pathID: 12, m_Name: hazard-hazzard (Alpha), type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 13, m_Name: hazard-hazzard glow (additive), type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 13, m_Name: hazard-hazzard glow (additive), type: Material}
+Mem  73 Mb (+-9) on {fileID: 0 (resources.assets), pathID: 13, m_Name: hazard-hazzard glow (additive), type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 14, m_Name: hazzard_add_tex, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 14, m_Name: hazzard_add_tex, type: Material}
+Mem  73 Mb (+0) on {fileID: 0 (resources.assets), pathID: 14, m_Name: hazzard_add_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 15, m_Name: hazzard_alpha_tex, type: Material}
+{fileID: 1 (unity default resources), pathID: 203} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 15, m_Name: hazzard_alpha_tex, type: Material}
+Mem  73 Mb (+0) on {fileID: 0 (resources.assets), pathID: 15, m_Name: hazzard_alpha_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 16, m_Name: hazzard_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 16, m_Name: hazzard_diff_tex, type: Material}
+Mem  74 Mb (+1) on {fileID: 0 (resources.assets), pathID: 16, m_Name: hazzard_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 17, m_Name: hazard_hazzard glow_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 17, m_Name: hazard_hazzard glow_VC_0, type: Material}
+Mem  75 Mb (+1) on {fileID: 0 (resources.assets), pathID: 17, m_Name: hazard_hazzard glow_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 18, m_Name: hazard_Hazzard solid_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 18, m_Name: hazard_Hazzard solid_VC_0, type: Material}
+Mem  77 Mb (+2) on {fileID: 0 (resources.assets), pathID: 18, m_Name: hazard_Hazzard solid_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 19, m_Name: Hazard_safe_add, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 19, m_Name: Hazard_safe_add, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 19, m_Name: Hazard_safe_add, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 20, m_Name: Hazard_safe_dif, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 20, m_Name: Hazard_safe_dif, type: Material}
+Mem  78 Mb (+1) on {fileID: 0 (resources.assets), pathID: 20, m_Name: Hazard_safe_dif, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 21, m_Name: Hazard_safe-no name, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 21, m_Name: Hazard_safe-no name, type: Material}
+Mem  78 Mb (+0) on {fileID: 0 (resources.assets), pathID: 21, m_Name: Hazard_safe-no name, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 22, m_Name: Hazard_safe_Hazzard solid01_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 22, m_Name: Hazard_safe_Hazzard solid01_VC_0, type: Material}
+Mem  79 Mb (+1) on {fileID: 0 (resources.assets), pathID: 22, m_Name: Hazard_safe_Hazzard solid01_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 23, m_Name: Hazard_safe_Hazzard solid_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 23, m_Name: Hazard_safe_Hazzard solid_VC_0, type: Material}
+Mem  81 Mb (+2) on {fileID: 0 (resources.assets), pathID: 23, m_Name: Hazard_safe_Hazzard solid_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 24, m_Name: chubbyarrow_blue_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 24, m_Name: chubbyarrow_blue_diff_tex, type: Material}
+Mem  82 Mb (+1) on {fileID: 0 (resources.assets), pathID: 24, m_Name: chubbyarrow_blue_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 25, m_Name: chubbyarrow_blue_diff_text_higlight, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 25, m_Name: chubbyarrow_blue_diff_text_higlight, type: Material}
+Mem  82 Mb (+0) on {fileID: 0 (resources.assets), pathID: 25, m_Name: chubbyarrow_blue_diff_text_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 26, m_Name: chubbyarrow_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 26, m_Name: chubbyarrow_diff_tex, type: Material}
+Mem  79 Mb (+1) on {fileID: 0 (resources.assets), pathID: 26, m_Name: chubbyarrow_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 27, m_Name: chubbyarrow_diff_tex2, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 27, m_Name: chubbyarrow_diff_tex2, type: Material}
+Mem  80 Mb (+1) on {fileID: 0 (resources.assets), pathID: 27, m_Name: chubbyarrow_diff_tex2, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 28, m_Name: chubbyarrow_diff_tex3, type: Material}
+{fileID: 1 (unity default resources), pathID: 203} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 28, m_Name: chubbyarrow_diff_tex3, type: Material}
+Mem  80 Mb (+0) on {fileID: 0 (resources.assets), pathID: 28, m_Name: chubbyarrow_diff_tex3, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 29, m_Name: chubbyarrow_diff_text_higlight, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 29, m_Name: chubbyarrow_diff_text_higlight, type: Material}
+Mem  80 Mb (+0) on {fileID: 0 (resources.assets), pathID: 29, m_Name: chubbyarrow_diff_text_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 30, m_Name: chubbyarrow_red_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 30, m_Name: chubbyarrow_red_diff_tex, type: Material}
+Mem  81 Mb (+0) on {fileID: 0 (resources.assets), pathID: 30, m_Name: chubbyarrow_red_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 31, m_Name: chubbyarrow_red_diff_text_higlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 31, m_Name: chubbyarrow_red_diff_text_higlight, type: Material}
+Mem  82 Mb (+0) on {fileID: 0 (resources.assets), pathID: 31, m_Name: chubbyarrow_red_diff_text_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 32, m_Name: chubbyarrow_yellow_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 32, m_Name: chubbyarrow_yellow_diff_tex, type: Material}
+Mem  83 Mb (+1) on {fileID: 0 (resources.assets), pathID: 32, m_Name: chubbyarrow_yellow_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 33, m_Name: chubbyarrow_yellow_diff_text_higlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 33, m_Name: chubbyarrow_yellow_diff_text_higlight, type: Material}
+Mem  81 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 33, m_Name: chubbyarrow_yellow_diff_text_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 34, m_Name: hotspot arrow-arrow, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 34, m_Name: hotspot arrow-arrow, type: Material}
+Mem  82 Mb (+1) on {fileID: 0 (resources.assets), pathID: 34, m_Name: hotspot arrow-arrow, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 35, m_Name: hotspot arrow-Multi direciontal hotspot, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 35, m_Name: hotspot arrow-Multi direciontal hotspot, type: Material}
+Mem  82 Mb (+0) on {fileID: 0 (resources.assets), pathID: 35, m_Name: hotspot arrow-Multi direciontal hotspot, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 36, m_Name: hotspot return-arrow, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 36, m_Name: hotspot return-arrow, type: Material}
+Mem  81 Mb (+0) on {fileID: 0 (resources.assets), pathID: 36, m_Name: hotspot return-arrow, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 37, m_Name: hotspot return-return hotspot, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 37, m_Name: hotspot return-return hotspot, type: Material}
+Mem  82 Mb (+1) on {fileID: 0 (resources.assets), pathID: 37, m_Name: hotspot return-return hotspot, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 38, m_Name: multidirectionhotspot_blue_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 38, m_Name: multidirectionhotspot_blue_diff_tex, type: Material}
+Mem  83 Mb (+1) on {fileID: 0 (resources.assets), pathID: 38, m_Name: multidirectionhotspot_blue_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 39, m_Name: multidirectionhotspot_blue_diff_tex_highlight, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 39, m_Name: multidirectionhotspot_blue_diff_tex_highlight, type: Material}
+Mem  83 Mb (+0) on {fileID: 0 (resources.assets), pathID: 39, m_Name: multidirectionhotspot_blue_diff_tex_highlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 40, m_Name: multidirectionhotspot_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 40, m_Name: multidirectionhotspot_diff_tex, type: Material}
+Mem  83 Mb (+0) on {fileID: 0 (resources.assets), pathID: 40, m_Name: multidirectionhotspot_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 41, m_Name: multidirectionhotspot_diff_tex2, type: Material}
+{fileID: 1 (unity default resources), pathID: 203} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 41, m_Name: multidirectionhotspot_diff_tex2, type: Material}
+Mem  83 Mb (+0) on {fileID: 0 (resources.assets), pathID: 41, m_Name: multidirectionhotspot_diff_tex2, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 42, m_Name: multidirectionhotspot_diff_tex3, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 42, m_Name: multidirectionhotspot_diff_tex3, type: Material}
+Mem  84 Mb (+1) on {fileID: 0 (resources.assets), pathID: 42, m_Name: multidirectionhotspot_diff_tex3, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 43, m_Name: multidirectionhotspot_diff_tex_highlight, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 43, m_Name: multidirectionhotspot_diff_tex_highlight, type: Material}
+Mem  84 Mb (+0) on {fileID: 0 (resources.assets), pathID: 43, m_Name: multidirectionhotspot_diff_tex_highlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 44, m_Name: multidirectionhotspot_red_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 44, m_Name: multidirectionhotspot_red_diff_tex, type: Material}
+Mem  85 Mb (+1) on {fileID: 0 (resources.assets), pathID: 44, m_Name: multidirectionhotspot_red_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 45, m_Name: multidirectionhotspot_red_diff_tex_highlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 45, m_Name: multidirectionhotspot_red_diff_tex_highlight, type: Material}
+Mem  84 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 45, m_Name: multidirectionhotspot_red_diff_tex_highlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 46, m_Name: singledirectionhotspots_blue_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 46, m_Name: singledirectionhotspots_blue_diff_tex, type: Material}
+Mem  85 Mb (+0) on {fileID: 0 (resources.assets), pathID: 46, m_Name: singledirectionhotspots_blue_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 47, m_Name: singledirectionhotspots_blue_diff_tex_higlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 47, m_Name: singledirectionhotspots_blue_diff_tex_higlight, type: Material}
+Mem  86 Mb (+0) on {fileID: 0 (resources.assets), pathID: 47, m_Name: singledirectionhotspots_blue_diff_tex_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 48, m_Name: singledirectionhotspots_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 48, m_Name: singledirectionhotspots_diff_tex, type: Material}
+Mem  87 Mb (+1) on {fileID: 0 (resources.assets), pathID: 48, m_Name: singledirectionhotspots_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 49, m_Name: singledirectionhotspots_diff_tex2, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 49, m_Name: singledirectionhotspots_diff_tex2, type: Material}
+Mem  88 Mb (+1) on {fileID: 0 (resources.assets), pathID: 49, m_Name: singledirectionhotspots_diff_tex2, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 50, m_Name: singledirectionhotspots_diff_tex3, type: Material}
+{fileID: 1 (unity default resources), pathID: 203} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 50, m_Name: singledirectionhotspots_diff_tex3, type: Material}
+Mem  88 Mb (+0) on {fileID: 0 (resources.assets), pathID: 50, m_Name: singledirectionhotspots_diff_tex3, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 51, m_Name: singledirectionhotspots_diff_tex_higlight, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 51, m_Name: singledirectionhotspots_diff_tex_higlight, type: Material}
+Mem  88 Mb (+0) on {fileID: 0 (resources.assets), pathID: 51, m_Name: singledirectionhotspots_diff_tex_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 52, m_Name: singledirectionhotspots_red_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 52, m_Name: singledirectionhotspots_red_diff_tex, type: Material}
+Mem  88 Mb (+0) on {fileID: 0 (resources.assets), pathID: 52, m_Name: singledirectionhotspots_red_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 53, m_Name: singledirectionhotspots_red_diff_tex_higlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 53, m_Name: singledirectionhotspots_red_diff_tex_higlight, type: Material}
+Mem  88 Mb (+0) on {fileID: 0 (resources.assets), pathID: 53, m_Name: singledirectionhotspots_red_diff_tex_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 54, m_Name: singledirectionhotspots_yellow_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 54, m_Name: singledirectionhotspots_yellow_diff_tex, type: Material}
+Mem  89 Mb (+1) on {fileID: 0 (resources.assets), pathID: 54, m_Name: singledirectionhotspots_yellow_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 55, m_Name: singledirectionhotspots_yellow_diff_tex_higlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 55, m_Name: singledirectionhotspots_yellow_diff_tex_higlight, type: Material}
+Mem  89 Mb (+0) on {fileID: 0 (resources.assets), pathID: 55, m_Name: singledirectionhotspots_yellow_diff_tex_higlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 56, m_Name: hotspot arrow_hotspot arrow_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 56, m_Name: hotspot arrow_hotspot arrow_VC_0, type: Material}
+Mem  90 Mb (+1) on {fileID: 0 (resources.assets), pathID: 56, m_Name: hotspot arrow_hotspot arrow_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 57, m_Name: hotspot arrow_hotspot directional arrow_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 57, m_Name: hotspot arrow_hotspot directional arrow_VC_0, type: Material}
+Mem  91 Mb (+1) on {fileID: 0 (resources.assets), pathID: 57, m_Name: hotspot arrow_hotspot directional arrow_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 58, m_Name: hotspot return_hotspot return arrow 1_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 58, m_Name: hotspot return_hotspot return arrow 1_VC_0, type: Material}
+Mem  93 Mb (+2) on {fileID: 0 (resources.assets), pathID: 58, m_Name: hotspot return_hotspot return arrow 1_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 59, m_Name: hotspot return_hotspot return arrow 2_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 59, m_Name: hotspot return_hotspot return arrow 2_VC_0, type: Material}
+Mem  94 Mb (+1) on {fileID: 0 (resources.assets), pathID: 59, m_Name: hotspot return_hotspot return arrow 2_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 60, m_Name: hotspot return_hotspot return arrow 3_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 60, m_Name: hotspot return_hotspot return arrow 3_VC_0, type: Material}
+Mem  92 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 60, m_Name: hotspot return_hotspot return arrow 3_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 61, m_Name: hotspot return_hotspot return arrow 4_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 61, m_Name: hotspot return_hotspot return arrow 4_VC_0, type: Material}
+Mem  94 Mb (+2) on {fileID: 0 (resources.assets), pathID: 61, m_Name: hotspot return_hotspot return arrow 4_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 62, m_Name: hotspot return_Hotspot return path_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 62, m_Name: hotspot return_Hotspot return path_VC_0, type: Material}
+Mem  96 Mb (+2) on {fileID: 0 (resources.assets), pathID: 62, m_Name: hotspot return_Hotspot return path_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 63, m_Name: move_marker, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 63, m_Name: move_marker, type: Material}
+Mem  97 Mb (+1) on {fileID: 0 (resources.assets), pathID: 63, m_Name: move_marker, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 64, m_Name: navigation-Cursor0005, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 64, m_Name: navigation-Cursor0005, type: Material}
+Mem  94 Mb (+-3) on {fileID: 0 (resources.assets), pathID: 64, m_Name: navigation-Cursor0005, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 65, m_Name: navigation-ring ripple, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 65, m_Name: navigation-ring ripple, type: Material}
+Mem  95 Mb (+1) on {fileID: 0 (resources.assets), pathID: 65, m_Name: navigation-ring ripple, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 66, m_Name: navigation_diff_tex, type: Material}
+{fileID: 1 (unity default resources), pathID: 203} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 66, m_Name: navigation_diff_tex, type: Material}
+Mem  95 Mb (+0) on {fileID: 0 (resources.assets), pathID: 66, m_Name: navigation_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 67, m_Name: navigation_grow-ring ripple, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 67, m_Name: navigation_grow-ring ripple, type: Material}
+Mem  95 Mb (+0) on {fileID: 0 (resources.assets), pathID: 67, m_Name: navigation_grow-ring ripple, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 68, m_Name: navigation_new-ring ripple, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 68, m_Name: navigation_new-ring ripple, type: Material}
+Mem  95 Mb (+0) on {fileID: 0 (resources.assets), pathID: 68, m_Name: navigation_new-ring ripple, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 69, m_Name: navigation_shrink-ring ripple, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 69, m_Name: navigation_shrink-ring ripple, type: Material}
+Mem  95 Mb (+0) on {fileID: 0 (resources.assets), pathID: 69, m_Name: navigation_shrink-ring ripple, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 70, m_Name: navigation_grow_Ring ripple center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 70, m_Name: navigation_grow_Ring ripple center_VC_0, type: Material}
+Mem  96 Mb (+1) on {fileID: 0 (resources.assets), pathID: 70, m_Name: navigation_grow_Ring ripple center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 71, m_Name: navigation_grow_ring ripple outer_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 71, m_Name: navigation_grow_ring ripple outer_VC_0, type: Material}
+Mem  97 Mb (+1) on {fileID: 0 (resources.assets), pathID: 71, m_Name: navigation_grow_ring ripple outer_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 72, m_Name: navigation_new_Ring ripple center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 72, m_Name: navigation_new_Ring ripple center_VC_0, type: Material}
+Mem  99 Mb (+2) on {fileID: 0 (resources.assets), pathID: 72, m_Name: navigation_new_Ring ripple center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 73, m_Name: navigation_new_ring ripple outer_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 73, m_Name: navigation_new_ring ripple outer_VC_0, type: Material}
+Mem  100 Mb (+1) on {fileID: 0 (resources.assets), pathID: 73, m_Name: navigation_new_ring ripple outer_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 74, m_Name: navigation_Ring ripple center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 74, m_Name: navigation_Ring ripple center_VC_0, type: Material}
+Mem  102 Mb (+2) on {fileID: 0 (resources.assets), pathID: 74, m_Name: navigation_Ring ripple center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 75, m_Name: navigation_ring ripple outer_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 75, m_Name: navigation_ring ripple outer_VC_0, type: Material}
+Mem  104 Mb (+2) on {fileID: 0 (resources.assets), pathID: 75, m_Name: navigation_ring ripple outer_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 76, m_Name: navigation_shrink_Ring ripple center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 76, m_Name: navigation_shrink_Ring ripple center_VC_0, type: Material}
+Mem  100 Mb (+-4) on {fileID: 0 (resources.assets), pathID: 76, m_Name: navigation_shrink_Ring ripple center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 77, m_Name: navigation_shrink_ring ripple outer_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 77, m_Name: navigation_shrink_ring ripple outer_VC_0, type: Material}
+Mem  102 Mb (+2) on {fileID: 0 (resources.assets), pathID: 77, m_Name: navigation_shrink_ring ripple outer_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 78, m_Name: navigation_new_Ring ripple center_VC_0_highlight, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 78, m_Name: navigation_new_Ring ripple center_VC_0_highlight, type: Material}
+Mem  102 Mb (+0) on {fileID: 0 (resources.assets), pathID: 78, m_Name: navigation_new_Ring ripple center_VC_0_highlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 79, m_Name: navigation_new_Ring ripple center_VC_0_normal, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 79, m_Name: navigation_new_Ring ripple center_VC_0_normal, type: Material}
+Mem  103 Mb (+1) on {fileID: 0 (resources.assets), pathID: 79, m_Name: navigation_new_Ring ripple center_VC_0_normal, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 80, m_Name: navigation_new_ring ripple outer_VC_0_highlight, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 80, m_Name: navigation_new_ring ripple outer_VC_0_highlight, type: Material}
+Mem  101 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 80, m_Name: navigation_new_ring ripple outer_VC_0_highlight, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 81, m_Name: navigation_new_ring ripple outer_VC_0_normal, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 81, m_Name: navigation_new_ring ripple outer_VC_0_normal, type: Material}
+Mem  102 Mb (+1) on {fileID: 0 (resources.assets), pathID: 81, m_Name: navigation_new_ring ripple outer_VC_0_normal, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 82, m_Name: arrow, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 82, m_Name: arrow, type: Material}
+Mem  103 Mb (+1) on {fileID: 0 (resources.assets), pathID: 82, m_Name: arrow, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 83, m_Name: arrow_bad, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 83, m_Name: arrow_bad, type: Material}
+Mem  104 Mb (+1) on {fileID: 0 (resources.assets), pathID: 83, m_Name: arrow_bad, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 84, m_Name: reticule_arrow_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 84, m_Name: reticule_arrow_diff_tex, type: Material}
+Mem  105 Mb (+1) on {fileID: 0 (resources.assets), pathID: 84, m_Name: reticule_arrow_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 85, m_Name: reticule_inner_diff_bad 1, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 85, m_Name: reticule_inner_diff_bad 1, type: Material}
+Mem  105 Mb (+0) on {fileID: 0 (resources.assets), pathID: 85, m_Name: reticule_inner_diff_bad 1, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 86, m_Name: reticule_inner_diff_bad, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 86, m_Name: reticule_inner_diff_bad, type: Material}
+Mem  105 Mb (+0) on {fileID: 0 (resources.assets), pathID: 86, m_Name: reticule_inner_diff_bad, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 87, m_Name: reticule_inner_diff_tex 1, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 87, m_Name: reticule_inner_diff_tex 1, type: Material}
+Mem  105 Mb (+0) on {fileID: 0 (resources.assets), pathID: 87, m_Name: reticule_inner_diff_tex 1, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 88, m_Name: reticule_inner_diff_tex 2, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 88, m_Name: reticule_inner_diff_tex 2, type: Material}
+Mem  104 Mb (+0) on {fileID: 0 (resources.assets), pathID: 88, m_Name: reticule_inner_diff_tex 2, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 89, m_Name: reticule_inner_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 89, m_Name: reticule_inner_diff_tex, type: Material}
+Mem  105 Mb (+1) on {fileID: 0 (resources.assets), pathID: 89, m_Name: reticule_inner_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 90, m_Name: reticule_line_add_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 90, m_Name: reticule_line_add_tex, type: Material}
+Mem  106 Mb (+1) on {fileID: 0 (resources.assets), pathID: 90, m_Name: reticule_line_add_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 91, m_Name: reticule_outer_diff_bad 1, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 91, m_Name: reticule_outer_diff_bad 1, type: Material}
+Mem  106 Mb (+0) on {fileID: 0 (resources.assets), pathID: 91, m_Name: reticule_outer_diff_bad 1, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 92, m_Name: reticule_outer_diff_bad, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 92, m_Name: reticule_outer_diff_bad, type: Material}
+Mem  107 Mb (+1) on {fileID: 0 (resources.assets), pathID: 92, m_Name: reticule_outer_diff_bad, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 93, m_Name: reticule_outer_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 93, m_Name: reticule_outer_diff_tex, type: Material}
+Mem  107 Mb (+0) on {fileID: 0 (resources.assets), pathID: 93, m_Name: reticule_outer_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 94, m_Name: Ring Blue - add, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 94, m_Name: Ring Blue - add, type: Material}
+Mem  107 Mb (+0) on {fileID: 0 (resources.assets), pathID: 94, m_Name: Ring Blue - add, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 95, m_Name: Ring Blue, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 95, m_Name: Ring Blue, type: Material}
+Mem  108 Mb (+1) on {fileID: 0 (resources.assets), pathID: 95, m_Name: Ring Blue, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 96, m_Name: Ring Green - add, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 96, m_Name: Ring Green - add, type: Material}
+Mem  107 Mb (+0) on {fileID: 0 (resources.assets), pathID: 96, m_Name: Ring Green - add, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 97, m_Name: Ring Green, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 97, m_Name: Ring Green, type: Material}
+Mem  108 Mb (+1) on {fileID: 0 (resources.assets), pathID: 97, m_Name: Ring Green, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 98, m_Name: Ring Yellow - add, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 98, m_Name: Ring Yellow - add, type: Material}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 98, m_Name: Ring Yellow - add, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 99, m_Name: Ring yellow, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 99, m_Name: Ring yellow, type: Material}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 99, m_Name: Ring yellow, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 100, m_Name: rtcl_Trgt-reticule_inner_diff_tex, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 100, m_Name: rtcl_Trgt-reticule_inner_diff_tex, type: Material}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 100, m_Name: rtcl_Trgt-reticule_inner_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 101, m_Name: rtcl_Trgt-reticule_outer_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 101, m_Name: rtcl_Trgt-reticule_outer_diff_tex, type: Material}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 101, m_Name: rtcl_Trgt-reticule_outer_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 102, m_Name: Target_center Add, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 102, m_Name: Target_center Add, type: Material}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 102, m_Name: Target_center Add, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 103, m_Name: Target_center Diff, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 103, m_Name: Target_center Diff, type: Material}
+Mem  110 Mb (+1) on {fileID: 0 (resources.assets), pathID: 103, m_Name: Target_center Diff, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 104, m_Name: target_grow-ring ripple, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 104, m_Name: target_grow-ring ripple, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 104, m_Name: target_grow-ring ripple, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 105, m_Name: target_shrink-ring ripple, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 105, m_Name: target_shrink-ring ripple, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 105, m_Name: target_shrink-ring ripple, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 106, m_Name: targeting arrow v2-additives 4, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 106, m_Name: targeting arrow v2-additives 4, type: Material}
+Mem  109 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 106, m_Name: targeting arrow v2-additives 4, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 107, m_Name: targeting arrow-additives 4, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 107, m_Name: targeting arrow-additives 4, type: Material}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 107, m_Name: targeting arrow-additives 4, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 108, m_Name: targeting base-additives 2, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 108, m_Name: targeting base-additives 2, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 108, m_Name: targeting base-additives 2, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 109, m_Name: targeting base-additives 4, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 109, m_Name: targeting base-additives 4, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 109, m_Name: targeting base-additives 4, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 110, m_Name: targeting base-additives, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 110, m_Name: targeting base-additives, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 110, m_Name: targeting base-additives, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 111, m_Name: Targeting Lower, type: Material}
+{fileID: 1 (unity default resources), pathID: 200} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 111, m_Name: Targeting Lower, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 111, m_Name: Targeting Lower, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 112, m_Name: targeting new base-additives 2, type: Material}
+{fileID: 1 (unity default resources), pathID: 7} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\resources.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (resources.assets), pathID: 112, m_Name: targeting new base-additives 2, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 112, m_Name: targeting new base-additives 2, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 113, m_Name: targeting new base-additives 4, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 113, m_Name: targeting new base-additives 4, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 113, m_Name: targeting new base-additives 4, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 114, m_Name: targeting new base-additives, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 114, m_Name: targeting new base-additives, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 114, m_Name: targeting new base-additives, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 115, m_Name: Targeting Upper, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 115, m_Name: Targeting Upper, type: Material}
+Mem  111 Mb (+1) on {fileID: 0 (resources.assets), pathID: 115, m_Name: Targeting Upper, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 116, m_Name: Targeting_Mesh-targeting_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 116, m_Name: Targeting_Mesh-targeting_diff_tex, type: Material}
+Mem  110 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 116, m_Name: Targeting_Mesh-targeting_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 117, m_Name: Trgt_Rtcl_Cntr-reticule_inner_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 117, m_Name: Trgt_Rtcl_Cntr-reticule_inner_diff_tex, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 117, m_Name: Trgt_Rtcl_Cntr-reticule_inner_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 118, m_Name: Trgt_Rtcl_Cntr-targeting_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 118, m_Name: Trgt_Rtcl_Cntr-targeting_diff_tex, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 118, m_Name: Trgt_Rtcl_Cntr-targeting_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 119, m_Name: Trgt_Rtcl_Outr-targeting_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 119, m_Name: Trgt_Rtcl_Outr-targeting_diff_tex, type: Material}
+Mem  111 Mb (+0) on {fileID: 0 (resources.assets), pathID: 119, m_Name: Trgt_Rtcl_Outr-targeting_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 120, m_Name: Trgt_Rtcl_v2-reticule_inner_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 120, m_Name: Trgt_Rtcl_v2-reticule_inner_diff_tex, type: Material}
+Mem  110 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 120, m_Name: Trgt_Rtcl_v2-reticule_inner_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 121, m_Name: Trgt_Rtcl_v2-reticule_outer_diff_tex, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 121, m_Name: Trgt_Rtcl_v2-reticule_outer_diff_tex, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 121, m_Name: Trgt_Rtcl_v2-reticule_outer_diff_tex, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 122, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr01_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 122, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr01_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 122, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr01_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 123, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr02_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 123, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr02_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 123, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr02_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 124, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr03_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 124, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr03_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 124, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr03_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 125, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 125, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 125, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwe_outr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 126, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 126, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 126, m_Name: rtcl_Trgt_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 127, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr01_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 127, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr01_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 127, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr01_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 128, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr02_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 128, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr02_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 128, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr02_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 129, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr03_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 129, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr03_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 129, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr03_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 130, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 130, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 130, m_Name: rtcl_Trgt_Tgt_Rtcl_Up_outr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 131, m_Name: rtcl_Trgt_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 131, m_Name: rtcl_Trgt_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 131, m_Name: rtcl_Trgt_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 132, m_Name: target_grow_Ring ripple center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 132, m_Name: target_grow_Ring ripple center_VC_0, type: Material}
+Mem  111 Mb (+1) on {fileID: 0 (resources.assets), pathID: 132, m_Name: target_grow_Ring ripple center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 133, m_Name: target_grow_ring ripple outer_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 133, m_Name: target_grow_ring ripple outer_VC_0, type: Material}
+Mem  112 Mb (+1) on {fileID: 0 (resources.assets), pathID: 133, m_Name: target_grow_ring ripple outer_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 134, m_Name: target_shrink_Ring ripple center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 134, m_Name: target_shrink_Ring ripple center_VC_0, type: Material}
+Mem  112 Mb (+0) on {fileID: 0 (resources.assets), pathID: 134, m_Name: target_shrink_Ring ripple center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 135, m_Name: target_shrink_ring ripple outer_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 135, m_Name: target_shrink_ring ripple outer_VC_0, type: Material}
+Mem  113 Mb (+1) on {fileID: 0 (resources.assets), pathID: 135, m_Name: target_shrink_ring ripple outer_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 136, m_Name: targeting arrow v2_targeting arrow v2_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 136, m_Name: targeting arrow v2_targeting arrow v2_VC_0, type: Material}
+Mem  114 Mb (+1) on {fileID: 0 (resources.assets), pathID: 136, m_Name: targeting arrow v2_targeting arrow v2_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 137, m_Name: targeting arrow_arrow inner_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 137, m_Name: targeting arrow_arrow inner_VC_0, type: Material}
+Mem  114 Mb (+0) on {fileID: 0 (resources.assets), pathID: 137, m_Name: targeting arrow_arrow inner_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 138, m_Name: targeting arrow_targeting arrow_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 138, m_Name: targeting arrow_targeting arrow_MAT_0, type: Material}
+Mem  115 Mb (+0) on {fileID: 0 (resources.assets), pathID: 138, m_Name: targeting arrow_targeting arrow_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 139, m_Name: targeting arrow_targeting arrow_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 139, m_Name: targeting arrow_targeting arrow_VC_0, type: Material}
+Mem  116 Mb (+1) on {fileID: 0 (resources.assets), pathID: 139, m_Name: targeting arrow_targeting arrow_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 140, m_Name: targeting base_center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 140, m_Name: targeting base_center_VC_0, type: Material}
+Mem  116 Mb (+0) on {fileID: 0 (resources.assets), pathID: 140, m_Name: targeting base_center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 141, m_Name: targeting base_outer Ring00_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 141, m_Name: targeting base_outer Ring00_VC_0, type: Material}
+Mem  117 Mb (+1) on {fileID: 0 (resources.assets), pathID: 141, m_Name: targeting base_outer Ring00_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 142, m_Name: targeting base_outer Ring01_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 142, m_Name: targeting base_outer Ring01_VC_0, type: Material}
+Mem  118 Mb (+1) on {fileID: 0 (resources.assets), pathID: 142, m_Name: targeting base_outer Ring01_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 143, m_Name: targeting base_outer Ring02_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 143, m_Name: targeting base_outer Ring02_VC_0, type: Material}
+Mem  119 Mb (+1) on {fileID: 0 (resources.assets), pathID: 143, m_Name: targeting base_outer Ring02_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 144, m_Name: targeting base_outer Ring03_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 144, m_Name: targeting base_outer Ring03_VC_0, type: Material}
+Mem  119 Mb (+0) on {fileID: 0 (resources.assets), pathID: 144, m_Name: targeting base_outer Ring03_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 145, m_Name: targeting base_upper outer Ring00_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 145, m_Name: targeting base_upper outer Ring00_VC_0, type: Material}
+Mem  120 Mb (+1) on {fileID: 0 (resources.assets), pathID: 145, m_Name: targeting base_upper outer Ring00_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 146, m_Name: targeting base_upper outer Ring01_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 146, m_Name: targeting base_upper outer Ring01_VC_0, type: Material}
+Mem  121 Mb (+1) on {fileID: 0 (resources.assets), pathID: 146, m_Name: targeting base_upper outer Ring01_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 147, m_Name: targeting base_upper outer Ring02_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 147, m_Name: targeting base_upper outer Ring02_VC_0, type: Material}
+Mem  122 Mb (+1) on {fileID: 0 (resources.assets), pathID: 147, m_Name: targeting base_upper outer Ring02_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 148, m_Name: targeting base_upper outer Ring03_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 148, m_Name: targeting base_upper outer Ring03_VC_0, type: Material}
+Mem  122 Mb (+0) on {fileID: 0 (resources.assets), pathID: 148, m_Name: targeting base_upper outer Ring03_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 149, m_Name: targeting new base_center_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 149, m_Name: targeting new base_center_VC_0, type: Material}
+Mem  124 Mb (+2) on {fileID: 0 (resources.assets), pathID: 149, m_Name: targeting new base_center_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 150, m_Name: targeting new base_outer Ring00_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 150, m_Name: targeting new base_outer Ring00_VC_0, type: Material}
+Mem  124 Mb (+1) on {fileID: 0 (resources.assets), pathID: 150, m_Name: targeting new base_outer Ring00_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 151, m_Name: targeting new base_outer Ring01_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 151, m_Name: targeting new base_outer Ring01_VC_0, type: Material}
+Mem  124 Mb (+0) on {fileID: 0 (resources.assets), pathID: 151, m_Name: targeting new base_outer Ring01_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 152, m_Name: targeting new base_outer Ring02_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 152, m_Name: targeting new base_outer Ring02_VC_0, type: Material}
+Mem  126 Mb (+2) on {fileID: 0 (resources.assets), pathID: 152, m_Name: targeting new base_outer Ring02_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 153, m_Name: targeting new base_outer Ring03_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 153, m_Name: targeting new base_outer Ring03_VC_0, type: Material}
+Mem  74 Mb (+1) on {fileID: 0 (resources.assets), pathID: 153, m_Name: targeting new base_outer Ring03_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 154, m_Name: targeting new base_upper outer Ring00_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 154, m_Name: targeting new base_upper outer Ring00_VC_0, type: Material}
+Mem  74 Mb (+0) on {fileID: 0 (resources.assets), pathID: 154, m_Name: targeting new base_upper outer Ring00_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 155, m_Name: targeting new base_upper outer Ring01_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 155, m_Name: targeting new base_upper outer Ring01_VC_0, type: Material}
+Mem  75 Mb (+1) on {fileID: 0 (resources.assets), pathID: 155, m_Name: targeting new base_upper outer Ring01_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 156, m_Name: targeting new base_upper outer Ring02_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 156, m_Name: targeting new base_upper outer Ring02_VC_0, type: Material}
+Mem  76 Mb (+1) on {fileID: 0 (resources.assets), pathID: 156, m_Name: targeting new base_upper outer Ring02_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 157, m_Name: targeting new base_upper outer Ring03_VC_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 157, m_Name: targeting new base_upper outer Ring03_VC_0, type: Material}
+Mem  77 Mb (+1) on {fileID: 0 (resources.assets), pathID: 157, m_Name: targeting new base_upper outer Ring03_VC_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 158, m_Name: Targeting_Mesh_center lower_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 158, m_Name: Targeting_Mesh_center lower_MAT_0, type: Material}
+Mem  77 Mb (+1) on {fileID: 0 (resources.assets), pathID: 158, m_Name: Targeting_Mesh_center lower_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 159, m_Name: Targeting_Mesh_center upper_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 159, m_Name: Targeting_Mesh_center upper_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 159, m_Name: Targeting_Mesh_center upper_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 160, m_Name: Targeting_Mesh_lower_ring00_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 160, m_Name: Targeting_Mesh_lower_ring00_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 160, m_Name: Targeting_Mesh_lower_ring00_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 161, m_Name: Targeting_Mesh_lower_ring01_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 161, m_Name: Targeting_Mesh_lower_ring01_MAT_0, type: Material}
+Mem  76 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 161, m_Name: Targeting_Mesh_lower_ring01_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 162, m_Name: Targeting_Mesh_lower_ring02_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 162, m_Name: Targeting_Mesh_lower_ring02_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 162, m_Name: Targeting_Mesh_lower_ring02_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 163, m_Name: Targeting_Mesh_lower_ring03_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 163, m_Name: Targeting_Mesh_lower_ring03_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 163, m_Name: Targeting_Mesh_lower_ring03_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 164, m_Name: Targeting_Mesh_Upper Ring00_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 164, m_Name: Targeting_Mesh_Upper Ring00_MAT_0, type: Material}
+Mem  76 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 164, m_Name: Targeting_Mesh_Upper Ring00_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 165, m_Name: Targeting_Mesh_Upper Ring01_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 165, m_Name: Targeting_Mesh_Upper Ring01_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 165, m_Name: Targeting_Mesh_Upper Ring01_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 166, m_Name: Targeting_Mesh_Upper Ring02_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 166, m_Name: Targeting_Mesh_Upper Ring02_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 166, m_Name: Targeting_Mesh_Upper Ring02_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 167, m_Name: Targeting_Mesh_Upper Ring03_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 167, m_Name: Targeting_Mesh_Upper Ring03_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 167, m_Name: Targeting_Mesh_Upper Ring03_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 168, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 168, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Mem  77 Mb (+1) on {fileID: 0 (resources.assets), pathID: 168, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 169, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Lwer_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 169, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Lwer_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 169, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Lwer_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 170, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 170, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 170, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 171, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Upr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 171, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Upr_MAT_0, type: Material}
+Mem  77 Mb (+1) on {fileID: 0 (resources.assets), pathID: 171, m_Name: Trgt_Rtcl_Cntr_Tgt_Rtcl_Upr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 172, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 172, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 172, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 173, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Lwer_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 173, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Lwer_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 173, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Lwer_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 174, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 174, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 174, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 175, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Upr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 175, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Upr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 175, m_Name: Trgt_Rtcl_Outr_Tgt_Rtcl_Upr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 176, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr01_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 176, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr01_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 176, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr01_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 177, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr02_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 177, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr02_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 177, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr02_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 178, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr03_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 178, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr03_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 178, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr03_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 179, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 179, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 179, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwe_outr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 180, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 180, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 180, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Lwer_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 181, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr01_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 181, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr01_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 181, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr01_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 182, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr02_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 182, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr02_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 182, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr02_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 183, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr03_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 183, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr03_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 183, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr03_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 184, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 184, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 184, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Up_outr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 185, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 185, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Mem  77 Mb (+0) on {fileID: 0 (resources.assets), pathID: 185, m_Name: Trgt_Rtcl_v2_Tgt_Rtcl_Upr_Cntr_MAT_0, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 186, m_Name: Gaussian2D, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 186, m_Name: Gaussian2D, type: Material}
+Mem  78 Mb (+1) on {fileID: 0 (resources.assets), pathID: 186, m_Name: Gaussian2D, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 187, m_Name: Shadow Material, type: Material}
+End export-ok: {fileID: 0 (resources.assets), pathID: 187, m_Name: Shadow Material, type: Material}
+Mem  78 Mb (+0) on {fileID: 0 (resources.assets), pathID: 187, m_Name: Shadow Material, type: Material}
+Begin export: {fileID: 0 (resources.assets), pathID: 188, m_Name: navigation_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 188, m_Name: navigation_diff_tex, type: Texture2D}
+Mem  80 Mb (+1) on {fileID: 0 (resources.assets), pathID: 188, m_Name: navigation_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 189, m_Name: Interactive_B, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 189, m_Name: Interactive_B, type: Texture2D}
+Mem  82 Mb (+2) on {fileID: 0 (resources.assets), pathID: 189, m_Name: Interactive_B, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 190, m_Name: thought_bubble_icon_default, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 190, m_Name: thought_bubble_icon_default, type: Texture2D}
+Mem  83 Mb (+1) on {fileID: 0 (resources.assets), pathID: 190, m_Name: thought_bubble_icon_default, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 191, m_Name: loading_tipbox_center, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 191, m_Name: loading_tipbox_center, type: Texture2D}
+Mem  84 Mb (+1) on {fileID: 0 (resources.assets), pathID: 191, m_Name: loading_tipbox_center, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 192, m_Name: Shadow, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 192, m_Name: Shadow, type: Texture2D}
+Mem  83 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 192, m_Name: Shadow, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 193, m_Name: invitation_frame_center, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 193, m_Name: invitation_frame_center, type: Texture2D}
+Mem  84 Mb (+0) on {fileID: 0 (resources.assets), pathID: 193, m_Name: invitation_frame_center, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 194, m_Name: invitation_frame_center_R2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 194, m_Name: invitation_frame_center_R2, type: Texture2D}
+Mem  84 Mb (+0) on {fileID: 0 (resources.assets), pathID: 194, m_Name: invitation_frame_center_R2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 195, m_Name: body_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 195, m_Name: body_small, type: Texture2D}
+Mem  84 Mb (+0) on {fileID: 0 (resources.assets), pathID: 195, m_Name: body_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 196, m_Name: welcome_tas_logo, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 196, m_Name: welcome_tas_logo, type: Texture2D}
+Mem  85 Mb (+1) on {fileID: 0 (resources.assets), pathID: 196, m_Name: welcome_tas_logo, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 197, m_Name: loading_bar_fill, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 197, m_Name: loading_bar_fill, type: Texture2D}
+Mem  86 Mb (+1) on {fileID: 0 (resources.assets), pathID: 197, m_Name: loading_bar_fill, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 198, m_Name: silver, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 198, m_Name: silver, type: Texture2D}
+Mem  87 Mb (+1) on {fileID: 0 (resources.assets), pathID: 198, m_Name: silver, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 199, m_Name: mshs_welcome_screen_bg, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 199, m_Name: mshs_welcome_screen_bg, type: Texture2D}
+Mem  96 Mb (+7) on {fileID: 0 (resources.assets), pathID: 199, m_Name: mshs_welcome_screen_bg, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 200, m_Name: attacking_item_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 200, m_Name: attacking_item_tex, type: Texture2D}
+Mem  95 Mb (+1) on {fileID: 0 (resources.assets), pathID: 200, m_Name: attacking_item_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 201, m_Name: animation_marker, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 201, m_Name: animation_marker, type: Texture2D}
+Mem  96 Mb (+0) on {fileID: 0 (resources.assets), pathID: 201, m_Name: animation_marker, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 202, m_Name: black, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 202, m_Name: black, type: Texture2D}
+Mem  97 Mb (+1) on {fileID: 0 (resources.assets), pathID: 202, m_Name: black, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 203, m_Name: enemyselected_ring, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 203, m_Name: enemyselected_ring, type: Texture2D}
+Mem  97 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 203, m_Name: enemyselected_ring, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 204, m_Name: Hazzard_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 204, m_Name: Hazzard_diff_tex, type: Texture2D}
+Mem  99 Mb (+1) on {fileID: 0 (resources.assets), pathID: 204, m_Name: Hazzard_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 205, m_Name: globe, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 205, m_Name: globe, type: Texture2D}
+Mem  101 Mb (+1) on {fileID: 0 (resources.assets), pathID: 205, m_Name: globe, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 206, m_Name: reticule_outer_diff_bad, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 206, m_Name: reticule_outer_diff_bad, type: Texture2D}
+Mem  103 Mb (+2) on {fileID: 0 (resources.assets), pathID: 206, m_Name: reticule_outer_diff_bad, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 207, m_Name: invitation_frame_left_blue, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 207, m_Name: invitation_frame_left_blue, type: Texture2D}
+Mem  101 Mb (+1) on {fileID: 0 (resources.assets), pathID: 207, m_Name: invitation_frame_left_blue, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 208, m_Name: loading_screen_loading_bar_highlight, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 208, m_Name: loading_screen_loading_bar_highlight, type: Texture2D}
+Mem  102 Mb (+1) on {fileID: 0 (resources.assets), pathID: 208, m_Name: loading_screen_loading_bar_highlight, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 209, m_Name: mshs_central_content_panel_indents_for_loadingbar, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 209, m_Name: mshs_central_content_panel_indents_for_loadingbar, type: Texture2D}
+Mem  105 Mb (+2) on {fileID: 0 (resources.assets), pathID: 209, m_Name: mshs_central_content_panel_indents_for_loadingbar, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 210, m_Name: mshs_expanded_tooltip_flash, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 210, m_Name: mshs_expanded_tooltip_flash, type: Texture2D}
+Mem  107 Mb (+1) on {fileID: 0 (resources.assets), pathID: 210, m_Name: mshs_expanded_tooltip_flash, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 211, m_Name: reticule_inner_diff_bad, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 211, m_Name: reticule_inner_diff_bad, type: Texture2D}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 211, m_Name: reticule_inner_diff_bad, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 212, m_Name: Cursor0005, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 212, m_Name: Cursor0005, type: Texture2D}
+Mem  110 Mb (+1) on {fileID: 0 (resources.assets), pathID: 212, m_Name: Cursor0005, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 213, m_Name: loading_bar_rightside, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 213, m_Name: loading_bar_rightside, type: Texture2D}
+Mem  107 Mb (+-4) on {fileID: 0 (resources.assets), pathID: 213, m_Name: loading_bar_rightside, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 214, m_Name: move_marker, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 214, m_Name: move_marker, type: Texture2D}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 214, m_Name: move_marker, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 215, m_Name: invitation_frame_right, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 215, m_Name: invitation_frame_right, type: Texture2D}
+Mem  110 Mb (+1) on {fileID: 0 (resources.assets), pathID: 215, m_Name: invitation_frame_right, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 216, m_Name: mshs_loading_background_01, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 216, m_Name: mshs_loading_background_01, type: Texture2D}
+Mem  78 Mb (+-35) on {fileID: 0 (resources.assets), pathID: 216, m_Name: mshs_loading_background_01, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 217, m_Name: animal_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 217, m_Name: animal_icon, type: Texture2D}
+Mem  79 Mb (+1) on {fileID: 0 (resources.assets), pathID: 217, m_Name: animal_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 218, m_Name: welcome_marvel_logo_normal, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 218, m_Name: welcome_marvel_logo_normal, type: Texture2D}
+Mem  79 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 218, m_Name: welcome_marvel_logo_normal, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 219, m_Name: tech_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 219, m_Name: tech_icon, type: Texture2D}
+Mem  81 Mb (+1) on {fileID: 0 (resources.assets), pathID: 219, m_Name: tech_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 220, m_Name: multidirectionhotspot_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 220, m_Name: multidirectionhotspot_diff_tex, type: Texture2D}
+Mem  83 Mb (+2) on {fileID: 0 (resources.assets), pathID: 220, m_Name: multidirectionhotspot_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 221, m_Name: border4_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 221, m_Name: border4_small, type: Texture2D}
+Mem  83 Mb (+0) on {fileID: 0 (resources.assets), pathID: 221, m_Name: border4_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 222, m_Name: border2_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 222, m_Name: border2_small, type: Texture2D}
+Mem  81 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 222, m_Name: border2_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 223, m_Name: Hazzard_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 223, m_Name: Hazzard_diff_tex, type: Texture2D}
+Mem  83 Mb (+2) on {fileID: 0 (resources.assets), pathID: 223, m_Name: Hazzard_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 224, m_Name: diamond_ramp, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 224, m_Name: diamond_ramp, type: Texture2D}
+Mem  84 Mb (+1) on {fileID: 0 (resources.assets), pathID: 224, m_Name: diamond_ramp, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 225, m_Name: mshs_welcome_screen_characters_r2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 225, m_Name: mshs_welcome_screen_characters_r2, type: Texture2D}
+Mem  96 Mb (+8) on {fileID: 0 (resources.assets), pathID: 225, m_Name: mshs_welcome_screen_characters_r2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 226, m_Name: loading_screen_loading_bar_empty, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 226, m_Name: loading_screen_loading_bar_empty, type: Texture2D}
+Mem  94 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 226, m_Name: loading_screen_loading_bar_empty, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 227, m_Name: enemyselected_arrows, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 227, m_Name: enemyselected_arrows, type: Texture2D}
+Mem  96 Mb (+1) on {fileID: 0 (resources.assets), pathID: 227, m_Name: enemyselected_arrows, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 228, m_Name: baseWindow, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 228, m_Name: baseWindow, type: Texture2D}
+Mem  96 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 228, m_Name: baseWindow, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 229, m_Name: invitation_frame_center_blue, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 229, m_Name: invitation_frame_center_blue, type: Texture2D}
+Mem  98 Mb (+1) on {fileID: 0 (resources.assets), pathID: 229, m_Name: invitation_frame_center_blue, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 230, m_Name: arrow_bad, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 230, m_Name: arrow_bad, type: Texture2D}
+Mem  98 Mb (+0) on {fileID: 0 (resources.assets), pathID: 230, m_Name: arrow_bad, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 231, m_Name: singledirectionhotspots_blue_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 231, m_Name: singledirectionhotspots_blue_diff_tex, type: Texture2D}
+Mem  102 Mb (+3) on {fileID: 0 (resources.assets), pathID: 231, m_Name: singledirectionhotspots_blue_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 232, m_Name: invitation_frame_left_R2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 232, m_Name: invitation_frame_left_R2, type: Texture2D}
+Mem  100 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 232, m_Name: invitation_frame_left_R2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 233, m_Name: herobg, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 233, m_Name: herobg, type: Texture2D}
+Mem  101 Mb (+0) on {fileID: 0 (resources.assets), pathID: 233, m_Name: herobg, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 234, m_Name: chubbyarrow_blue_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 234, m_Name: chubbyarrow_blue_diff_tex, type: Texture2D}
+Mem  103 Mb (+1) on {fileID: 0 (resources.assets), pathID: 234, m_Name: chubbyarrow_blue_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 235, m_Name: loader_gaz_tas_logos, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 235, m_Name: loader_gaz_tas_logos, type: Texture2D}
+Mem  104 Mb (+0) on {fileID: 0 (resources.assets), pathID: 235, m_Name: loader_gaz_tas_logos, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 236, m_Name: tickets, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 236, m_Name: tickets, type: Texture2D}
+Mem  105 Mb (+0) on {fileID: 0 (resources.assets), pathID: 236, m_Name: tickets, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 237, m_Name: gold_ramp, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 237, m_Name: gold_ramp, type: Texture2D}
+Mem  107 Mb (+1) on {fileID: 0 (resources.assets), pathID: 237, m_Name: gold_ramp, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 238, m_Name: reticule_outer_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 238, m_Name: reticule_outer_diff_tex, type: Texture2D}
+Mem  107 Mb (+1) on {fileID: 0 (resources.assets), pathID: 238, m_Name: reticule_outer_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 239, m_Name: attachmentPiece, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 239, m_Name: attachmentPiece, type: Texture2D}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 239, m_Name: attachmentPiece, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 240, m_Name: corner2_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 240, m_Name: corner2_small, type: Texture2D}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 240, m_Name: corner2_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 241, m_Name: missing_release, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 241, m_Name: missing_release, type: Texture2D}
+Mem  110 Mb (+1) on {fileID: 0 (resources.assets), pathID: 241, m_Name: missing_release, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 242, m_Name: singledirectionhotspots_diff_tex2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 242, m_Name: singledirectionhotspots_diff_tex2, type: Texture2D}
+Mem  111 Mb (+0) on {fileID: 0 (resources.assets), pathID: 242, m_Name: singledirectionhotspots_diff_tex2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 243, m_Name: bar_empty, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 243, m_Name: bar_empty, type: Texture2D}
+Mem  112 Mb (+1) on {fileID: 0 (resources.assets), pathID: 243, m_Name: bar_empty, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 244, m_Name: reticule_inner_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 244, m_Name: reticule_inner_diff_tex, type: Texture2D}
+Mem  112 Mb (+0) on {fileID: 0 (resources.assets), pathID: 244, m_Name: reticule_inner_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 245, m_Name: multidirectionhotspot_diff_tex2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 245, m_Name: multidirectionhotspot_diff_tex2, type: Texture2D}
+Mem  115 Mb (+2) on {fileID: 0 (resources.assets), pathID: 245, m_Name: multidirectionhotspot_diff_tex2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 246, m_Name: invitation_frame_left, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 246, m_Name: invitation_frame_left, type: Texture2D}
+Mem  116 Mb (+1) on {fileID: 0 (resources.assets), pathID: 246, m_Name: invitation_frame_left, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 247, m_Name: blank, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 247, m_Name: blank, type: Texture2D}
+Mem  117 Mb (+0) on {fileID: 0 (resources.assets), pathID: 247, m_Name: blank, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 248, m_Name: reticule_inner_diff_bad 1, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 248, m_Name: reticule_inner_diff_bad 1, type: Texture2D}
+Mem  115 Mb (+-3) on {fileID: 0 (resources.assets), pathID: 248, m_Name: reticule_inner_diff_bad 1, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 249, m_Name: speed_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 249, m_Name: speed_icon, type: Texture2D}
+Mem  73 Mb (+-42) on {fileID: 0 (resources.assets), pathID: 249, m_Name: speed_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 250, m_Name: loading_bar_frame, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 250, m_Name: loading_bar_frame, type: Texture2D}
+Mem  75 Mb (+1) on {fileID: 0 (resources.assets), pathID: 250, m_Name: loading_bar_frame, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 251, m_Name: arrow, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 251, m_Name: arrow, type: Texture2D}
+Mem  75 Mb (+0) on {fileID: 0 (resources.assets), pathID: 251, m_Name: arrow, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 252, m_Name: gameworld_pickup_toast_tickets, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 252, m_Name: gameworld_pickup_toast_tickets, type: Texture2D}
+Mem  76 Mb (+0) on {fileID: 0 (resources.assets), pathID: 252, m_Name: gameworld_pickup_toast_tickets, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 253, m_Name: chubbyarrow_red_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 253, m_Name: chubbyarrow_red_diff_tex, type: Texture2D}
+Mem  78 Mb (+1) on {fileID: 0 (resources.assets), pathID: 253, m_Name: chubbyarrow_red_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 254, m_Name: mshs_welcome_screen_game_logo, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 254, m_Name: mshs_welcome_screen_game_logo, type: Texture2D}
+Mem  80 Mb (+1) on {fileID: 0 (resources.assets), pathID: 254, m_Name: mshs_welcome_screen_game_logo, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 255, m_Name: strength_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 255, m_Name: strength_icon, type: Texture2D}
+Mem  82 Mb (+1) on {fileID: 0 (resources.assets), pathID: 255, m_Name: strength_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 256, m_Name: mshs_central_content_panel_bg, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 256, m_Name: mshs_central_content_panel_bg, type: Texture2D}
+Mem  86 Mb (+3) on {fileID: 0 (resources.assets), pathID: 256, m_Name: mshs_central_content_panel_bg, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 257, m_Name: corner4_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 257, m_Name: corner4_small, type: Texture2D}
+Mem  86 Mb (+0) on {fileID: 0 (resources.assets), pathID: 257, m_Name: corner4_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 258, m_Name: ui_target_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 258, m_Name: ui_target_tex, type: Texture2D}
+Mem  84 Mb (+1) on {fileID: 0 (resources.assets), pathID: 258, m_Name: ui_target_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 259, m_Name: reticule_outer_diff_bad 1, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 259, m_Name: reticule_outer_diff_bad 1, type: Texture2D}
+Mem  86 Mb (+1) on {fileID: 0 (resources.assets), pathID: 259, m_Name: reticule_outer_diff_bad 1, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 260, m_Name: invitation_frame_right_R2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 260, m_Name: invitation_frame_right_R2, type: Texture2D}
+Mem  88 Mb (+1) on {fileID: 0 (resources.assets), pathID: 260, m_Name: invitation_frame_right_R2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 261, m_Name: LineRight, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 261, m_Name: LineRight, type: Texture2D}
+Mem  90 Mb (+1) on {fileID: 0 (resources.assets), pathID: 261, m_Name: LineRight, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 262, m_Name: LineLeft, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 262, m_Name: LineLeft, type: Texture2D}
+Mem  92 Mb (+1) on {fileID: 0 (resources.assets), pathID: 262, m_Name: LineLeft, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 263, m_Name: grid_grey, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 263, m_Name: grid_grey, type: Texture2D}
+Mem  90 Mb (+-3) on {fileID: 0 (resources.assets), pathID: 263, m_Name: grid_grey, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 264, m_Name: Interactive_A, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 264, m_Name: Interactive_A, type: Texture2D}
+Mem  91 Mb (+0) on {fileID: 0 (resources.assets), pathID: 264, m_Name: Interactive_A, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 265, m_Name: loading_screen_loading_bar_middle, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 265, m_Name: loading_screen_loading_bar_middle, type: Texture2D}
+Mem  91 Mb (+0) on {fileID: 0 (resources.assets), pathID: 265, m_Name: loading_screen_loading_bar_middle, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 266, m_Name: elemental_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 266, m_Name: elemental_icon, type: Texture2D}
+Mem  91 Mb (+0) on {fileID: 0 (resources.assets), pathID: 266, m_Name: elemental_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 267, m_Name: popup_icon_burst, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 267, m_Name: popup_icon_burst, type: Texture2D}
+Mem  93 Mb (+1) on {fileID: 0 (resources.assets), pathID: 267, m_Name: popup_icon_burst, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 268, m_Name: white2x2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 268, m_Name: white2x2, type: Texture2D}
+Mem  93 Mb (+0) on {fileID: 0 (resources.assets), pathID: 268, m_Name: white2x2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 269, m_Name: loading_tipbox_rightside, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 269, m_Name: loading_tipbox_rightside, type: Texture2D}
+Mem  95 Mb (+1) on {fileID: 0 (resources.assets), pathID: 269, m_Name: loading_tipbox_rightside, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 270, m_Name: gameworld_pickup_toast_silver, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 270, m_Name: gameworld_pickup_toast_silver, type: Texture2D}
+Mem  97 Mb (+1) on {fileID: 0 (resources.assets), pathID: 270, m_Name: gameworld_pickup_toast_silver, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 271, m_Name: chubbyarrow_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 271, m_Name: chubbyarrow_diff_tex, type: Texture2D}
+Mem  98 Mb (+1) on {fileID: 0 (resources.assets), pathID: 271, m_Name: chubbyarrow_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 272, m_Name: singledirectionhotspots_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 272, m_Name: singledirectionhotspots_diff_tex, type: Texture2D}
+Mem  98 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 272, m_Name: singledirectionhotspots_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 273, m_Name: chubbyarrow_diff_tex2, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 273, m_Name: chubbyarrow_diff_tex2, type: Texture2D}
+Mem  100 Mb (+1) on {fileID: 0 (resources.assets), pathID: 273, m_Name: chubbyarrow_diff_tex2, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 274, m_Name: border3_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 274, m_Name: border3_small, type: Texture2D}
+Mem  100 Mb (+0) on {fileID: 0 (resources.assets), pathID: 274, m_Name: border3_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 275, m_Name: loading_screen_loading_bar_right, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 275, m_Name: loading_screen_loading_bar_right, type: Texture2D}
+Mem  102 Mb (+1) on {fileID: 0 (resources.assets), pathID: 275, m_Name: loading_screen_loading_bar_right, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 276, m_Name: mshs_central_content_panel_speechbubble, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 276, m_Name: mshs_central_content_panel_speechbubble, type: Texture2D}
+Mem  99 Mb (+0) on {fileID: 0 (resources.assets), pathID: 276, m_Name: mshs_central_content_panel_speechbubble, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 277, m_Name: chubbyarrow_yellow_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 277, m_Name: chubbyarrow_yellow_diff_tex, type: Texture2D}
+Mem  101 Mb (+1) on {fileID: 0 (resources.assets), pathID: 277, m_Name: chubbyarrow_yellow_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 278, m_Name: Falloff, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 278, m_Name: Falloff, type: Texture2D}
+Mem  102 Mb (+1) on {fileID: 0 (resources.assets), pathID: 278, m_Name: Falloff, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 279, m_Name: welcome_gaz_logo, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 279, m_Name: welcome_gaz_logo, type: Texture2D}
+Mem  103 Mb (+1) on {fileID: 0 (resources.assets), pathID: 279, m_Name: welcome_gaz_logo, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 280, m_Name: ring_sharp_additive_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 280, m_Name: ring_sharp_additive_tex, type: Texture2D}
+Mem  103 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 280, m_Name: ring_sharp_additive_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 281, m_Name: selection_ring, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 281, m_Name: selection_ring, type: Texture2D}
+Mem  105 Mb (+1) on {fileID: 0 (resources.assets), pathID: 281, m_Name: selection_ring, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 282, m_Name: mshs_central_content_panel_shieldposter, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 282, m_Name: mshs_central_content_panel_shieldposter, type: Texture2D}
+Mem  107 Mb (+1) on {fileID: 0 (resources.assets), pathID: 282, m_Name: mshs_central_content_panel_shieldposter, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 283, m_Name: welcome_unity_logo, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 283, m_Name: welcome_unity_logo, type: Texture2D}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 283, m_Name: welcome_unity_logo, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 284, m_Name: multidirectionhotspot_blue_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 284, m_Name: multidirectionhotspot_blue_diff_tex, type: Texture2D}
+Mem  111 Mb (+1) on {fileID: 0 (resources.assets), pathID: 284, m_Name: multidirectionhotspot_blue_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 285, m_Name: energy_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 285, m_Name: energy_icon, type: Texture2D}
+Mem  107 Mb (+-5) on {fileID: 0 (resources.assets), pathID: 285, m_Name: energy_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 286, m_Name: multidirectionhotspot_red_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 286, m_Name: multidirectionhotspot_red_diff_tex, type: Texture2D}
+Mem  110 Mb (+2) on {fileID: 0 (resources.assets), pathID: 286, m_Name: multidirectionhotspot_red_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 287, m_Name: silver_ramp, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 287, m_Name: silver_ramp, type: Texture2D}
+Mem  111 Mb (+1) on {fileID: 0 (resources.assets), pathID: 287, m_Name: silver_ramp, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 288, m_Name: loading_tipbox_leftside, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 288, m_Name: loading_tipbox_leftside, type: Texture2D}
+Mem  113 Mb (+1) on {fileID: 0 (resources.assets), pathID: 288, m_Name: loading_tipbox_leftside, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 289, m_Name: mshs_central_content_panel_indents_for_buttons, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 289, m_Name: mshs_central_content_panel_indents_for_buttons, type: Texture2D}
+Mem  75 Mb (+-39) on {fileID: 0 (resources.assets), pathID: 289, m_Name: mshs_central_content_panel_indents_for_buttons, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 290, m_Name: invitation_frame_right_blue, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 290, m_Name: invitation_frame_right_blue, type: Texture2D}
+Mem  75 Mb (+0) on {fileID: 0 (resources.assets), pathID: 290, m_Name: invitation_frame_right_blue, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 291, m_Name: border1_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 291, m_Name: border1_small, type: Texture2D}
+Mem  76 Mb (+1) on {fileID: 0 (resources.assets), pathID: 291, m_Name: border1_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 292, m_Name: loading_screen_loading_bar_left, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 292, m_Name: loading_screen_loading_bar_left, type: Texture2D}
+Mem  77 Mb (+1) on {fileID: 0 (resources.assets), pathID: 292, m_Name: loading_screen_loading_bar_left, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 293, m_Name: corner1_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 293, m_Name: corner1_small, type: Texture2D}
+Mem  78 Mb (+1) on {fileID: 0 (resources.assets), pathID: 293, m_Name: corner1_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 294, m_Name: targeting_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 294, m_Name: targeting_diff_tex, type: Texture2D}
+Mem  78 Mb (+0) on {fileID: 0 (resources.assets), pathID: 294, m_Name: targeting_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 295, m_Name: singledirectionhotspots_yellow_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 295, m_Name: singledirectionhotspots_yellow_diff_tex, type: Texture2D}
+Mem  81 Mb (+2) on {fileID: 0 (resources.assets), pathID: 295, m_Name: singledirectionhotspots_yellow_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 296, m_Name: singledirectionhotspots_red_diff_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 296, m_Name: singledirectionhotspots_red_diff_tex, type: Texture2D}
+Mem  85 Mb (+2) on {fileID: 0 (resources.assets), pathID: 296, m_Name: singledirectionhotspots_red_diff_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 297, m_Name: LineMiddle, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 297, m_Name: LineMiddle, type: Texture2D}
+Mem  86 Mb (+1) on {fileID: 0 (resources.assets), pathID: 297, m_Name: LineMiddle, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 298, m_Name: loading_bar_behind_frame, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 298, m_Name: loading_bar_behind_frame, type: Texture2D}
+Mem  89 Mb (+2) on {fileID: 0 (resources.assets), pathID: 298, m_Name: loading_bar_behind_frame, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 299, m_Name: reticule_line_add_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 299, m_Name: reticule_line_add_tex, type: Texture2D}
+Mem  91 Mb (+1) on {fileID: 0 (resources.assets), pathID: 299, m_Name: reticule_line_add_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 300, m_Name: Hazzard_add_tex, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 300, m_Name: Hazzard_add_tex, type: Texture2D}
+Mem  87 Mb (+-5) on {fileID: 0 (resources.assets), pathID: 300, m_Name: Hazzard_add_tex, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 301, m_Name: loading_star, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 301, m_Name: loading_star, type: Texture2D}
+Mem  87 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 301, m_Name: loading_star, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 302, m_Name: bar_filled, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 302, m_Name: bar_filled, type: Texture2D}
+Mem  89 Mb (+1) on {fileID: 0 (resources.assets), pathID: 302, m_Name: bar_filled, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 303, m_Name: Loading, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 303, m_Name: Loading, type: Texture2D}
+Mem  100 Mb (+9) on {fileID: 0 (resources.assets), pathID: 303, m_Name: Loading, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 304, m_Name: corner3_small, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 304, m_Name: corner3_small, type: Texture2D}
+Mem  99 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 304, m_Name: corner3_small, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 305, m_Name: gameworld_pickup_toast_herotokens, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 305, m_Name: gameworld_pickup_toast_herotokens, type: Texture2D}
+Mem  100 Mb (+1) on {fileID: 0 (resources.assets), pathID: 305, m_Name: gameworld_pickup_toast_herotokens, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 306, m_Name: preloading_blue_backdrop, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 306, m_Name: preloading_blue_backdrop, type: Texture2D}
+Mem  108 Mb (+5) on {fileID: 0 (resources.assets), pathID: 306, m_Name: preloading_blue_backdrop, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 307, m_Name: loading_screen_loading_bar_full, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 307, m_Name: loading_screen_loading_bar_full, type: Texture2D}
+Mem  107 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 307, m_Name: loading_screen_loading_bar_full, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 308, m_Name: invitation_frame_left_blue_icon, type: Texture2D}
+End export-ok: {fileID: 0 (resources.assets), pathID: 308, m_Name: invitation_frame_left_blue_icon, type: Texture2D}
+Mem  108 Mb (+1) on {fileID: 0 (resources.assets), pathID: 308, m_Name: invitation_frame_left_blue_icon, type: Texture2D}
+Begin export: {fileID: 0 (resources.assets), pathID: 309, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 309, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 309, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 310, m_Name: outer Ring03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 310, m_Name: outer Ring03, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 310, m_Name: outer Ring03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 311, m_Name: Hazzard solid, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 311, m_Name: Hazzard solid, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 311, m_Name: Hazzard solid, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 312, m_Name: hotspotMesh, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 312, m_Name: hotspotMesh, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 312, m_Name: hotspotMesh, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 313, m_Name: Hazzard solid, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 313, m_Name: Hazzard solid, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 313, m_Name: Hazzard solid, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 314, m_Name: Hotspot Directional, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 314, m_Name: Hotspot Directional, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 314, m_Name: Hotspot Directional, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 315, m_Name: Hotspot return path, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 315, m_Name: Hotspot return path, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 315, m_Name: Hotspot return path, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 316, m_Name: Arrow outer, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 316, m_Name: Arrow outer, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 316, m_Name: Arrow outer, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 317, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 317, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 317, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 318, m_Name: Sphere03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 318, m_Name: Sphere03, type: Mesh}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 318, m_Name: Sphere03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 319, m_Name: ring ripple outer, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 319, m_Name: ring ripple outer, type: Mesh}
+Mem  111 Mb (+0) on {fileID: 0 (resources.assets), pathID: 319, m_Name: ring ripple outer, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 320, m_Name: Tgt_Rtcl_Lwer, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 320, m_Name: Tgt_Rtcl_Lwer, type: Mesh}
+Mem  111 Mb (+0) on {fileID: 0 (resources.assets), pathID: 320, m_Name: Tgt_Rtcl_Lwer, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 321, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 321, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 321, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 322, m_Name: Arrow outer, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 322, m_Name: Arrow outer, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 322, m_Name: Arrow outer, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 323, m_Name: active_base, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 323, m_Name: active_base, type: Mesh}
+Mem  108 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 323, m_Name: active_base, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 324, m_Name: upper outer Ring03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 324, m_Name: upper outer Ring03, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 324, m_Name: upper outer Ring03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 325, m_Name: hazzard glow, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 325, m_Name: hazzard glow, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 325, m_Name: hazzard glow, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 326, m_Name: hotspot directional arrow, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 326, m_Name: hotspot directional arrow, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 326, m_Name: hotspot directional arrow, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 327, m_Name: hotspot return arrow 2, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 327, m_Name: hotspot return arrow 2, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 327, m_Name: hotspot return arrow 2, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 328, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 328, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 328, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 329, m_Name: Ring ripple center, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 329, m_Name: Ring ripple center, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 329, m_Name: Ring ripple center, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 330, m_Name: active_base, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 330, m_Name: active_base, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 330, m_Name: active_base, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 331, m_Name: Tgt_Rtcl_Upr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 331, m_Name: Tgt_Rtcl_Upr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 331, m_Name: Tgt_Rtcl_Upr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 332, m_Name: Tgt_Rtcl_Up_outr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 332, m_Name: Tgt_Rtcl_Up_outr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 332, m_Name: Tgt_Rtcl_Up_outr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 333, m_Name: arrow inner, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 333, m_Name: arrow inner, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 333, m_Name: arrow inner, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 334, m_Name: active_top, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 334, m_Name: active_top, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 334, m_Name: active_top, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 335, m_Name: outer Ring00, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 335, m_Name: outer Ring00, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 335, m_Name: outer Ring00, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 336, m_Name: Hazzard solid01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 336, m_Name: Hazzard solid01, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 336, m_Name: Hazzard solid01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 337, m_Name: hotspot return arrow 1, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 337, m_Name: hotspot return arrow 1, type: Mesh}
+Mem  108 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 337, m_Name: hotspot return arrow 1, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 338, m_Name: Tgt_Rtcl_Up_outr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 338, m_Name: Tgt_Rtcl_Up_outr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 338, m_Name: Tgt_Rtcl_Up_outr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 339, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 339, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 339, m_Name: Tgt_Rtcl_Lwer_Cntr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 340, m_Name: active_top, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 340, m_Name: active_top, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 340, m_Name: active_top, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 341, m_Name: Tgt_Rtcl_Lwe_outr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 341, m_Name: Tgt_Rtcl_Lwe_outr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 341, m_Name: Tgt_Rtcl_Lwe_outr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 342, m_Name: upper outer Ring00, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 342, m_Name: upper outer Ring00, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 342, m_Name: upper outer Ring00, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 343, m_Name: hotspot return arrow 4, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 343, m_Name: hotspot return arrow 4, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 343, m_Name: hotspot return arrow 4, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 344, m_Name: Tgt_Rtcl_Lwe_outr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 344, m_Name: Tgt_Rtcl_Lwe_outr, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 344, m_Name: Tgt_Rtcl_Lwe_outr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 345, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 345, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 345, m_Name: Tgt_Rtcl_Upr_Cntr, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 346, m_Name: Tgt_Rtcl_Up_outr01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 346, m_Name: Tgt_Rtcl_Up_outr01, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 346, m_Name: Tgt_Rtcl_Up_outr01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 347, m_Name: outer Ring01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 347, m_Name: outer Ring01, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 347, m_Name: outer Ring01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 348, m_Name: hotspot return arrow 3, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 348, m_Name: hotspot return arrow 3, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 348, m_Name: hotspot return arrow 3, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 349, m_Name: Tgt_Rtcl_Up_outr01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 349, m_Name: Tgt_Rtcl_Up_outr01, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 349, m_Name: Tgt_Rtcl_Up_outr01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 350, m_Name: Tgt_Rtcl_Lwe_outr01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 350, m_Name: Tgt_Rtcl_Lwe_outr01, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 350, m_Name: Tgt_Rtcl_Lwe_outr01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 351, m_Name: upper outer Ring01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 351, m_Name: upper outer Ring01, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 351, m_Name: upper outer Ring01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 352, m_Name: Tgt_Rtcl_Lwe_outr01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 352, m_Name: Tgt_Rtcl_Lwe_outr01, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 352, m_Name: Tgt_Rtcl_Lwe_outr01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 353, m_Name: Tgt_Rtcl_Up_outr02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 353, m_Name: Tgt_Rtcl_Up_outr02, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 353, m_Name: Tgt_Rtcl_Up_outr02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 354, m_Name: outer Ring02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 354, m_Name: outer Ring02, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 354, m_Name: outer Ring02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 355, m_Name: Tgt_Rtcl_Up_outr02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 355, m_Name: Tgt_Rtcl_Up_outr02, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 355, m_Name: Tgt_Rtcl_Up_outr02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 356, m_Name: Tgt_Rtcl_Lwe_outr02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 356, m_Name: Tgt_Rtcl_Lwe_outr02, type: Mesh}
+Mem  108 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 356, m_Name: Tgt_Rtcl_Lwe_outr02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 357, m_Name: center, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 357, m_Name: center, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 357, m_Name: center, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 358, m_Name: center upper, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 358, m_Name: center upper, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 358, m_Name: center upper, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 359, m_Name: Tgt_Rtcl_Lwe_outr02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 359, m_Name: Tgt_Rtcl_Lwe_outr02, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 359, m_Name: Tgt_Rtcl_Lwe_outr02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 360, m_Name: Tgt_Rtcl_Up_outr03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 360, m_Name: Tgt_Rtcl_Up_outr03, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 360, m_Name: Tgt_Rtcl_Up_outr03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 361, m_Name: upper outer Ring02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 361, m_Name: upper outer Ring02, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 361, m_Name: upper outer Ring02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 362, m_Name: Tgt_Rtcl_Up_outr03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 362, m_Name: Tgt_Rtcl_Up_outr03, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 362, m_Name: Tgt_Rtcl_Up_outr03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 363, m_Name: Tgt_Rtcl_Lwe_outr03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 363, m_Name: Tgt_Rtcl_Lwe_outr03, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 363, m_Name: Tgt_Rtcl_Lwe_outr03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 364, m_Name: Tgt_Rtcl_Lwe_outr03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 364, m_Name: Tgt_Rtcl_Lwe_outr03, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 364, m_Name: Tgt_Rtcl_Lwe_outr03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 365, m_Name: Upper Ring00, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 365, m_Name: Upper Ring00, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 365, m_Name: Upper Ring00, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 366, m_Name: lower_ring00, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 366, m_Name: lower_ring00, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 366, m_Name: lower_ring00, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 367, m_Name: Upper Ring01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 367, m_Name: Upper Ring01, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 367, m_Name: Upper Ring01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 368, m_Name: lower_ring01, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 368, m_Name: lower_ring01, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 368, m_Name: lower_ring01, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 369, m_Name: Upper Ring02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 369, m_Name: Upper Ring02, type: Mesh}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 369, m_Name: Upper Ring02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 370, m_Name: lower_ring02, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 370, m_Name: lower_ring02, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 370, m_Name: lower_ring02, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 371, m_Name: Upper Ring03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 371, m_Name: Upper Ring03, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 371, m_Name: Upper Ring03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 372, m_Name: lower_ring03, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 372, m_Name: lower_ring03, type: Mesh}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 372, m_Name: lower_ring03, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 373, m_Name: center lower, type: Mesh}
+End export-ok: {fileID: 0 (resources.assets), pathID: 373, m_Name: center lower, type: Mesh}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 373, m_Name: center lower, type: Mesh}
+Begin export: {fileID: 0 (resources.assets), pathID: 448, m_Name: hero_level, type: TextAsset}
+End export-ok: {fileID: 0 (resources.assets), pathID: 448, m_Name: hero_level, type: TextAsset}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 448, m_Name: hero_level, type: TextAsset}
+Begin export: {fileID: 0 (resources.assets), pathID: 449, m_Name: BounceOpen, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 449, m_Name: BounceOpen, type: AnimationClip}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 449, m_Name: BounceOpen, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 450, m_Name: MyClip1, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 450, m_Name: MyClip1, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 450, m_Name: MyClip1, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 451, m_Name: MyClip2, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 451, m_Name: MyClip2, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 451, m_Name: MyClip2, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 452, m_Name: MyClip3, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 452, m_Name: MyClip3, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 452, m_Name: MyClip3, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 453, m_Name: active, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 453, m_Name: active, type: AnimationClip}
+Mem  108 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 453, m_Name: active, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 454, m_Name: Hazzard_Animation 1, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 454, m_Name: Hazzard_Animation 1, type: AnimationClip}
+Mem  108 Mb (+0) on {fileID: 0 (resources.assets), pathID: 454, m_Name: Hazzard_Animation 1, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 455, m_Name: Hazzard_Animation, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 455, m_Name: Hazzard_Animation, type: AnimationClip}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 455, m_Name: Hazzard_Animation, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 456, m_Name: Arrow_add, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 456, m_Name: Arrow_add, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 456, m_Name: Arrow_add, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 457, m_Name: Arrow_loop, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 457, m_Name: Arrow_loop, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 457, m_Name: Arrow_loop, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 458, m_Name: Bad Arrow Spin, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 458, m_Name: Bad Arrow Spin, type: AnimationClip}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 458, m_Name: Bad Arrow Spin, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 459, m_Name: Targeting_Arrow, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 459, m_Name: Targeting_Arrow, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 459, m_Name: Targeting_Arrow, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 460, m_Name: Trg_rtcl_Cntr, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 460, m_Name: Trg_rtcl_Cntr, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 460, m_Name: Trg_rtcl_Cntr, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 461, m_Name: Trg_rtcl_Trnsltn, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 461, m_Name: Trg_rtcl_Trnsltn, type: AnimationClip}
+Mem  108 Mb (+-1) on {fileID: 0 (resources.assets), pathID: 461, m_Name: Trg_rtcl_Trnsltn, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 462, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 462, m_Name: Take 001, type: AnimationClip}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 462, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 463, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 463, m_Name: Take 001, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 463, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 464, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 464, m_Name: Take 001, type: AnimationClip}
+Mem  111 Mb (+1) on {fileID: 0 (resources.assets), pathID: 464, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 465, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 465, m_Name: Take 001, type: AnimationClip}
+Mem  108 Mb (+-3) on {fileID: 0 (resources.assets), pathID: 465, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 466, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 466, m_Name: Take 001, type: AnimationClip}
+Mem  109 Mb (+1) on {fileID: 0 (resources.assets), pathID: 466, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 467, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 467, m_Name: Take 001, type: AnimationClip}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 467, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 468, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 468, m_Name: Take 001, type: AnimationClip}
+Mem  110 Mb (+0) on {fileID: 0 (resources.assets), pathID: 468, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 469, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 469, m_Name: Take 001, type: AnimationClip}
+Mem  111 Mb (+1) on {fileID: 0 (resources.assets), pathID: 469, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 470, m_Name: Take 001, type: AnimationClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 470, m_Name: Take 001, type: AnimationClip}
+Mem  111 Mb (+0) on {fileID: 0 (resources.assets), pathID: 470, m_Name: Take 001, type: AnimationClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 471, m_Name: HUD_UI_HQ_PaintApplied, type: AudioClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 471, m_Name: HUD_UI_HQ_PaintApplied, type: AudioClip}
+Mem  109 Mb (+-2) on {fileID: 0 (resources.assets), pathID: 471, m_Name: HUD_UI_HQ_PaintApplied, type: AudioClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 472, m_Name: FX_Pickups_Star_Collect10, type: AudioClip}
+End export-ok: {fileID: 0 (resources.assets), pathID: 472, m_Name: FX_Pickups_Star_Collect10, type: AudioClip}
+Mem  110 Mb (+1) on {fileID: 0 (resources.assets), pathID: 472, m_Name: FX_Pickups_Star_Collect10, type: AudioClip}
+Begin export: {fileID: 0 (resources.assets), pathID: 473, m_Name: Marvel, type: CGProgram}
+End export-ok: {fileID: 0 (resources.assets), pathID: 473, m_Name: Marvel, type: CGProgram}
+Mem  109 Mb (+0) on {fileID: 0 (resources.assets), pathID: 473, m_Name: Marvel, type: CGProgram}
+Begin export: {fileID: 0 (resources.assets), pathID: 1984, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1985, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1986, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1987, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1988, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2051, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1989, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1990, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1991, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1992, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1993, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1994, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1995, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1996, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1997, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1998, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 1999, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2000, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2001, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2002, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2003, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2004, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2005, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2006, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2007, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2008, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2009, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2010, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2011, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2012, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2013, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2014, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2015, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2016, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2017, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2018, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2019, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2020, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2021, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2022, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2023, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2025, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2066, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2027, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2053, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2028, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2054, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2056, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2068, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2031, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2033, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2069, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2057, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2034, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2058, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2035, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2036, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2059, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2037, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2060, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2038, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2040, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2062, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2041, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2071, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2044, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2065, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2045, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2047, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2048, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2049, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2072, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2050, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2024, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2052, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2073, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2026, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2029, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2042, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2063, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2043, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2064, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2046, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2032, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2055, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2030, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2067, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2074, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2070, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2077, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2075, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2076, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2061, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (resources.assets), pathID: 2039, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 1, m_Name: font material, type: Material}
+{fileID: 1 (unity default resources), pathID: 10101} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 1, m_Name: font material, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 1, m_Name: font material, type: Material}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2, m_Name: font material, type: Material}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2, m_Name: font material, type: Material}
+Mem  110 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 2, m_Name: font material, type: Material}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 3, m_Name: font material, type: Material}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 3, m_Name: font material, type: Material}
+Mem  111 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 3, m_Name: font material, type: Material}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 4, m_Name: font material, type: Material}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 4, m_Name: font material, type: Material}
+Mem  111 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 4, m_Name: font material, type: Material}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 5, m_Name: font material, type: Material}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 5, m_Name: font material, type: Material}
+Mem  111 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 5, m_Name: font material, type: Material}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 6, m_Name: font material, type: Material}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 6, m_Name: font material, type: Material}
+Mem  111 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 6, m_Name: font material, type: Material}
+img read old
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 7, m_Name: font Texture, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 8, m_Name: stdbutton_normal, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 8, m_Name: stdbutton_normal, type: Texture2D}
+Mem  112 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 8, m_Name: stdbutton_normal, type: Texture2D}
+img read old
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 9, m_Name: font Texture, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 10, m_Name: debug_tab_open_f01, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 10, m_Name: debug_tab_open_f01, type: Texture2D}
+Mem  113 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 10, m_Name: debug_tab_open_f01, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 11, m_Name: vertScrollBar, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 11, m_Name: vertScrollBar, type: Texture2D}
+Mem  113 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 11, m_Name: vertScrollBar, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 12, m_Name: stdbutton_highlight, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 12, m_Name: stdbutton_highlight, type: Texture2D}
+Mem  75 Mb (+2) on {fileID: 0 (sharedassets0.assets), pathID: 12, m_Name: stdbutton_highlight, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 13, m_Name: debug_button, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 13, m_Name: debug_button, type: Texture2D}
+Mem  76 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 13, m_Name: debug_button, type: Texture2D}
+img read old
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 14, m_Name: font Texture, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 15, m_Name: vertScrollbarThumbNormal, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 15, m_Name: vertScrollbarThumbNormal, type: Texture2D}
+Mem  77 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 15, m_Name: vertScrollbarThumbNormal, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 16, m_Name: fire3, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 16, m_Name: fire3, type: Texture2D}
+Mem  78 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 16, m_Name: fire3, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 17, m_Name: stdbutton_pressed, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 17, m_Name: stdbutton_pressed, type: Texture2D}
+Mem  78 Mb (+-1) on {fileID: 0 (sharedassets0.assets), pathID: 17, m_Name: stdbutton_pressed, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 18, m_Name: font Texture, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 18, m_Name: font Texture, type: Texture2D}
+Mem  80 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 18, m_Name: font Texture, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 19, m_Name: white, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 19, m_Name: white, type: Texture2D}
+Mem  80 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 19, m_Name: white, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 20, m_Name: debug_tab_background_f01, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 20, m_Name: debug_tab_background_f01, type: Texture2D}
+Mem  82 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 20, m_Name: debug_tab_background_f01, type: Texture2D}
+img read old
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 21, m_Name: font Texture, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 22, m_Name: debug_tab_highlight_f01_horizontal, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 22, m_Name: debug_tab_highlight_f01_horizontal, type: Texture2D}
+Mem  83 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 22, m_Name: debug_tab_highlight_f01_horizontal, type: Texture2D}
+img read old
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 23, m_Name: font Texture, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 24, m_Name: vertScrollbarThumbActive, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 24, m_Name: vertScrollbarThumbActive, type: Texture2D}
+Mem  84 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 24, m_Name: vertScrollbarThumbActive, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 25, m_Name: debug_tab_open_f01_horizontal, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 25, m_Name: debug_tab_open_f01_horizontal, type: Texture2D}
+Mem  85 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 25, m_Name: debug_tab_open_f01_horizontal, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2083, m_Name: ZOOOBRG, type: Font}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2083, m_Name: ZOOOBRG, type: Font}
+Mem  87 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 2083, m_Name: ZOOOBRG, type: Font}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2084, m_Name: ACHILLES, type: Font}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2084, m_Name: ACHILLES, type: Font}
+Mem  84 Mb (+-4) on {fileID: 0 (sharedassets0.assets), pathID: 2084, m_Name: ACHILLES, type: Font}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2085, m_Name: KOMTXTB, type: Font}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2085, m_Name: KOMTXTB, type: Font}
+Mem  85 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 2085, m_Name: KOMTXTB, type: Font}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2086, m_Name: KOMTXT__10, type: Font}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2086, m_Name: KOMTXT__10, type: Font}
+Mem  86 Mb (+0) on {fileID: 0 (sharedassets0.assets), pathID: 2086, m_Name: KOMTXT__10, type: Font}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2087, m_Name: KOMTXT, type: Font}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2087, m_Name: KOMTXT, type: Font}
+Mem  87 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 2087, m_Name: KOMTXT, type: Font}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2088, m_Name: GROBO, type: Font}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2088, m_Name: GROBO, type: Font}
+Mem  88 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 2088, m_Name: GROBO, type: Font}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2192, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2229, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2232, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2234, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2235, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2236, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2233, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2230, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2193, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2194, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2195, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2196, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2197, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2198, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2199, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2200, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2201, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2202, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2203, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2204, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2205, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2206, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2207, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2208, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2209, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2210, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2211, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2212, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2213, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2214, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2215, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2216, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2217, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2218, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2219, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2220, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2221, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2222, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2223, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2224, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2225, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2226, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2231, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2227, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2228, m_Name: , type: MonoBehaviour}
+[0: MonoBehaviour:unity default resources:12001] string.size 1065353216 > 10_000 \m_horizontalScrollbarThumb\m_Name, buf.Position=3808
+Warning: pos: 3808 != len: 8252 for: {fileID: 0 (sharedassets0.assets), pathID: 2189, m_Name: FontSkin, type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2189, m_Name: FontSkin, type: MonoBehaviour}
+{fileID: 1 (unity default resources), pathID: 12001} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 1 (unity default resources), pathID: 10102} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 1 (unity default resources), pathID: 11001} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 11006, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11003, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11002, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 0 (sharedassets0.assets), pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 11005, pathID: 1063708391} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11004, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11002, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063526663, pathID: 1063526663} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063511012, pathID: 1063511012} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 5, pathID: 1700946284} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063675494, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1954047348, pathID: 1818585446} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1061997772, pathID: 1061997772} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063675494, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 4, pathID: 4} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1634038369, pathID: 1} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 0} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 3, pathID: 3} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11023, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 0} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 8, pathID: 10} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1769107304, pathID: 1953394554} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 4, pathID: 4} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: -2, pathID: 4294967293} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 0 (sharedassets0.assets), pathID: 1094713344} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 21, pathID: 1769107304} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 98, pathID: 1} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 0} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 4} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 0 (sharedassets0.assets), pathID: 4294967295} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 0 (sharedassets0.assets), pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 4, pathID: 4} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1 (unity default resources), pathID: 11012} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: -1, pathID: 4294967295} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 1819045746, pathID: 7496034} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2189, m_Name: FontSkin, type: MonoBehaviour}
+Mem  85 Mb (+-1) on {fileID: 0 (sharedassets0.assets), pathID: 2189, m_Name: FontSkin, type: MonoBehaviour}
+[0: MonoBehaviour:unity default resources:12001] string.size 1065353216 > 10_000 \m_horizontalScrollbarThumb\m_Name, buf.Position=3816
+Warning: pos: 3816 != len: 9688 for: {fileID: 0 (sharedassets0.assets), pathID: 2190, m_Name: DebugDialogSkin, type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2190, m_Name: DebugDialogSkin, type: MonoBehaviour}
+{fileID: 1 (unity default resources), pathID: 12001} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 1 (unity default resources), pathID: 10102} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+{fileID: 13, pathID: 1027410896} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 13, pathID: 1019022304} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 17, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11005, pathID: 1063708391} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11004, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11002, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063526663, pathID: 1063526663} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063511012, pathID: 1063511012} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 5, pathID: 1700946284} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063675494, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1954047348, pathID: 1818585446} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1061997772, pathID: 1061997772} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1063675494, pathID: 1063675494} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 4, pathID: 4} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1634038369, pathID: 1} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 0} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 3, pathID: 3} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 11023, pathID: 1065353216} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1065353216, pathID: 0} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 8, pathID: 10} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 1769107304, pathID: 1953394554} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: 4, pathID: 4} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null m_FileID>SharedAssetsList(1)
+{fileID: -2, pathID: 4294967293} - is bad link C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\sharedassets0.assets  PreloadAsset==null
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2190, m_Name: DebugDialogSkin, type: MonoBehaviour}
+Mem  87 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 2190, m_Name: DebugDialogSkin, type: MonoBehaviour}
+[0: MonoBehaviour:unity default resources:12001] string.size 1065353216 > 10_000 \m_horizontalSlider\m_Name, buf.Position=2236
+Warning: pos: 2236 != len: 7252 for: {fileID: 0 (sharedassets0.assets), pathID: 2191, m_Name: rootSkin, type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets0.assets), pathID: 2191, m_Name: rootSkin, type: MonoBehaviour}
+End export-ok: {fileID: 0 (sharedassets0.assets), pathID: 2191, m_Name: rootSkin, type: MonoBehaviour}
+Mem  88 Mb (+1) on {fileID: 0 (sharedassets0.assets), pathID: 2191, m_Name: rootSkin, type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets12.assets), pathID: 1, m_Name: ArcadeJS, type: TextAsset}
+End export-ok: {fileID: 0 (sharedassets12.assets), pathID: 1, m_Name: ArcadeJS, type: TextAsset}
+Mem  89 Mb (+1) on {fileID: 0 (sharedassets12.assets), pathID: 1, m_Name: ArcadeJS, type: TextAsset}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 1, m_Name: occludedbuilding_collision_graphic, type: Material}
+End export-ok: {fileID: 0 (sharedassets2.assets), pathID: 1, m_Name: occludedbuilding_collision_graphic, type: Material}
+Mem  87 Mb (+0) on {fileID: 0 (sharedassets2.assets), pathID: 1, m_Name: occludedbuilding_collision_graphic, type: Material}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 2, m_Name: iron_electric 1, type: Material}
+End export-ok: {fileID: 0 (sharedassets2.assets), pathID: 2, m_Name: iron_electric 1, type: Material}
+Mem  87 Mb (+0) on {fileID: 0 (sharedassets2.assets), pathID: 2, m_Name: iron_electric 1, type: Material}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 3, m_Name: occludedbuilding_collision_graphic, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets2.assets), pathID: 3, m_Name: occludedbuilding_collision_graphic, type: Texture2D}
+Mem  90 Mb (+2) on {fileID: 0 (sharedassets2.assets), pathID: 3, m_Name: occludedbuilding_collision_graphic, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 4, m_Name: iron_electric, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets2.assets), pathID: 4, m_Name: iron_electric, type: Texture2D}
+Mem  91 Mb (+1) on {fileID: 0 (sharedassets2.assets), pathID: 4, m_Name: iron_electric, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 5, m_Name: FX_Impact_DrDoom_DefenseShield, type: AudioClip}
+End export-ok: {fileID: 0 (sharedassets2.assets), pathID: 5, m_Name: FX_Impact_DrDoom_DefenseShield, type: AudioClip}
+Mem  92 Mb (+1) on {fileID: 0 (sharedassets2.assets), pathID: 5, m_Name: FX_Impact_DrDoom_DefenseShield, type: AudioClip}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 21, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets2.assets), pathID: 22, m_Name: , type: MonoBehaviour}
+Scene analize:transport.prefab
+MonoBehaviour: 1790110663678555799 !!!!  link to missed asset: {FileID: 1790110663678555697} tag: 1790110663678555697}
+MonoBehaviour: 1790110663678555799 !!!!  link to missed asset: {FileID: 1790110663678555699} tag: 1790110663678555699}
+MonoBehaviour: 1790110663678555799 !!!!  link to missed asset: {FileID: 1790110663678555698} tag: 1790110663678555698}
+Bad links count: 3
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 1, m_Name: Grid Material (Red), type: Material}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 1, m_Name: Grid Material (Red), type: Material}
+Mem  90 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 1, m_Name: Grid Material (Red), type: Material}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 2, m_Name: mote_white_alphprem_tex, type: Material}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 2, m_Name: mote_white_alphprem_tex, type: Material}
+Mem  90 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 2, m_Name: mote_white_alphprem_tex, type: Material}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 3, m_Name: ring_white_alphapremultiply_tex, type: Material}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 3, m_Name: ring_white_alphapremultiply_tex, type: Material}
+Mem  90 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 3, m_Name: ring_white_alphapremultiply_tex, type: Material}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 4, m_Name: transport_light_alphprem_tex, type: Material}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 4, m_Name: transport_light_alphprem_tex, type: Material}
+Mem  90 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 4, m_Name: transport_light_alphprem_tex, type: Material}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 5, m_Name: ring_white_alphapremultiply_tex, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 5, m_Name: ring_white_alphapremultiply_tex, type: Texture2D}
+Mem  90 Mb (+1) on {fileID: 0 (sharedassets4.assets), pathID: 5, m_Name: ring_white_alphapremultiply_tex, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 6, m_Name: transport_light_alphprem_tex, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 6, m_Name: transport_light_alphprem_tex, type: Texture2D}
+Mem  91 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 6, m_Name: transport_light_alphprem_tex, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 7, m_Name: mote_white_alphprem_tex, type: Texture2D}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 7, m_Name: mote_white_alphprem_tex, type: Texture2D}
+Mem  92 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 7, m_Name: mote_white_alphprem_tex, type: Texture2D}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 8, m_Name: Fx_Spawn_Char_SpawnIn_1, type: AudioClip}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 8, m_Name: Fx_Spawn_Char_SpawnIn_1, type: AudioClip}
+Mem  93 Mb (+1) on {fileID: 0 (sharedassets4.assets), pathID: 8, m_Name: Fx_Spawn_Char_SpawnIn_1, type: AudioClip}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 9, m_Name: Adamantium, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 9, m_Name: Adamantium, type: PhysicMaterial}
+Mem  93 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 9, m_Name: Adamantium, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 10, m_Name: Ceramic, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 10, m_Name: Ceramic, type: PhysicMaterial}
+Mem  92 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 10, m_Name: Ceramic, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 11, m_Name: Neutronium, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 11, m_Name: Neutronium, type: PhysicMaterial}
+Mem  92 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 11, m_Name: Neutronium, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 12, m_Name: Plastic, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 12, m_Name: Plastic, type: PhysicMaterial}
+Mem  92 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 12, m_Name: Plastic, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 13, m_Name: Rubber, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 13, m_Name: Rubber, type: PhysicMaterial}
+Mem  92 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 13, m_Name: Rubber, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 14, m_Name: Steel, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 14, m_Name: Steel, type: PhysicMaterial}
+Mem  92 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 14, m_Name: Steel, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 15, m_Name: Stone, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 15, m_Name: Stone, type: PhysicMaterial}
+Mem  93 Mb (+1) on {fileID: 0 (sharedassets4.assets), pathID: 15, m_Name: Stone, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 16, m_Name: Wood, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 16, m_Name: Wood, type: PhysicMaterial}
+Mem  93 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 16, m_Name: Wood, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 17, m_Name: Metal, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 17, m_Name: Metal, type: PhysicMaterial}
+Mem  93 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 17, m_Name: Metal, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 18, m_Name: Wood, type: PhysicMaterial}
+End export-ok: {fileID: 0 (sharedassets4.assets), pathID: 18, m_Name: Wood, type: PhysicMaterial}
+Mem  93 Mb (+0) on {fileID: 0 (sharedassets4.assets), pathID: 18, m_Name: Wood, type: PhysicMaterial}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 122, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 150, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 123, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 124, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 125, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 126, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 127, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 128, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 129, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 130, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 131, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 132, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 133, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 134, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 135, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 136, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 137, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 138, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 139, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 140, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 141, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 142, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 143, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 144, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 145, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 146, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 147, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 148, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets4.assets), pathID: 149, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (sharedassets7.assets), pathID: 1, m_Name: BoosterPackRenderTexture, type: RenderTexture}
+End export-ok: {fileID: 0 (sharedassets7.assets), pathID: 1, m_Name: BoosterPackRenderTexture, type: RenderTexture}
+Mem  94 Mb (+0) on {fileID: 0 (sharedassets7.assets), pathID: 1, m_Name: BoosterPackRenderTexture, type: RenderTexture}
+Begin export: {fileID: 0 (sharedassets7.assets), pathID: 2, m_Name: CollectionRenderTexture, type: RenderTexture}
+End export-ok: {fileID: 0 (sharedassets7.assets), pathID: 2, m_Name: CollectionRenderTexture, type: RenderTexture}
+Mem  94 Mb (+0) on {fileID: 0 (sharedassets7.assets), pathID: 2, m_Name: CollectionRenderTexture, type: RenderTexture}
+Begin export: {fileID: 0 (sharedassets7.assets), pathID: 3, m_Name: DeckRenderTexture, type: RenderTexture}
+End export-ok: {fileID: 0 (sharedassets7.assets), pathID: 3, m_Name: DeckRenderTexture, type: RenderTexture}
+Mem  92 Mb (+-2) on {fileID: 0 (sharedassets7.assets), pathID: 3, m_Name: DeckRenderTexture, type: RenderTexture}
+Resolve4: System
+Resolve3: C:\Users\test\AppData\Local\Temp\~unpack-f6e13123-0744-433f-93d2-f30217ab258f\System.dll - from resources
+Begin export: {fileID: 0 (level0), pathID: 18, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level0), pathID: 19, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level0), pathID: 23, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level0), pathID: 22, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level0), pathID: 21, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level0), pathID: 20, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level1), pathID: 13, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level1), pathID: 17, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level1), pathID: 16, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level1), pathID: 15, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level1), pathID: 14, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level10), pathID: 22, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level10), pathID: 25, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level10), pathID: 24, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level10), pathID: 23, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level10), pathID: 21, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level10), pathID: 26, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level11), pathID: 12, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level2), pathID: 13, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 26, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 27, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 28, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 29, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 30, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 32, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level3), pathID: 31, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level4), pathID: 13, m_Name: , type: MonoBehaviour}
+Warning: pos: 24 != len: 348 for: {fileID: 0 (level5), pathID: 15, m_Name: , type: MonoBehaviour}
+Warning: pos: 24 != len: 348 for: {fileID: 0 (level5), pathID: 15, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level5), pathID: 15, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level5), pathID: 16, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level6), pathID: 24, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level6), pathID: 25, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level7), pathID: 13, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level7), pathID: 17, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level7), pathID: 16, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level7), pathID: 15, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level7), pathID: 14, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level8), pathID: 16, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level8), pathID: 17, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level8), pathID: 21, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level8), pathID: 20, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level8), pathID: 19, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level8), pathID: 18, m_Name: , type: MonoBehaviour}
+Begin export: {fileID: 0 (level9), pathID: 13, m_Name: , type: MonoBehaviour}
+Make Script DB
+Make Scripts
+Code decompile: Assembly-CSharp-firstpass.dll, class_name=*, type=StandartDecompiller
+Check for DeObfuscate: Assembly-CSharp-firstpass.dll
+StandartDecompiler: begin decompile.. Assembly-CSharp-firstpass.dll   class_name=*
+end compile.. Assembly-CSharp-firstpass.dll
+Code decompile: Assembly-CSharp.dll, class_name=*, type=StandartDecompiller
+Check for DeObfuscate: Assembly-CSharp.dll
+Find requried fix functions with empty param names, count: 23 (activate with 'Allow to de-obfuscate assembly' options)
+Assembly 'Assembly-CSharp.dll' - obfuscated (for deobfuscate - activate 'Allow to de-obfuscate assembly' options)
+StandartDecompiler: begin decompile.. Assembly-CSharp.dll   class_name=*
+Resolve4: SmartFoxClient
+Resolve4: Assembly-CSharp-firstpass
+Resolve4: System.Xml
+Resolve4: System.Core
+Code decompile: Assembly-UnityScript-firstpass.dll, class_name=*, type=StandartDecompiller
+Check for DeObfuscate: Assembly-UnityScript-firstpass
+StandartDecompiler: begin decompile.. Assembly-UnityScript-firstpass.dll   class_name=*
+Resolve4: Boo.Lang
+Resolve4: UnityScript.Lang
+end compile.. Assembly-UnityScript-firstpass.dll
+Code decompile: Assembly-UnityScript.dll, class_name=*, type=StandartDecompiller
+Check for DeObfuscate: Assembly-UnityScript
+Find requried deobfuscate class names, count: 1 (activate with 'Allow to de-obfuscate assembly' options)
+Assembly 'Assembly-UnityScript.dll' - obfuscated (for deobfuscate - activate 'Allow to de-obfuscate assembly' options)
+StandartDecompiler: begin decompile.. Assembly-UnityScript.dll   class_name=*
+end compile.. Assembly-UnityScript.dll
+Make plugins
+Check for DeObfuscate: SmartFoxClient.dll
+Make binStreamingAssets
+Write scrip db
+MakeUnityProject - end, dir: C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput

@@ -1,0 +1,42 @@
+<impact>
+  <impact_type>0</impact_type>
+  <collider>TemplateCollider</collider>
+  <impact_effect>L1 impact sequence</impact_effect>
+  <hits_friends>false</hits_friends>
+  <maximum_hits_per_target>1</maximum_hits_per_target>
+  <maximum_targets_hit>1</maximum_targets_hit>
+  <minimum_distance>0</minimum_distance>
+  <Tool_damage_table_setting>DPS_Enemy_Melee_Thug</Tool_damage_table_setting>
+  <damage>5</damage>
+  <Tool_damage_scale>1</Tool_damage_scale>
+  <pushback_duration>0.25</pushback_duration>
+  <pushback_velocity>2</pushback_velocity>
+  <recoil>1</recoil>
+  <knockdown_duration>1</knockdown_duration>
+  <recoil_duration>.34</recoil_duration>
+  <launch_velocity>0</launch_velocity>
+  <collider_angle_limit>45</collider_angle_limit>
+  <rotate_target_to_impact>false</rotate_target_to_impact>
+  <show_collider>false</show_collider>
+  <impact_start_time>0</impact_start_time>
+  <impact_end_time>0</impact_end_time>
+  <collider_scale>1</collider_scale>
+  <pushback_from_collider>true</pushback_from_collider>
+  <firing_time>0</firing_time>
+  <projectile_speed>0</projectile_speed>
+  <projectile_lifespan>0</projectile_lifespan>
+  <projectile_aimed>true</projectile_aimed>
+  <projectile_rotate_to_velocity>true</projectile_rotate_to_velocity>
+  <projectile_attached>false</projectile_attached>
+  <projectile_gravity>0</projectile_gravity>
+  <projectile_explosion_radius>0</projectile_explosion_radius>
+  <projectile_destroy_on_impact>true</projectile_destroy_on_impact>
+  <projectile_destroy_on_collision>true</projectile_destroy_on_collision>
+  <projectile_impact_stick_time>0</projectile_impact_stick_time>
+  <projectile_collision_stick_time>0</projectile_collision_stick_time>
+  <projectile_environmental>false</projectile_environmental>
+  <projectile_create_immediate>false</projectile_create_immediate>
+  <projectile_target_reticle>false</projectile_target_reticle>
+  <projectile_additional_targets>0</projectile_additional_targets>
+  <impact_matrix_type>0</impact_matrix_type>
+</impact>

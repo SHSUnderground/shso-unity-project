@@ -1,0 +1,865 @@
+<catalogs>
+  <catalog>
+    <id>1</id>
+    <name>HQ</name>
+    <description>HQ: Furniture and food for your heroes!</description>
+    <pages>
+      <page>
+        <page_number>1</page_number>
+
+        <description>Primal furniture</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>592</ownable_type_id>
+            <ownable_type_name>Primal Bed</ownable_type_name>
+            <category>i</category>
+
+            <gold_price>25</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>590</ownable_type_id>
+
+            <ownable_type_name>Primal Artwork</ownable_type_name>
+            <category>i</category>
+            <gold_price>50</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>598</ownable_type_id>
+            <ownable_type_name>Primal Cabinet</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>604</ownable_type_id>
+            <ownable_type_name>Primal Coffee Table</ownable_type_name>
+            <category>i</category>
+
+            <gold_price>15</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>601</ownable_type_id>
+
+            <ownable_type_name>Primal Casual Chair #1</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>636</ownable_type_id>
+            <ownable_type_name>Primal Dresser</ownable_type_name>
+            <category>i</category>
+            <gold_price>20</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>2</page_number>
+        <description>High tech gear</description>
+        <items>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>33</ownable_type_id>
+            <ownable_type_name>Gadget-man 101 Computer</ownable_type_name>
+            <category>i</category>
+            <gold_price>100</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>34</ownable_type_id>
+            <ownable_type_name>Battle Plan Projection Table</ownable_type_name>
+
+            <category>i</category>
+            <gold_price>75</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>108</ownable_type_id>
+            <ownable_type_name>Microscope</ownable_type_name>
+            <category>i</category>
+            <gold_price>50</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+        </items>
+      </page>
+      <page>
+        <page_number>3</page_number>
+        <description>Things that go BOOM!</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1127</ownable_type_id>
+            <ownable_type_name>Bunch of Dynamite with Clock</ownable_type_name>
+            <category>i</category>
+            <gold_price>75</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>563</ownable_type_id>
+            <ownable_type_name>Naval Mine</ownable_type_name>
+            <category>i</category>
+            <gold_price>100</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>74</ownable_type_id>
+            <ownable_type_name>Bomb</ownable_type_name>
+
+            <category>i</category>
+            <gold_price>25</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>564</ownable_type_id>
+            <ownable_type_name>Explod-i-cake</ownable_type_name>
+            <category>i</category>
+            <gold_price>50</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>565</ownable_type_id>
+            <ownable_type_name>Hand Grenade</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>4</page_number>
+        <description>Fruit is good for you</description>
+
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1103</ownable_type_id>
+            <ownable_type_name>Apple, Green</ownable_type_name>
+            <category>i</category>
+            <silver_price>10</silver_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1104</ownable_type_id>
+            <ownable_type_name>Apple, Red</ownable_type_name>
+
+            <category>i</category>
+            <silver_price>25</silver_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1108</ownable_type_id>
+            <ownable_type_name>Banana</ownable_type_name>
+            <category>i</category>
+            <gold_price>5</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+        </items>
+      </page>
+      <page>
+        <page_number>5</page_number>
+        <description>Happy birthday!</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1110</ownable_type_id>
+            <ownable_type_name>Birthday Cake #1</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1111</ownable_type_id>
+            <ownable_type_name>Birthday Cake #2</ownable_type_name>
+            <category>i</category>
+            <gold_price>25</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1112</ownable_type_id>
+            <ownable_type_name>Birthday Cake #3</ownable_type_name>
+
+            <category>i</category>
+            <gold_price>50</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1113</ownable_type_id>
+            <ownable_type_name>Birthday Cake #4</ownable_type_name>
+            <category>i</category>
+            <silver_price>250</silver_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1114</ownable_type_id>
+            <ownable_type_name>Birthday Cake #5</ownable_type_name>
+            <category>i</category>
+            <silver_price>100</silver_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>6</page_number>
+        <description>Paint your room</description>
+
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1228</ownable_type_id>
+            <ownable_type_name>War Machine Paint</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1227</ownable_type_id>
+            <ownable_type_name>Thor Paint</ownable_type_name>
+
+            <category>i</category>
+            <gold_price>25</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1216</ownable_type_id>
+            <ownable_type_name>Dr. Strange Paint</ownable_type_name>
+            <category>i</category>
+            <gold_price>15</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1213</ownable_type_id>
+            <ownable_type_name>Captain America Paint</ownable_type_name>
+            <category>i</category>
+            <gold_price>50</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1224</ownable_type_id>
+            <ownable_type_name>Silver Surfer Paint</ownable_type_name>
+
+            <category>i</category>
+            <silver_price>100</silver_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1220</ownable_type_id>
+            <ownable_type_name>Jean Grey Paint</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description>Jean Grey's theme colors.</description>
+            <keywords />
+
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1230</ownable_type_id>
+            <ownable_type_name>Giant Man Paint</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+
+            <description>Giant Man's theme colors.</description>
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>7</page_number>
+        <description>Tasty items!</description>
+
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>39</ownable_type_id>
+            <ownable_type_name>Humongous! Burger</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>8</page_number>
+        <description>HQ essentials</description>
+
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>177</ownable_type_id>
+            <ownable_type_name>Boom Box</ownable_type_name>
+            <category>i</category>
+            <silver_price>100</silver_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>42</ownable_type_id>
+            <ownable_type_name>Trampoline</ownable_type_name>
+
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>52</ownable_type_id>
+            <ownable_type_name>Arcade Machine</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>113</ownable_type_id>
+            <ownable_type_name>Comfy Couch</ownable_type_name>
+            <category>i</category>
+            <gold_price>25</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>179</ownable_type_id>
+            <ownable_type_name>Air Hockey Table</ownable_type_name>
+
+            <category>i</category>
+            <gold_price>50</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>51</ownable_type_id>
+            <ownable_type_name>Big Screen TV</ownable_type_name>
+            <category>i</category>
+            <gold_price>50</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+        </items>
+      </page>
+      <page>
+        <page_number>9</page_number>
+        <description>Brand New Page(TM)</description>
+        <items>
+        </items>
+      </page>
+
+    </pages>
+  </catalog>
+  <catalog>
+    <id>2</id>
+    <name>Specials</name>
+    <description>Special items, on sale now!</description>
+    <pages>
+
+      <page>
+        <page_number>1</page_number>
+        <description>Hero toys</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>53</ownable_type_id>
+
+            <ownable_type_name>Plush Spider Toy</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>88</ownable_type_id>
+            <ownable_type_name>Wolverine Scratch Post</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>75</ownable_type_id>
+            <ownable_type_name>Hulk's Teddy Bear</ownable_type_name>
+            <category>i</category>
+
+            <silver_price>50</silver_price>
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+
+  <catalog>
+    <id>3</id>
+    <name>Cards</name>
+    <description>Cards not available</description>
+    <pages>
+      <page>
+        <page_number>1</page_number>
+
+        <description>Card packs go here</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>395</ownable_type_id>
+            <ownable_type_name>Wood Cube, Small</ownable_type_name>
+            <category>i</category>
+
+            <gold_price>10</gold_price>
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+
+  <catalog>
+    <id>4</id>
+    <name>Heroes</name>
+    <description>Buy more heroes!</description>
+    <pages>
+      <page>
+        <page_number>1</page_number>
+
+        <description>The Fantastic Four</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1257</ownable_type_id>
+            <ownable_type_name>human_torch</ownable_type_name>
+            <category>h</category>
+
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1262</ownable_type_id>
+
+            <ownable_type_name>mr_fantastic</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>1258</ownable_type_id>
+            <ownable_type_name>invisible_woman</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1279</ownable_type_id>
+            <ownable_type_name>thing</ownable_type_name>
+            <category>h</category>
+
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>2</page_number>
+
+        <description>X-Men</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1278</ownable_type_id>
+            <ownable_type_name>storm_mohawk</ownable_type_name>
+            <category>h</category>
+
+            <gold_price>1000</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1238</ownable_type_id>
+
+            <ownable_type_name>storm</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>1245</ownable_type_id>
+            <ownable_type_name>colossus</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1261</ownable_type_id>
+            <ownable_type_name>jean_grey</ownable_type_name>
+            <category>h</category>
+
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1270</ownable_type_id>
+
+            <ownable_type_name>shadowcat</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>1268</ownable_type_id>
+            <ownable_type_name>rogue</ownable_type_name>
+            <category>h</category>
+            <gold_price>515</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>3</page_number>
+        <description>Hulk!</description>
+        <items>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1239</ownable_type_id>
+            <ownable_type_name>hulk</ownable_type_name>
+            <category>h</category>
+            <gold_price>750</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1255</ownable_type_id>
+            <ownable_type_name>hulk_gladiator</ownable_type_name>
+
+            <category>h</category>
+            <gold_price>1000</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1256</ownable_type_id>
+            <ownable_type_name>hulk_red</ownable_type_name>
+            <category>h</category>
+            <gold_price>1000</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+        </items>
+      </page>
+      <page>
+        <page_number>4</page_number>
+        <description>Spider-Man</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1275</ownable_type_id>
+            <ownable_type_name>spider_man_black</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1274</ownable_type_id>
+            <ownable_type_name>spider_man</ownable_type_name>
+            <category>h</category>
+            <gold_price>500</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1276</ownable_type_id>
+            <ownable_type_name>spider_man_scarlet</ownable_type_name>
+
+            <category>h</category>
+            <gold_price>750</gold_price>
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+
+        <page_number>5</page_number>
+        <description>Iron Man</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1236</ownable_type_id>
+            <ownable_type_name>iron_man</ownable_type_name>
+
+            <category>h</category>
+            <gold_price>750</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1259</ownable_type_id>
+            <ownable_type_name>iron_man_hulkbuster</ownable_type_name>
+            <category>h</category>
+            <gold_price>1000</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1260</ownable_type_id>
+            <ownable_type_name>iron_man_stealth</ownable_type_name>
+            <category>h</category>
+            <gold_price>1000</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>6</page_number>
+        <description>Wolverine</description>
+
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1284</ownable_type_id>
+            <ownable_type_name>wolverine_jeans</ownable_type_name>
+            <category>h</category>
+            <gold_price>1000</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1285</ownable_type_id>
+            <ownable_type_name>wolverine_samurai</ownable_type_name>
+
+            <category>h</category>
+            <gold_price>1500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1237</ownable_type_id>
+            <ownable_type_name>wolverine</ownable_type_name>
+            <category>h</category>
+            <gold_price>750</gold_price>
+            <description />
+            <keywords />
+          </item>
+
+        </items>
+      </page>
+      <page>
+        <page_number>7</page_number>
+        <description>Buy heroes with silver</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+
+            <ownable_type_id>1246</ownable_type_id>
+            <ownable_type_name>cyclops</ownable_type_name>
+            <category>h</category>
+            <silver_price>500</silver_price>
+            <description />
+            <keywords />
+          </item>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1252</ownable_type_id>
+            <ownable_type_name>falcon</ownable_type_name>
+            <category>h</category>
+            <silver_price>250</silver_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+  <catalog>
+    <id>5</id>
+
+    <name>More</name>
+    <description>Buy your prize tickets here!</description>
+    <pages>
+      <page>
+        <page_number>1</page_number>
+        <description>More goes here</description>
+        <items>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>156</ownable_type_id>
+            <ownable_type_name>Wood Pentagon</ownable_type_name>
+            <category>i</category>
+            <silver_price>200</silver_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+  <catalog>
+    <id>6</id>
+
+    <name>Missions</name>
+    <description>Missions not available</description>
+    <pages>
+      <page>
+        <page_number>1</page_number>
+        <description>Missions go here</description>
+        <items>
+
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>155</ownable_type_id>
+            <ownable_type_name>Wood Diamond</ownable_type_name>
+            <category>i</category>
+            <gold_price>10</gold_price>
+
+            <description />
+            <keywords />
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+</catalogs>

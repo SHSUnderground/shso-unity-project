@@ -1,0 +1,2563 @@
+<wheel>
+  <gold>
+    <stop>
+      <stop>1</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>2</stop>
+      <item_id />
+      <description>gold_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>1</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>3</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>4</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>20</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>5</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>6</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>7</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>8</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>25</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>9</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>10</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>20</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>11</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>12</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>13</stop>
+      <item_id />
+      <description>gold_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>1</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>14</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>15</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>16</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>17</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>18</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>19</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>20</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>21</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>22</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>23</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>24</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+  </gold>
+  <silver>
+    <stop>
+      <stop>1</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>2</stop>
+      <item_id />
+      <description>silver_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>3</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>3</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>4</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>20</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>5</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>6</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>7</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>8</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>25</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>9</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>10</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>20</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>11</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>12</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>50</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>13</stop>
+      <item_id />
+      <description>silver_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>3</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>14</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>15</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>16</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>17</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>10</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>18</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>30</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>19</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>20</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>21</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>22</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>5</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>23</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>15</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>24</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>40</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+  </silver>
+  <subwheels>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>32</item_id>
+        <description>External Radar Scanner</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>34</item_id>
+        <description>Battle Plan Projector</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>36</item_id>
+        <description>Chemistry Set</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>51</item_id>
+        <description>Big Screen TV</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>52</item_id>
+        <description>Old-Timey Arcade Game</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>95</item_id>
+        <description>Hero Up Oven</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>98</item_id>
+        <description>Hot Stuff Toaster</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>99</item_id>
+        <description>Magic Munchies Machine</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>104</item_id>
+        <description>Punching Bag</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>107</item_id>
+        <description>Basic Lab Computer</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>110</item_id>
+        <description>Sentinel Torso</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>179</item_id>
+        <description>Air Hockey Table</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>584</item_id>
+        <description>Mystic Treadmill</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>681</item_id>
+        <description>Sci-Fi Monitor</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>113</item_id>
+        <description>Comfy Couch</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>5</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>182</item_id>
+        <description>Hockey Net</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>751</item_id>
+        <description>90-Degree Reflector</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>94</item_id>
+        <description>Hydroponic Garden</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>488</item_id>
+        <description>Steam Sculptures #2</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>555</item_id>
+        <description>Mystic Pedestal</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>631</item_id>
+        <description>Primal Fish Tank</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>653</item_id>
+        <description>Primal Planter Box With Arrang</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>742</item_id>
+        <description>Sci-Fi Sculptures #2</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>840</item_id>
+        <description>Stack of Comic Books</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>1221</item_id>
+        <description>Mr. Fantastic's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-Cake</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>563</item_id>
+        <description>Naval Mine</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>1219</item_id>
+        <description>Invisible Woman's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>205</item_id>
+        <description>Iron Man's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>208</item_id>
+        <description>Spider-Man's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>202</item_id>
+        <description>Hulk's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>19943</item_id>
+        <description>Thor's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>1224</item_id>
+        <description>Silver Surfer's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>1225</item_id>
+        <description>Storm's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>212</item_id>
+        <description>Wolverine's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>1228</item_id>
+        <description>War Machine's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>1221</item_id>
+        <description>Mr. Fantastic's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-Cake</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>563</item_id>
+        <description>Naval Mine</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>1219</item_id>
+        <description>Invisible Woman's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>205</item_id>
+        <description>Iron Man's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>208</item_id>
+        <description>Spider-Man's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>202</item_id>
+        <description>Hulk's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>19943</item_id>
+        <description>Thor's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>1224</item_id>
+        <description>Silver Surfer's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>1225</item_id>
+        <description>Storm's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>212</item_id>
+        <description>Wolverine's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>1228</item_id>
+        <description>War Machine's Paint</description>
+        <wheel_type>G</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>42</item_id>
+        <description>Happy Trampoline</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>177</item_id>
+        <description>Stark Boombox</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>113</item_id>
+        <description>Comfy Couch</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>5</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>235</item_id>
+        <description>Adamantium Pyramid, Small</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>692</item_id>
+        <description>Sci-Fi Easel</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>1209</item_id>
+        <description>Bouncy-Bouncy Ball</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>238</item_id>
+        <description>Adamantium Rectangle, Small</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>31</item_id>
+        <description>Captain's Chair</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>37</item_id>
+        <description>Lab Stool</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>97</item_id>
+        <description>Diner Stool</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>792</item_id>
+        <description>Bench 1, Common</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>237</item_id>
+        <description>Vibranium Rectangle</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>106</item_id>
+        <description>Turbo-Treadmill</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>100</item_id>
+        <description>Bucket and Mop</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>440</item_id>
+        <description>Steam Barrel</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>549</item_id>
+        <description>Mystic Dumbbell</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>222</item_id>
+        <description>Vibranium Jumbo Cylinder</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>470</item_id>
+        <description>Steam Love Seat</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>811</item_id>
+        <description>End Table</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>118</item_id>
+        <description>Vibranium Diamond</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>802</item_id>
+        <description>Coffee Table</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>700</item_id>
+        <description>Sci-Fi Vase With Flowers</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>230</item_id>
+        <description>Vibranium Jumbo Platform</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>804</item_id>
+        <description>Couch #2</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>1104</item_id>
+        <description>Apple, Red</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>1108</item_id>
+        <description>Banana</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>1120</item_id>
+        <description>Bowl of Oatmeal</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>1125</item_id>
+        <description>Broccoli</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>1126</item_id>
+        <description>Bunch of Grapes</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>1131</item_id>
+        <description>Candy #1</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>1161</item_id>
+        <description>High tech Energy Bomb</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>2515</item_id>
+        <description>Clay Boomerang Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>2516</item_id>
+        <description>Enduring Gold Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>2517</item_id>
+        <description>Mountain Adobe Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>2518</item_id>
+        <description>Pistachio Plum Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>1104</item_id>
+        <description>Apple, Red</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>1108</item_id>
+        <description>Banana</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>1120</item_id>
+        <description>Bowl of Oatmeal</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>1125</item_id>
+        <description>Broccoli</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>1126</item_id>
+        <description>Bunch of Grapes</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>1131</item_id>
+        <description>Candy #1</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>1164</item_id>
+        <description>Ice Cream Cone</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>1197</item_id>
+        <description>Sandwich #2</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>2515</item_id>
+        <description>Clay Boomerang Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>2516</item_id>
+        <description>Enduring Gold Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>2517</item_id>
+        <description>Mountain Adobe Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>2518</item_id>
+        <description>Pistachio Plum Paint</description>
+        <wheel_type>S</wheel_type>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value>2</coin_value>
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel>-1</card_wheel>
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>R</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>R</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>R</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>G</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>7</card_wheel>
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value>0</coin_value>
+        <quantity>1</quantity>
+        <rarity>R</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>R</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>C</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <wheel_type>S</wheel_type>
+        <prize_type>C</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>U</rarity>
+        <card_wheel>8</card_wheel>
+      </stop>
+    </subwheel>
+  </subwheels>
+  <cardwheel>
+    <slot>
+      <card_type_id>ST008</card_type_id>
+      <rarity>U</rarity>
+      <slot>17</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST048</card_type_id>
+      <rarity>C</rarity>
+      <slot>18</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST160</card_type_id>
+      <rarity>C</rarity>
+      <slot>19</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST163</card_type_id>
+      <rarity>C</rarity>
+      <slot>20</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST183</card_type_id>
+      <rarity>C</rarity>
+      <slot>23</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST186</card_type_id>
+      <rarity>R</rarity>
+      <slot>24</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST187</card_type_id>
+      <rarity>U</rarity>
+      <slot>25</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST194</card_type_id>
+      <rarity>U</rarity>
+      <slot>26</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST195</card_type_id>
+      <rarity>C</rarity>
+      <slot>27</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST215</card_type_id>
+      <rarity>R</rarity>
+      <slot>28</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST228</card_type_id>
+      <rarity>U</rarity>
+      <slot>29</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST316</card_type_id>
+      <rarity>U</rarity>
+      <slot>30</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST454</card_type_id>
+      <rarity>R</rarity>
+      <slot>32</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST005</card_type_id>
+      <rarity>C</rarity>
+      <slot>18</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST025</card_type_id>
+      <rarity>C</rarity>
+      <slot>21</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST051</card_type_id>
+      <rarity>C</rarity>
+      <slot>22</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST066</card_type_id>
+      <rarity>C</rarity>
+      <slot>23</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST105</card_type_id>
+      <rarity>C</rarity>
+      <slot>24</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST143</card_type_id>
+      <rarity>C</rarity>
+      <slot>26</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST155</card_type_id>
+      <rarity>U</rarity>
+      <slot>27</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST150</card_type_id>
+      <rarity>U</rarity>
+      <slot>28</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST156</card_type_id>
+      <rarity>C</rarity>
+      <slot>29</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST157</card_type_id>
+      <rarity>C</rarity>
+      <slot>30</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST165</card_type_id>
+      <rarity>C</rarity>
+      <slot>31</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST172</card_type_id>
+      <rarity>C</rarity>
+      <slot>32</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST198</card_type_id>
+      <rarity>C</rarity>
+      <slot>34</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST222</card_type_id>
+      <rarity>R</rarity>
+      <slot>35</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+  </cardwheel>
+</wheel>

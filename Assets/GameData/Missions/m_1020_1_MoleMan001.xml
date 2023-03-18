@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_1020_1_MoleMan001>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+	<mission_briefing_speaker>thing</mission_briefing_speaker>
+  <blacklist_characters></blacklist_characters>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+<!-- This stuff might not be necessary START -->
+	<stages>
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>Streets_M020_S01_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+  
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>Factory_M020_S02_BOSS_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+	</stages>    
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+ <bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>12592</player>
+    <player>17557</player>
+    <player>24049</player>
+    <player>27869</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>26792</player>
+    <player>37356</player>
+    <player>51170</player>
+    <player>59297</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>33915</player>
+    <player>47287</player>
+    <player>64773</player>
+    <player>75060</player>
+  </score_needed>
+ </adamantium>
+</rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>116,334</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>116,334</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>116,334</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>116,334,110</lootTableIDs>
+    </adamantium>
+  </awards>
+</m_1020_1_MoleMan001>

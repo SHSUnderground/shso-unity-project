@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_1030_1_Thanos001>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+	<mission_briefing_speaker>guardian</mission_briefing_speaker>
+  <blacklist_characters></blacklist_characters>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+<!-- This stuff might not be necessary START -->
+<stages>
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>Space_Station_M030_S01_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+    
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>Space_Station_M030_S02_BOSS_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+</stages>
+
+<prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+ <bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>16708</player>
+    <player>24793</player>
+    <player>35366</player>
+    <player>41585</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>35550</player>
+    <player>52752</player>
+    <player>75247</player>
+    <player>88480</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>45000</player>
+    <player>66775</player>
+    <player>95250</player>
+    <player>112000</player>
+  </score_needed>
+ </adamantium>
+</rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>101</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>101</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>101</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>101</lootTableIDs>
+    </adamantium>
+  </awards>
+</m_1030_1_Thanos001>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<m_100M_2_Venom001>
+	<name>Venom Mayhem Mission</name>
+	<description>Venom is on the loose in Super Hero City!</description>
+	<mission_splash_screen_override>L_venom_01</mission_splash_screen_override>
+	<mission_purchase_override>ca_1001_1_Venom001</mission_purchase_override>
+	<map>
+		<x>78</x>
+		<y>170</y>
+	</map>
+	<target_level>1</target_level>
+	<stages>
+		<stage>
+			<stage_number>1</stage_number>
+			<scenario_bundle>Carbon_001_S03M_BOSS_scenario</scenario_bundle>
+		</stage>
+	</stages>
+	<rating>
+		<bronze>
+			<score_needed>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+			</score_needed>
+		</bronze>
+		<silver>
+			<score_needed>
+				<player>668</player>
+				<player>668</player>
+				<player>668</player>
+				<player>668</player>
+			</score_needed>
+		</silver>
+		<gold>
+			<score_needed>
+				<player>1422</player>
+				<player>1422</player>
+				<player>1422</player>
+				<player>1422</player>
+			</score_needed>
+		</gold>
+		<adamantium>
+			<score_needed>
+				<player>1800</player>
+				<player>1800</player>
+				<player>1800</player>
+				<player>1800</player>
+			</score_needed>
+		</adamantium>
+	</rating>
+	<awards>
+		<bronze>
+			<lootTableIDs>103,361</lootTableIDs>
+		</bronze>
+		<silver>
+			<lootTableIDs>103,361</lootTableIDs>
+		</silver>
+		<gold>
+			<lootTableIDs>103,361</lootTableIDs>
+		</gold>
+		<adamantium>
+			<lootTableIDs>103,361,115</lootTableIDs>
+		</adamantium>
+	</awards>
+</m_100M_2_Venom001>

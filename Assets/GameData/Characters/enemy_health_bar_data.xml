@@ -1,0 +1,23 @@
+<enemy_health_bar_data>
+  <screen_offset>
+    <x>0</x>
+    <y>10</y>
+  </screen_offset>
+  <world_offset>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </world_offset>
+  <min_screen_size>
+    <x>64</x>
+    <y>21</y>
+  </min_screen_size>
+  <max_screen_size>
+    <x>128</x>
+    <y>21</y>
+  </max_screen_size>
+  <min_scale_distance>15</min_scale_distance>
+  <max_scale_distance>40</max_scale_distance>
+  <life_time>5</life_time>
+  <fade_start_time>4</fade_start_time>
+</enemy_health_bar_data>

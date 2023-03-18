@@ -1,0 +1,30 @@
+//namespace ShsAudio
+//{
+	public enum SABundle
+	{
+		None,
+		Login,
+		HQ_Physics,
+		HQ_Base,
+		CardGame,
+		Brawler,
+		UI,
+		HQ_Hero_Common,
+		CardGame_Generic,
+		CardGame_VillainVille,
+		Global_Persistent,
+		Bugle,
+		Shopping,
+		Baxter,
+		Tutorial,
+		MissionResults,
+		City_Ambiance,
+		Asgard,
+		CardGame_Rooftops,
+		CardGame_Sewers,
+		CardGame_AsteroidM,
+		CardGame_Factory,
+		CardGame_SkrullShip,
+		EXTERNALLY_DEFINED
+	}
+//}

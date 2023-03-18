@@ -1,0 +1,18 @@
+*AssetBundles\Brawler\Asgard_M102S_01_scenario.unity3d
+
+
+*An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/Characters/ymir_popcorn_minion_01.unity3d
+
+(faked)An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/Characters/loki_mimic_03.unity3d
+
+(faked)An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/Characters/fire_giant_01.unity3d
+
+(faked)An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/Characters/frost_giant_01.unity3d
+
+(faked)An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/Characters/loki_mimic_02.unity3d
+
+
+
+(faked)An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/FX/ymir_popcorn_minion_fx.unity3d
+
+(faked)An error occured during the WWW request: Couldn't open file /dev/shsoDebugBuild/SHSO_Data/AssetBundles/FX/loki_mimic_fx.unity3d

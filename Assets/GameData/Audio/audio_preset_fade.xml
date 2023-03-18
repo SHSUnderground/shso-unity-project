@@ -1,0 +1,41 @@
+<audio_preset_fade>
+  <preset_list>
+
+    <preset>
+      <preset_name>default</preset_name>
+      <audio_fadein_time>0.0</audio_fadein_time>
+      <audio_fadeout_time>0.0</audio_fadeout_time>
+    </preset>
+
+    <preset>
+      <preset_name>no_fade</preset_name>
+      <audio_fadein_time>0.0</audio_fadein_time>
+      <audio_fadeout_time>0.0</audio_fadeout_time>
+    </preset>
+
+    <preset>
+      <preset_name>one_one</preset_name>
+      <audio_fadein_time>1.0</audio_fadein_time>
+      <audio_fadeout_time>1.0</audio_fadeout_time>
+    </preset>
+
+    <preset>
+      <preset_name>two_two</preset_name>
+      <audio_fadein_time>2.0</audio_fadein_time>
+      <audio_fadeout_time>2.0</audio_fadeout_time>
+    </preset>
+
+    <preset>
+      <preset_name>three_three</preset_name>
+      <audio_fadein_time>3.0</audio_fadein_time>
+      <audio_fadeout_time>3.0</audio_fadeout_time>
+    </preset>
+
+    <preset>
+      <preset_name>six_six</preset_name>
+      <audio_fadein_time>6.0</audio_fadein_time>
+      <audio_fadeout_time>6.0</audio_fadeout_time>
+    </preset>
+
+  </preset_list>
+</audio_preset_fade>

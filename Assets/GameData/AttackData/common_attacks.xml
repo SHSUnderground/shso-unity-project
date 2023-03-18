@@ -1,0 +1,373 @@
+<attack_data>
+
+  <attack>
+    <attack_name>ThrowableGeneric</attack_name>
+    <anim>pickup_throw</anim>
+    <behavior>BehaviorAttackTimeClamp</behavior>
+    <desired_range>10</desired_range>
+    <maximum_range>10</maximum_range>
+    <interruptible_by>4</interruptible_by>
+	<effect>Throwable sequence</effect>
+    <impact>
+      <impact_type>1</impact_type>
+      <impact_effect>BoomEffect</impact_effect>
+      <damage>35</damage>
+      <projectile_lifespan>3</projectile_lifespan>
+      <projectile_speed>15</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <pushback_duration>0</pushback_duration>
+      <recoil>4</recoil>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>ThrowableExplodingBarrel</attack_name>
+    <anim>pickup_throw</anim>
+    <behavior>BehaviorAttackTimeClamp</behavior>
+    <desired_range>10</desired_range>
+    <maximum_range>10</maximum_range>
+    <interruptible_by>4</interruptible_by>
+	<effect>Throwable sequence</effect>
+    <impact>
+      <impact_type>1</impact_type>
+      <impact_effect/>
+      <damage>0</damage>
+      <projectile_lifespan>3</projectile_lifespan>
+      <projectile_speed>15</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <pushback_duration>0</pushback_duration>
+      <recoil>4</recoil>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>ThrowableGenericSilent</attack_name>
+    <anim>pickup_throw</anim>
+    <behavior>BehaviorAttackTimeClamp</behavior>
+    <desired_range>10</desired_range>
+    <maximum_range>10</maximum_range>
+    <interruptible_by>4</interruptible_by>
+	<effect>Throwable sequence</effect>
+    <impact>
+      <impact_type>1</impact_type>
+      <damage>35</damage>
+      <projectile_lifespan>3</projectile_lifespan>
+      <projectile_speed>15</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <pushback_duration>0</pushback_duration>
+      <recoil>4</recoil>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>ThrowableWater</attack_name>
+    <anim>pickup_throw</anim>
+    <behavior>BehaviorAttackTimeClamp</behavior>
+    <desired_range>10</desired_range>
+    <maximum_range>10</maximum_range>
+    <interruptible_by>4</interruptible_by>
+    <effect>Throwable sequence</effect>
+    <environmental_attack>true</environmental_attack>
+    <impact>
+      <impact_type>1</impact_type>
+      <impact_effect>BoomEffect</impact_effect>
+      <damage>10</damage>
+      <projectile_explosion_radius>6.3</projectile_explosion_radius>
+      <projectile_lifespan>3</projectile_lifespan>
+      <projectile_speed>15</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <pushback_duration>0</pushback_duration>
+      <recoil>0</recoil>
+    </impact>
+  </attack>
+  <attack>
+    <attack_name>CardGameBlockBlowback</attack_name>
+    <impact>
+      <recoil>2</recoil>
+      <pushback_duration>1</pushback_duration>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>ElementalBonusBurnAttack</attack_name>
+    <impact>
+      <recoil>0</recoil>
+      <pushback_duration>0</pushback_duration>
+      <damage>5</damage>
+      <hits_friends>true</hits_friends>
+      <hits_enemies>false</hits_enemies>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>PumpkinBombFlamesAttack</attack_name>
+    <impact>
+      <recoil>0</recoil>
+      <pushback_duration>0</pushback_duration>
+      <damage>5</damage>
+      <hits_friends>true</hits_friends>
+      <hits_enemies>false</hits_enemies>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>DoctorStrangeCrimsonBands</attack_name>
+    <impact>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>5</damage>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>DoctorStrangeCrimsonBands2</attack_name>
+    <impact>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>6</damage>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>DoctorStrangeCrimsonBands3</attack_name>
+    <impact>
+      <impact_matrix_type>0</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>8</damage>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>WarMachineMk2Flamethrower</attack_name>
+    <impact>
+      <impact_matrix_type>4</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>1</damage>
+	  <hits_friends>false</hits_friends>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>WarMachineMk2Flamethrower2</attack_name>
+    <impact>
+      <impact_matrix_type>4</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>2</damage>
+	  <hits_friends>false</hits_friends>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>WarMachineMk2Flamethrower3</attack_name>
+    <impact>
+	<impact_matrix_type>4</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>3</damage>
+	  <hits_friends>false</hits_friends>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>SuperSkrullFlamesAttack</attack_name>
+    <impact>
+      <recoil>0</recoil>
+      <pushback_duration>0</pushback_duration>
+      <damage>5</damage>
+      <hits_friends>true</hits_friends>
+      <hits_enemies>false</hits_enemies>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>ChemicalTankDOT</attack_name>
+    <impact>
+      <impact_matrix_type>0</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>15</damage>
+    </impact>
+  </attack>
+
+ <attack>
+    <attack_name>shockDOT</attack_name>
+    <impact>
+      <impact_matrix_type>0</impact_matrix_type>
+      <recoil>7</recoil>
+	  <recoil_duration>5</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>5</damage>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>flameDOT</attack_name>
+    <impact>
+      <impact_matrix_type>0</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>5</damage>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>rustbombDOT</attack_name>
+    <impact>
+      <impact_matrix_type>0</impact_matrix_type>
+      <recoil>0</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>4</damage>
+    </impact>
+  </attack>
+
+<attack>
+    <attack_name>RocketDOT</attack_name>
+    <impact>
+      <impact_matrix_type>0</impact_matrix_type>
+      <recoil>7</recoil>
+	  <recoil_duration>0</recoil_duration>
+      <pushback_duration>0</pushback_duration>
+      <damage>70</damage>
+    </impact>
+  </attack>
+  
+  <attack>
+    <attack_name>GliderDefaultAttack</attack_name>
+    <impact>
+      <impact_type>1</impact_type>
+      <impact_effect>BoomEffect</impact_effect>
+      <damage>35</damage>
+      <maximum_hits_per_target>0</maximum_hits_per_target>
+      <maximum_targets_hit>1</maximum_targets_hit>
+      <minimum_distance>0</minimum_distance>
+      <projectile_name>Glider Default Attack</projectile_name>
+      <projectile_lifespan>20</projectile_lifespan>
+      <projectile_speed>0</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <projectile_aimed>false</projectile_aimed>
+      <projectile_attached>true</projectile_attached>
+      <projectile_gravity>0</projectile_gravity>
+      <projectile_destroy_on_impact>false</projectile_destroy_on_impact>
+      <projectile_destroy_on_collision>false</projectile_destroy_on_collision>
+      <pushback_duration>0</pushback_duration>
+      <recoil>4</recoil>
+      <knockdown_duration>1</knockdown_duration>
+      <recoil_duration>1</recoil_duration>
+      <launch_velocity>10</launch_velocity>
+      <rotate_target_to_impact>false</rotate_target_to_impact>
+      <show_collider>true</show_collider>
+      <impact_start_time>0</impact_start_time>
+      <impact_end_time>0</impact_end_time>
+      <collider_scale>1</collider_scale>
+      <pushback_from_collider>true</pushback_from_collider>
+      <firing_time>0</firing_time>
+    </impact>
+    <impact>
+      <impact_type>1</impact_type>
+      <impact_effect>BoomEffect</impact_effect>
+      <damage>0</damage>
+      <maximum_hits_per_target>0</maximum_hits_per_target>
+      <maximum_targets_hit>1</maximum_targets_hit>
+      <minimum_distance>0</minimum_distance>
+      <hits_friends>true</hits_friends>
+      <hits_enemies>false</hits_enemies>
+      <projectile_name>Glider Default Attack</projectile_name>
+      <projectile_lifespan>20</projectile_lifespan>
+      <projectile_speed>0</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <projectile_aimed>false</projectile_aimed>
+      <projectile_attached>true</projectile_attached>
+      <projectile_gravity>0</projectile_gravity>
+      <projectile_destroy_on_impact>false</projectile_destroy_on_impact>
+      <projectile_destroy_on_collision>false</projectile_destroy_on_collision>
+      <pushback_duration>0</pushback_duration>
+      <recoil>4</recoil>
+      <knockdown_duration>1</knockdown_duration>
+      <recoil_duration>1</recoil_duration>
+      <launch_velocity>10</launch_velocity>
+      <rotate_target_to_impact>false</rotate_target_to_impact>
+      <show_collider>true</show_collider>
+      <impact_start_time>0</impact_start_time>
+      <impact_end_time>0</impact_end_time>
+      <collider_scale>1</collider_scale>
+      <pushback_from_collider>true</pushback_from_collider>
+      <firing_time>0</firing_time>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>DebugCheatKillAttack</attack_name>
+    <impact>
+      <impact_type>3</impact_type>
+      <damage>1000000</damage>
+      <pushback_duration>0</pushback_duration>
+      <recoil>0</recoil>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>PlayerRespawnAttack</attack_name>
+    <impact>
+      <impact_type>3</impact_type>
+      <damage>0</damage>
+      <pushback_duration>0</pushback_duration>
+      <recoil>4</recoil>
+      <recoil_duration>0</recoil_duration>
+    </impact>
+  </attack>
+
+  <attack>
+    <attack_name>Throwablerust</attack_name>
+    <anim>pickup_throw</anim>
+    <desired_range>10</desired_range>
+    <maximum_range>10</maximum_range>
+    <interruptible_by>4</interruptible_by>
+	<effect>Throwable sequence</effect>
+    <impact>
+      <impact_type>1</impact_type>
+      <impact_effect>BoomEffect</impact_effect>
+      <damage>1</damage>
+      <projectile_lifespan>3</projectile_lifespan>
+      <projectile_speed>15</projectile_speed>
+      <projectile_rotate_to_velocity>false</projectile_rotate_to_velocity>
+      <pushback_duration>0</pushback_duration>
+      <recoil>0</recoil>
+    </impact>
+  </attack>
+
+  <!-- for temporary stand-in attacks before attacks have been created for a new villain character -->
+  <attack>
+    <attack_name>generic_villain_attack</attack_name>
+    <anim>attack_1</anim>
+    <desired_range>0.5</desired_range>
+    <maximum_range>1</maximum_range>
+  </attack>
+
+  <!-- for temporary stand-in attacks before attacks have been created for a new hero character -->
+  <attack>
+    <attack_name>generic_hero_attack</attack_name>
+    <anim>attack_L1</anim>
+    <desired_range>0.5</desired_range>
+    <maximum_range>1</maximum_range>
+  </attack>
+
+  <!-- for temporary stand-in attacks before attacks have been created for a new character that does not have attack animations -->
+  <attack>
+    <attack_name>generic_idle_attack</attack_name>
+    <anim>movement_idle</anim>
+    <desired_range>0.5</desired_range>
+    <maximum_range>1</maximum_range>
+  </attack>
+</attack_data>

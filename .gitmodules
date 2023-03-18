@@ -1,0 +1,3 @@
+[submodule "Assets/AssetBundles"]
+	path = Assets/AssetBundles
+	url = https://github.com/SHSUnderground/shso-assets/

@@ -1,0 +1,48 @@
+<audio_category_limiting>
+  
+  <category>
+    <name>Unassigned</name>
+    <max_playbacks>10</max_playbacks>
+  </category>
+  
+  <category>
+    <name>SfxHero</name>
+    <max_playbacks>10</max_playbacks>
+  </category>
+
+  <category>
+    <name>SfxVillain</name>
+    <max_playbacks>3</max_playbacks>
+  </category>
+  
+  <category>
+    <name>SfxEmitter</name>
+    <max_playbacks>999</max_playbacks>
+  </category>
+  
+  <category>
+    <name>SfxHud</name>
+    <max_playbacks>10</max_playbacks>
+  </category>
+
+  <category>
+    <name>SfxGeneral</name>
+    <max_playbacks>10</max_playbacks>
+  </category>
+  
+  <category>
+    <name>MusicScore</name>
+    <max_playbacks>6</max_playbacks>
+  </category>
+  
+  <category>
+    <name>MusicEmitter</name>
+    <max_playbacks>5</max_playbacks>
+  </category>
+    
+  <category>
+    <name>Vox</name>
+    <max_playbacks>5</max_playbacks>
+  </category>
+
+</audio_category_limiting>

@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mainData\Assets\Scripts\SHSInput.cs">
+    <Files>
+      <File FileName="Assets\mainData\Assets\Scripts\AppShell.cs" Line="1915" Column="16" />
+      <File FileName="Assets\mainData\Assets\Scripts\OpenChatWidget.cs" Line="7" Column="53" />
+      <File FileName="Assets\mainData\Assets\Scripts\NetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\DUtils.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\EventReporter.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\VerifyOpenChat.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\RTCClient.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\AFKWatcher.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\SHSInput.cs" Line="76" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

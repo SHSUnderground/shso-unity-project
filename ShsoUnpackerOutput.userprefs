@@ -1,0 +1,51 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mainData\Assets\Scripts\PlayerInputController.cs">
+    <Files>
+      <File FileName="Assets\mainData\Assets\Scripts\SocialSpaceControllerImpl.cs" Line="16" Column="36" />
+      <File FileName="Assets\mainData\Assets\Scripts\SpawnPoint.cs" Line="97" Column="37" />
+      <File FileName="Assets\mainData\Assets\Scripts\PlayerInputController.cs" Line="1" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\PlayerInfoUpdateMessage.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="mainData" expanded="True">
+                <Node name="Assets" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="PlayerInputController.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIControl.cs" line="2201" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIControl.cs" line="2220" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIControl.cs" line="3359" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIDrawTexture.cs" line="99" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIDrawTexture.cs" line="134" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIDrawTexture.cs" line="164" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIDrawTexture.cs" line="180" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIDrawTexture.cs" line="192" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\LocalPlayerProfile.cs" line="117" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\PrefsManager.cs" line="150" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\PrefsManager.cs" line="141" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\NetworkManager.cs" line="890" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\SocialSpaceControllerImpl.cs" line="368" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\SpawnPoint.cs" line="81" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\SpawnPoint.cs" line="92" />
+      <Breakpoint enabled="false" file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\GUIBundleManager.cs" line="336" />
+      <Breakpoint file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\PlayerInputController.cs" line="612" />
+      <Breakpoint file="C:\Users\test\Desktop\UnpackerTempOutput\ShsoUnpackerOutput\Assets\mainData\Assets\Scripts\PlayerInputController.cs" line="763" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

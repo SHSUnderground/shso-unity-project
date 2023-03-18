@@ -1,0 +1,270 @@
+<pickup_data>
+
+  <pickup>
+    <id>power_restore_singlestar</id>
+    <display_name>Small Power Restore</display_name>
+    <effect>StarPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <power>20</power>
+  </pickup>
+  
+   <pickup>
+    <id>power_restore_ministar</id>
+    <display_name>Tiny Power Restore</display_name>
+    <effect>StarPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <power>4</power>
+  </pickup>
+
+  <pickup>
+    <id>health_restore_low</id>
+    <display_name>Small Health Restore</display_name>
+    <effect>HealthPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <health>25</health>
+  </pickup>
+
+  <pickup>
+    <id>health_restore_medium</id>
+    <display_name>Medium Health Restore</display_name>
+    <effect>HealthPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <health>60</health>
+  </pickup>
+
+  <pickup>
+    <id>health_restore_high</id>
+    <display_name>Big Health Restore</display_name>
+    <effect>HealthPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <health>120</health>
+  </pickup>
+
+  <pickup>
+    <id>health_regen</id>
+    <display_name>Health Regen</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <health>15</health>
+    <combat_effect>HealthRegenPickupBuff</combat_effect>
+  </pickup>
+
+  <pickup>
+    <id>damage_increase</id>
+    <display_name>Damage Increase</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>DamageIncreasePickupBuff</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>extremis_canister_super_gain</id>
+    <display_name>Extremis Super Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>ExtremisCanisterStrengthPickupBuff</combat_effect>
+  </pickup>
+  
+    <pickup>
+    <id>extremis_canister_speed_increase</id>
+    <display_name>Extremis Speed Increase</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>ExtremisCanisterSpeedPickupBuff</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>golden_apple_damage_increase</id>
+    <display_name>Golden Apple Damage Increase</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>GoldenAppleStrengthPickupBuff</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>golden_apple_super_gain</id>
+    <display_name>Golden Apple Super Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>GoldenAppleEnergyPickupBuff</combat_effect>
+  </pickup>
+    <pickup>
+    <id>golden_apple_damage_increase_boss</id>
+    <display_name>Golden Apple Damage Increase</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>GoldenAppleStrengthPickupBuff_BOSS</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>golden_apple_super_gain_boss</id>
+    <display_name>Golden Apple Super Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>GoldenAppleEnergyPickupBuff_BOSS</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>super_gain</id>
+    <display_name>Super Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <power>15</power>
+    <combat_effect>SuperGainPickupBuff</combat_effect>
+  </pickup>
+
+  <pickup>
+    <id>move_speed</id>
+    <display_name>Move Speed</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>MoveSpeedPickupBuff</combat_effect>
+  </pickup>
+
+  <pickup>
+    <id>super_armor</id>
+    <display_name>Super Armor</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>SuperArmorPickupBuff</combat_effect>
+  </pickup>
+
+  <pickup>
+    <id>elemental_bonus</id>
+    <display_name>Elemental Bonus</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>ElementalBonusPickupBuff</combat_effect>
+  </pickup>
+
+  <pickup>
+    <id>point_bonus</id>
+    <display_name>Point Bonus</display_name>
+    <effect>TokenPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <scoring>
+      <picked_up>25</picked_up>
+    </scoring>
+  </pickup>
+  
+  <pickup>
+    <id>golden_pineapple_super_gain</id>
+    <display_name>Golden Pineapple Super Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>60</time_to_despawn>
+    <combat_effect>GoldenPineapplePickupBuff</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_size_vfx</id>
+    <display_name>Fractal Size VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffSizeVFX</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_damage_increase</id>
+    <display_name>Fractal Damage Increase</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffDamage</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_regen_gain</id>
+    <display_name>Fractal Health Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffRegen</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_speed_increase</id>
+    <display_name>Fractal Speed Increase</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffSpeedGain</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_super_gain</id>
+    <display_name>Fractal Super Gain</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffSuperGain</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_blue_vfx</id>
+    <display_name>Fractal Blue VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffBlueVFX</combat_effect>
+  </pickup>
+  
+   <pickup>
+    <id>fractal_pickup_green_vfx</id>
+    <display_name>Fractal Green VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffGreenVFX</combat_effect>
+  </pickup>
+  
+   <pickup>
+    <id>fractal_pickup_orange_vfx</id>
+    <display_name>Fractal Orange VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffOrangeVFX</combat_effect>
+  </pickup>
+  
+   <pickup>
+    <id>fractal_pickup_purple_vfx</id>
+    <display_name>Fractal Purple VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffPurpleVFX</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_red_vfx</id>
+    <display_name>Fractal Red VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffRedVFX</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_yellow_vfx</id>
+    <display_name>Fractal Yellow VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffYellowVFX</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_giant_vfx</id>
+    <display_name>Fractal Giant VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffGiantVFX</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_small_vfx</id>
+    <display_name>Fractal Small VFX</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffSmallVFX</combat_effect>
+  </pickup>
+  
+  <pickup>
+    <id>fractal_pickup_invulnerable</id>
+    <display_name>Fractal Invulnerable</display_name>
+    <effect>PowerupPickupEffect</effect>
+    <time_to_despawn>15</time_to_despawn>
+    <combat_effect>FractalBuffInvulnerable</combat_effect>
+  </pickup>
+
+</pickup_data>

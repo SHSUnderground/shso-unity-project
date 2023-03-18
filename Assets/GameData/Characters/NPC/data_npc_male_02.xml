@@ -1,0 +1,16 @@
+<npc_male_02>
+  <emote_reactions>
+    <!--<emote>
+      <command>rude</command>
+      <reaction>emote_approve1</reaction>
+    </emote>
+    <emote>
+      <command>angry</command>
+      <reaction>emote_approve1</reaction>
+    </emote>
+    <emote>
+      <command>scared</command>
+      <reaction>emote_approve1</reaction>
+    </emote>-->
+  </emote_reactions>
+</npc_male_02>

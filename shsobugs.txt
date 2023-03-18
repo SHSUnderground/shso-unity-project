@@ -1,0 +1,581 @@
+
+Failed to load character prefab from asset bundle for character <jean_grey>.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+SocialSpaceControllerLoad:OnCharacterPrefabLoaded(Object, AssetBundle, Object) (at Assets\mainData\Assets\Scripts\SocialSpaceControllerImpl.cs:260)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:777)
+ 
+(Filename: Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs Line: 260)
+
+
+
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Audio/brawler_audio.unity3d
+
+
+AssetName=Music_SHS_Mission_Loading_audio
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:761)
+
+
+
+Failed to load audio prefab <Music_SHS_Mission_Loading_audio> from bundle <Audio/brawler_audio>
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsAudio.Helpers:OnBundlePrefabLoaded(Object, AssetBundle, Object) (at Assets/mainData/Assets/Scripts/ShsAudio/Helpers.cs:174)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:777)
+
+
+
+_________________________________________
+
+
+Game controller prefab not found.
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+GameController:GetController() (at Assets/mainData/Assets/Scripts/GameController.cs:335)
+ShsAudioSource:Start() (at Assets/mainData/Assets/Scripts/ShsAudioSource.cs:306)
+
+
+
+NullReferenceException: Object reference not set to an instance of an object
+ShsAudioSource.Start () (at Assets/mainData/Assets/Scripts/ShsAudioSource.cs:306)
+
+
+There are no audio listeners in the scene. Please ensure there is always one audio listener in the scene
+
+
+___________________________________
+
+Level 'Brawler' (-1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+UnityEngine.Application:LoadLevelAsync(String, Int32, Boolean, Boolean)
+UnityEngine.Application:LoadLevel(String) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineApplication.cs:35)
+AppShell:CompleteTransition() (at Assets\mainData\Assets\Scripts\AppShell.cs:1381)
+AppShell:Update() (at Assets\mainData\Assets\Scripts\AppShell.cs:1322)
+
+[C:/BuildAgent/work/d9c061b1c154f5ae/Runtime/Misc/Player.cpp line 265] 
+(Filename: Assets/mainData/Assets/Scripts/AppShell.cs Line: 1381)
+
+
+_____________________________________________________
+file://C:/dev/RetroSquad/Assets/GameData/Brawler/pickup_data.xml : The returned game data was an empty string.  The request failed.
+
+file://C:/dev/RetroSquad/Assets/GameData/Brawler/drop_table_data.xml : The returned game data was an empty string.  The request failed.
+
+
+file://C:/dev/RetroSquad/Assets/GameData/Brawler/character_combination_data.xml : The returned game data was an empty string.  The request failed.
+
+
+file://C:/dev/RetroSquad/Assets/GameData/Brawler/enemy_health_bar_data.xml : The returned game data was an empty string.  The request failed.
+
+file://C:/dev/RetroSquad/Assets/GameData/Brawler/brawler_character_data.xml : The returned game data was an empty string.  The request failed.
+
+file://C:/dev/RetroSquad/Assets/GameData/Brawler/brawler_orthographic_hud_data.xml : The returned game data was an empty string.  The request failed.
+
+_____________________________________________________________________
+
+The returned asset bundle was not an AssetBundle.  The request failed with status code <500>. The request was for bundle <localfile$AssetBundles/Brawler/Brawler_globals.unity3d>.
+
+The returned asset bundle was not an AssetBundle.  The request failed with status code <500>. The request was for bundle <localfile$AssetBundles/GUI/non_locale/brawler_bundle.unity3d>.
+
+
+The returned asset bundle was not an AssetBundle.  The request failed with status code <500>. The request was for bundle <localfile$AssetBundles/GUI/i18n/en_us/en_us_brawler_bundle.unity3d>.
+
+
+________________________________________________
+
+ShsWebService requested URI: http://192.168.75.128/rasp/users/3870526/heroes/
+
+
+
+The referenced script on this Behaviour is missing!
+UnityEngine.Resources:Load(String, Type)
+UnityEngine.Resources:Load(String) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\BaseClass.cs:1559)
+ShsAudioSourceList:GetList(String) (at Assets\mainData\Assets\Scripts\ShsAudioSourceList.cs:24)
+BrawlerController:OnSeated(Boolean, String) (at Assets\mainData\Assets\Scripts\BrawlerController.cs:781)
+NetworkManager:OnGameServerConnected(Boolean, String) (at Assets\mainData\Assets\Scripts\NetworkManager.cs:1053)
+RTCClient:OnConnect(Boolean, String) (at Assets\mainData\Assets\Scripts\RTCClient.cs:157)
+RTCClient:OnLoginTransactionComplete(ExitCondition, String, Object) (at Assets\mainData\Assets\Scripts\RTCClient.cs:840)
+TransactionMonitor:CloseTransaction() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:403)
+TransactionMonitor:checkForCompletion() (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:392)
+TransactionMonitor:CompleteStep(String, String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:353)
+TransactionMonitor:CompleteStep(String) (at Assets\mainData\Assets\Scripts\TransactionMonitor.cs:321)
+RTCClient:HandleStringResponse(String) (at Assets\mainData\Assets\Scripts\RTCClient.cs:917)
+RTCClient:OnSFExtensionResponse(Object, String) (at Assets\mainData\Assets\Scripts\RTCClient.cs:876)
+SmartFoxClientAPI.SmartFoxClient:_DispatchEvent(SFSEvent)
+SmartFoxClientAPI.SmartFoxClient:ProcessSingleEventInEventQueue()
+RTCClient:Update() (at Assets\mainData\Assets\Scripts\RTCClient.cs:276)
+NetworkManager:Update() (at Assets\mainData\Assets\Scripts\NetworkManager.cs:177)
+AppShell:Update() (at Assets\mainData\Assets\Scripts\AppShell.cs:1287)
+
+[C:/BuildAgent/work/d9c061b1c154f5ae/Runtime/Mono/MonoBehaviour.cpp line 1509] 
+(Filename: Assets/mainData/Assets/Scripts/ShsAudioSourceList.cs Line: 24)
+
+
+
+
+
+
+Asset Bundle <Brawler/Fluorine_002_S02M_BOSS_scenario> Load callback failed with error <System.NullReferenceException: 
+
+  at (wrapper managed-to-native) UnityEngine.Material:Internal_CreateWithShader (UnityEngine.Material,UnityEngine.Shader)
+
+  at UnityEngine.Material..ctor (UnityEngine.Shader shader) [0x00006] in C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\Graphics.cs:1124 
+
+  at GUIAlphaCutoffDrawTexture..ctor () [0x00006] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIAlphaCutoffDrawTexture.cs:41 
+
+  at SHSBrawlerScoreWindow..ctor () [0x0016e] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\SHSBrawlerScoreWindow.cs:71 
+
+  at SHSBrawlerMainWindow.InitializeResources (Boolean reload) [0x001cf] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\SHSBrawlerMainWindow.cs:301 
+
+  at GUIControl.CheckAndInitializeResourcesIfTime (ResourceLoadingPhaseTraitEnum trait) [0x0002e] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2201 
+
+  at GUIWindow.SetVisible (Boolean visible, SetVisibleReason reason) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIWindow.cs:774 
+
+  at GUIControl.SetVisible (Boolean visible) [0x00010] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2921 
+
+  at GUIControl.set_IsVisible (Boolean value) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:1450 
+
+  at GUIControl.Show (ModalLevelEnum modalLevel) [0x00013] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2582 
+
+  at GUIControl.Show () [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2573 
+
+  at GUIControl.EnsureHierarchyVisibleState () [0x0001b] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2908 
+
+  at GUIControl.SetVisible (Boolean visible, SetVisibleReason reason) [0x0003b] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2949 
+
+  at GUIWindow.SetVisible (Boolean visible, SetVisibleReason reason) [0x0006a] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIWindow.cs:801 
+
+  at GUIControl.SetVisible (Boolean visible) [0x00010] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2921 
+
+  at GUIControl.set_IsVisible (Boolean value) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:1450 
+
+  at GUIControl.Show (ModalLevelEnum modalLevel) [0x00013] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2582 
+
+  at GUIControl.Show () [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2573 
+
+  at BrawlerController.SetUIMode (BrawlerUIMode mode) [0x00071] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\BrawlerController.cs:2915 
+
+  at BrawlerController.OnBrawlerScenarioBundleLoaded (.AssetBundleLoadResponse response, System.Object extraData) [0x00094] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\BrawlerController.cs:948 
+
+  at AssetBundleLoader.Update () [0x00153] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:740 >.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:744)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 744)
+
+
+
+
+
+ShsWebService requested URI: http://192.168.75.128/rasp/users/3870526/
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseRasp(WWW, ShsWebResponse) (at Assets\mainData\Assets\Scripts\ShsWebService.cs:786)
+<ProcessWebRequest>c__IteratorF7:MoveNext() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:736)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineMonoBehaviour.cs:43)
+ShsWebService:Update() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:464)
+ 
+(Filename: Assets/mainData/Assets/Scripts/ShsWebService.cs Line: 786)
+
+An error occured during the WWW request: 403 Forbidden
+
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseRasp(WWW, ShsWebResponse) (at Assets\mainData\Assets\Scripts\ShsWebService.cs:787)
+<ProcessWebRequest>c__IteratorF7:MoveNext() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:736)
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineMonoBehaviour.cs:43)
+ShsWebService:Update() (at Assets\mainData\Assets\Scripts\ShsWebService.cs:464)
+ 
+(Filename: Assets/mainData/Assets/Scripts/ShsWebService.cs Line: 787)
+
+
+
+_____________________________________________________________________________
+
+
+Asset Bundle <Brawler/Fluorine_002_S02M_BOSS_scenario> Load callback failed with error <System.NullReferenceException: Object reference not set to an instance of an object
+
+  at NewShoppingManager+<findSimilarUnownedItem>c__AnonStorey1F0.<>m__222 (.CatalogItem a) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NewShoppingManager.cs:311 
+
+  at System.Collections.Generic.List`1[CatalogItem].GetIndex (Int32 startIndex, Int32 count, System.Predicate`1 match) [0x00000] in <filename unknown>:0 
+
+  at System.Collections.Generic.List`1[CatalogItem].Find (System.Predicate`1 match) [0x00000] in <filename unknown>:0 
+
+  at NewShoppingManager.findSimilarUnownedItem (System.String itemName, ShoppingCategory defaultCategory) [0x00025] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NewShoppingManager.cs:309 
+
+  at SHSBrawlerCompleteWindow..ctor () [0x009c9] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\SHSBrawlerCompleteWindow.cs:779 
+
+  at SHSBrawlerMainWindow.InitializeResources (Boolean reload) [0x0027f] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\SHSBrawlerMainWindow.cs:315 
+
+  at GUIControl.CheckAndInitializeResourcesIfTime (ResourceLoadingPhaseTraitEnum trait) [0x0002e] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2201 
+
+  at GUIWindow.SetVisible (Boolean visible, SetVisibleReason reason) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIWindow.cs:774 
+
+  at GUIControl.SetVisible (Boolean visible) [0x00010] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2921 
+
+  at GUIControl.set_IsVisible (Boolean value) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:1450 
+
+  at GUIControl.Show (ModalLevelEnum modalLevel) [0x00013] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2582 
+
+  at GUIControl.Show () [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2573 
+
+  at GUIControl.EnsureHierarchyVisibleState () [0x0001b] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2908 
+
+  at GUIControl.SetVisible (Boolean visible, SetVisibleReason reason) [0x0003b] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2949 
+
+  at GUIWindow.SetVisible (Boolean visible, SetVisibleReason reason) [0x0006a] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIWindow.cs:801 
+
+  at GUIControl.SetVisible (Boolean visible) [0x00010] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2921 
+
+  at GUIControl.set_IsVisible (Boolean value) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:1450 
+
+  at GUIControl.Show (ModalLevelEnum modalLevel) [0x00013] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2582 
+
+  at GUIControl.Show () [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\GUIControl.cs:2573 
+
+  at BrawlerController.SetUIMode (BrawlerUIMode mode) [0x00071] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\BrawlerController.cs:2915 
+
+  at BrawlerController.OnBrawlerScenarioBundleLoaded (.AssetBundleLoadResponse response, System.Object extraData) [0x00094] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\BrawlerController.cs:948 
+
+  at AssetBundleLoader.Update () [0x00153] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:740 >.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:744)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 744)
+
+
+
+____________________________________________________________
+
+
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Tiles/Hecks_Kitchen_tile_Background_01_Lightning.unity3d
+CustomAssetBundle-2bf0ea2497b8b0a4d8ad50025c8dc4b7 (YES)
+
+An error occured during the WWW request: Couldn't open file 
+/dev/RetroSquad/Assets/AssetBundles/Audio/tracks/hecks_kitchen_alley_2_audio.unity3d
+assetName=Level_Music_HecksKitchen_Alley_Boss
+CustomAssetBundle-6e0c6d92dc1cbe345b3100d122795d98 (YES)
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Audio/tracks/mission_complete_audio.unity3d
+assetName=Music_SHS_Mission_Complete
+CustomAssetBundle-6aebe4e50a63857449c67e99e72e2710 (NO)
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Audio/vo/kingpin_boss_vo_audio.unity3d
+CustomAssetBundle-c49ed819daf058d46813d8a954812fe6 (YES)
+CustomAssetBundle-c7c2d0491f689ab40b115d8b1dd34c84 (NO)
+
+
+
+____________________________________________________________________
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Characters/kingpin_thug_01.unity3d
+CustomAssetBundle-c5ae7103d8f6bff45803452fff99fb26
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Characters/kingpin_thug_02.unity3d
+CustomAssetBundle-0e49ec809528db64b9a1c4a607a77a5a
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Characters/kingpin_thug_03.unity3d
+CustomAssetBundle-d37b822db68ffdb4ca48ae9bcc3afe22
+
+
+
+____________________________________________________________
+
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/kingpin_thug_fx.unity3d
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_brawler_fx.unity3d
+CustomAssetBundle-8f7f3c1f2816ff14d9c7e9f21fcb5523 (?)
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_character_fx.unity3d
+
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_consumables_fx.unity3d
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_gameworld_fx.unity3d
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_general_fx.unity3d
+
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_gimmick_fx.unity3d
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/shared_pickup_fx.unity3d
+
+
+
+__________________________________________________
+
+Asset Bundle <FX/shared_pickup_fx> Load callback failed with error <System.ArgumentException: The thing you want to instantiate is null.
+
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00006] in C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineObject.cs:71 
+
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original) [0x00000] in C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineObject.cs:58 
+
+  at CombatController.addCollider (System.String colliderPrefabName, System.String bone, System.String name, Vector3 offset, Single scale) [0x00081] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CombatController.cs:1298 
+
+  at CharacterSpawn.CreateColliders (.DataWarehouse characterData) [0x00142] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1788 
+
+  at CharacterSpawn.EffectsLoadedCallback (.EffectSequenceList fxList, System.Object extraData) [0x00102] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1673 
+
+  at EffectSequenceList.NotifyAllWaitingCallbacks () [0x00013] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\EffectSequenceList.cs:130 
+
+  at EffectSequenceList.OnAssetBundleLoaded (.AssetBundleLoadResponse response, System.Object extraData) [0x000d9] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\EffectSequenceList.cs:156 
+
+  at AssetBundleLoader.Update () [0x00153] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:740 >.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:744)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 744)
+
+
+
+_____________________________________________________________________________________________________
+
+Asset Bundle <FX/spiderman_fx> Load callback failed with error <System.ArgumentException: The thing you want to instantiate is null.
+
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00006] in C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineObject.cs:71 
+
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original) [0x00000] in C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineObject.cs:58 
+
+  at CombatController.addCollider (System.String colliderPrefabName, System.String bone, System.String name, Vector3 offset, Single scale) [0x00081] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CombatController.cs:1298 
+
+  at CharacterSpawn.CreateColliders (.DataWarehouse characterData) [0x00142] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1789 
+
+  at CharacterSpawn.EffectsLoadedCallback (.EffectSequenceList fxList, System.Object extraData) [0x00102] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CharacterSpawn.cs:1674 
+
+  at EffectSequenceList.NotifyAllWaitingCallbacks () [0x00013] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\EffectSequenceList.cs:130 
+
+  at EffectSequenceList.OnAssetBundleLoaded (.AssetBundleLoadResponse response, System.Object extraData) [0x000d9] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\EffectSequenceList.cs:156 
+
+  at AssetBundleLoader.Update () [0x00153] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:740 >.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:744)
+ 
+(Filename: Assets/mainData/Assets/Scripts/AssetBundleLoader.cs Line: 744)
+
+wow, these two CABS seem identical: 
+CustomAssetBundle-364d3c3c7e6cfea449630acde12127c7 
+CustomAssetBundle-c2ff432ae7cf55e499f9c2b294f9b58c
+they both appear to be the spiderman_fx cab.
+
+
+__________________________________________________________
+
+Requested collider object LeftHandCollider not found in CombatController!
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+CombatController:getColliderObject(String) (at Assets\mainData\Assets\Scripts\CombatController.cs:1673)
+ImpactBase:ImpactBegin(CharacterGlobals, AttackData, CombatController) (at Assets\mainData\Assets\Scripts\ImpactBase.cs:43)
+ImpactMelee:ImpactBegin(CharacterGlobals, AttackData, CombatController) (at Assets\mainData\Assets\Scripts\ImpactMelee.cs:19)
+ImpactData:CreateImpact(AttackData, Int32, CharacterGlobals, CombatController) (at Assets\mainData\Assets\Scripts\CombatController.cs:304)
+BehaviorAttackBase:behaviorFirstUpdate() (at Assets\mainData\Assets\Scripts\BehaviorAttackBase.cs:323)
+BehaviorAttackBase:behaviorUpdate() (at Assets\mainData\Assets\Scripts\BehaviorAttackBase.cs:377)
+BehaviorManager:Update() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:92)
+
+Collider object RightWebShooterCollider not found for attack Spiderman_UltimateL4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ImpactBase:ImpactBegin(CharacterGlobals, AttackData, CombatController) (at Assets\mainData\Assets\Scripts\ImpactBase.cs:46)
+ImpactProjectile:ImpactBegin(CharacterGlobals, AttackData, CombatController) (at Assets\mainData\Assets\Scripts\ImpactProjectile.cs:27)
+ImpactData:CreateImpact(AttackData, Int32, CharacterGlobals, CombatController) (at Assets\mainData\Assets\Scripts\CombatController.cs:304)
+BehaviorAttackBase:behaviorFirstUpdate() (at Assets\mainData\Assets\Scripts\BehaviorAttackBase.cs:323)
+BehaviorAttackBase:behaviorUpdate() (at Assets\mainData\Assets\Scripts\BehaviorAttackBase.cs:377)
+BehaviorManager:Update() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:92)
+ 
+(Filename: Assets/mainData/Assets/Scripts/ImpactBase.cs Line: 46)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at AIControllerBrawler.Update () [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AIControllerBrawler.cs:153 
+ 
+(Filename: Assets/mainData/Assets/Scripts/AIControllerBrawler.cs Line: 153)
+
+Exception: Trying to marshall a non-networked game object: kingpin_thug_melee
+  at ShsSerializer+ShsWriter.Write (UnityEngine.GameObject go) [0x0003c] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\ShsSerializer.cs:73 
+
+  at NetActionAttack.SerializeToBinary (.ShsWriter writer) [0x00007] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NetActionAttack.cs:25 
+
+  at ShsSerializer+ShsWriter.Write (.NetAction act) [0x0000c] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\ShsSerializer.cs:100 
+
+  at NetActionMessage.SerializeToBinary (.ShsWriter writer) [0x00031] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NetActionMessage.cs:22 
+
+  at ShsSerializer+ShsWriter.Write (.NetworkMessage msg) [0x0000c] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\ShsSerializer.cs:85 
+
+  at ShsSerializer+ShsWriter.Write (System.Collections.Generic.List`1 msgList) [0x00020] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\ShsSerializer.cs:93 
+
+  at AggregateMessage.SerializeToBinary (.ShsWriter writer) [0x00007] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AggregateMessage.cs:10 
+
+  at ShsSerializer+ShsWriter.Write (.NetworkMessage msg) [0x0000c] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\ShsSerializer.cs:85 
+
+  at NetworkMessage.ToEncodedString (.NetworkMessage msg) [0x0000f] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NetworkMessage.cs:26 
+
+  at RTCClient.SendToAll (.NetworkMessage msg) [0x00000] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\RTCClient.cs:365 
+
+  at NetworkManager.SendGameMsg (.NetworkMessage msg) [0x0000b] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NetworkManager.cs:328 
+
+  at NetGameManager.Update () [0x001bd] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NetGameManager.cs:329 
+
+  at NetworkManager.Update () [0x0004e] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\NetworkManager.cs:181 
+
+  at AppShell.Update () [0x0000b] in C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\AppShell.cs:1287 
+ 
+(Filename: Assets/mainData/Assets/Scripts/ShsSerializer.cs Line: 73)
+
+_________________________________________________
+Failed to spawn projectile L4 bullet for attack Spiderman_UltimateL4
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ImpactProjectile:CreateProjectile(CharacterGlobals, GameObject, GameObject) (at Assets\mainData\Assets\Scripts\ImpactProjectile.cs:168)
+ImpactProjectile:ImpactUpdate(Single) (at Assets\mainData\Assets\Scripts\ImpactProjectile.cs:62)
+BehaviorAttackBase:behaviorLateUpdate() (at Assets\mainData\Assets\Scripts\BehaviorAttackBase.cs:655)
+BehaviorManager:LateUpdate() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:108)
+
+________________________________________________________
+
+REQ: AssetName=Music_DailyBugle_AuntMays in bundle Audio/tracks/gameworld_bugle_audio
+UnityEngine.Debug:Log(Object)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:761)
+CustomAssetBundle-95b3bff490762fb4ba708eeeeae65a55
+
+
+REQ: AssetName=Music_3D_DailyBugle_Piano in bundle Audio/bugle_audio
+UnityEngine.Debug:Log(Object)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:761)
+CustomAssetBundle-9f34ea755f5ecda40a19c0f7b822982c
+
+_______________________________________________________________
+
+The referenced script on this Behaviour is missing!
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineObject.cs:44)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion) (at C:\BuildAgent\work\d9c061b1c154f5ae\Runtime\ExportGenerated\Editor\UnityEngineObject.cs:53)
+CombatController:createPopup(Vector3, String, String) (at Assets\mainData\Assets\Scripts\CombatController.cs:3716)
+CombatController:showPopupDamage(Single, Boolean) (at Assets\mainData\Assets\Scripts\CombatController.cs:2012)
+CombatController:tryShowPopupDamage(CombatController, Single) (at Assets\mainData\Assets\Scripts\CombatController.cs:2001)
+CombatController:attackHit(Vector3, CombatController, AttackData, ImpactData) (at Assets\mainData\Assets\Scripts\CombatController.cs:1717)
+AttackColliderController:OnTriggerEnter(Collider) (at Assets\mainData\Assets\Scripts\AttackColliderController.cs:161)
+
+[C:/BuildAgent/work/d9c061b1c154f5ae/Runtime/Mono/MonoBehaviour.cpp line 1509] 
+(Filename: Assets/mainData/Assets/Scripts/CombatController.cs Line: 3716)
+
+
+__________________________________________________________________
+
+GESPBNI prefab name=skrull meleehit impact sequence
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EffectSequenceList:GetEffectSequencePrefabByNameInternal(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:194)
+EffectSequenceList:GetEffectSequencePrefabByName(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:236)
+CombatController:playImpactEffectFromSource(CombatController, String, Boolean) (at Assets\mainData\Assets\Scripts\CombatController.cs:2947)
+CombatController:hitByAttackLocal(Vector3, CombatController, String, Single, ImpactData) (at Assets\mainData\Assets\Scripts\CombatController.cs:1777)
+CombatController:attackHit(Vector3, CombatController, AttackData, ImpactData) (at Assets\mainData\Assets\Scripts\CombatController.cs:1735)
+AttackColliderController:OnTriggerEnter(Collider) (at Assets\mainData\Assets\Scripts\AttackColliderController.cs:161)
+ 
+(Filename: Assets/mainData/Assets/Scripts/EffectSequenceList.cs Line: 194)
+CustomAssetBundle-ab09f0d9a65a69647b3c45e6810d54ac
+shared_character_fx.unity3d ???
+
+_____________________________________________
+GESPBNI prefab name=emote_idle_sequence
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EffectSequenceList:GetEffectSequencePrefabByNameInternal(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:194)
+EffectSequenceList:TryGetEffectSequencePrefabByName(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:241)
+EffectSequenceList:PlaySequence(String, GameObject, OnSequenceDone, OnSequenceEvent) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:363)
+EffectSequenceList:PlaySequence(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:342)
+BehaviorMovement:behaviorBegin() (at Assets\mainData\Assets\Scripts\BehaviorMovement.cs:94)
+BehaviorAttackApproach:behaviorBegin() (at Assets\mainData\Assets\Scripts\BehaviorAttackApproach.cs:15)
+BehaviorBase:behaviorBegin(BehaviorBase) (at Assets\mainData\Assets\Scripts\BehaviorBase.cs:96)
+BehaviorManager:changeBehavior(BehaviorBase) (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:165)
+BehaviorManager:pickBehavior() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:138)
+BehaviorManager:endBehavior() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:243)
+BehaviorRecoil:behaviorUpdate() (at Assets\mainData\Assets\Scripts\BehaviorRecoil.cs:54)
+BehaviorManager:Update() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:92)
+ 
+(Filename: Assets/mainData/Assets/Scripts/EffectSequenceList.cs Line: 194)
+
+GESPBNI characterPrefabsBundle=Characters/kingpin_thug_02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EffectSequenceList:GetEffectSequencePrefabByNameInternal(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:197)
+EffectSequenceList:TryGetEffectSequencePrefabByName(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:241)
+EffectSequenceList:PlaySequence(String, GameObject, OnSequenceDone, OnSequenceEvent) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:363)
+EffectSequenceList:PlaySequence(String) (at Assets\mainData\Assets\Scripts\EffectSequenceList.cs:342)
+BehaviorMovement:behaviorBegin() (at Assets\mainData\Assets\Scripts\BehaviorMovement.cs:94)
+BehaviorAttackApproach:behaviorBegin() (at Assets\mainData\Assets\Scripts\BehaviorAttackApproach.cs:15)
+BehaviorBase:behaviorBegin(BehaviorBase) (at Assets\mainData\Assets\Scripts\BehaviorBase.cs:96)
+BehaviorManager:changeBehavior(BehaviorBase) (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:165)
+BehaviorManager:pickBehavior() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:138)
+BehaviorManager:endBehavior() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:243)
+BehaviorRecoil:behaviorUpdate() (at Assets\mainData\Assets\Scripts\BehaviorRecoil.cs:54)
+BehaviorManager:Update() (at Assets\mainData\Assets\Scripts\BehaviorManager.cs:92)
+ 
+(Filename: Assets/mainData/Assets/Scripts/EffectSequenceList.cs Line: 197)
+(also looks for same asset for spiderman)
+create asset and put in shared_gimmick_fx.unity3d for now....
+
+
+_____________________________
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/Characters/kingpin_boss_02.unity3d
+
+An error occured during the WWW request: Couldn't open file /dev/RetroSquad/Assets/AssetBundles/FX/kingpin_fx.unity3d
+CustomAssetBundle-8721c5330d393e64dbda812c0818a467 ???
+
+
+Expecting: L_brawler_HUD_hero_up_text in localized bundle (en_us_brawler_bundle), but asset not found.
+CustomAssetBundle-21e87198453cc6642acd8a3f9cce4230
+
+non-localized bundle (brawler_bundle)
+CustomAssetBundle-50f5dce0314db6d47bded71065c849cc	
+
+Collider object AOECollider not found for attack Jean_GreyPowerAttack3
+
+path=FX/jean_grey_fx.unity3d
+CustomAssetBundle-4fad359f715a0ce4dae5b1fe372c6654
+
+grep -i -l jean_grey CustomAssetBundle* | xargs grep -i -l 'Fly Trail'
+CustomAssetBundle-00c755ec87d4fc4499dc6a70b5d4b844 OR CustomAssetBundle-0ffbd66162d86874c8f8123da3c3045d OR CustomAssetBundle-306f2458c4693214eb3000bd8d598099 OR CustomAssetBundle-4fad359f715a0ce4dae5b1fe372c6654 OR CustomAssetBundle-70176f3cf95f78247bf082eab4c79068 OR CustomAssetBundle-eb835eb40a17a7d428bf73fddd668112
+
+
+So yesterday I was having great diffculty finding the jean grey FX file. I finally decided to find out if there
+was a way of using grep to search for more than one string in a file, and it seems you can. So let me show you 
+what I did, and you can use it as a template for finding other FX files.
+First, go to Assets\GameData\Characters and open jean_grey.xml in a text editor. Look for a block that starts 
+with <character_fx>. There might be several effects listed, choose one of the prefab_names of an effect. In my 
+case, I chose Fly Trail. So now we know that the FX cab has to have at least one occurance of jean_grey AND at 
+least one occurance of Fly Trail. The grep command (run from the same directory that CABS are located) to do
+this search is:     grep -i -l jean_grey CustomAssetBundle* | xargs grep -i -l 'Fly Trail'
+So, to find an FX for a different character, the only things you have to change in the grep command are the 
+character name (jean_grey) and the fx prefab name (Fly Trail). BTW, this command actually found 6 files that 
+matched, so I had to look at each one....it was fairly obvious after looking at all their contents which one
+was the FX file.
+
+
+____________________________
+
+98 FOUND asset:super_jump in bundle shopping_bundle
+934 FOUND asset:expandedtooltip_render_abomination_playable in bundle characters_bundle
+
+109 FOUND asset:marvel_lore_icon_mysquad_plus1 in bundle common_bundle
+519 FOUND asset:gadget_searchbutton_normal in bundle persistent_bundle
+27 FOUND asset:search_field_icon_normal in bundle achievement_bundle
+71 FOUND asset:brawler_gadget_small_power_selection in bundle brawlergadget_bundle

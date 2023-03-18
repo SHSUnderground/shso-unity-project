@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: assets/__FrontEnd.unity
+  - enabled: 1
+    path: Assets/__FrontEnd.unity
+  - enabled: 0
+    path: Assets/_Brawler/Scenes/BrawlerORIG.unity
+  - enabled: 1
+    path: Assets/_Brawler/Scenes/Brawler.unity
+  - enabled: 0
+    path: Assets/_SocialSpace/Scenes/SocialSpaceORIG.unity
+  - enabled: 1
+    path: Assets/_SocialSpace/Scenes/SocialSpace.unity
+  - enabled: 1
+    path: Assets/_Empty/Blank.unity
+  - enabled: 0
+    path: Assets/_HeadQuarters/Scenes/HeadQuarters2.unity
+  - enabled: 1
+    path: Assets/_Cerebro/Cerebro.unity
+  - enabled: 1
+    path: Assets/_Fallback/Fallback.unity
+  - enabled: 0
+    path: Assets/_DeckBuilder/DeckBuilder.unity
+  - enabled: 1
+    path: Assets/_SocialSpace/Scenes/RailsGameWorld.unity
+  - enabled: 1
+    path: Assets/_Brawler/Scenes/RailsBrawler.unity
+  - enabled: 0
+    path: Assets/_CardGame/Scenes/CardGameDeckTest.unity
+  - enabled: 0
+    path: Assets/_CardGame/Scenes/CardGameORIG.unity
+  - enabled: 0
+    path: Assets/_ArcadeShell/ArcadeShell.unity
+  - enabled: 1
+    path: Assets/_CardGame/Scenes/CardGame.unity

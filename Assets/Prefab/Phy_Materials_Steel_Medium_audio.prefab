@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154334757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154334757}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1 &154334757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 0: {fileID: 154334789}
+  - 0: {fileID: 154334860}
+  - 0: {fileID: 154334833}
+  - 4: {fileID: 400000}
+  m_Layer: 0
+  m_Name: Phy_Materials_Steel_Medium_audio
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 3452816845
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &154334789
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154334757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!82 &154334833
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154334757}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 6.56372685e-39
+      inSlope: 6.0255834e-44
+      outSlope: 2.96405868e+29
+      tangentMode: 0
+    - time: .100000001
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .200000003
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .400000006
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .800000012
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1.60000002
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 3.20000005
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 6.4000001
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 12.8000002
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 25.6000004
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 51.2000008
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 102.400002
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 204.800003
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 409.600006
+      value: 6.56372685e-39
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 500
+      value: 6.56372685e-39
+      inSlope: 6.0255834e-44
+      outSlope: 2.96405868e+29
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &154334860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154334757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf6a1e236e84caeb8296ac0e10eca08, type: 3}
+  m_Name: 

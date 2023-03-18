@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: _UIManager
+  m_TagString: GUIManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5b85af89bba4f25756cd6f4ccaad47, type: 1}
+  m_Name: 
+  skinList:
+  - {fileID: 11400000, guid: 8f54b770131599e46b4cb5199f42e175, type: 2}
+  - {fileID: 11400000, guid: 3d1baf7024f768041b24c20a97fc51a4, type: 2}
+  fontSkin: {fileID: 15, guid: 2ea9cf02113f6e148af716fa804c3c57, type: 2}
+  fallbackFont: {fileID: 12800000, guid: 7ddfdd2e22934daeae3445635d48809e, type: 1}
+  logLevel: 0
+  sounds:
+  - name: click_down
+    sfx: {fileID: 1803494146, guid: f6b72f7038d7b794e90b663798c7d866, type: 2}
+  - name: click_up
+    sfx: {fileID: 1803494149, guid: 23f173d1b20c2b04faeb32c6a38d6d37, type: 2}
+  - name: large_click_down
+    sfx: {fileID: 1803494145, guid: 6bab1fe75f7dd3d4eadae0d72f57985a, type: 2}
+  - name: large_click_up
+    sfx: {fileID: 1803494148, guid: 5d7c10beacde40445964672161fada33, type: 2}
+  - name: hover_over
+    sfx: {fileID: 1803494151, guid: 9efd9eb38dc0895459602387061a82bd, type: 2}
+  - name: large_hover_over
+    sfx: {fileID: 1803494152, guid: 499fdae71f5146a4cbb421e3d3866b8b, type: 2}
+  - name: prizewheel_loop
+    sfx: {fileID: 1803494170, guid: 42bb34bd126d62043bd6b0c90f80fa60, type: 2}
+  - name: prizewheel_win
+    sfx: {fileID: 1803494174, guid: ebfc0646727119343aa870edd9ec6311, type: 2}
+  - name: prizewheel_lose
+    sfx: {fileID: 1803494171, guid: 327af2445b3f6e84b96c65277b84eff2, type: 2}
+  - name: prizewheel_pegclick
+    sfx: {fileID: 1803494172, guid: 486a5d9d4f5d92545aa20c2140707dae, type: 2}
+  - name: prizewheel_start
+    sfx: {fileID: 1803494173, guid: b5f6ec0c91a6b31419c28b31ce177836, type: 2}
+  - name: prizewheel_buttonpress
+    sfx: {fileID: 1803494167, guid: f59670b72f529fd43b804417ee3f147b, type: 2}
+  - name: bouncy_hover_over
+    sfx: {fileID: 1803494150, guid: 3d0aafadc9f6240438672b820917a2aa, type: 2}
+  - name: prizewheel_flippiece
+    sfx: {fileID: 1803494169, guid: 9a026475c5761004da7d16aacbf18d5e, type: 2}
+  - name: prizewheel_flipwheel
+    sfx: {fileID: 1803494168, guid: abafd961dd54b754992ead3f1e749dc9, type: 2}
+  - name: purchase_click_down
+    sfx: {fileID: 1803494147, guid: d09eb6b740ee39f40a9e2e2dbe1f062b, type: 2}
+  - name: zoneselect_hover
+    sfx: {fileID: 1803494153, guid: 2975d5b317d900a4fbd307403d1ca1ac, type: 2}
+  - name: shop_tab_click
+    sfx: {fileID: 1803494155, guid: c3d0d532af1e1274eaba73e0e1e6fc6d, type: 2}
+  - name: shop_slider_tick
+    sfx: {fileID: 1803494154, guid: 4aa0cb00a91e39f4e9991441ba5db19c, type: 2}
+  - name: global_window_in
+    sfx: {fileID: 1803494161, guid: 80e6b31f7b95c47488b2d002187b3e43, type: 2}
+  - name: global_window_out
+    sfx: {fileID: 1803494162, guid: c27a94b41097d6a48bdb05e45def7949, type: 2}
+  - name: camera_whoosh
+    sfx: {fileID: 1803494156, guid: 0cf64179b29efeb4294edb00722e08d1, type: 2}
+  - name: earn_achievement
+    sfx: {fileID: 1803494157, guid: 28617a5807fb53c46ac77267fe425ab1, type: 2}
+  - name: earn_coins
+    sfx: {fileID: 1803494158, guid: c829aeb32ef1de142863816b9b0cf0b9, type: 2}
+  - name: earn_tickets
+    sfx: {fileID: 1803494159, guid: 6d2daad33ecd93c4ab7ee06ba40d865d, type: 2}
+  - name: earn_xp
+    sfx: {fileID: 1803494160, guid: ea8974734fa24d84a9a5f50127c2f741, type: 2}
+  - name: level_up
+    sfx: {fileID: 1803494163, guid: 75716ec7d14a1a34ebcd01b4fa53ca5f, type: 2}
+  - name: popup_alert
+    sfx: {fileID: 1803494165, guid: 801cc72c462077449b95be982e10601a, type: 2}
+  - name: popup_invitation
+    sfx: {fileID: 1803494166, guid: eb5b50eb6079ab743a200db453574b8c, type: 2}
+  - name: boosterpack_open
+    sfx: {fileID: 1803494175, guid: 98bb40d5e68248946851af775ae4eef7, type: 2}
+  - name: boosterpack_rare
+    sfx: {fileID: 1803494176, guid: 8d7694be07fc7324192c2f0cadf2d840, type: 2}
+  - name: boosterpack_superrare
+    sfx: {fileID: 1803494177, guid: c86c5e2ecda8455479051827e61eaf72, type: 2}
+  - name: panel_up
+    sfx: {fileID: 1803494164, guid: c7afa5e3e7c001f4da8337f6c7e4cd93, type: 2}
+  - name: Music_SHS_LoadingPage_audio
+    sfx: {fileID: 154336814, guid: 6b5da0b5bcf0e1441a98c3cf2751ca52, type: 2}
+  - name: Music_SHS_MainTheme_audio
+    sfx: {fileID: 154336815, guid: e8e4a7bcde4fbb146a467667a67212fe, type: 2}
+  initializationState: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

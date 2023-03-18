@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2c58a41bef0a48338c3aefc823d106fd
+timeCreated: 1583526315
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 11
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "KOMTXT"
+  fontNames:
+  - Komika Text
+  - Arial
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

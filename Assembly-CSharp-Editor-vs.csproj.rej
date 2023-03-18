@@ -1,0 +1,35 @@
+diff a/Assembly-CSharp-Editor-vs.csproj b/Assembly-CSharp-Editor-vs.csproj	(rejected hunks)
+@@ -5,7 +5,7 @@
+ 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+ 	<ProductVersion>10.0.20506</ProductVersion>
+ 	<SchemaVersion>2.0</SchemaVersion>
+-	<ProjectGuid>{78E535CA-CC4E-6C5A-AFF9-CA08B253EC87}</ProjectGuid>
++	<ProjectGuid>{B25D3577-9D5E-304D-FC42-B7C3785391C1}</ProjectGuid>
+ 	<OutputType>Library</OutputType>
+ 	<AppDesignerFolder>Properties</AppDesignerFolder>
+ 	<RootNamespace></RootNamespace>
+@@ -37,10 +37,10 @@
+     <Reference Include="System.XML" />
+ 	<Reference Include="System.Core" />
+ 	<Reference Include="UnityEngine">
+-	  <HintPath>C:/Program Files (x86)/Unity3_5_5/Editor/Data/Managed/UnityEngine.dll</HintPath>
++	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+ 	</Reference>
+ 	<Reference Include="UnityEditor">
+-	  <HintPath>C:/Program Files (x86)/Unity3_5_5/Editor/Data/Managed/UnityEditor.dll</HintPath>
++	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ 	</Reference>
+   </ItemGroup>
+   <ItemGroup>
+@@ -947,9 +947,9 @@
+   </ItemGroup>
+   <ItemGroup>
+     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+-      <Project>{88A18250-FA5F-7EE1-8062-BD3FF219EAD0}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
++      <Project>{6517F5C3-9F28-4D94-A4B3-B317B0585497}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+     <ProjectReference Include="Assembly-CSharp-vs.csproj">
+-      <Project>{DBE8D8EB-64B8-1F32-6A1A-A09F65A34C1B}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
++      <Project>{A835D2EA-A0E9-F48D-9226-CD37AD7672BD}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+   </ItemGroup>
+   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

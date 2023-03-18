@@ -1,0 +1,14 @@
+<attack>
+  <name>TemplateAttackName</name>
+  <chance>10</chance>
+  <bonus_chance_per_extra_target>0</bonus_chance_per_extra_target>
+  <extra_target_maximum_distance>0</extra_target_maximum_distance>
+  <extra_target_measured_from_attacker>false</extra_target_measured_from_attacker>
+  <minimum_range>0</minimum_range>
+  <maximum_range>0</maximum_range>
+  <minimum_health_percent>0</minimum_health_percent>
+  <maximum_health_percent>100</maximum_health_percent>
+  <cooldown_start_available>true</cooldown_start_available>
+  <cooldown_refresh_time>0</cooldown_refresh_time>
+  <cooldown_expire_time>0</cooldown_expire_time>
+</attack>

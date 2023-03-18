@@ -1,0 +1,20 @@
+public enum PetCommandTypeEnum
+{
+	None,
+	Start,
+	Wander,
+	Delay,
+	Emote,
+	Fly,
+	React,
+	MoveToCurrentNode,
+	MoveToNextNode,
+	MoveToNode,
+	Derez,
+	Flee,
+	Teleport,
+	TurnTo,
+	FollowCharacter,
+	WaitForCharacterMove,
+	Wait
+}

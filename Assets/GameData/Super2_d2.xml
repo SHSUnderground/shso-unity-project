@@ -1,0 +1,21 @@
+<attack>
+  <attack_name>CharacterNamePowerAttack2</attack_name>
+  <behavior>BehaviorAttackSpecial</behavior>
+  <anim>attack_super</anim>
+  <Tools_anim_length_override>1</Tools_anim_length_override>
+  <desired_range>0.5</desired_range>
+  <maximum_range>10</maximum_range>
+  <interruptible_by>8</interruptible_by>
+  <power_cost>100</power_cost>
+  <Tools_powercost_table_value>Super</Tools_powercost_table_value>
+  <move_start_time>0</move_start_time>
+  <move_arrive_time>0</move_arrive_time>
+  <move_speed>1.5</move_speed>
+  <chain_start_time>0</chain_start_time>
+  <chain_end_time>0</chain_end_time>
+  <face_target>true</face_target>
+  <track_target>true</track_target>
+  <attack_duration>0</attack_duration>
+  <forward_speed>0</forward_speed>
+  <environmental_attack>false</environmental_attack>
+  

@@ -1,0 +1,24 @@
+public enum CardFilterType
+{
+	BlockStrength,
+	BlockSpeed,
+	BlockElemental,
+	BlockTech,
+	BlockAnimal,
+	BlockEnergy,
+	FactorStrength,
+	FactorSpeed,
+	FactorElemental,
+	FactorTech,
+	FactorAnimal,
+	FactorEnergy,
+	TeamAvengers,
+	TeamXmen,
+	TeamBrotherhood,
+	TeamSS,
+	TeamF4,
+	TeamSpideyFriends,
+	MinLevel,
+	MaxLevel,
+	TextSearch
+}

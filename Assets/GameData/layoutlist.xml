@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+  
+  <layout name="SHSOptionsWindow" path="layout_bundle|options.xml:optionswindow"/>
+  <layout name="Options_Interface" path="layout_bundle|options.xml:panel_interface"/>
+  <layout name="Options_GraphicsAndSound" path ="layout_bundle.testlayout.xml:Options_GraphicsAndSound"/>
+          
+</layouts>

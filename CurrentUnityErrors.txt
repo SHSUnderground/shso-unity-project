@@ -1,0 +1,852 @@
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/fonts/en_us_font_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+CustomAssetBundle-58d3cb5c97f451a4e8d855a8e1ba6382
+
+
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/common_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+cpinheir@chris-acer-2015:/mnt/c/shs$ grep seasonal_taco CustomAssetBundle*
+Binary file CustomAssetBundle-70176f3cf95f78247bf082eab4c79068 matches
+Binary file CustomAssetBundle-87dc77116285bda4cbf5160de1dd6fbf matches
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_common_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+cpinheir@chris-acer-2015:/mnt/c/shs$ grep seasonal_taco CustomAssetBundle*
+Binary file CustomAssetBundle-70176f3cf95f78247bf082eab4c79068 matches
+Binary file CustomAssetBundle-87dc77116285bda4cbf5160de1dd6fbf matches
+
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/debug_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+cpinheir@chris-acer-2015:/mnt/c/shs$ grep debug_tab_background_f01 CustomAssetBundle*
+Binary file CustomAssetBundle-fdeb5c9793ce5eb4ab1772e3b4f53d48 matches
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/cursor_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+cpinheir@chris-acer-2015:/mnt/c/shs$ grep Cursor0005 CustomAssetBundle*
+Binary file CustomAssetBundle-ed771c7f88d3a3549b12d79b34775974 matches
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/characters_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+cpinheir@chris-acer-2015:/mnt/c/shs$ grep token_impossible_man_playable CustomAssetBundle*
+Binary file CustomAssetBundle-574fef0ead715fc45989c09fb6da021e matches
+cpinheir@chris-acer-2015:/mnt/c/shs$
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_characters_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+cpinheir@chris-acer-2015:/mnt/c/shs$ grep token_impossible_man_playable CustomAssetBundle*
+Binary file CustomAssetBundle-574fef0ead715fc45989c09fb6da021e matches
+cpinheir@chris-acer-2015:/mnt/c/shs$
+CustomAssetBundle-574fef0ead715fc45989c09fb6da021e
+
+
+
+
+
+
+
+
+
+An error occured during the WWW request: Couldn't open file /Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/GameData/Items/expendables.xml
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:847)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+
+__________________________________________
+
+UIManager needs 2 gui skins:
+
+skinList:
+  - DebugDialogSkin.guiskin {fileID: 11400000, guid: e3b3a8c76b314bf5bd1fade4d83834e3, type: 2}
+  - rootSkin.guiskin {fileID: 11400000, guid: 2a0800078af74c2184c231a4c61ca600, type: 2}
+
+
+FAKING THESE 2 SKINS FOR NOW.....NEED TO REALLY FIX LATER.....
+_______________________________________________________
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/notification_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_notification_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/communication_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_communication_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/options_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_options_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/prizewheel_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_prizewheel_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/shopping_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_shopping_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/zonechooser_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_zonechooser_bundle.unity3d
+UnityEngine.Debug:Log(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:StartRequest(ShsWebRequest) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:635)
+ShsWebService:StartRequest(String, ShsWebServiceCallback, Byte[], Hashtable, Single, Single, ShsWebServiceType, Boolean, Boolean) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:586)
+AssetBundleLoader:SubmitRequestToWebServices(CachedAssetBundle) (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:1006)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:823)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/missions_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_missions_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_missionflyers_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/brawlergadget_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_brawlergadget_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/cardgamegadget_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_cardgamegadget_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/mysquadgadget_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_mysquadgadget_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/challengerewards_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/achievement_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_achievement_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/persistent_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_persistent_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/smarttip_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/loading_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_loading_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/Audio/ui_audio.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/hq_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_hq_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/items_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/goodiescommon_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/goodieseffects_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/goodiesstats_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/potioneffects_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/login_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_login_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_cardgame_tutorial_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:846)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:745)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:463)
+_________________________________________________
+
+Asked to preload audio prefab <HUD_UI_Button_Press_Small_audio>, but no ShsAudioSource was found
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsAudioSource:PreloadSound(GameObject, GameObject, SoundPreloadedDelegate, Object) (at Assets/mainData/Assets/Scripts/ShsAudioSource.cs:931)
+AppShell:OnUIAudioBundleLoaded(AssetBundleLoadResponse, Object) (at Assets/mainData/Assets/Scripts/AppShell.cs:1222)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:740)
+
+
+Transaction: AppShell_startTransaction
+
+ open: sfx_preload  
+
+ completed: start  serverconfig  char_desc  xp_to_level  emotes  motd  botd  brawler_leveling_stats  brawler_scoring  brawler_action_times  item_defs  expendable_defs  feature_defs  pet_defs  scavenger_defs  mission_defs  hqrooms_defs  counters  activities  arcade  challenge  achievements  smarttips  deckbuilder_config  playerstatuses  menuchat  level_up_items_defs  assetbundlemanifest  bundles_loaded  newscontent  news_daily_rewards  vo_action_data  vo_asset_manifest  hero_lore  audio_tagged_references  strings  fontbank  
+
+children: AppShell_bundleTransaction(100%)  AppShell_sfxTransaction(0%) 
+
+
+
+No window named: SHSSocialMainWindow
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+GUIWindow:Transition(String, TransactionMonitor) (at Assets/mainData/Assets/Scripts/GUIWindow.cs:1375)
+GUIManager:Transition(String, TransactionMonitor) (at Assets/mainData/Assets/Scripts/GUIManager.cs:1497)
+GUIManager:OnNewControllerLoading(GameControllerTypeData, GameController) (at Assets/mainData/Assets/Scripts/GUIManager.cs:993)
+GUIManager:OnInitializationStep(InitializationState) (at Assets/mainData/Assets/Scripts/GUIManager.cs:916)
+GUIManager:OnBundleLoaded(String, AssetBundle) (at Assets/mainData/Assets/Scripts/GUIManager.cs:878)
+GUIBundleManager:bundleLoadedCallback(AssetBundleLoadResponse, Object, String, Boolean) (at Assets/mainData/Assets/Scripts/GUIBundleManager.cs:309)
+<LoadBundle>c__AnonStorey19D:<>m__160(AssetBundleLoadResponse, Object) (at Assets/mainData/Assets/Scripts/GUIBundleManager.cs:138)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:740)
+
+
+
+__________________________________________________________________________________________________________
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/hud_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:848)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:746)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_arcade_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:848)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:746)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/non_locale/gameworld_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:848)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:746)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/GUI/i18n/en_us/en_us_gameworld_bundle.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:848)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:746)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/Characters/spiderman_04.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:848)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:746)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+__________________________________________________________________________________
+
+The referenced script on this Behaviour is missing!
+UnityEngine.Resources:Load(String)
+SocialSpaceControllerLoad:PreloadPlaceholder() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:367)
+SocialSpaceControllerLoad:Enter(Type) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:96)
+ShsFSM:SetCurrentState(IShsState) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:171)
+ShsFSM:GotoState(Type) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:81)
+ShsFSM:GotoState() (at Assets/mainData/Assets/Scripts/ShsFSM.cs:73)
+SocialSpaceControllerImpl:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:905)
+SocialSpaceController:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceController.cs:177)
+
+The referenced script on this Behaviour is missing!
+UnityEngine.Object:Instantiate(Object)
+SocialSpaceControllerLoad:PreloadPlaceholder() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:367)
+SocialSpaceControllerLoad:Enter(Type) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:96)
+ShsFSM:SetCurrentState(IShsState) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:171)
+ShsFSM:GotoState(Type) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:81)
+ShsFSM:GotoState() (at Assets/mainData/Assets/Scripts/ShsFSM.cs:73)
+SocialSpaceControllerImpl:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:905)
+SocialSpaceController:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceController.cs:177)
+
+
+Game world initialization failed: Could not preload placeholder character
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+SocialSpaceControllerLoad:OnDataLoaded(ExitCondition, String, Object) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:103)
+TransactionMonitor:FailStep(String, String) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:428)
+SocialSpaceControllerLoad:PreloadPlaceholder() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:377)
+SocialSpaceControllerLoad:Enter(Type) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:96)
+ShsFSM:SetCurrentState(IShsState) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:171)
+ShsFSM:GotoState(Type) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:81)
+ShsFSM:GotoState() (at Assets/mainData/Assets/Scripts/ShsFSM.cs:73)
+SocialSpaceControllerImpl:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:905)
+SocialSpaceController:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceController.cs:177)
+
+
+Canceling a pending matchmaking call
+UnityEngine.Debug:LogWarning(Object)
+DebugLogger:invoke_void__this___object(Object)
+Matchmaker2:SetTransactionDelegate(OnTicketDelegate) (at Assets/mainData/Assets/Scripts/Matchmaker2.cs:666)
+Matchmaker2:Cancel() (at Assets/mainData/Assets/Scripts/Matchmaker2.cs:555)
+SocialSpaceControllerLoad:Leave(Type) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:354)
+ShsFSM:SetCurrentState(IShsState) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:167)
+ShsFSM:ClearState() (at Assets/mainData/Assets/Scripts/ShsFSM.cs:122)
+SocialSpaceControllerImpl:Abort(Boolean) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:952)
+SocialSpaceControllerLoad:OnDataLoaded(ExitCondition, String, Object) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:104)
+TransactionMonitor:FailStep(String, String) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:428)
+SocialSpaceControllerLoad:PreloadPlaceholder() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:377)
+SocialSpaceControllerLoad:Enter(Type) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:96)
+ShsFSM:SetCurrentState(IShsState) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:171)
+ShsFSM:GotoState(Type) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:81)
+ShsFSM:GotoState() (at Assets/mainData/Assets/Scripts/ShsFSM.cs:73)
+SocialSpaceControllerImpl:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:905)
+SocialSpaceController:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceController.cs:177)
+
+
+ShowErrorDialog
+  code: CantEnterGameWorld
+  number: 201
+  error: none
+  message: Error #201 :
+Unable to enter Super Hero City right now.
+
+
+
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+GUIManager:ShowErrorDialog(Response, String) (at Assets/mainData/Assets/Scripts/GUIManager.cs:2212)
+AppShell:CriticalError(Code, String) (at Assets/mainData/Assets/Scripts/AppShell.cs:1148)
+AppShell:CriticalError(Code) (at Assets/mainData/Assets/Scripts/AppShell.cs:1142)
+SocialSpaceControllerImpl:Abort(Boolean) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:956)
+SocialSpaceControllerLoad:OnDataLoaded(ExitCondition, String, Object) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:104)
+TransactionMonitor:FailStep(String, String) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:428)
+SocialSpaceControllerLoad:PreloadPlaceholder() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:377)
+SocialSpaceControllerLoad:Enter(Type) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:96)
+ShsFSM:SetCurrentState(IShsState) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:171)
+ShsFSM:GotoState(Type) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:81)
+ShsFSM:GotoState() (at Assets/mainData/Assets/Scripts/ShsFSM.cs:73)
+SocialSpaceControllerImpl:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:905)
+SocialSpaceController:Start() (at Assets/mainData/Assets/Scripts/SocialSpaceController.cs:177)
+
+
+
+
+
+
+UnityException: Texture 'missing_release' is not readable, the texture memory can not be accessed from scripts. You can make the texture readable in the Texture Import Settings.
+NineSliceTexture.TextureCopy (UnityEngine.Texture2D destination, UnityEngine.Texture2D source, Int32 widthOffset, Int32 heightOffset) (at Assets/mainData/Assets/Scripts/NineSliceTexture.cs:300)
+NineSliceTexture.CreateBaseTexture (Vector2 dwellingSize, UnityEngine.Texture2D body, UnityEngine.Texture2D[] corners, UnityEngine.Texture2D[] borders, Int32 totalWidth, Int32 totalHeight) (at Assets/mainData/Assets/Scripts/NineSliceTexture.cs:356)
+NineSliceTexture.CreateNineSliceTexture (Vector2 dwellingSize, UnityEngine.Texture2D body, UnityEngine.Texture2D[] corners, UnityEngine.Texture2D[] borders) (at Assets/mainData/Assets/Scripts/NineSliceTexture.cs:411)
+SHSCommonDialogWindow.BuildBackground (Vector2 contentSize) (at Assets/mainData/Assets/Scripts/SHSCommonDialogWindow.cs:401)
+SHSCommonDialogWindow.OnShow () (at Assets/mainData/Assets/Scripts/SHSCommonDialogWindow.cs:291)
+SHSErrorNotificationWindow.OnShow () (at Assets/mainData/Assets/Scripts/SHSErrorNotificationWindow.cs:389)
+GUIControl.SetVisible (Boolean visible, SetVisibleReason reason) (at Assets/mainData/Assets/Scripts/GUIControl.cs:2963)
+GUIWindow.SetVisible (Boolean visible, SetVisibleReason reason) (at Assets/mainData/Assets/Scripts/GUIWindow.cs:801)
+GUIControl.SetVisible (Boolean visible) (at Assets/mainData/Assets/Scripts/GUIControl.cs:2925)
+GUIControl.set_IsVisible (Boolean value) (at Assets/mainData/Assets/Scripts/GUIControl.cs:1450)
+GUIControl.Show (ModalLevelEnum modalLevel) (at Assets/mainData/Assets/Scripts/GUIControl.cs:2582)
+GUIManager.CreateErrorDialogWindow (.SHSErrorNotificationWindow windowToMake, System.String errorMessage, .Response response) (at Assets/mainData/Assets/Scripts/GUIManager.cs:2257)
+GUIManager.ShowErrorDialog (.Response response, System.String error) (at Assets/mainData/Assets/Scripts/GUIManager.cs:2219)
+AppShell.CriticalError (Code code, System.String logMessage) (at Assets/mainData/Assets/Scripts/AppShell.cs:1148)
+AppShell.CriticalError (Code code) (at Assets/mainData/Assets/Scripts/AppShell.cs:1142)
+SocialSpaceControllerImpl.Abort (Boolean returnToMenu) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:956)
+SocialSpaceControllerImpl+SocialSpaceControllerLoad.OnDataLoaded (ExitCondition exit, System.String error, System.Object userData) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:104)
+TransactionMonitor.FailStep (System.String name, System.String error) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:428)
+SocialSpaceControllerImpl+SocialSpaceControllerLoad.PreloadPlaceholder () (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:377)
+SocialSpaceControllerImpl+SocialSpaceControllerLoad.Enter (System.Type previousState) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:96)
+ShsFSM.SetCurrentState (IShsState state) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:171)
+ShsFSM.GotoState (System.Type t) (at Assets/mainData/Assets/Scripts/ShsFSM.cs:81)
+ShsFSM.GotoState[SocialSpaceControllerLoad] () (at Assets/mainData/Assets/Scripts/ShsFSM.cs:73)
+SocialSpaceControllerImpl.Start () (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:905)
+SocialSpaceController.Start () (at Assets/mainData/Assets/Scripts/SocialSpaceController.cs:177)
+
+
+
+NullReferenceException
+AOSceneCamera.Update () (at Assets/mainData/Assets/Scripts/AOSceneCamera.cs:146)
+
+
+
+
+
+HeroAchievementDisplayGroup.addAchievement got bad heroName spider_gwen for achievement ID 538805
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+HeroAchievementDisplayGroup:addAchievement(NewAchievement) (at Assets/mainData/Assets/Scripts/HeroAchievementDisplayGroup.cs:27)
+<parseAchievementContent>c__IteratorA:MoveNext() (at Assets/mainData/Assets/Scripts/AchievementManager.cs:465)
+
+
+
+invalid achievement found in tracker data: 0
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+<parseAchievementContent>c__IteratorA:MoveNext() (at Assets/mainData/Assets/Scripts/AchievementManager.cs:566)
+
+
+
+
+Feathers CheckCounters ResetTimer!
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+SHSFeathersActivity:CheckCounters() (at Assets/mainData/Assets/Scripts/SHSFeathersActivity.cs:98)
+SHSFeathersActivity:Start() (at Assets/mainData/Assets/Scripts/SHSFeathersActivity.cs:88)
+SHSActivityManager:OnAchievementDataLoaded(AchievementDataLoadedMessage) (at Assets/mainData/Assets/Scripts/SHSActivityManager.cs:178)
+Callback`1:Fire(ShsEventMessage) (at Assets/mainData/Assets/Scripts/ShsEventMgr.cs:37)
+ShsEventMgr:FireEventWithFilter(Object, Object, ShsEventMessage) (at Assets/mainData/Assets/Scripts/ShsEventMgr.cs:171)
+ShsEventMgr:Fire(Object, ShsEventMessage) (at Assets/mainData/Assets/Scripts/ShsEventMgr.cs:148)
+NetworkManager:OnAchievementDataLoaded(ShsWebResponse) (at Assets/mainData/Assets/Scripts/NetworkManager.cs:966)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:756)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+
+
+
+Transaction: Transaction_17
+ open: xml  matchmake  connect  placeholderCache  placeholderLoaded  
+ completed: cacheHeroesLoaded  
+children: 
+
+UnityEngine.Debug:Log(Object)
+DebugLogger:invoke_void__this___object(Object)
+TransactionMonitor:DumpStatus() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:577)
+TransactionMonitor:DumpStatus() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:580)
+TransactionMonitor:checkForCompletion() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:386)
+TransactionMonitor:CompleteChildTransaction(TransactionMonitor) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:378)
+TransactionMonitor:CloseTransaction() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:408)
+TransactionMonitor:checkForCompletion() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:392)
+TransactionMonitor:CompleteStep(String, String) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:353)
+TransactionMonitor:CompleteStep(String) (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:321)
+SocialSpaceControllerLoad:OnCharacterPrefabLoaded(Object, AssetBundle, Object) (at Assets/mainData/Assets/Scripts/SocialSpaceControllerImpl.cs:268)
+AssetBundleLoader:Update() (at Assets/mainData/Assets/Scripts/AssetBundleLoader.cs:771)
+
+___________________________________________________________________________
+
+ShsWebService requested URI: file://C:/Users/test/Desktop/UnpackerTempOutput/ShsoUnpackerOutput/Assets/AssetBundles/SocialSpace/daily_bugle2_scenario.unity3d
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+ShsWebService:ProcessResponseSimple(WWW, ShsWebRequest, ShsWebResponse) (at Assets/mainData/Assets/Scripts/ShsWebService.cs:848)
+<ProcessWebRequest>c__IteratorF6:MoveNext() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:746)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+ShsWebService:Update() (at Assets/mainData/Assets/Scripts/ShsWebService.cs:464)
+
+
+
+Transaction <RTCClient_loginTransaction> Timed Out:
+  step <connect> = open
+  step <login> = open
+  step <seated> = open
+  step <time> = open
+
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+TransactionMonitor:Update() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:476)
+RTCClient:Update() (at Assets/mainData/Assets/Scripts/RTCClient.cs:278)
+NetworkManager:Update() (at Assets/mainData/Assets/Scripts/NetworkManager.cs:171)
+AppShell:Update() (at Assets/mainData/Assets/Scripts/AppShell.cs:1286)
+
+
+
+
+SERVER: SmartFox game server connection failed <Timed Out> (attempt 0)
+UnityEngine.Debug:LogError(Object)
+DebugLogger:invoke_void__this___object(Object)
+NetworkManager:OnGameServerConnected(Boolean, String) (at Assets/mainData/Assets/Scripts/NetworkManager.cs:1030)
+RTCClient:OnConnect(Boolean, String) (at Assets/mainData/Assets/Scripts/RTCClient.cs:155)
+RTCClient:OnLoginTransactionComplete(ExitCondition, String, Object) (at Assets/mainData/Assets/Scripts/RTCClient.cs:837)
+TransactionMonitor:Update() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:477)
+RTCClient:Update() (at Assets/mainData/Assets/Scripts/RTCClient.cs:278)
+NetworkManager:Update() (at Assets/mainData/Assets/Scripts/NetworkManager.cs:171)
+
+
+
+Requesting security policy from 199.30.202.33:9389
+UnityEngine.Debug:Log(Object)
+DebugLogger:invoke_void__this___object(Object)
+RTCClient:Connect(String, String, String) (at Assets/mainData/Assets/Scripts/RTCClient.cs:339)
+NetworkManager:RetryGameServerConnect() (at Assets/mainData/Assets/Scripts/NetworkManager.cs:288)
+NetworkManager:OnGameServerConnected(Boolean, String) (at Assets/mainData/Assets/Scripts/NetworkManager.cs:1034)
+RTCClient:OnConnect(Boolean, String) (at Assets/mainData/Assets/Scripts/RTCClient.cs:155)
+RTCClient:OnLoginTransactionComplete(ExitCondition, String, Object) (at Assets/mainData/Assets/Scripts/RTCClient.cs:837)
+TransactionMonitor:Update() (at Assets/mainData/Assets/Scripts/TransactionMonitor.cs:477)
+RTCClient:Update() (at Assets/mainData/Assets/Scripts/RTCClient.cs:278)
+NetworkManager:Update() (at Assets/mainData/Assets/Scripts/NetworkManager.cs:171)
+AppShell:Update() (at Assets/mainData/Assets/Scripts/AppShell.cs:1286)
+AppShell:Update() (at Assets/mainData/Assets/Scripts/AppShell.cs:1286)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+  <Options_GraphicsAndSound>
+    <SHSOptionsWindow.GraphicsAndSoundWindow id="Options_GraphicsAndSound">
+      <quickSizingHint>centered</quickSizingHint>
+      <size>800,500</size>
+      <children>
+        <GUIBox>
+          <position>300,100</position>
+          <size>125,300</size>
+        </GUIBox>
+        <GUISlider id="MusicVolumeSlider">
+          <sliderOrientation>vertical</sliderOrientation>
+          <position>330,130</position>
+          <size>40,240</size>
+          <!-- let's talk about StyleInfo inheritance and how to handle it here -->
+          <min>1</min>
+          <max>0</max>
+        </GUISlider>
+        <GUILabel>
+          <position>375,130</position>
+          <size>70,200</size>
+          <text>Max</text>
+          <font name="Komica" size="16" color="255,255,255" anchor="UpperLeft"/>
+        </GUILabel>
+        <GUILabel>
+          <position>375,360</position>
+          <size>70,200</size>
+          <text>Min</text>
+          <font name="Komica" size="16" color="255,255,255" anchor="UpperLeft"/>
+        </GUILabel>
+
+        <GUIBox>
+          <position>450,100</position>
+          <size>125,300</size>
+          <text>"Effects Volume"</text>
+        </GUIBox>
+        <GUISlider id="EffectsVolumeSlider">
+          <sliderOrientation>vertical</sliderOrientation>
+          <position>480,130</position>
+          <size>40,240</size>
+          <min>1</min>
+          <max>0</max>
+        </GUISlider>
+        <GUILabel>
+          <position>525,130</position>
+          <size>70,200</size>
+          <text>Max</text>
+          <font name="Komica" size="16" color="255,255,255" anchor="UpperLeft"/>
+        </GUILabel>
+        <GUILabel>
+          <position>525,360</position>
+          <size>70,200</size>
+          <text>Min</text>
+          <font name="Komica" size="16" color="255,255,255" anchor="UpperLeft"/>
+        </GUILabel>
+        <GUIButton id="FSButton">
+          <position dockingAlignment="TopRight" anchorAlignment="TopRight" offsetType="Absolute" vector="-75,100"/>
+          <size>100,25</size>
+          <text>Full Screen</text>
+        </GUIButton>
+        <GUIDropDownListBox id="shadowsDropDown">
+          <position>600,240</position>
+          <size>150,30</size>
+          <items>
+            <item>Full Shadows</item>
+            <item>Blob Shadows</item>
+            <item>No Shadows</item>
+          </items>
+        </GUIDropDownListBox>
+        <GUIDropDownListBox id="dofDropDown">
+          <position>600,280</position>
+          <size>150,30</size>
+          <items>
+            <item>Depth of Field ON</item>
+            <item>Depth of Field OFF</item>
+          </items>
+        </GUIDropDownListBox>
+        <GUIDropDownListBox id="waterDropDown">
+          <position>600,320</position>
+          <size>150,30</size>
+          <items>
+            <item>Water effects ON</item>
+            <item>Water effects OFF</item>
+          </items>
+        </GUIDropDownListBox>
+      </children>
+    </SHSOptionsWindow.GraphicsAndSoundWindow>
+    
+  </Options_GraphicsAndSound>
+</layouts>

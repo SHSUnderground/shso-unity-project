@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b40a6246152e40f58ac9a29ec7e86306
+timeCreated: 1583319590
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 10
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "ACHILLES"
+  fontNames:
+  - Achilles
+  - Arial
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

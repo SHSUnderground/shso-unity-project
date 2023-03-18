@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_0001_1_SampleMission>
+  <name>Sample Mission One</name>
+  <description>This mission is a sample and only a sample.  
+  
+Don't infer too much about SHS from this sample mission.  
+  
+I repeat SAMPLE MISSION.</description>
+  <cinematic></cinematic>
+  <cover_page>SampleMission_cover</cover_page>
+  <title_key>samplemission</title_key>
+  <map>
+    <x>-920</x>
+    <y>260</y>
+  </map>
+  <target_level>1</target_level>
+
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Brawler1_geometry</geometry_bundle>
+    <scenario_bundle>Brawler1_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+  
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Brawler1_geometry</geometry_bundle>
+    <scenario_bundle>Brawler1_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>whitelist</available_chars_type>
+    <available_chars_list>iron_man|wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic>prototype01</cinematic>
+  </stage>
+
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+
+  <rating>
+    <bronze>
+      <score_needed>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+      </score_needed>
+    </bronze>
+    <silver>
+      <score_needed>
+        <player>4001</player>
+        <player>4001</player>
+        <player>4001</player>
+        <player>4001</player>
+      </score_needed>
+    </silver>
+    <gold>
+      <score_needed>
+        <player>8001</player>
+        <player>8001</player>
+        <player>8001</player>
+        <player>8001</player>
+      </score_needed>
+    </gold>
+    <adamantium>
+      <score_needed>
+        <player>16001</player>
+        <player>16001</player>
+        <player>16001</player>
+        <player>16001</player>
+      </score_needed>
+    </adamantium>
+  </rating>
+
+	<awards>
+		<bronze>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</bronze>
+		<silver>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</silver>
+		<gold>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</gold>
+		<adamantium>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</adamantium>
+	</awards>
+
+	<front_page>
+	<main_headline>
+		<text>Claw and Disorder!</text>
+		<x>523</x>
+		<y>148</y>
+		<width>486</width>
+		<height>198</height>
+		<line_height>67</line_height>
+		<font>GEORGIA__76_Bold</font>
+	</main_headline>
+	<main_image>
+		<source>missions_bundle|L_Mission_001_Headline_Image_01</source>
+		<x>12</x>
+		<y>152</y>
+		<width>486</width>
+		<height>320</height>
+		<border>4</border>
+	</main_image>
+	<image>
+		<source>missions_bundle|DailyBugle</source>
+		<x>0</x>
+		<y>0</y>
+		<width>1022</width>
+		<height>148</height>
+		<border>0</border>
+	</image>
+	<text_block>
+		<text>Doc Ock Turns Main Street Into Crane Street!</text>
+		<x>523</x>
+		<y>370</y>
+		<width>486</width>
+		<height>198</height>
+		<font>GEORGIA__48_Italic</font>
+	</text_block>
+	<text_block>
+		<text>SUPER HERO CITY - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare semper lectus in condimentum. Phasellus ac odio sit amet mauris gravida condimentum sed vitae massa. Etiam venenatis augue id diam convallis at tempor elit auctor. Morbi sit amet quam in enim bibendum iaculis. Etiam metus lectus, sagittis sed tempor at, faucibus eu nulla. Nunc id consequat lorem. Cras adipiscing pulvinar rhoncus. Nam ultricies, felis a adipiscing dapibus, diam ipsum iaculis lectus, vel posuere tellus libero at nisi. Donec vitae varius lacus. Phasellus vehicula aliquam eros, mollis egestas turpis hendrerit vel. In bibendum turpis in orci auctor et condimentum dolor fringilla. Nunc neque erat, tristique at consectetur sit amet, interdum a nisi. Aenean porta commodo ligula.\n\nSuspendisse ante ipsum, rutrum non semper blandit, porttitor at augue. Nulla at urna eget velit sollicitudin porttitor in a velit. Curabitur id erat sit amet turpis aliquam imperdiet a eu justo. Cras porta aliquam turpis non ultrices. Cras vel enim sit amet ligula accumsan tempor. Aliquam at lectus at sapien laoreet vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed nec velit tellus, sed aliquam augue. Donec leo lorem, viverra volutpat fringilla feugiat, bibendum at ipsum. Quisque aliquet accumsan purus et rhoncus. Suspendisse ac ipsum tortor. Maecenas condimentum sagittis diam, sed lobortis odio dignissim in. Aliquam commodo libero mattis ligula convallis facilisis. Cras a bibendum nisi. Nulla adipiscing vehicula enim ac pulvinar. Donec lectus libero, placerat mollis ullamcorper eu, vulputate vitae nisi. Suspendisse non cursus leo. Donec ac elit ut risus rutrum cursus. Ut vel mi risus. In vel lorem urna.</text>
+		<x>523</x>
+		<y>484</y>
+		<width>486</width>
+		<height>382</height>
+		<font>GEORGIA__14</font>
+	</text_block>
+	<text_block>
+		<text>Speedball's SkeeBalls No Longer an Imminent Threat</text>
+		<x>10</x>
+		<y>484</y>
+		<width>236</width>
+		<height>86</height>
+		<font>GEORGIA__20_Bold</font>
+	</text_block>
+	<text_block>
+		<text>SUPER HERO CITY - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare semper lectus in condimentum. Phasellus ac odio sit amet mauris gravida condimentum sed vitae massa. Etiam venenatis augue id diam convallis at tempor elit auctor. Morbi sit amet quam in enim bibendum iaculis. Etiam metus lectus, sagittis sed tempor at, faucibus eu nulla. Nunc id consequat lorem. Cras adipiscing pulvinar rhoncus. Nam ultricies, felis a adipiscing dapibus, diam ipsum iaculis lectus, vel posuere tellus libero at nisi. Donec vitae varius lacus.</text>
+		<x>10</x>
+		<y>560</y>
+		<width>236</width>
+		<height>200</height>
+		<font>GEORGIA__14</font>
+	</text_block>
+	<vertical_line>
+		<x>251</x>
+		<y>484</y>
+		<length>356</length>
+	</vertical_line>
+	<text_block>
+		<text>Zoo's Whooping Cranes Explore Defamation Suit</text>
+		<x>271</x>
+		<y>484</y>
+		<width>236</width>
+		<height>86</height>
+		<font>GEORGIA__20_Bold</font>
+	</text_block>
+	<text_block>
+		<text>SUPER HERO CITY - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare semper lectus in condimentum. Phasellus ac odio sit amet mauris gravida condimentum sed vitae massa. Etiam venenatis augue id diam convallis at tempor elit auctor. Morbi sit amet quam in enim bibendum iaculis. Etiam metus lectus, sagittis sed tempor at, faucibus eu nulla. Nunc id consequat lorem. Cras adipiscing pulvinar rhoncus. Nam ultricies, felis a adipiscing dapibus, diam ipsum iaculis lectus, vel posuere tellus libero at nisi. Donec vitae varius lacus.</text>
+		<x>271</x>
+		<y>560</y>
+		<width>224</width>
+		<height>200</height>
+		<font>GEORGIA__14</font>
+	</text_block>
+	<vertical_line>
+		<x>502</x>
+		<y>484</y>
+		<length>356</length>
+	</vertical_line>
+  </front_page>
+
+</m_0001_1_SampleMission>

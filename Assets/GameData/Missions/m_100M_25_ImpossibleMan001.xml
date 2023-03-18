@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<m_100M_25_ImpossibleMan001>
+	<name>The Impossible Holiday!</name>
+	<description>Impossible Man didn't get any presents, so he's taking everyone else's gifts!</description>
+	<mission_splash_screen_override>L_impossible_man_01</mission_splash_screen_override>
+	<mission_purchase_override>m_1033_1_ImpossibleMan001</mission_purchase_override>
+	<mission_briefing_speaker>impossible_man_playable</mission_briefing_speaker>
+	<map>
+		<x>0</x>
+		<y>0</y>
+	</map>
+	<target_level>1</target_level>
+	<stages>
+		<stage>
+			<stage_number>1</stage_number>
+			<scenario_bundle>SHC_ROOFTOPS_M033_S03M_BOSS_scenario</scenario_bundle>
+		</stage>
+	</stages>
+	<rating>
+		<bronze>
+			<score_needed>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+			</score_needed>
+		</bronze>
+		<silver>
+			<score_needed>
+				<player>668</player>
+				<player>668</player>
+				<player>668</player>
+				<player>668</player>
+			</score_needed>
+		</silver>
+		<gold>
+			<score_needed>
+				<player>1422</player>
+				<player>1422</player>
+				<player>1422</player>
+				<player>1422</player>
+			</score_needed>
+		</gold>
+		<adamantium>
+			<score_needed>
+				<player>1800</player>
+				<player>1800</player>
+				<player>1800</player>
+				<player>1800</player>
+			</score_needed>
+		</adamantium>
+	</rating>
+	<awards>
+		<bronze>
+			<lootTableIDs>103,395</lootTableIDs>
+		</bronze>
+		<silver>
+			<lootTableIDs>103,395</lootTableIDs>
+		</silver>
+		<gold>
+			<lootTableIDs>103,395</lootTableIDs>
+		</gold>
+		<adamantium>
+			<lootTableIDs>103,395,115</lootTableIDs>
+		</adamantium>
+	</awards>
+</m_100M_25_ImpossibleMan001>

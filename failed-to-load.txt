@@ -1,0 +1,9 @@
+ onreadyfor
+
+
+Failed to load character prefab from asset bundle for character <surtur_popcorn_minion>.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CspUtils:DebugLog(Object) (at Assets\mainData\Assets\Scripts\CspUtils.cs:13)
+CharacterSpawn:OnCharacterPrefabLoaded(Object, AssetBundle, Object) (at Assets\mainData\Assets\Scripts\CharacterSpawn.cs:507)
+AssetBundleLoader:Update() (at Assets\mainData\Assets\Scripts\AssetBundleLoader.cs:778)

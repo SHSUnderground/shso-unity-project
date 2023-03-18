@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_0003_1_DefeatDoctorDoom>
+  <name>Demo Villainville Sewers</name>
+  <description>Something Stinks in Superhero City! 
+  
+Get to the bottom of the problem and let's hope it's not the bottom of the Hulk!!!
+  
+The city sewers await you.</description>
+  <!--<cover_page>SomethingStinks_cover</cover_page> -->
+  <!--<title_key>somethingstinks</title_key> -->
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+  <cinematic></cinematic>
+  <!-- <cinematic>prototype01</cinematic> -->
+  <map>
+    <x>-400</x>
+    <y>-360</y>
+  </map>
+  <target_level>1</target_level>
+
+<stages>
+	<stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Sewers_Demo_geometry</geometry_bundle>
+    <scenario_bundle>Sewers_Demo_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list></available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+    <!-- <cinematic>prototype01</cinematic> -->
+  </stage>
+</stages>
+
+<!--
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>R2_Brawler_Factory_geometry</geometry_bundle>
+    <scenario_bundle>R2_Brawler_Factory_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list></available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic>prototype01</cinematic>
+  </stage>
+
+
+  <stage>
+    <stage_number>3</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Streets_Demo_geometry</geometry_bundle>
+    <scenario_bundle>Streets_Demo_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list></available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic>prototype01</cinematic>
+  </stage>
+-->
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+  </prerequisites>
+
+  <rating>
+    <bronze>
+      <score_needed>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+      </score_needed>
+    </bronze>
+    <silver>
+      <score_needed>
+        <player>4001</player>
+        <player>4001</player>
+        <player>4001</player>
+        <player>4001</player>
+      </score_needed>
+    </silver>
+    <gold>
+      <score_needed>
+        <player>8001</player>
+        <player>8001</player>
+        <player>8001</player>
+        <player>8001</player>
+      </score_needed>
+    </gold>
+    <adamantium>
+      <score_needed>
+        <player>16001</player>
+        <player>16001</player>
+        <player>16001</player>
+        <player>16001</player>
+      </score_needed>
+    </adamantium>
+  </rating>
+
+	<awards>
+		<bronze>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</bronze>
+		<silver>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</silver>
+		<gold>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</gold>
+		<adamantium>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</adamantium>
+	</awards>
+
+</m_0003_1_DefeatDoctorDoom>

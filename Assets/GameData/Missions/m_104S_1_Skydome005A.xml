@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_104S_1_Skydome005A>
+  <name>Skydome Mode Mission 5</name>
+  <description>Hodor</description>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+  <blacklist_characters></blacklist_characters>
+	<mission_splash_screen_override></mission_splash_screen_override>
+  <mission_purchase_override></mission_purchase_override>
+	<display_timer>true</display_timer>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+<!-- This stuff might not be necessary START -->
+	<stages>
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    
+    <scenario_bundle>Space_Station_M104S_01A_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+	</stages>  
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+		<bronze>
+			<score_needed>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+			</score_needed>
+		</bronze>
+		<silver>
+			<score_needed>
+				<player>14852</player>
+				<player>25712</player>
+				<player>39914</player>
+				<player>48269</player>
+			</score_needed>
+		</silver>
+		<gold>
+			<score_needed>
+				<player>31600</player>
+				<player>54707</player>
+				<player>84925</player>
+				<player>102700</player>
+			</score_needed>
+		</gold>
+		<adamantium>
+			<score_needed>
+				<player>40000</player>
+				<player>69250</player>
+				<player>107500</player>
+				<player>130000</player>
+			</score_needed>
+		</adamantium>
+</rating>
+	<awards>
+		<bronze>
+			<rewardTier>1</rewardTier>
+			<lootTableIDs>104,374</lootTableIDs>
+		</bronze>
+		<silver>
+			<rewardTier>2</rewardTier>
+			<lootTableIDs>104,374</lootTableIDs>
+		</silver>
+		<gold>
+			<rewardTier>3</rewardTier>
+			<lootTableIDs>104,374</lootTableIDs>
+		</gold>
+		<adamantium>
+			<rewardTier>4</rewardTier>
+			<lootTableIDs>104,215,374,113</lootTableIDs>
+		</adamantium>
+	</awards>
+</m_104S_1_Skydome005A>

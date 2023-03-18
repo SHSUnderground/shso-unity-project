@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b6503d5060af4fd585090e1c9f2781be
+timeCreated: 1583319590
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 9
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "ZOOOBRG"
+  fontNames:
+  - Zooom BB
+  - Arial
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

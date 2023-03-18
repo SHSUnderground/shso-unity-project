@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <!-- Bundles are instantiated in the order listed, so base geometry should always be first -->
+  <layouts>
+
+    <!-- Social Space -->
+
+    <layout>
+      <name>Tutorial_World</name>
+      <title> Tutorial World </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>1</gameworld_index>
+      <hard_cap>1</hard_cap>
+      <soft_cap>1</soft_cap>
+      <bundles>
+        <bundle>tutorial_world_geometry</bundle>
+        <bundle>tutorial_world_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Daily_Bugle</name>
+      <title> Daily Bugle </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>2</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+			<primary_zone>true</primary_zone>
+      <bundles>
+				<bundle>daily_bugle2</bundle>
+				<bundle>daily_bugle2_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Baxter_Building</name>
+      <title> Baxter Building </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>3</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+			<primary_zone>true</primary_zone>
+      <bundles>
+				<bundle>baxter</bundle>
+				<bundle>baxter_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Asgard</name>
+      <title> Asgard </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>4</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+			<primary_zone>true</primary_zone>
+      <bundles>
+				<bundle>Asgard</bundle>
+				<bundle>Asgard_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Villainville</name>
+      <title> Villianville </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>5</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+			<primary_zone>true</primary_zone>
+      <bundles>
+        <bundle>Villainville</bundle>
+        <bundle>Villainville_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Daily_Bugle_Fall</name>
+      <title> Daily Bugle Fall </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>6</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+      <bundles>
+        <bundle>daily_bugle2_Fall</bundle>
+        <bundle>daily_bugle2_Fall_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Daily_Bugle_Winter</name>
+      <title> Daily Bugle Winter </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>7</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+      <bundles>
+        <bundle>daily_bugle2_winter</bundle>
+        <bundle>daily_bugle2_winter_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Baxter_Winter</name>
+      <title> Baxter Winter </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>8</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+      <bundles>
+        <bundle>baxter_winter</bundle>
+        <bundle>baxter_winter_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Asgard_Avengers</name>
+      <title> Asgard Avengers </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>9</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+      <bundles>
+        <bundle>Asgard_avengers</bundle>
+        <bundle>Asgard_avengers_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Bugle_Avengers</name>
+      <title> Bugle Avengers </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>10</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+      <bundles>
+        <bundle>daily_bugle2_Avengers</bundle>
+        <bundle>daily_bugle2_Avengers_scenario</bundle>
+      </bundles>
+    </layout>
+
+    <layout>
+      <name>Baxter_Avengers</name>
+      <title> Baxter Avengers </title>
+      <game_type>game_world</game_type>
+      <gameworld_index>11</gameworld_index>
+      <hard_cap>40</hard_cap>
+      <soft_cap>20</soft_cap>
+      <bundles>
+        <bundle>baxter_avengers</bundle>
+        <bundle>baxter_avengers_scenario</bundle>
+      </bundles>
+    </layout>
+
+  </layouts>
+</configuration>

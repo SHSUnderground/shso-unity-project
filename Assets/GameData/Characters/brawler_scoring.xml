@@ -1,0 +1,26 @@
+<brawler_scoring>
+	<pickup_bonus> 25 </pickup_bonus>
+	<combo_bonus> 1 </combo_bonus>
+  <gimmick_bonus> 1 </gimmick_bonus>
+	<defeated_bonus>
+    <deaths_0>2</deaths_0>
+    <deaths_1>1.5</deaths_1>
+    <deaths_2>1.25</deaths_2>
+    <deaths_3>1</deaths_3>
+  </defeated_bonus>
+  <enemy_bonus>
+    <fodder>50</fodder>
+    <regular>100</regular>
+    <lieutenant>150</lieutenant>
+    <miniboss>300</miniboss>
+    <boss>500</boss>
+    <megaboss>1000</megaboss>
+  </enemy_bonus>
+  <score_calculator>
+    <combo_wave_loss>1.5</combo_wave_loss>
+    <combo_spawner_loss>3</combo_spawner_loss>
+    <adamantium_ratio>.95</adamantium_ratio>
+    <gold_ratio>.75</gold_ratio>
+    <silver_ratio>.63</silver_ratio>
+  </score_calculator>
+</brawler_scoring>

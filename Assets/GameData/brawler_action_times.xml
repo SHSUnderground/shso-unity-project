@@ -1,0 +1,20 @@
+<brawler_action_times>
+  <attach_min>0</attach_min>
+  <attach_max>20</attach_max>
+  <getup_min>0</getup_min>
+  <getup_max>2</getup_max>
+  <knockdown_min>0</knockdown_min>
+  <knockdown_max>2</knockdown_max>
+  <large_min>0</large_min>
+  <large_max>2</large_max>
+  <launch_min>0</launch_min>
+  <launch_max>20</launch_max>
+  <small_min>0</small_min>
+  <small_max>2</small_max>
+  <stun_min>0</stun_min>
+  <stun_max>2</stun_max>
+  <pickup_min>0</pickup_min>
+  <pickup_max>1</pickup_max>
+  <throw_min>0</throw_min>  
+  <throw_max>1</throw_max>
+</brawler_action_times>

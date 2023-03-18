@@ -1,0 +1,149 @@
+<audio_preset_volume>
+  <preset_list>
+
+    <preset>
+      <preset_name>default</preset_name>
+      <audio_volume>1.0</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+    <preset>
+      <preset_name>volume_20</preset_name>
+      <audio_volume>2.0</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+    <preset>
+      <preset_name>volume_15</preset_name>
+      <audio_volume>1.50</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+    <preset>
+      <preset_name>volume_12</preset_name>
+      <audio_volume>1.20</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+    <preset>
+      <preset_name>volume_10</preset_name>
+      <audio_volume>1.00</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_09</preset_name>
+      <audio_volume>0.9</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_085</preset_name>
+      <audio_volume>0.85</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_08</preset_name>
+      <audio_volume>0.8</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_075</preset_name>
+      <audio_volume>0.75</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_07</preset_name>
+      <audio_volume>0.7</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+    <preset>
+      <preset_name>volume_065</preset_name>
+      <audio_volume>0.65</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_06</preset_name>
+      <audio_volume>0.6</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_055</preset_name>
+      <audio_volume>0.55</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_05</preset_name>
+      <audio_volume>0.5</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_045</preset_name>
+      <audio_volume>0.45</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>    
+        
+    <preset>
+      <preset_name>volume_04</preset_name>
+      <audio_volume>0.4</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+    <preset>
+      <preset_name>volume_035</preset_name>
+      <audio_volume>0.35</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_03</preset_name>
+      <audio_volume>0.3</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_025</preset_name>
+      <audio_volume>0.25</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+	
+	<preset>
+      <preset_name>volume_02</preset_name>
+      <audio_volume>0.2</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+    <preset>
+      <preset_name>volume_015</preset_name>
+      <audio_volume>0.15</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+	
+	<preset>
+      <preset_name>volume_01</preset_name>
+      <audio_volume>0.1</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+    
+	<preset>
+      <preset_name>volume_005</preset_name>
+      <audio_volume>.005</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+        
+	<preset>
+      <preset_name>volume_00</preset_name>
+      <audio_volume>0</audio_volume>
+      <audio_volume_rand>0.0</audio_volume_rand>
+    </preset>
+
+  </preset_list>
+</audio_preset_volume>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<m_1034_1_Villains001A>
+	<name>Bring On The Bad Guys!</name>
+	<description>It's a Villainous Spectacular!</description>
+	<mission_briefing_speaker>taskmaster_playable</mission_briefing_speaker>
+	<blacklist_characters>non_villains</blacklist_characters>
+	<map>
+		<x>0</x>
+		<y>0</y>
+	</map>
+	<target_level>1</target_level>
+	<stages>
+		<stage>
+			<stage_number>1</stage_number>
+			<scenario_bundle>SHC_Streets_M034_S01A_scenario</scenario_bundle>
+		</stage>
+		<stage>
+			<stage_number>2</stage_number>
+			<scenario_bundle>SHC_ROOFTOPS_M034_S02A_scenario</scenario_bundle>
+		</stage>
+		<stage>
+			<stage_number>3</stage_number>
+			<scenario_bundle>Helicarrier_M034_S03A_BOSS_scenario</scenario_bundle>
+		</stage>
+	</stages>
+	<rating>
+<bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>25248</player>
+    <player>39366</player>
+    <player>57829</player>
+    <player>68690</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>53720</player>
+    <player>83759</player>
+    <player>123042</player>
+    <player>146150</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>68000</player>
+    <player>106025</player>
+    <player>155750</player>
+    <player>185000</player>
+  </score_needed>
+ </adamantium>
+</rating>
+	<awards>
+		<bronze>
+			<rewardTier>1</rewardTier>
+			<lootTableIDs>102,376</lootTableIDs>
+		</bronze>
+		<silver>
+			<rewardTier>2</rewardTier>
+			<lootTableIDs>102,376</lootTableIDs>
+		</silver>
+		<gold>
+			<rewardTier>3</rewardTier>
+			<lootTableIDs>102,376</lootTableIDs>
+		</gold>
+		<adamantium>
+			<rewardTier>4</rewardTier>
+			<lootTableIDs>102,376,216,114</lootTableIDs>
+		</adamantium>
+	</awards>
+</m_1034_1_Villains001A>

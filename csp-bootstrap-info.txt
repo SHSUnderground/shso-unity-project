@@ -1,0 +1,12 @@
+info about UnityObject2: https://docs.unity3d.com/450/Documentation/Manual/HTMLcodetoloadUnityWebPlayercontent.html
+
+________________________
+
+look in game.min.js
+
+HEROUPNS.unityObject=UnityObject2;
+
+HEROUPNS.unityArcadeObject=UnityObject2({params:f});
+
+HEROUPNS.unityObject.initPlugin(jQuery("#unityBrowser")[0],HEROUPNS.unityContentPath+"shs.unity3d");
+HEROUPNS.unityArcadeObject.initPlugin(jQuery("#unityArcade")[0],c);

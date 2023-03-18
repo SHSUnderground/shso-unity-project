@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154335297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154335297}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1 &154335297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 3
+  m_Component:
+  - 0: {fileID: 154335763}
+  - 0: {fileID: 154336772}
+  - 4: {fileID: 400000}
+  m_Layer: 0
+  m_Name: DioramaSpawner
+  m_TagString: 
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 3452816845
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &154335763
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154335297}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &154336772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154335297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401385d8b9695c735ee87c53ce3866f9, type: 1}
+  m_Name: 
+  CharacterName: 
+  R2Attack: 1
+  IsLocal: 0
+  IsPlayer: 0
+  IsAI: 0
+  IsNpc: 0
+  IsBoss: 0
+  IsNetworked: 1
+  DestroyOnSpawn: 0
+  IgnorePrecache: 0
+  SpawnOnStart: 1
+  RecordHistory: 0
+  ForceLocalPlayerSpawnOnStart: 0
+  despawnOnDeath: 1
+  blinkBeforeDespawn: 1
+  overrideAggroDistance: 0
+  aggroDistance: 10
+  canPlayVOWithoutCutscene: 0
+  wakeUpOnAggro: 1
+  wakeUpOnEvent: 1
+  wakeUpOnHit: 1
+  overrideDeathAnim: 
+  overrideDeathSequenceName: 
+  overrideBossDeathSequence: 0
+  prefabTextBillboard: {fileID: 154335199, guid: eced36b828365f54d99cef41a2d19e06,
+    type: 2}
+  prefabPlayerBillboard: {fileID: 100014, guid: cd5243cc57cfc0345b107f5054a07532,
+    type: 2}
+  prefabOcclusionDetector: {fileID: 154335197, guid: b383c32b5c666d140b66025851e86a4f,
+    type: 2}
+  prefabBlobShadow: {fileID: 154335196, guid: ac33e94aa14f454469d9d8ffe6271c21, type: 2}
+  prefabPushaway: {fileID: 154335198, guid: ad1a57d7bc107fb4db55004986be6934, type: 2}
+  spawnFXPrefab: {fileID: 0}
+  spawnInSource: {fileID: 0}
+  startingEffect: 
+  Players1: 1
+  Players2: 1
+  Players3: 1
+  Players4: 1
+  spawnCachedOnGround: 1
+  groundRayLength: 10
+  rewardsPoints: 1
+  attacksObjects: 0
+  spawnerNetwork: {fileID: 0}
+  goNetId:
+    parentId: -1
+    childId: -1
+  doTransportEffect: 1

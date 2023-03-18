@@ -1,0 +1,31 @@
+<tutorials>
+	<tutorial name="master">
+		<step id="start">
+			<dialog>Welcome to Super Hero Squad!  Did you know that we've got awesome stuff that will make your armpits explode?  We do!</dialog>
+			<advanceEvent>TutorialDialogCloseButton</advanceEvent>
+		</step>
+		<step>
+			<dialog>click to move your hero around, eh?</dialog>
+			<advanceEvent>playerMove</advanceEvent>
+		</step>
+		<step>
+			<dialog>now jump using the spacebar</dialog>
+			<advanceEvent>jumpPressed</advanceEvent>
+		</step>
+		<step>
+			<dialog>ok let's get some bad guys</dialog>
+			<advanceEvent>TutorialDialogCloseButton</advanceEvent>
+		</step>
+		<step id="brawler1_load">
+			<load>tutorial_mission</load>
+			<advanceEvent>missionLoaded</advanceEvent>
+		</step>
+		<step id="brawler1_start">
+			<dialog>Welcome to your first mission!  Click on an enemy to attack</dialog>
+			<advanceEvent>TutorialDialogCloseButton</advanceEvent>
+		</step>
+	
+	</tutorial>
+
+
+</tutorials>

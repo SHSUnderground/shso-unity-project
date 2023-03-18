@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_100M_16_Malekith001>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+	<mission_splash_screen_override>L_malekith_01</mission_splash_screen_override>
+	<mission_purchase_override>m_1032_1_Malekith001</mission_purchase_override>
+	<mission_briefing_speaker>captain_america_avengers</mission_briefing_speaker>
+  <blacklist_characters></blacklist_characters>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+<!-- This stuff might not be necessary START -->
+	<stages>
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>Asgard_M032_S02M_BOSS_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+	</stages>
+    
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+ <bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>1113</player>
+    <player>1113</player>
+    <player>1113</player>
+    <player>1113</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>2370</player>
+    <player>2370</player>
+    <player>2370</player>
+    <player>2370</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>3000</player>
+    <player>3000</player>
+    <player>3000</player>
+    <player>3000</player>
+  </score_needed>
+ </adamantium>
+</rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>103,386</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>103,386</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>103,386</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>103,386,115</lootTableIDs>
+    </adamantium>
+  </awards>
+</m_100M_16_Malekith001>

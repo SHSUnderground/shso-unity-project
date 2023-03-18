@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\mainData\Assets\Scripts\CardGameController.cs">
+    <Files>
+      <File FileName="Assets\mainData\Assets\Scripts\CardGameAnimationQueue.cs" Line="117" Column="1" />
+      <File FileName="Assets\mainData\Assets\Scripts\CardGameController.cs" Line="419" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\dev\RetroSquad\Assets\mainData\Assets\Scripts\CardGameController.cs" line="415" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b0f73fa8d575449aae3b3046c357eef7
+timeCreated: 1583319591
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "GROBO"
+  fontNames:
+  - GROBOLDpro
+  - Arial
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

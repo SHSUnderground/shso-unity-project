@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<catalogs>
+  <catalog>
+    <id>1</id>
+    <name></name>
+    <description></description>
+    <pages/>
+  </catalog>
+  <catalog>
+    <id>2</id>
+    <name></name>
+    <description></description>
+    <pages/>
+  </catalog>
+  <catalog>
+    <id>3</id>
+    <name></name>
+    <description></description>
+    <pages/>
+  </catalog>
+  <catalog>
+    <id>4</id>
+    <name>Heroes</name>
+    <description>Buy more heroes!</description>
+    <pages>
+      <page>
+        <page_number>1</page_number>
+
+        <description>Starting Heroes</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1257</ownable_type_id>
+            <ownable_type_name>human_torch</ownable_type_name>
+            <category>h</category>
+
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <ownable_type_id>1279</ownable_type_id>
+            <ownable_type_name>thing</ownable_type_name>
+            <category>h</category>
+
+            <gold_price>500</gold_price>
+            <description />
+            <keywords />
+          </item>
+          <item>
+
+            <quantity>1</quantity>
+            <ownable_type_id>1268</ownable_type_id>
+            <ownable_type_name>rogue</ownable_type_name>
+            <category>h</category>
+            <gold_price>515</gold_price>
+            <description />
+
+            <keywords />
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+  <catalog>
+    <id>5</id>
+    <name></name>
+    <description></description>
+    <pages/>
+  </catalog>
+  <catalog>
+    <id>6</id>
+    <name></name>
+    <description></description>
+    <pages/>
+  </catalog>
+
+</catalogs>

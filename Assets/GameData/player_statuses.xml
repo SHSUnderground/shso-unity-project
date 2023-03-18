@@ -1,0 +1,57 @@
+<player_statuses>
+
+  <status>
+    <name>AFK</name>
+    <icon>thought_bubble_icon_afk</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>CardGame</name>
+    <icon>thought_bubble_icon_cardgame</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>Missions</name>
+    <icon>thought_bubble_icon_missions</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>MySquad</name>
+    <icon>thought_bubble_icon_mysquad</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>PrizeWheel</name>
+    <icon>thought_bubble_icon_prizewheel</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>Shopping</name>
+    <icon>thought_bubble_icon_shopping</icon>
+    <emote>think</emote>
+  </status>
+
+  <status>
+    <name>ZoneChooser</name>
+    <icon>thought_bubble_icon_zonechooser</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>Arcade</name>
+    <icon>thought_bubble_minigames</icon>
+    <emote>cheer</emote>
+  </status>
+
+  <status>
+    <name>Options</name>
+    <icon>thought_bubble_options</icon>
+    <emote>cheer</emote>
+  </status>
+
+</player_statuses>

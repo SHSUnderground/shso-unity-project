@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_1019_1_Venom001>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+  <blacklist_characters>venom_playable</blacklist_characters>
+<!-- This stuff might not be necessary START -->
+<stages>
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>SHC_ROOFTOPS_M019_S01_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>SHC_Streets_M019_S02_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+ <stage>
+    <stage_number>3</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>SHC_Streets_M019_S03_BOSS_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+</stages>
+<prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+ <bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>12800</player>
+    <player>19520</player>
+    <player>27200</player>
+    <player>32000</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>16000</player>
+    <player>24400</player>
+    <player>34000</player>
+    <player>40000</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>20000</player>
+    <player>30500</player>
+    <player>42500</player>
+    <player>50000</player>
+  </score_needed>
+ </adamantium>
+</rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>102</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>102</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>102</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>102</lootTableIDs>
+    </adamantium>
+  </awards>
+</m_1019_1_Venom001>
