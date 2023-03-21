@@ -185,7 +185,7 @@ public class SHSFriendsInfoGadget : SHSGadget
 		blockListInfoWindow = new BlockListInfoWindow(this);
 		pendingInvitesInfoWindow = new PendingInvitesInfoWindow(this);
 		sentInvitesInfoWindow = new SentInvitesInfoWindow(this);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + profile.UserId + "/friends.py", OnFriendsFetchResponse);
+		AppShell.Instance.WebService.StartRequest("resources$users/friends.py", OnFriendsFetchResponse);
 		SetupOpeningWindow(BackgroundType.TwoPanel, pendingInvites, pendingInvitesInfoWindow);
 		textTopWindow.text.Text = "#pending_invites";
 		SetupOpeningTopWindow(textTopWindow);

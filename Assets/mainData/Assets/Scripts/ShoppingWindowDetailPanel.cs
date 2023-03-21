@@ -511,7 +511,7 @@ public class ShoppingWindowDetailPanel : GUIDialogWindow
 		if (_item.ownableDef.category == OwnableDefinition.Category.Badge)
 		{
 			AppShell.Instance.Profile.Badges.Add(string.Empty + _item.ownableDef.ownableTypeID, new Badge(string.Empty + _item.ownableDef.ownableTypeID, 1));
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/heroes/", OnHeroXpLevelResponse);
+			AppShell.Instance.WebService.StartRequest("resources$users/heroes.py", OnHeroXpLevelResponse);
 		}
 		else if (_item.ownableDef.category == OwnableDefinition.Category.Title)
 		{

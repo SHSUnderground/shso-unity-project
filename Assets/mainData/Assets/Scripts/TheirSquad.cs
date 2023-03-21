@@ -160,7 +160,7 @@ public class TheirSquad
 
 	public static void GetSquad(long playerId)
 	{
-		AppShell.Instance.WebService.StartRequest("resources$squad/" + playerId + "/json/", OnGetSquadResponse);
+		AppShell.Instance.WebService.StartRequest("resources$users/get_squad.py", OnGetSquadResponse);
 	}
 
 	private static void OnGetSquadResponse(ShsWebResponse response)

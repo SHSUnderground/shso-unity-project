@@ -69,7 +69,8 @@ public class CardCollection
 	private void _Fetch(long userId)
 	{
 		isDoneFetching = false;
-		string uri = "resources$users/" + userId + "/cards";
+		string uri = "resources$users/cards.py";
+		// string uri = "resources$users/" + userId + "/cards";
 		ShsWebService component = Utils.GetComponent<ShsWebService>(AppShell.Instance.gameObject);
 		if (component != null)
 		{
@@ -135,7 +136,8 @@ public class CardCollection
 		UserProfile profile = AppShell.Instance.Profile;
 		if (profile != null)
 		{
-			string text = "resources$users/" + profile.UserId + "/decks/";
+			string text = "resources$users/decks.py";
+			// string text = "resources$users/" + profile.UserId + "/decks/";
 			CspUtils.DebugLog("Retrieving user's decks from: " + text);
 			ShsWebService component = Utils.GetComponent<ShsWebService>(AppShell.Instance.gameObject);
 			if ((bool)component)

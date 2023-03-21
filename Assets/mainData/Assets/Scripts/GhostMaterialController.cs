@@ -151,7 +151,7 @@ public class GhostMaterialController : CharacterMaterialController, IComponentTi
 	{
 		if (greyscaleMat == null)
 		{
-			greyscaleMat = new Material(Shader.Find("GreyscaleShader"));
+			greyscaleMat = new Material(Shader.Find("Diffuse"));//new Material(Shader.Find("GreyscaleShader")); Commented by doggo
 		}
 		if (overrideMaterial == null)
 		{

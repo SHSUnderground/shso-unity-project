@@ -1269,7 +1269,8 @@ public class HqRoom2 : MonoBehaviour
 		AppShell.Instance.SharedHashTable["HQ_" + id] = text.Split('\n');
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("room_data", text);
-		string uri = "resources$users/" + HqController2.Instance.Profile.UserId + "/hq/room/" + id + "/save/";
+		wWWForm.AddField("room_id", id);
+		string uri = "resources$users/hq_room_save.py";
 		AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 		{
 			if (localsaveTransId == saveTransId)

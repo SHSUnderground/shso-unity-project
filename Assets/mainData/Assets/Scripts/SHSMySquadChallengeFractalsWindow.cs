@@ -272,12 +272,12 @@ public class SHSMySquadChallengeFractalsWindow : SHSGadget.GadgetCenterWindow
 		ClearInfo();
 		WWWForm formData = new WWWForm();
 		formData.AddField("fractal_type_id", 100);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/get_leaderboard/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/get_leaderboard.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status == 200)
 			{
 				CspUtils.DebugLog(response.Body);
-				AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/get_fractal_bank/", delegate(ShsWebResponse iresponse)
+				AppShell.Instance.WebService.StartRequest("resources$users/get_fractal_bank.py", delegate(ShsWebResponse iresponse)
 				{
 					if (response.Status == 200)
 					{

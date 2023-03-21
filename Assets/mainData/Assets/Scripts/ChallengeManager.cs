@@ -348,7 +348,9 @@ public class ChallengeManager
 			CspUtils.DebugLog("Server Challenge Id (" + serverChallengeId + ") passed in equal to or less than already viewed challenge (" + LastViewedChallengeId + ")");
 			return;
 		}
-		string uri = string.Format("{0}/{1}/{2}/{3}/{4}/{5}/", "resources$", "users/", AppShell.Instance.Profile.UserId, "challenge", "celebrated", serverChallengeId);
+		WWWForm wWWForm = new WWWForm();
+		wWWForm.AddField("serverChallengeId", serverChallengeId);
+		string uri = "resources$users/challenge_celebrated.py";
 		AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
@@ -383,7 +385,7 @@ public class ChallengeManager
 					callback(true);
 				}
 			}
-		}, null, ShsWebService.ShsWebServiceType.RASP);
+		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
 	}
 
 	public void SetActiveChallenge(int serverChallengeId)

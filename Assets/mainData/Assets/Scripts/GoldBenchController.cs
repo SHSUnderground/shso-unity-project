@@ -123,6 +123,7 @@ public class GoldBenchController : InteractiveObjectController
 				component.SendMessage("SetApplySequence", owner.effectSequenceOnApply, SendMessageOptions.DontRequireReceiver);
 				component.SendMessage("SetRevertSequence", owner.effectSequenceOnRevert, SendMessageOptions.DontRequireReceiver);
 				component.SendMessage("SetSequenceOwner", owner.effectSequenceParentObject, SendMessageOptions.DontRequireReceiver);
+				//owner.effectSequenceParentObject
 			}
 			sit.stand();
 		}

@@ -367,7 +367,8 @@ public class Matchmaker2
 		wWWForm.AddField("game", GameTypeToString(GameType.BRAWLER));
 		wWWForm.AddField("mission", missionId);
 		CspUtils.DebugLog("solobrawler: " + missionId);
-		PostAndUpdateTransaction(wWWForm, onTicket, ProcessBrawlerSoloResponse, "mm/brawler/solo");
+		Debug.Log ("TRYING TO JOIN SOLO!");
+		PostAndUpdateTransaction(wWWForm, onTicket, ProcessBrawlerSoloResponse, "mm/brawler/solo.py"); //Changed to .py by doggo
 	}
 
 	public void MiniBrawler(string missionId, OnTicketDelegate onTicket)

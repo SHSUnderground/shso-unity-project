@@ -225,7 +225,7 @@ public class CommunicationManager : IDisposable
 			{
 				wWWForm.AddField("playercountry", serverValueEntitlement2.Value);
 			}
-			AppShell.Instance.WebService.StartRequest("resources$users/" + userId + "/csr/report_player/", delegate(ShsWebResponse response)
+			AppShell.Instance.WebService.StartRequest("resources$users/csr_report_player.py", delegate(ShsWebResponse response)
 			{
 				if (response.Status == 200)
 				{

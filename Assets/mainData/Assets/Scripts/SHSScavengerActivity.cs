@@ -133,7 +133,7 @@ public class SHSScavengerActivity : SHSActivityBase
 	public override void Reset()
 	{
 		WWWForm wWWForm = new WWWForm();
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/scavenger_reset/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/scavenger_reset.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status == 200)
 			{

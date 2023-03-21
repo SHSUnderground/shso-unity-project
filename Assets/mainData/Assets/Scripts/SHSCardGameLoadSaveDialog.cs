@@ -315,7 +315,7 @@ public class SHSCardGameLoadSaveDialog : GUIDialogWindow
 					{
 						WWWForm wWWForm = new WWWForm();
 						wWWForm.AddField("deck_id", DeckToDelete.DeckId);
-						AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/decks/delete/", delegate(ShsWebResponse response)
+						AppShell.Instance.WebService.StartRequest("resources$users/decks_delete.py", delegate(ShsWebResponse response)
 						{
 							if (response.Status == 200)
 							{

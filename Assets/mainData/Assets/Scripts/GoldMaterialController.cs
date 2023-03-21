@@ -162,24 +162,30 @@ public class GoldMaterialController : CharacterMaterialController, IComponentTim
 		if (goldMat == null)
 		{
 			Texture2D texture = Resources.Load("Shaders/Textures/gold_ramp", typeof(Texture2D)) as Texture2D;
-			goldMat = new Material(Shader.Find("GoldShader"));
-			goldMat.SetTexture("_RampTex", texture);
+			goldMat = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("GoldShader"));
+			//goldMat.SetTexture("_RampTex", texture);
+			goldMat.SetTexture("_MainTex",texture); //Commented by doggo
+			goldMat.SetColor("_Color",Color.white);//Added by doggos
 		}
 		if (greyscaleMat == null)
 		{
-			greyscaleMat = new Material(Shader.Find("GoldShader"));
+			greyscaleMat = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("GoldShader")); Modified by doggo
+			//greyscaleMat.SetColor("_Color",Color.white);//Added by doggos
 		}
 		if (highPassMat == null)
 		{
-			highPassMat = new Material(Shader.Find("HighPassFilter"));
+			highPassMat = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("HighPassFilter"));
+			//highPassMat.SetColor("_Color",Color.white);//Added by doggos
 		}
 		if (highPassAdd == null)
 		{
-			highPassAdd = new Material(Shader.Find("HighPassAdd"));
+			highPassAdd = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("HighPassAdd"));
+			//highPassAdd.SetColor("_Color",Color.white);//Added by doggos
 		}
 		if (overrideMaterial == null)
 		{
-			overrideMaterial = new Material(Shader.Find("Specular"));
+			overrideMaterial = new Material(Shader.Find("Specular"));//new Material(Shader.Find("Specular"));
+			overrideMaterial.SetColor("_Color",Color.white);//Added by doggo
 		}
 		ResetResources();
 		for (int i = 0; i < skinnedMeshes.Length; i++)
@@ -191,18 +197,21 @@ public class GoldMaterialController : CharacterMaterialController, IComponentTim
 			{
 				Material material = materials[j];
 				Material material2 = null;
+				//Changed by doggo
+				//material2 = new Material(overrideMaterial);
 				material2 = ((!(material.shader.name == "Marvel/Base/Diffuse 2-Sided") && !(material.shader.name == "Marvel/Base/Diffuse Cutout 2-Sided")) ? new Material(overrideMaterial) : new Material(material));
+				material2.color = Color.white;
 				Texture texture2 = material.GetTexture("_MainTex");
 				if (texture2 != null)
 				{
 					RenderTexture renderTexture = new RenderTexture(texture2.width, texture2.height, 0);
 					RenderTexture temporary = RenderTexture.GetTemporary(texture2.width, texture2.height, 0);
-					ShaderUtil.Blit(texture2, temporary, highPassMat);
+					//ShaderUtil.Blit(texture2, temporary, highPassMat);// Commented by doggo
 					if (includeGreyscale)
 					{
-						ShaderUtil.Blit(texture2, temporary, greyscaleMat, 0);
+						ShaderUtil.Blit(texture2, temporary, greyscaleMat,0);
 					}
-					goldMat.SetFloat("_Offset", goldRampOffset);
+					goldMat.SetFloat("_Offset", goldRampOffset); //Commented by doggo
 					ShaderUtil.Blit(temporary, renderTexture, goldMat, 1);
 					RenderTexture.ReleaseTemporary(temporary);
 					material2.SetTexture("_MainTex", renderTexture);

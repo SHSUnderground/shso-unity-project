@@ -292,7 +292,7 @@ public class HqController2 : GameController
 			initTransaction.AddChild(roomLoadTransaction);
 			if (Instance.Profile != null && AppShell.Instance.SharedHashTable["HQ_Placement"] == null)
 			{
-				string uri = "resources$users/" + Instance.Profile.UserId + "/hq/room/all/";
+				string uri = "resources$users/hq_room_all.py";
 				roomLoadTransaction.AddStep("room_placement");
 				AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse r)
 				{
@@ -1273,7 +1273,7 @@ public class HqController2 : GameController
 		{
 			int num = (int)AppShell.Instance.SharedHashTable[HQ_USER_ID_KEY];
 			AppShell.Instance.SharedHashTable.Remove(HQ_USER_ID_KEY);
-			AppShell.Instance.WebService.StartRequest("resources$users/" + num + "/", OnProfileWebResponse);
+			AppShell.Instance.WebService.StartRequest("resources$users/hq.py", OnProfileWebResponse);
 		}
 		else
 		{

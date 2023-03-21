@@ -146,7 +146,7 @@ public class SHSSocialSurvivalModeLeaderboard : GUIDynamicWindow
 		wWWForm.AddField("hero_id", selectedHeroId);
 		wWWForm.AddField("is_multiplayer_score", 0);
 		int heroId2 = default(int);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/get_high_scores/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/get_high_scores.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status == 200)
 			{
@@ -203,7 +203,7 @@ public class SHSSocialSurvivalModeLeaderboard : GUIDynamicWindow
 		}, wWWForm.data);
 		wWWForm.AddField("is_multiplayer_score", 1);
 		int heroId = default(int);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/get_high_scores/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/get_high_scores.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status == 200)
 			{

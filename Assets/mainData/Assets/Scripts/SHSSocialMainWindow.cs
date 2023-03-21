@@ -253,7 +253,7 @@ public class SHSSocialMainWindow : GUITopLevelWindow
 			wWWForm.AddField("oi", objectIndex);
 			wWWForm.AddField("hero_name", AppShell.Instance.Profile.SelectedCostume);
 			wWWForm.AddField("zone_name", SocialSpaceController.Instance.ShortZoneName);
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/scavenger_collect/", delegate(ShsWebResponse response)
+			AppShell.Instance.WebService.StartRequest("resources$users/scavenger_collect.py", delegate(ShsWebResponse response)
 			{
 				if (response.Status == 200)
 				{

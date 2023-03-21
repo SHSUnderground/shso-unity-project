@@ -128,7 +128,7 @@ public class MysteryBoxItem : GUISubScalingWindow
 					gUIImage3.TextureSource = "characters_bundle|token_" + def2.name + string.Empty;
 					gUIImage3.SetPosition(DockingAlignmentEnum.Middle, AnchorAlignmentEnum.Middle, OffsetType.Absolute, Vector2.zero);
 					AddItem(gUIImage3);
-					AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/heroes/", OnHeroXpLevelResponse);
+					AppShell.Instance.WebService.StartRequest("resources$users/heroes.py", OnHeroXpLevelResponse);
 				}
 			}
 			else

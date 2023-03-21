@@ -29,7 +29,7 @@ public class WatcherFractalTurnin : GlowableInteractiveController
 			{
 				WWWForm wWWForm = new WWWForm();
 				wWWForm.AddField("fractal_type_id", (int)owner.fractalType);
-				AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/get_fractal_bank/", delegate(ShsWebResponse response)
+				AppShell.Instance.WebService.StartRequest("resources$users/get_fractal_bank.py", delegate(ShsWebResponse response)
 				{
 					if (response.Status == 200)
 					{

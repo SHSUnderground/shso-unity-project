@@ -167,7 +167,7 @@ public class PlacedItem : HqItem
 		{
 			WWWForm wWWForm = new WWWForm();
 			wWWForm.AddField("instance_id", inventoryItem.Id);
-			string uri = "resources$users/" + HqController2.Instance.Profile.UserId + "/inventory/consume/";
+			string uri = "resources$users/inventory_consume.py";
 			AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 			{
 				OnRemoveFromInventoryResponse(response);

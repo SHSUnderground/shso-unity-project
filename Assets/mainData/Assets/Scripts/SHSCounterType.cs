@@ -543,7 +543,7 @@ public class SHSCounterType : ISHSCounterType
 			wWWForm.AddField("hero_name", qualifierKey);
 			wWWForm.AddField("counter", Id);
 			wWWForm.AddField("amount", qualifierValues[bank][qualifierKey].ToString());
-			AppShell.Instance.WebService.StartRequest("resources$users/" + bank.Id + "/counters/set/", delegate
+			AppShell.Instance.WebService.StartRequest("resources$users/counters_set.py", delegate
 			{
 			}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
 			break;

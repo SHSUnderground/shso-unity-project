@@ -78,7 +78,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 
 	public void ReloadFriendList()
 	{
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friends.py", OnFriendsLoaded);
+		AppShell.Instance.WebService.StartRequest("resources$users/friends.py", OnFriendsLoaded);
 	}
 
 	public void OnFriendRequest(FriendRequestMessage msg)
@@ -125,7 +125,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 		wWWForm.AddField("rel", "friend");
 		if (AppShell.Instance.Profile != null)
 		{
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friendsremove.py", OnFriendsRemoved, wWWForm.data);
+			AppShell.Instance.WebService.StartRequest("resources$users/friendsremove.py", OnFriendsRemoved, wWWForm.data);
 		}
 		Remove(id.ToString());
 	}
@@ -219,7 +219,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 		if (AppShell.Instance.Profile != null)
 		{
 			ShsWebService.ShsWebServiceCallback callback = (!flag) ? new ShsWebService.ShsWebServiceCallback(OnFriendAddedInvite) : new ShsWebService.ShsWebServiceCallback(OnFriendAddedAccept);
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friendsadd.py", callback, wWWForm.data);
+			AppShell.Instance.WebService.StartRequest("resources$users/friendsadd.py", callback, wWWForm.data);
 		}
 	}
 
@@ -230,7 +230,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 		wWWForm.AddField("rel", "friend");
 		if (AppShell.Instance.Profile != null)
 		{
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friends/decline/", OnFriendDeclined, wWWForm.data);
+			AppShell.Instance.WebService.StartRequest("resources$users/friends_decline.py", OnFriendDeclined, wWWForm.data);
 		}
 		availablePending.RemoveAll(delegate(Friend f)
 		{
@@ -364,7 +364,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 		wWWForm.AddField("rel", "ignore");
 		if (AppShell.Instance.Profile != null)
 		{
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friends/remove/", OnBlockedRemoved, wWWForm.data);
+			AppShell.Instance.WebService.StartRequest("resources$users/friends_remove.py", OnBlockedRemoved, wWWForm.data);
 		}
 		Remove(id.ToString());
 		availableBlocked.Remove(id.ToString());
@@ -376,7 +376,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 		wWWForm.AddField("target", id);
 		if (AppShell.Instance.Profile != null)
 		{
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friends/add/ignore/", OnBlockedAdded, wWWForm.data);
+			AppShell.Instance.WebService.StartRequest("resources$users/friends_add_ignore.py", OnBlockedAdded, wWWForm.data);
 		}
 	}
 
@@ -406,7 +406,7 @@ public class FriendCollection : ShsCollectionBase<Friend>
 
 	public void IsPlayerInSentInvites(int friendID, SentInviteStatusChecked onSentInviteStatusChecked)
 	{
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/friends.py", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/friends.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
 			{

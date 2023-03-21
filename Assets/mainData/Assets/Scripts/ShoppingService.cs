@@ -9,6 +9,7 @@ public class ShoppingService
 		guidCounter++;
 		string guid = guidCounter.ToString();
 		WWWForm wWWForm = new WWWForm();
+		wWWForm.AddField("user_id", AppShell.Instance.Profile.UserId.ToString());
 		wWWForm.AddField("item_id", itemId);
 		wWWForm.AddField("catalog_ownable_id", catalogOwnableId);
 		wWWForm.AddField("catalog_ownable_sale_id", catalogOwnableSaleID);
@@ -18,7 +19,7 @@ public class ShoppingService
 		CspUtils.DebugLog("PurchaseItem itemId: " + itemId);
 		CspUtils.DebugLog("PurchaseItem catalog_ownable_id: " + catalogOwnableId);
 		CspUtils.DebugLog("PurchaseItem useShards: " + useShards);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/purchase_item.py", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/purchase.py", delegate(ShsWebResponse response)
 		{
 			OnPurchaseItemResponse(response, itemId, guid);
 		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
@@ -61,7 +62,7 @@ public class ShoppingService
 		wWWForm.AddField("item_id", itemId);
 		wWWForm.AddField("quantity", quantity);
 		wWWForm.AddField("guid", "1");
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/sell_item/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/sell_item.py", delegate(ShsWebResponse response)
 		{
 			OnSellItemResponse(response, itemId, "1");
 		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);

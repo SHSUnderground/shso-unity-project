@@ -22,7 +22,9 @@ public class MysteryBoxItemData
 		get
 		{
 			OwnableDefinition def = OwnableDefinition.getDef(ownableTypeID);
-			return def.shoppingIconSize;
+			//return def.shoppingIconSize;
+			//Temporarily hard coded value! (by Doggo)
+			return new Vector2(262f, 328f);
 		}
 	}
 

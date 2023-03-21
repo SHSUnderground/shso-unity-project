@@ -1128,6 +1128,7 @@ public class NetworkManager : IDisposable, IServerConnection
 			wWWForm.AddField("AS_SESSION_KEY", AppShell.Instance.WebService.SessionKey);
 			wWWForm.AddField("AS_PROTOCOL", AppShell.Instance.ServerConfig.TryGetInt("protocol_version", 0));
 			AppShell.Instance.WebService.StartRequest("resources$mm/lobby/arrive", ProcessArrivalResponse, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
+
 		}
 		else
 		{

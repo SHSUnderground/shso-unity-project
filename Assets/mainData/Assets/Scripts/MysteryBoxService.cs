@@ -6,16 +6,20 @@ public class MysteryBoxService
 
 	public static void OpenMysteryBox(int mysteryBoxOwnableID, OnResponseDelegate onResponse)
 	{
-		WWWForm wWWForm = new WWWForm();
+		//Commented out by doggo
+		/*WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("ownable_type_id", mysteryBoxOwnableID);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/open_mystery_box/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/open_mystery_box.py", delegate(ShsWebResponse response)
 		{
 			OnOpenMysteryBoxRequestResponse(response, mysteryBoxOwnableID);
 			if (onResponse != null)
 			{
 				onResponse(response);
 			}
-		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
+		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);*/
+		
+		//Uses SFS Instead!
+		AppShell.Instance.EventReporter.ReportAchievementEvent(AppShell.Instance.Profile.SelectedCostume,"open_mystery_box","",1,mysteryBoxOwnableID.ToString());
 	}
 
 	private static void OnOpenMysteryBoxRequestResponse(ShsWebResponse response, int mysteryBoxOwnableID)

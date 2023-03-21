@@ -674,7 +674,7 @@ public class BrawlerController : GameController, ICharacterCache
 				AppShell.Instance.Transition(ControllerType.FrontEnd);
 				return;
 			}
-			AppShell.Instance.WebService.StartRequest("resources$users/" + profile.UserId + "/heroes", OnHeroXpLevelResponse);
+			AppShell.Instance.WebService.StartRequest("resources$users/heroes.py", OnHeroXpLevelResponse);
 		}
 		else
 		{

@@ -36,7 +36,7 @@ public class HeroLoreManager
 		{
 			_monitor.AddStep("hero_lore");
 		}
-		AppShell.Instance.WebService.StartRequest("resources$data/json/hero-lore-bonus", OnHeroLoreWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		AppShell.Instance.WebService.StartRequest("resources$data/json/hero_lore_bonus.py", OnHeroLoreWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 	}
 
 	private void OnHeroLoreWebResponse(ShsWebResponse response)

@@ -53,8 +53,9 @@ public class LocalPlayerProfile : UserProfile
 				if (selectedCostume != null)
 				{
 					WWWForm wWWForm = new WWWForm();
+					wWWForm.AddField("user_id", AppShell.Instance.Profile.UserId.ToString());
 					wWWForm.AddField("costume", selectedCostume);
-					AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/set_costume_info", delegate(ShsWebResponse response)
+					AppShell.Instance.WebService.StartRequest("resources$users/set_costume_info.py", delegate(ShsWebResponse response)
 					{
 						if (response.Status != 200)
 						{
@@ -417,7 +418,7 @@ public class LocalPlayerProfile : UserProfile
 		stringBuilder.Append("<DemoHack>").Append(demoHack.ToString().ToLower()).Append("</DemoHack>");
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("ExtendedData", stringBuilder.ToString());
-		webService.StartRequest("resources$users/" + userId, OnExtendedDataPersistedResponse, wWWForm.data);
+		webService.StartRequest("resources$users/extended_data.py", OnExtendedDataPersistedResponse, wWWForm.data);
 	}
 
 	protected void OnExtendedDataPersistedResponse(ShsWebResponse response)
@@ -477,7 +478,7 @@ public class LocalPlayerProfile : UserProfile
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("hero_name", AppShell.Instance.Profile.SelectedCostume);
 		wWWForm.AddField("zone_name", SocialSpaceController.Instance.ShortZoneName);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/shard_collect/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/shard_collect.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status == 200)
 			{
@@ -492,7 +493,7 @@ public class LocalPlayerProfile : UserProfile
 
 	public override void StartCurrencyFetch()
 	{
-		AppShell.Instance.WebService.StartRequest("resources$users/" + base.UserId + "/currency", OnCurrencyWebResponse);
+		AppShell.Instance.WebService.StartRequest("resources$users/currency.py", OnCurrencyWebResponse);
 	}
 
 	public void OnCurrencyWebResponse(ShsWebResponse response)
@@ -1396,7 +1397,7 @@ public class LocalPlayerProfile : UserProfile
 	public override void StartHeroFetch()
 	{
 		updateCount++;
-		AppShell.Instance.WebService.StartRequest("resources$users/" + userId + "/", OnHeroFetchResponse);
+		AppShell.Instance.WebService.StartRequest("resources$users/", OnHeroFetchResponse);
 	}
 
 	protected void OnHeroFetchResponse(ShsWebResponse response)
@@ -1421,7 +1422,7 @@ public class LocalPlayerProfile : UserProfile
 
 	public override void StartFriendFetch()
 	{
-		AppShell.Instance.WebService.StartRequest("resources$users/" + base.UserId + "/friends.py", OnFriendsFetchResponse);
+		AppShell.Instance.WebService.StartRequest("resources$users/friends.py", OnFriendsFetchResponse);
 	}
 
 	public override void AddStars(int count)

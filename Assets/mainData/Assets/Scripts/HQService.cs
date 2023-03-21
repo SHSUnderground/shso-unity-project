@@ -7,7 +7,7 @@ public class HQService
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("hero_name", heroName);
 		wWWForm.AddField("award_xp", amount);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/hq/grant-xp/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/hq_grant_xp.py", delegate(ShsWebResponse response)
 		{
 			OnGrantXPResponse(response, heroName, amount);
 		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);

@@ -33,7 +33,7 @@ public class SHSNewsRewardJson
 		{
 			_monitor.AddStep("news_daily_rewards");
 		}
-		AppShell.Instance.WebService.StartRequest("resources$data/json/daily-rewards", OnDailyRewardWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		AppShell.Instance.WebService.StartRequest("resources$data/json/daily_rewards.py", OnDailyRewardWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 	}
 
 	public List<SHSNewsReward> GetDailyRewardData()

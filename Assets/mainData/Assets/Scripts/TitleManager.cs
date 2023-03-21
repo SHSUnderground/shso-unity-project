@@ -149,9 +149,10 @@ public class TitleManager
 	private static void sendUpdate()
 	{
 		WWWForm wWWForm = new WWWForm();
+		wWWForm.AddField("user_id", AppShell.Instance.Profile.UserId.ToString());
 		wWWForm.AddField("title_id", currentTitleID);
 		wWWForm.AddField("medallion_id", currentMedallionID);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/set_title_info", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/set_title_info.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
 			{

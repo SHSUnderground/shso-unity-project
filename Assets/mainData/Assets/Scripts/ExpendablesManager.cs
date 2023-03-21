@@ -191,15 +191,38 @@ public class ExpendablesManager
 	{
 		if (AppShell.Instance.Profile != null)
 		{
-			string uri = string.Format("{0}{1}{2}/{3}/{4}", "resources$", "users/", AppShell.Instance.Profile.UserId, "potion", "persist");
+			string uri = "resources$users/potion_persist.py";
 			WWWForm wWWForm = new WWWForm();
+			wWWForm.AddField("shsoid", AppShell.Instance.ServerConnection.getNotificationServer().PlayerId);
+			Debug.Log("PLAYER ID: " + AppShell.Instance.ServerConnection.getNotificationServer().PlayerId);
 			if ((bool)AppShell.Instance.WebService)
 			{
 				AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 				{
+					Debug.Log(response);
 					if (response.Status != 200)
 					{
 						CspUtils.DebugLog("Persist Effect Request failure: " + response.Status + ":" + response.Body);
+					}else {
+										
+						string msg = response.Body;
+						string[] expiredPotions = msg.Split('|');
+						
+						foreach(var message in expiredPotions){
+							if(message != null && message != ""){
+								Debug.Log("ATTEMPTING TO CLOSE EFFECT!");
+								Debug.Log (message);
+								string[] potion = message.Split(',');
+								string OwnableID =  potion[0].ToString();
+								CancelEffect(OwnableID);
+								Debug.Log("Closed Effect!");
+							}	
+						}
+						
+						/*int num = int.Parse(array[2]);
+						string text = array[3];
+						string text2 = array[4];
+						AppShell.Instance.EventMgr.Fire(this, new StopExpendableEffectMessage(num, text2, text));*/
 					}
 				}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
 			}
@@ -208,11 +231,11 @@ public class ExpendablesManager
 
 	public void CancelEffect(string ownableTypeId)
 	{
-		string uri = string.Format("{0}{1}{2}/{3}/{4}/", "resources$", "users/", AppShell.Instance.Profile.UserId, "potion", "cancel");
+		string uri = "resources$users/potion_cancel";
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("potion_id", ownableTypeId);
 		wWWForm.AddField("request_id", ++RequestId);
-		AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
+		/*AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
 			{
@@ -222,7 +245,8 @@ public class ExpendablesManager
 			{
 				CspUtils.DebugLog("Cancel Effect Request success: " + response.Status + ":" + response.Body);
 			}
-		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
+		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);*/
+		AppShell.Instance.EventReporter.CancelPotion(Int32.Parse(ownableTypeId), ++RequestId);
 	}
 
 	public int UseExpendable(string ownableTypeId, string heroname, ExpendHandlerCompleteCallback callback)
@@ -283,13 +307,15 @@ public class ExpendablesManager
 		int requestId = RequestId++;
 		handler.Initialize(requestId, expendableDefinition, OnExpendableHandlerComplete, callback);
 		activeExpendQueue[requestId] = handler;
-		string text = string.Format("{0}{1}{2}/{3}/{4}/", "resources$", "users/", AppShell.Instance.Profile.UserId, "potion", "drink");
+		string text = "resources$users/potion.py";
 		WWWForm wWWForm = new WWWForm();
+		// wWWForm.AddField("user_id", AppShell.Instance.Profile.UserId.ToString());
 		wWWForm.AddField("hero_name", heroname);
 		wWWForm.AddField("potion_id", ownableTypeId);
 		wWWForm.AddField("request_id", requestId);
 		handler.LogExpendAction("Sending request: " + text + " with request id:" + requestId);
-		AppShell.Instance.WebService.StartRequest(text, delegate(ShsWebResponse response)
+		//Using shso-events.as by Doggo
+		/*AppShell.Instance.WebService.StartRequest(text, delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
 			{
@@ -298,7 +324,8 @@ public class ExpendablesManager
 				CspUtils.DebugLog("Expend Action Request failure: " + response.Status + ":" + response.Body);
 				handler.OnExpendServerAuthorizationFailed(new ConsumedPotionMessage(false, response.Body, int.Parse(ownableTypeId), requestId, -1));
 			}
-		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
+		}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);*/
+		AppShell.Instance.EventReporter.ConsumePotion(heroname, Int32.Parse(ownableTypeId),requestId);
 		return requestId;
 	}
 

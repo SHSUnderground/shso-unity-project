@@ -890,13 +890,13 @@ public class AppShell : MonoBehaviour, IInputHandler
 		CspUtils.DebugLog("CharacterDescriptionsManager=" + new CharacterDescriptionsManager());
 		DataManager.LoadGameData("characterdescriptions/CharacterDescriptions", OnCharDescriptionLoaded, new CharacterDescriptionsManager());
 		appShellStartTransaction.AddStep("xp_to_level", TransactionMonitor.DumpTransactionStatus);
-		Instance.WebService.StartRequest("resources$data/json/level-chart", OnXpToLevelDataLoaded, null, ShsWebService.ShsWebServiceType.RASP);
+		Instance.WebService.StartRequest("resources$data/json/level_chart.py", OnXpToLevelDataLoaded, null, ShsWebService.ShsWebServiceType.RASP);
 		appShellStartTransaction.AddStep("emotes", TransactionMonitor.DumpTransactionStatus);
 		DataManager.LoadGameData("emotes", OnEmotesDataLoaded, new EmotesDefinition());
 		appShellStartTransaction.AddStep("motd", TransactionMonitor.DumpTransactionStatus);
-		Instance.WebService.StartRequest("resources$data/json/daily-missions", OnMotdWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		Instance.WebService.StartRequest("resources$data/json/daily_missions.py", OnMotdWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 		appShellStartTransaction.AddStep("botd", TransactionMonitor.DumpTransactionStatus);
-		Instance.WebService.StartRequest("resources$data/json/daily-quests", OnBotdWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		Instance.WebService.StartRequest("resources$data/json/daily_quests.py", OnBotdWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 		appShellStartTransaction.AddStep("brawler_leveling_stats", TransactionMonitor.DumpTransactionStatus);
 		DataManager.LoadGameData("brawler_leveling_stats", OnStatRequirementsLoaded, new StatLevelReqsDefinition());
 		appShellStartTransaction.AddStep("brawler_scoring", TransactionMonitor.DumpTransactionStatus);
@@ -909,7 +909,7 @@ public class AppShell : MonoBehaviour, IInputHandler
 		appShellStartTransaction.AddStep("pet_defs", TransactionMonitor.DumpTransactionStatus);
 		appShellStartTransaction.AddStep("scavenger_defs", TransactionMonitor.DumpTransactionStatus);
 		appShellStartTransaction.AddStep("mission_defs", TransactionMonitor.DumpTransactionStatus);
-		Instance.WebService.StartRequest("resources$data/json/brawler-missions", OnMissionDefsWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		Instance.WebService.StartRequest("resources$data/json/brawler_missions.py", OnMissionDefsWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 		appShellStartTransaction.AddStep("hqrooms_defs", TransactionMonitor.DumpTransactionStatus);
 		DataManager.LoadGameData("HQ/Rooms", OnHQRoomsManifestLoaded);
 		appShellStartTransaction.AddStep("counters", TransactionMonitor.DumpTransactionStatus);
@@ -931,9 +931,9 @@ public class AppShell : MonoBehaviour, IInputHandler
 		CombatEffectDataWarehouse = new CombatEffectDataWarehouse();
 		appShellStartTransaction.AddStep("menuchat", TransactionMonitor.DumpTransactionStatus);
 		DataManager.LoadGameData("MenuChat/SHSMenuChat", OnMenuChatLoaded);
-		Instance.WebService.StartRequest("resources$data/json/card-quests", OnCardQuestDataWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		Instance.WebService.StartRequest("resources$data/json/card_quests.py", OnCardQuestDataWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 		appShellStartTransaction.AddStep("level_up_items_defs", TransactionMonitor.DumpTransactionStatus);
-		Instance.WebService.StartRequest("resources$data/json/hero-level-rewards", OnLevelUpRewardWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+		Instance.WebService.StartRequest("resources$data/json/hero_level_rewards.py", OnLevelUpRewardWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 		Instance.WebService.StartRequest("resources$data/json/dutilJson", OnDutilLoaded,null,ShsWebService.ShsWebServiceType.RASP); //DOGGO
 		Instance.WebService.StartRequest("resources$data/json/dutilAfk", OnDutilAfk,null,ShsWebService.ShsWebServiceType.RASP); //DOGGO
 		if (ActivityManager != null)

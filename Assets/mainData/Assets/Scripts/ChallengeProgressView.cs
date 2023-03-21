@@ -79,7 +79,7 @@ public class ChallengeProgressView
 		{
 			WWWForm wWWForm = new WWWForm();
 			wWWForm.AddField("counter_type", counterName);
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/server_counters/", delegate(ShsWebResponse response)
+			AppShell.Instance.WebService.StartRequest("resources$users/server_counters.py", delegate(ShsWebResponse response)
 			{
 				if (response.Status == 200)
 				{

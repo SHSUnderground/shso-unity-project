@@ -258,7 +258,7 @@ public class AchievementManager
 		CspUtils.DebugLog("updateTrackerData " + AppShell.Instance.Profile.trackerData);
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("tracker_data", AppShell.Instance.Profile.trackerData);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/set_tracker_info/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/set_tracker_info.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
 			{

@@ -350,10 +350,10 @@ public class PlayerBillboard : MonoBehaviour
 		GameObject gameObject = GetComponentInChildren<GUIQuad>().gameObject;
 		MeshRenderer component = gameObject.GetComponent<MeshRenderer>();
 		component.material.mainTexture = shieldIconTexture;
-		//Shader shader = Shader.Find("Marvel/Base/Self-Illuminated-Full Bright");  // commented out by CSP
-		Shader shader = Shader.Find("Diffuse");  // added by CSP
+		Shader shader = Shader.Find("Marvel/Base/Self-Illuminated-Full Bright");  // commented out by CSP, uncommented by doggo
+		//Shader shader = Shader.Find("Transparent/Diffuse");  // added by CSP, commented by doggo
 		component.material.shader = shader;   
-		component.material.color = new Color(1f, 1f, 1f, 1f);
+		//component.material.color = new Color(255f, 255f, 255f, 1f);
 		acquiredReferences = true;
 		initialized = true;
 	}
@@ -384,7 +384,8 @@ public class PlayerBillboard : MonoBehaviour
 	{
 		if (!(base.gameObject.transform.parent == null) && message.targetUserId == playerID)
 		{
-			SquadTitle = "The Crabalicous";  //AppShell.Instance.stringTable.GetString(message.title);  // CSP
+			// SquadTitle = "The Crabalicous";  // CSP
+			SquadTitle = AppShell.Instance.stringTable.GetString(message.title);
 			if (SquadTitle != string.Empty)
 			{
 				RenderSquadTitleEnabled = true;

@@ -8,7 +8,7 @@ public class BoosterPackService
 	{
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("ownable_type_id", boosterPackId);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/open_booster_pack/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/open_booster_pack.py", delegate(ShsWebResponse response)
 		{
 			OnOpenBoosterPackRequestResponse(response, boosterPackId);
 			if (onResponse != null)

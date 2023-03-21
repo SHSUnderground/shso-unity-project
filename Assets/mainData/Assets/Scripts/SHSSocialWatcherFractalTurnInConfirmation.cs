@@ -148,7 +148,7 @@ public class SHSSocialWatcherFractalTurnInConfirmation : SHSCommonDialogWindow
 			WWWForm wWWForm = new WWWForm();
 			wWWForm.AddField("fractal_type_id", (int)_owner.fractalType);
 			wWWForm.AddField("amount", searchField.Text);
-			AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/turn_in_fractals/", delegate(ShsWebResponse innerResponse)
+			AppShell.Instance.WebService.StartRequest("resources$users/turn_in_fractals.py", delegate(ShsWebResponse innerResponse)
 			{
 				if (innerResponse.Status == 200)
 				{

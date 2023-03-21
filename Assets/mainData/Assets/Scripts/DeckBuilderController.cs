@@ -776,7 +776,7 @@ public class DeckBuilderController : GameController
 			userProfile.LastDeckID = 0;
 			userProfile.PersistExtendedData();
 		}
-		AppShell.Instance.WebService.StartRequest("resources$users/" + userProfile.UserId + "/deck/save/", OnDeckSaved, wWWForm.data);
+		AppShell.Instance.WebService.StartRequest("resources$users/deck_save.py", OnDeckSaved, wWWForm.data);
 	}
 
 	protected void OnDeckSaved(ShsWebResponse response)

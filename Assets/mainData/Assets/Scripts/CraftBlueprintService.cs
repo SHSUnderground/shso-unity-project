@@ -8,7 +8,7 @@ public class CraftBlueprintService
 	{
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("blueprint_id", blueprintID);
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/craft_blueprint/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/craft_blueprint.py", delegate(ShsWebResponse response)
 		{
 			OnCraftBlueprintRequestResponse(response, blueprintID);
 			if (onResponse != null)

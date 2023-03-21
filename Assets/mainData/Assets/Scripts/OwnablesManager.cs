@@ -13,7 +13,8 @@ public class OwnablesManager
 		{
 			wWWForm.AddField("category", OwnableDefinition.getStringFromCategory(category));
 		}
-		AppShell.Instance.WebService.StartRequest("resources$users/" + UserId + "/inventory", delegate(ShsWebResponse response)
+		wWWForm.AddField("user", UserId.ToString());	// CSP
+		AppShell.Instance.WebService.StartRequest("resources$users/inventory.py", delegate(ShsWebResponse response)
 		{
 			if (callback != null)
 			{

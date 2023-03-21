@@ -169,15 +169,29 @@ public class EventReporter
 			AppShell.Instance.ServerConnection.ReportEvent("achievement_event", hashtable);
 		}
 	}
-
-	public void ConsumePotion(string hero, int ownableTypeId)
+	
+	//int requestId added by Doggo
+	public void ConsumePotion(string hero, int ownableTypeId, int requestId)
 	{
 		if (UserProfile != null)
 		{
 			Hashtable hashtable = new Hashtable();
 			hashtable.Add("hero", hero);
 			hashtable.Add("ownable_type_id", ownableTypeId);
+			hashtable.Add ("request_id",requestId);
 			AppShell.Instance.ServerConnection.ReportEvent("consume_potion", hashtable);
+		}
+	}
+	
+	//Added by doggo (since it didnt exist)
+	public void CancelPotion(int ownableTypeId, int requestId)
+	{
+		if (UserProfile != null)
+		{
+			Hashtable hashtable = new Hashtable();
+			hashtable.Add("ownable_type_id", ownableTypeId);
+			hashtable.Add ("request_id",requestId);
+			AppShell.Instance.ServerConnection.ReportEvent("potion_cancel", hashtable);
 		}
 	}
 

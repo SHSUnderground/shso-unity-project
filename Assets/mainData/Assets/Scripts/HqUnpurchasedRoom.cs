@@ -229,9 +229,11 @@ public class HqUnpurchasedRoom : HqRoom2
 
 	protected void OnRoomLayoutResponseMessage(HQRoomLayoutSaveResponseMessage msg)
 	{
+		WWWForm wWWForm = new WWWForm();
 		if (msg.roomId == id && HqController2.Instance.Profile != null)
 		{
-			string uri = "resources$users/" + HqController2.Instance.Profile.UserId + "/hq/room/" + id + "/";
+			wWWForm.AddField("room_id", id);
+			string uri = "resources$users/hq_room.py";
 			AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse r)
 			{
 				RoomPlacementLoaded(r, loadTransaction);

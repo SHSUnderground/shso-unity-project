@@ -898,7 +898,7 @@ namespace SHSConsole
 		public string ReloadQuests()
 		{
 			AppShell.Instance.CardQuestManager.Clear();
-			AppShell.Instance.WebService.StartRequest("resources$data/json/card-quests/", AppShell.Instance.OnCardQuestDataWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
+			AppShell.Instance.WebService.StartRequest("resources$data/json/card_quests.py", AppShell.Instance.OnCardQuestDataWebResponse, null, ShsWebService.ShsWebServiceType.RASP);
 			AppShell.Instance.Profile.StartQuestsFetch();
 			return "Reloaded card quest data";
 		}
@@ -1717,7 +1717,7 @@ namespace SHSConsole
 		public void DrinkPotion(int ownableTypeId)
 		{
 			string name = GameController.GetController().LocalPlayer.name;
-			AppShell.Instance.EventReporter.ConsumePotion(name, ownableTypeId);
+			AppShell.Instance.EventReporter.ConsumePotion(name, ownableTypeId,-1); //-1 added by Doggo
 		}
 
 		[Description("simulate daily reward")]

@@ -246,7 +246,7 @@ public class RemotePlayerProfile : UserProfile, IDisposable
 
 	public static void FetchProfile(long playerId, OnProfileLoaded onLoaded)
 	{
-		AppShell.Instance.WebService.StartRequest("resources$squad/" + playerId + "/json/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/squad.py", delegate(ShsWebResponse response)
 		{
 			OnFetchProfileResponse(response, playerId, onLoaded);
 		});

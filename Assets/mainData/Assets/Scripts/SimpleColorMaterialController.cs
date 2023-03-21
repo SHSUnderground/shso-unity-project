@@ -153,7 +153,7 @@ public class SimpleColorMaterialController : CharacterMaterialController, ICompo
 	{
 		if (greyscaleMat == null)
 		{
-			greyscaleMat = new Material(Shader.Find("GreyscaleShader"));
+			greyscaleMat = new Material(Shader.Find("Diffuse"));//new Material(Shader.Find("GreyscaleShader"));
 		}
 		if (overrideMaterial == null)
 		{

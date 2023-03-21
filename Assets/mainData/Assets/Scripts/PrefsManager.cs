@@ -187,7 +187,7 @@ public class PrefsManager
 		WWWForm wWWForm = new WWWForm();
 		wWWForm.AddField("pref_id", (int)pref.type);
 		wWWForm.AddField("value", pref.getValue());
-		AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/set-pref/", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/set_pref.py", delegate(ShsWebResponse response)
 		{
 			if (response.Status != 200)
 			{

@@ -99,7 +99,7 @@ public class ShsWebService : MonoBehaviour
 
 	public const string SHS_WEBSERVICE_URI_MATCHMAKING_CARD_ACCEPT = "mm/card/accept/";
 
-	public const string SHS_WEBSERVICE_URI_MATCHMAKING_BRAWLER_SOLO = "mm/brawler/solo/";
+	public const string SHS_WEBSERVICE_URI_MATCHMAKING_BRAWLER_SOLO = "mm/brawler/solo/"; //was "mm/brawler/solo/"
 
 	public const string SHS_WEBSERVICE_URI_MATCHMAKING_BRAWLER_ANYONE = "mm/brawler/anyone/";
 
@@ -860,7 +860,9 @@ public class ShsWebService : MonoBehaviour
 		catch (Exception ex2)
 		{
 			CspUtils.DebugLog("Web Requested URI: " + response.RequestUri);
+			Debug.Log("Web Requested URI: " + response.RequestUri);
 			CspUtils.DebugLog("An " + ex2 + " (" + ex2.Message + ") occurred while parsing: \n" + www.text);
+			Debug.Log("An " + ex2 + " (" + ex2.Message + ") occurred while parsing: \n" + www.text);
 			response.Status = 404;
 		}
 		if (response.Status >= 500 && response.Status <= 599)

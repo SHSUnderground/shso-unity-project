@@ -7,15 +7,15 @@ using UnityEngine;
 
 public class CspUtils
 {
-    public static string version = "00.00.016";  // use this as the client version number....make sure always length of 9 chars.
+    public static string version = "00.00.017";  // use this as the client version number....make sure always length of 9 chars.
 
     public static void DebugLog(object s) {
-        // try {
-        //         Debug.Log(s);
-        //     }
-        // catch (Exception e) {
-
-        //     }
+      //  try {
+        //        Debug.Log(s);
+         //    }
+        //catch (Exception e) {
+		
+          //  }
     }
 
     public static void DebugLogWarning(object s) {

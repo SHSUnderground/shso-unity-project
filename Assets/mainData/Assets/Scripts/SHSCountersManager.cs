@@ -230,7 +230,7 @@ public class SHSCountersManager
 
 	public void LoadAllPersisted(string userId, OnCountersLoaded callback)
 	{
-		AppShell.Instance.WebService.StartRequest("resources$users/" + userId + "/counters", delegate(ShsWebResponse response)
+		AppShell.Instance.WebService.StartRequest("resources$users/counters.py", delegate(ShsWebResponse response)
 		{
 			ProcessCounters(response, callback);
 		}, null, ShsWebService.ShsWebServiceType.RASP);
