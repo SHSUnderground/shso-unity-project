@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1411482729294332, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 4431145137614253, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 111083948688237326, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 1060854323394685, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 4263956889543124, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 33796641669658064, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 23179141758116252, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 1069452532687524, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 4021926727770715, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 33569044101916127, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  - {fileID: 23894823566868023, guid: f1098317602f64542bdef062653f5b91, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Navigation

@@ -1,0 +1,19 @@
+<attack>
+  <attack_name>AttackName</attack_name>
+  <behavior>BehaviorAttackBase</behavior>
+  <anim>AnimationName</anim>
+  <desired_range>7</desired_range>
+  <maximum_range>7</maximum_range>
+  <interruptible_by>2</interruptible_by>
+  <effect>L1 sequence</effect>
+  <power_cost>0</power_cost>
+  <move_start_time>0</move_start_time>
+  <move_arrive_time>0</move_arrive_time>
+  <move_speed>1.5</move_speed>
+  <chain_start_time>0</chain_start_time>
+  <chain_end_time>0</chain_end_time>
+  <face_target>true</face_target>
+  <track_target>true</track_target>
+  <attack_duration>0</attack_duration>
+  <forward_speed>0</forward_speed>
+  <environmental_attack>false</environmental_attack>

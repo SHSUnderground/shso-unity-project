@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1004663292933920, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4063410466693902, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 111012238365337504, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 114037363102312900, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 114405084503275256, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 1720897878637257, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4281528825165108, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 111178681485850694, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 1864682530835988, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4292724078989540, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 33133056189247388, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 23606395223202892, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 1403945848407305, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4577241890940416, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 33224418643633484, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 23294155645240860, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 1709100533992342, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4319120709734826, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 111983861609694683, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 1120907112427442, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4381187632877147, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 33897436190569067, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 23105089882843397, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 1871363282895336, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 4659748350272465, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 33678652457136325, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  - {fileID: 23059698849568648, guid: f79763f3e8bc7824a8528ba9a780bebf, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Navigation_prefab

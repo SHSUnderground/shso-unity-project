@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<scenarios>
+  <scenario>
+    <name>s_0001_SampleScenario</name>
+  </scenario>
+  <scenario>
+    <name>s_0002_SampleScenario2</name>
+  </scenario>
+  <scenario>
+    <name>s_0003_SampleScenario3</name>
+  </scenario>
+  <scenario>
+    <name>s_0004_SampleScenario4</name>
+  </scenario>
+</scenarios>

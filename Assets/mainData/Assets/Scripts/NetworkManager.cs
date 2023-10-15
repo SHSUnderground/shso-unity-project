@@ -223,7 +223,7 @@ public class NetworkManager : IDisposable, IServerConnection
 		CreateLoginTransaction();
 		loginStatusNotifier.Notify(LoginStatusNotifier.LoginStep.RequestToken);
 		WWWForm wWWForm = new WWWForm();
-		wWWForm.AddField("password", password);
+		// wWWForm.AddField("password", password);
 		wWWForm.AddField("username", username.Trim());
 		this.password = password;
 		this.username = username;

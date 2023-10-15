@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-16" ?>
+<instructions>
+  <gamearea>
+    <name>Universal</name>
+    <paragraph>
+      <title>MOVEMENT</title>
+      <bullet>&#0183; Quick Move: Click Left Mouse Button</bullet>
+      <bullet>&#0183; Mouse Move:  Hold Left Mouse Button</bullet>
+      <bullet>&#0183; Keyboard Move: Arrow Keys or WASD</bullet>
+      <bullet>&#0183; Jump:  Space Bar</bullet>
+    </paragraph>
+    <paragraph>
+      <title>ACTION</title>
+      <bullet>&#0183; Use Objects:  Click Left Mouse Button when </bullet>
+      <bullet>&#9;&#9;&#9;&#9;&#9; Pointer Hand turns Green</bullet>
+      <bullet>&#0183; Teleporters:  Click Left Mouse Button to go to a new location</bullet>
+    </paragraph>
+    <paragraph>
+      <title>EMOTES</title>
+      <bullet>1&#9;Greet</bullet>
+      <bullet>2&#9;Laugh</bullet>
+      <bullet>3&#9;Raise Hand</bullet>
+      <bullet>4&#9;Dance</bullet>
+      <bullet>5&#9;Pose</bullet>
+      <bullet>6&#9;Approve</bullet>
+      <bullet>7&#9;Cheer</bullet>
+      <bullet>8&#9;Clap</bullet>
+      <bullet>9&#9;Bluff</bullet>
+      <bullet>0&#9;Point</bullet>
+      <bullet>-&#9;Bow</bullet>
+      <bullet>=&#9;Rude</bullet>
+      <bullet>Shift + 4&#9;Taunt</bullet>
+      <bullet>Shift + 5&#9;Angry</bullet>
+      <bullet>Shift + 6&#9;Disapprove</bullet>
+      <bullet>Shift + 7&#9;Confused</bullet>
+      <bullet>Shift + 8&#9;Sad</bullet>
+      <bullet>Shift + 9&#9;Scared</bullet>
+      <bullet>Shift + 0&#9;Sneeze</bullet>
+      <bullet>Shift + -&#9;Think</bullet>
+      <bullet>Shift + =&#9;Shock</bullet>
+      <bullet></bullet>
+    </paragraph>
+  </gamearea>
+  <gamearea>
+    <name>GameWorld</name>
+    <paragraph>
+      <title>Uses UNIVERSAL controls, plus:</title>
+    </paragraph>
+    <paragraph>
+      <title>MOVEMENT</title>
+      <bullet>&#0183; Special Jumps</bullet>
+      <bullet>&#9;&#9;&#9; Ability: Space bar while in the air to double jump</bullet>
+      <bullet>&#9;&#9;&#9; Web: Space bar while in the air to swing</bullet>
+      <bullet>&#9;&#9;&#9; Hulk: Space bar tab for low jump, Space Bar hold for high jump</bullet>
+    </paragraph>
+    <paragraph>
+      <title>ACTION</title>
+      <bullet>&#0183; Select Player: Click Left Mouse Button</bullet>
+      <bullet>&#0183; De-Select Player: Click Right Mouse Button</bullet>
+      <bullet>&#0183; Activate Chat: Enter Key</bullet>
+      <bullet>&#0183; Send Chat: Enter Key while any text is typed</bullet>
+    </paragraph>
+    <paragraph>
+      <title>POWER EMOTES</title>
+      <bullet>Shift + 1&#9;Power Emote 1</bullet>
+      <bullet>Shift + 2&#9;Power Emote 2</bullet>
+      <bullet>Shift + 3&#9;Power Emote 3</bullet>
+    </paragraph>
+  </gamearea>
+  <gamearea>
+    <name>Missions</name>
+    <paragraph>
+      <title>Uses UNIVERSAL controls, plus:</title>
+    </paragraph>
+    <paragraph>
+      <title>ACTION</title>
+      <bullet>&#0183; Attack: Click Left Mouse Button on enemy</bullet>
+      <bullet>&#0183; Power Attack: Click Right Mouse Button on enemy</bullet>
+      <bullet>&#0183; Hero Up!: Click the Hero Up! Button or Click Both Mouse Buttons</bullet>
+      <bullet>&#0183; Objects: Click Left Mouse Button on an object to pick it up</bullet>
+      <bullet>&#9;&#9;&#9; Click Left Mouse Button on enemies to throw at them</bullet>
+      <bullet>&#9;&#9;&#9; Click Right Mouse Button anywhere to throw the object</bullet>
+      <bullet>&#9;&#9;&#9;&#9; at that location</bullet>
+      <bullet>&#0183; Powerup Containers: Click Left Mouse Button to </bullet>
+      <bullet>&#9;&#9;&#9;&#9;&#9;&#9;&#9; collect the power inside</bullet>
+    </paragraph>
+    <paragraph>
+      <title>POWER ATTACKS</title>
+      <bullet>Shift + 1&#9;Select Power Attack 1</bullet>
+      <bullet>Shift + 2&#9;Select Power Attack 2</bullet>
+      <bullet>Shift + 3&#9;Select Power Attack 3</bullet>
+    </paragraph>
+  </gamearea>
+  <gamearea>
+    <name>HQ</name>
+    <paragraph>
+      <title>STANDARD</title>
+      <bullet>&#0183; Rotate Objects: Arrow Keys</bullet>
+      <bullet>&#0183; Stand Object Upright: Home Key</bullet>
+      <bullet>&#0183; Move Camera: Click and Hold Right Mouse Button</bullet>
+      <bullet>&#0183; Pause: Click Right Mouse Button on any hero</bullet>
+    </paragraph>
+    <paragraph>
+      <title>PLAY MODE</title>
+      <bullet>&#0183; Use Item: Hold Left Mouse Button on an object to capture it</bullet>
+      <bullet>&#9; ...then move the object and release it to place it in that location</bullet>
+      <bullet>&#9; ...or release it while moving the mouse to impart momentum</bullet>
+    </paragraph>
+    <paragraph>
+      <title>PAUSE MODE</title>
+      <bullet>&#0183; Use Item: Click Left Mouse Button on an object to grab it</bullet>
+      <bullet>&#9; ...then Click Left Mouse Button again to place the object</bullet>
+	<bullet></bullet>
+    </paragraph>
+  </gamearea>
+</instructions>

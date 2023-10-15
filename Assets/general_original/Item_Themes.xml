@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<themes>
+  <base>
+    <default>Concrete Grey Paint</default>
+    <color0>227,227,227</color0>
+    <color1>187,187,187</color1>
+    <color2>146,146,146</color2>
+    <color3>115,115,115</color3>
+    <color4>69,69,69</color4>
+  </base>
+  <theme>
+    <name>Black Panther Paint</name>
+	<hero>black_panther</hero>
+    <color0>25,26,52</color0>
+    <color1>243,190,27</color1>
+    <color2>255,255,255</color2>
+    <color3>25,26,52</color3>
+  </theme>
+  <theme>
+    <name>Black Widow Paint</name>
+	<hero>black_widow</hero>
+    <color0>35,45,116</color0>
+    <color1>253,235,35</color1>
+    <color2>255,0,0</color2>
+    <color3>35,45,116</color3>
+  </theme>
+  <theme>
+    <name>Blade Paint</name>
+	<hero>blade</hero>
+    <color0>44,44,44</color0>
+    <color1>161,0,0</color1>
+    <color2>149,164,178</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Captain America Paint</name>
+	<hero>captain_america</hero>
+    <color0>0,98,245</color0>
+    <color1>255,0,0</color1>
+    <color2>255,255,255</color2>
+    <color3>0,98,245</color3>
+  </theme>
+  <theme>
+    <name>Captain America Buck Paint</name>
+	<hero>captain_america_buck</hero>
+    <color0>44,44,44</color0>
+    <color1>0,98,245</color1>
+    <color2>255,0,0</color2>
+    <color3>255,255,255</color3>
+  </theme>
+    <theme>
+    <name>Colossus Paint</name>
+	<hero>colossus</hero>
+    <color0>255,0,0</color0>
+    <color1>253,235,35</color1>
+    <color2>149,164,178</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Cyclops Paint</name>
+    <hero>cyclops</hero>
+    <color0>0,98,245</color0>
+    <color1>253,235,35</color1>
+    <color2>255,0,0</color2>
+    <color3>0,98,245</color3>
+  </theme>
+  <theme>
+    <name>Daredevil Paint</name>
+	<hero>daredevil</hero>
+    <color0>255,0,0</color0>
+    <color1>161,0,0</color1>
+    <color2>97,0,0</color2>
+    <color3>255,0,0</color3>
+  </theme>
+  <theme>
+    <name>Deadpool Paint</name>
+	<hero>deadpool</hero>
+    <color0>255,0,0</color0>
+    <color1>0,0,0</color1>
+    <color2>255,255,255</color2>
+    <color3>50,50,50</color3>
+    <color4>150,150,150</color4>
+  </theme>
+  <theme>
+    <name>Dr. Strange Paint</name>
+	<hero>dr_strange</hero>
+    <color0>0,98,245</color0>
+    <color1>44,44,44</color1>
+    <color2>253,235,35</color2>
+    <color3>255,0,0</color3>
+  </theme>
+  <theme>
+    <name>Elektra Paint</name>
+	<hero>elektra</hero>
+    <color0>255,0,0</color0>
+    <color1>150,150,150</color1>
+    <color2>44,44,44</color2>
+    <color3>87,41,0</color3>
+  </theme>
+  <theme>
+    <name>Emma Frost Paint</name>
+	<hero>emma_frost</hero>
+    <color0>138,187,249</color0>
+    <color1>255,255,255</color1>
+    <color2>138,187,249</color2>
+    <color3>247,233,162</color3>
+  </theme>
+  <theme>
+    <name>Falcon Paint</name>
+	<hero>falcon</hero>
+    <color0>255,0,0</color0>
+    <color1>255,255,255</color1>
+    <color2>253,158,8</color2>
+    <color3>161,0,0</color3>
+  </theme>
+  <theme>
+    <name>Gambit Paint</name>
+	<hero>gambit</hero>
+    <color0>176,114,64</color0>
+    <color1>235,45,116</color1>
+    <color2>255,0,216</color2>
+    <color3>138,187,249</color3>
+  </theme>
+  <theme>
+    <name>Giant Man Paint</name>
+	<hero>giant_man</hero>
+    <color0>255,0,0</color0>
+    <color1>0,98,245</color1>
+    <color2>255,255,255</color2>
+    <color3>255,0,0</color3>
+  </theme>
+  <theme>
+    <name>Hulk Paint</name>
+    <hero>hulk</hero>
+    <color0>48,91,27</color0>
+    <color1>139,57,177</color1>
+    <color2>73,138,41</color2>
+    <color3>174,221,91</color3>
+  </theme> 
+  <theme>
+    <name>Hulk Red Paint</name>
+    <hero>hulk_red</hero>
+    <color0>161,0,0</color0>
+    <color1>44,44,44</color1>
+    <color2>150,150,150</color2>
+    <color3>255,0,0</color3>
+  </theme> 
+  <theme>
+    <name>Hulk Gladiator Paint</name>
+    <hero>hulk_gladiator</hero>
+    <color0>0,196,0</color0>
+    <color1>176,143,96</color1>
+    <color2>149,164,178</color2>
+    <color3>87,41,0</color3>
+  </theme> 
+  <theme>
+    <name>Human Torch Paint</name>
+	<hero>human_torch</hero>
+    <color0>253,158,8</color0>
+    <color1>161,0,0</color1>
+    <color2>253,158,8</color2>
+    <color3>253,235,35</color3>
+  </theme>
+  <theme>
+    <name>Invisible Woman Paint</name>
+	<hero>invisible_woman</hero>
+    <color0>138,187,249</color0>
+    <color1>0,98,245</color1>
+    <color2>255,255,255</color2>
+    <color3>138,187,249</color3>
+  </theme>
+    <theme>
+    <name>Iron Man Paint</name>
+    <hero>iron_man</hero>    
+    <color0>130,14,14</color0>
+    <color1>253,235,35</color1>
+    <color2>209,238,252</color2>
+    <color3>222,41,17</color3>
+  </theme>
+  <theme>
+    <name>Iron Man Hulkbuster Paint</name>
+    <hero>iron_man_hulkbuster</hero>    
+    <color0>222,41,17</color0>
+    <color1>253,235,35</color1>
+    <color2>255,255,255</color2>
+    <color3>130,14,14</color3>
+  </theme>
+  <theme>
+    <name>Iron Man Stealth Paint</name>
+    <hero>iron_man_stealth</hero>    
+    <color0>35,45,116</color0>
+    <color1>139,237,255</color1>
+    <color2>253,158,8</color2>
+    <color3>35,45,116</color3>
+  </theme>
+  <theme>
+    <name>Jean Grey Paint</name>
+	<hero>jean_grey</hero>
+    <color0>253,235,35</color0>
+    <color1>0,98,245</color1>
+    <color2>44,44,44</color2>
+    <color3>253,235,35</color3>
+  </theme>
+  <theme>
+    <name>Mr. Fantastic Paint</name>
+	<hero>mr_fantastic</hero>
+    <color0>0,98,245</color0>
+    <color1>44,44,44</color1>
+    <color2>255,255,255</color2>
+    <color3>138,187,249</color3>
+  </theme>
+  <theme>
+    <name>Ms. Marvel Paint</name>
+    <hero>ms_marvel</hero>
+    <color0>35,45,116</color0>
+    <color1>255,0,0</color1>
+    <color2>253,235,35</color2>
+    <color3>35,45,116</color3>
+  </theme>
+  <theme>
+    <name>Nick Fury Paint</name>
+	<hero>nick_fury</hero>
+    <color0>44,44,44</color0>
+    <color1>94,128,62</color1>
+    <color2>150,150,150</color2>
+    <color3>93,86,64</color3>
+  </theme>
+  <theme>
+    <name>Nova Paint</name>
+	<hero>nova</hero>
+    <color0>35,45,116</color0>
+    <color1>176,114,64</color1>
+    <color2>138,187,249</color2>
+    <color3>255,0,0</color3>
+  </theme>
+  <theme>
+    <name>Psylocke Paint</name>
+	<hero>psylocke</hero>
+    <color0>35,45,116</color0>
+    <color1>132,0,255</color1>
+    <color2>255,0,216</color2>
+    <color3>161,0,0,</color3>
+  </theme>
+  <theme>
+    <name>Reptil Paint</name>
+	<hero>reptil</hero>
+    <color0>0,196,0</color0>
+    <color1>255,84,66</color1>
+    <color2>255,150,150</color2>
+    <color3>53,150,150</color3>
+  </theme>
+  <theme>
+    <name>Rogue Paint</name>
+	<hero>rogue</hero>
+    <color0>7,75,12</color0>
+    <color1>253,235,35</color1>
+    <color2>255,255,255</color2>
+    <color3>87,41,0</color3>
+  </theme>
+  <theme>
+    <name>Scarlet Witch Paint</name>
+	<hero>scarlet_witch</hero>
+    <color0>161,0,0</color0>
+    <color1>255,164,226</color1>
+    <color2>87,41,0</color2>
+    <color3>255,0,0</color3>
+  </theme>
+  <theme>
+    <name>Shadowcat Paint</name>
+	<hero>shadowcat</hero>
+    <color0>35,45,116</color0>
+    <color1>253,235,35</color1>
+    <color2>176,114,64</color2>
+    <color3>35,45,116</color3>
+  </theme>
+  <theme>
+    <name>She Hulk Paint</name>
+	<hero>she_hulk</hero>
+    <color0>0,196,0</color0>
+    <color1>255,255,255</color1>
+    <color2>132,0,255</color2>
+    <color3>0,196,0</color3>
+  </theme>
+  <theme>
+    <name>Silver Surfer Paint</name>
+	<hero>silver_surfer</hero>
+    <color0>149,164,178</color0>
+    <color1>255,255,255</color1>
+    <color2>138,187,249</color2>
+    <color3>149,164,178</color3>
+  </theme>
+  <theme>
+    <name>Spider-girl Paint</name>
+	<hero>spider_girl</hero>
+    <color0>35,45,116</color0>
+    <color1>255,0,0</color1>
+    <color2>255,255,255</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Spider-man Paint</name>
+    <hero>spider_man</hero>
+    <color0>187,49,22</color0>
+    <color1>94,108,209</color1>
+    <color2>255,255,255</color2>
+    <color3>135,36,16</color3>
+  </theme>
+  <theme>
+    <name>Spider-man Black Paint</name>
+    <hero>spider_man_black</hero>
+    <color0>255,255,255</color0>
+    <color1>35,45,116</color1>
+    <color2>255,255,255</color2>
+    <color3>35,45,116</color3>
+  </theme>
+  <theme>
+    <name>Spider-man Scarlet Paint</name>
+    <hero>spider_man_scarlet</hero>
+    <color0>255,0,0</color0>
+    <color1>138,187,249</color1>
+    <color2>176,114,64</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Spider-man Ben Paint</name>
+    <hero>spider_man_Ben</hero>
+    <color0>255,53,44</color0>
+    <color1>4,56,133</color1>
+    <color2>106,144,169</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Spider-woman Paint</name>
+    <hero>spider_woman</hero>
+    <color0>255,0,0</color0>
+    <color1>253,235,35</color1>
+    <color2>255,255,255</color2>
+    <color3>474,44,44</color3>
+  </theme>
+  <theme>
+    <name>Storm Paint</name>
+    <hero>storm</hero>
+    <color0>35,45,116</color0>
+    <color1>255,255,255</color1>
+    <color2>253,158,8</color2>
+    <color3>20,20,42</color3>
+  </theme>
+  <theme>
+    <name>Storm Mohawk Paint</name>
+    <hero>storm_mohawk</hero>
+    <color0>35,45,116</color0>
+    <color1>150,150,150</color1>
+    <color2>255,255,255</color2>
+    <color3>20,20,42</color3>
+  </theme>
+  <theme>
+    <name>Thing Paint</name>
+	<hero>thing</hero>
+    <color0>253,158,8</color0>
+    <color1>0,98,245</color1>
+    <color2>253,158,8</color2>
+    <color3>255,255,255</color3>
+  </theme>
+  <theme>
+    <name>Thor Paint</name>
+	<hero>thor</hero>
+    <color0>35,45,116</color0>
+    <color1>97,0,0</color1>
+    <color2>150,150,150</color2>
+    <color3>253,235,35</color3>
+  </theme>
+  <theme>
+    <name>Thor Ultimate Paint</name>
+	<hero>thor_ultimate</hero>
+    <color0>44,44,44</color0>
+    <color1>176,114,64</color1>
+    <color2>149,164,178</color2>
+    <color3>35,45,116</color3>
+  </theme>
+  <theme>
+    <name>War Machine Paint</name>
+	<hero>war_machine</hero>
+    <color0>109,109,117</color0>
+    <color1>212,217,236</color1>
+    <color2>70,205,235</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Wasp Paint</name>
+	<hero>wasp</hero>
+    <color0>44,44,44</color0>
+    <color1>139,237,255</color1>
+    <color2>253,235,35</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Wolverine Paint</name>
+    <hero>wolverine</hero>
+    <color0>184,194,21</color0>
+    <color1>99,180,236</color1>
+    <color2>70,126,166</color2>
+    <color3>44,44,44</color3>
+  </theme>
+  <theme>
+    <name>Wolverine Jeans Paint</name>
+    <hero>wolverine_jeans</hero>
+    <color0>255,255,255</color0>
+    <color1>149,164,178</color1>
+    <color2>159,140,108</color2>
+    <color3>176,114,64</color3>
+  </theme>
+  <theme>
+    <name>Wolverine Samurai Paint</name>
+    <hero>wolverine_samurai</hero>
+    <color0>44,44,44</color0>
+    <color1>253,158,8</color1>
+    <color2>87,41,0</color2>
+    <color3>44,44,44</color3>
+  </theme>
+</themes>

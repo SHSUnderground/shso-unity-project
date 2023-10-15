@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &-311882903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 1547150400}
+  - 114: {fileID: 1602293973}
+  m_Layer: 1
+  m_Name: transport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 3452816845
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: -311882903}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!4 &1547150400
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: -311882903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &1602293973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: -311882903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98c1dd4008f04b2e9800998ecf8427e, type: 3}
+  m_Name: 
+  TotalLifetime: 3
+  AutoStart: 0
+  AttachToParent: 1
+  Looping: 0
+  FadeParticlesOnEnd: 0
+  FadeSoundsOnEnd: 0
+  FadeToIdleOnEnd: 0
+  AnimationInterrupted: 0
+  Particles:
+    Array:
+    - ParticlePrefab: {fileID: -842150451, guid: c7652849bad314e4f87f11715a6776f8,
+        type: 2}
+      TimeOffset: 0
+      FadeTime: 0
+      FadeOut: 0
+      Lifetime: 1
+      DetachedParticle: 0
+      DetachedParticlePermanent: 0
+      AttachNodeName: 
+      scope: 0
+      started: 0
+      minimumQuality: 0
+      ScaleToOwner: 1
+    - ParticlePrefab: {fileID: -842150451, guid: c7652849bad314e4f87f11715a6776f8,
+        type: 2}
+      TimeOffset: 0
+      FadeTime: 0
+      FadeOut: 0
+      Lifetime: 2
+      DetachedParticle: 0
+      DetachedParticlePermanent: 0
+      AttachNodeName: 
+      scope: 0
+      started: 0
+      minimumQuality: 0
+      ScaleToOwner: 1
+    - ParticlePrefab: {fileID: -842150451, guid: c7652849bad314e4f87f11715a6776f8,
+        type: 2}
+      TimeOffset: 0
+      FadeTime: 0
+      FadeOut: 0
+      Lifetime: 0.7
+      DetachedParticle: 0
+      DetachedParticlePermanent: 0
+      AttachNodeName: 
+      scope: 0
+      started: 0
+      minimumQuality: 0
+      ScaleToOwner: 1
+  Sounds:
+    Array:
+    - SoundPrefab: {fileID: -842150451, guid: 840a3901b6b6c334d993ed91535465f0, type: 2}
+      TimeOffset: 0
+      FadeTime: 0
+      Lifetime: -1
+      duckMusic: 0
+      scope: 0
+      chanceToPlay: 1
+      keepLocalTransform: 0
+  Animations:
+    Array: []
+  Events:
+    Array: []
+  Generals:
+    Array: []

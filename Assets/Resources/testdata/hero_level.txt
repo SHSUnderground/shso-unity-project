@@ -1,0 +1,26 @@
+<heroes>
+  <hero>
+    <name>wolverine</name>
+    <xp>1500</xp>
+    <level>3</level>
+    <xp_to_next_level>500</xp_to_next_level>
+  </hero>
+  <hero>
+    <name>iron_man</name>
+    <xp>4000</xp>
+    <level>5</level>
+    <xp_to_next_level>1200</xp_to_next_level>
+  </hero>
+  <hero>
+    <name>storm</name>
+    <xp>10001</xp>
+    <level>10</level>
+    <xp_to_next_level>0</xp_to_next_level>
+  </hero>
+  <hero>
+    <name>hulk</name>
+    <xp>12</xp>
+    <level>1</level>
+    <xp_to_next_level>88</xp_to_next_level>
+  </hero>
+</heroes>

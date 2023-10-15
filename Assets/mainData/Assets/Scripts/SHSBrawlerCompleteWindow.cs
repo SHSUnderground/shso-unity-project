@@ -581,22 +581,24 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 
 	private string[] rewardNames = new string[3]
 	{
-		"tickets",
-		"coins",
+		// "tickets",
+		// "coins",
+		"common_bundle|fractal",
+		"common_bundle|fractal",
 		"xp"
 	};
 
 	private string[] rewardLabels = new string[3]
 	{
-		"#missionrewards_ticket_label",
-		"#missionrewards_silver_label",
+		"#FRACTAL_NAME_303943",
+		"#FRACTAL_NAME_303943",
 		"#missionrewards_experience_label"
 	};
 
 	private string[] rewardTooltips = new string[3]
 	{
-		"#missionrewards_tt_1",
-		"#missionrewards_tt_2",
+		"#missionrewards_tt_4",
+		"#missionrewards_tt_4",
 		"#missionrewards_tt_3"
 	};
 
@@ -964,33 +966,69 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 			{
 				MissionResults localResult = currentMissionResults.PlayerResults[key];
 				playerHeroName = localResult.heroName;
-				ticketReward = localResult.tickets;
-				coinReward = localResult.coins;
-				xpReward = localResult.earnedXp;
+				// ticketReward = localResult.tickets;
+				// coinReward = localResult.coins;
+				// xpReward = localResult.earnedXp;
 				bonusXPReward = localResult.bonusXp;
 				//int xpTotal = xpReward + bonusXPReward; // CSP added
-				//Debug.Log("Earned XP=" + xpTotal);
+				//CspUtils.DebugLog("Earned XP=" + xpTotal);
 				ownableRewards = localResult.ownable;
 				rewardTier = localResult.rewardTier;
 				ActiveMission activeMission = AppShell.Instance.SharedHashTable["ActiveMission"] as ActiveMission;
 
 				// CSP - temp comment out block for testing.
 				// if (activeMission != null && activeMission.IsSurvivalMode)
-				// {
-				// 	WWWForm wWWForm = new WWWForm();
-				// 	wWWForm.AddField("mission_id", AppShell.Instance.MissionManifest.GetMissionIdFromKey(activeMission.Id));
-				// 	wWWForm.AddField("hero_id", OwnableDefinition.HeroNameToHeroID[localResult.heroName]);
-				// 	wWWForm.AddField("is_multiplayer_score", Convert.ToInt32(PlayerCombatController.GetPlayerCount() > 1 || currentMissionResults.PlayerResults.Count > 1));
-				// 	wWWForm.AddField("score", localResult.comboScore + localResult.enemyKoScore + localResult.survivalScore);
-				// 	AppShell.Instance.WebService.StartRequest("resources$users/" + AppShell.Instance.Profile.UserId + "/turn_in_score/", delegate(ShsWebResponse response)
-				// 	{
-				// 		if (response.Status != 200)
-				// 		{
-				// 			CspUtils.DebugLogError("Error recording score");
-				// 		}
-				// 		CspUtils.DebugLogWarning("Recorded score " + (localResult.comboScore + localResult.enemyKoScore + localResult.survivalScore));
-				// 	}, wWWForm.data);
-				// }
+				if (activeMission != null)
+				{
+					List<BrawlerStatManager.CharacterScoreData> allStatBlocks = BrawlerStatManager.instance.GetAllStatBlocks();
+					int totalScoreResult = 0;
+
+					for (int i=0; i<allStatBlocks.Count; i++) {
+						totalScoreResult += allStatBlocks[i].individualScoreContribution;
+					}
+					totalScoreResult = totalScoreResult * 2;
+					WWWForm wWWForm = new WWWForm();
+					wWWForm.AddField("mission_id", activeMission.Id);
+					wWWForm.AddField("hero_id", localResult.heroName);
+					// wWWForm.AddField("is_multiplayer_score", Convert.ToInt32(PlayerCombatController.GetPlayerCount() > 1 || currentMissionResults.PlayerResults.Count > 1));
+					wWWForm.AddField("squad_count", allStatBlocks.Count);
+					wWWForm.AddField("score", SHSBrawlerScoreWindow.globalScore.ToString());
+					// long key = AppShell.Instance.PlayerDictionary.GetPlayerId(AppShell.Instance.ServerConnection.GetGameUserId());
+					// playerScore = currentMissionResults.PlayerResults[key]
+					// wWWForm.AddField("medal", GetMedalForScore(currentMissionResults.TotalScore));
+					wWWForm.AddField("medal", GetMedalForScore(talliedScore));
+					int totalPlayerKOs = 0;
+					for (int index=0; index < allStatBlocks.Count; index++) {
+						totalPlayerKOs += allStatBlocks[index].defeats;
+						wWWForm.AddField("player_" + index.ToString() + "_defeats", allStatBlocks[index].defeats);
+					}
+					wWWForm.AddField("player_kos", totalPlayerKOs);
+					AppShell.Instance.WebService.StartRequest("resources$users/turn_in_score.py", delegate(ShsWebResponse response)
+					{
+						if (response.Status != 200)
+						{
+							CspUtils.DebugLogError("Error recording score");
+						}
+						else {
+							string[] responseValues = response.Body.Split(',');
+							Debug.Log(response.Body);
+							localResult.coins = (int)(float.Parse(responseValues[0]));
+							localResult.tickets = (int)(float.Parse(responseValues[0]));
+							localResult.earnedXp = (int)(float.Parse(responseValues[1]));
+							ticketReward = (int)(float.Parse(responseValues[0]));
+							coinReward = (int)(float.Parse(responseValues[0]));
+							xpReward = (int)(float.Parse(responseValues[1]));
+							CspUtils.DebugLogWarning("Score: ");
+						}
+						CspUtils.DebugLogWarning("Recorded score " + (localResult.comboScore + localResult.enemyKoScore + localResult.survivalScore));
+					}, wWWForm.data);
+				}
+				Hashtable playerResHT = new Hashtable();
+				// playerResHT.Add("userID", playerID);
+				playerResHT.Add("hero", AppShell.Instance.Profile.SelectedCostume);
+				playerResHT.Add("fractals_added", localResult.coins);
+				playerResHT.Add("xp_added", localResult.earnedXp);
+				AppShell.Instance.EventReporter.ReportMissionResults(playerResHT);
 			}
 			else
 			{
@@ -1066,7 +1104,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 				{
 					int startScore2 = currentCategoryScore;
 					currentCategoryScore += playerNameScoreWindow2.playerScore.enemyKoScore;
-					toAdd3 |= (CountScore(startScore2, currentCategoryScore, 4f) ^ playerNameScoreWindow2.CountUp(0, playerNameScoreWindow2.playerScore.enemyKoScore, 4f));
+					toAdd3 |= (CountScore(startScore2, currentCategoryScore, 4f) ^ playerNameScoreWindow2.CountUp(0, talliedScore, 4f));
 					if (playerNameScoreWindow2.playerScore.enemyKoScore == num3)
 					{
 						topScorer2 = null;
@@ -1096,7 +1134,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 				{
 					int startScore3 = currentCategoryScore;
 					currentCategoryScore += playerNameScoreWindow4.playerScore.comboScore;
-					toAdd5 |= (CountScore(startScore3, currentCategoryScore, 4f) ^ playerNameScoreWindow4.CountUp(0, playerNameScoreWindow4.playerScore.comboScore, 4f));
+					toAdd5 |= (CountScore(startScore3, currentCategoryScore, 4f) ^ playerNameScoreWindow4.CountUp(0, talliedScore, 4f));
 					if (playerNameScoreWindow4.playerScore.comboScore == num10)
 					{
 						topScorer3 = null;
@@ -1126,7 +1164,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 				{
 					int startScore = currentCategoryScore;
 					currentCategoryScore += playerNameScoreWindow.playerScore.survivalScore;
-					toAdd2 |= (CountScore(startScore, currentCategoryScore, 4f) ^ playerNameScoreWindow.CountUp(0, playerNameScoreWindow.playerScore.survivalScore, 4f));
+					toAdd2 |= (CountScore(startScore, currentCategoryScore, 4f) ^ playerNameScoreWindow.CountUp(0, talliedScore, 4f));
 					if (playerNameScoreWindow.playerScore.survivalScore == num2)
 					{
 						topScorer = null;
@@ -1253,7 +1291,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 				  playerNameScoreWindow.IsVisible = true;	
 				  for (int i=0; i<allStatBlocks.Count; i++) {	
 					if (allStatBlocks[i].squadName == playerNameScoreWindow.nameText.Text) {
-						playerNameScoreWindow.CountUp(allStatBlocks[i].individualScoreContribution, allStatBlocks[i].individualScoreContribution, 4f);
+						playerNameScoreWindow.CountUp(0, allStatBlocks[i].individualScoreContribution*2, 4f);
 					} 	
 				  }
 				}	
@@ -1440,6 +1478,8 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 	protected void UpdateScoreBar()
 	{
 		int medalValue = GetMedalForScore(talliedScore);
+		CspUtils.DebugLog("Tallied Score:" + talliedScore.ToString());
+		CspUtils.DebugLog("Medal tier: " + medalValue);
 		if (currentMedalValue != medalValue)
 		{
 			base.AnimationPieceManager.Add(SHSAnimations.Generic.AnimationBounceTransitionOut(new Vector2(147f, 141f), 1f, medal) | new AnimClipFunction(0f, delegate
@@ -1470,7 +1510,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 		scoreBar.AlphaCutoff = 1f - num4;
 	}
 
-	protected int GetMedalForScore(int scoreCheck)
+	public int GetMedalForScore(int scoreCheck)
 	{
 		int i;
 		for (i = 0; i < 3; i++)
@@ -1489,7 +1529,8 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 
 	protected void UpdateMissionCounters()
 	{
-		int medalForScore = GetMedalForScore(currentMissionResults.TotalScore);
+		// int medalForScore = GetMedalForScore(currentMissionResults.TotalScore);
+		int medalForScore = GetMedalForScore(talliedScore);
 		AppShell.Instance.CounterManager.AddCounter("MissionsComplete", currentMissionReference.Id);
 		ISHSCounterType counter = AppShell.Instance.CounterManager.GetCounter("MissionsHighestMedal");
 		if (counter.GetCurrentValue(currentMissionReference.Id) < medalForScore)
@@ -1581,11 +1622,18 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 	// CSP added  this method for for testing
 	Hashtable fakeMissionResults(List<BrawlerStatManager.CharacterScoreData> allStatBlocks) {
 		Hashtable hash = new Hashtable();
-
+		int totalKOs  = 0;
+		for (int index=0; index < allStatBlocks.Count(); index++){
+			totalKOs += allStatBlocks[index].enemiesKOd;
+		}
 		hash.Add("message_type", "brawler_scoring");
 
-		hash.Add("total_score", allStatBlocks[0].individualScoreContribution.ToString());
+		hash.Add("total_score", (allStatBlocks[0].individualScoreContribution * 2).ToString());
+		hash.Add("enemy_kos", allStatBlocks[0].enemiesKOd.ToString());
 		hash.Add("kos", allStatBlocks[0].enemiesKOd.ToString());
+		hash.Add("player_kos", allStatBlocks[0].defeats.ToString());
+		hash.Add("combo_bonus", allStatBlocks[0].comboHeat.ToString());
+		hash.Add("gimmick_bonus", 1); // Titan: temporarily hardcode it with the value from the bralwer_scoring XML file.
 		hash.Add("pickups", "4");
 
 		hash.Add("leveled_up", "0");
@@ -1624,25 +1672,38 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 		hash.Add("silver", fractals);
 		hash.Add("tickets", "75");
 		hash.Add("xp", xp);
+		// hash.Add("player_score", allStatBlocks[0].individualScoreContribution * 2);
 		hash.Add("ownable_type_id", null);
 		hash.Add("reward_tier", "1");
 		hash.Add("display_data", null);
-
+		int totalScoreResult = 0;
 		string myUserName = AppShell.Instance.ServerConnection.GetGameServer().GetUserName(AppShell.Instance.ServerConnection.GetGameUserId());
 
 		for (int i=0; i<allStatBlocks.Count; i++) {
-			CspUtils.DebugLog(i + ": individualScoreContribution=" + allStatBlocks[i].individualScoreContribution);
+			CspUtils.DebugLog(i + ": individualScoreContribution=" + allStatBlocks[i].individualScoreContribution * 2);
 			CspUtils.DebugLog("enemiesKOd=" + allStatBlocks[i].enemiesKOd);
 			CspUtils.DebugLog("squadName=" + allStatBlocks[i].squadName);
+			totalScoreResult += allStatBlocks[i].individualScoreContribution;
 
 			if (myUserName == allStatBlocks[i].squadName) {
-				talliedScore = allStatBlocks[i].individualScoreContribution;   //SHSBrawlerScoreWindow.globalScore;     
+				// talliedScore = allStatBlocks[i].individualScoreContribution * 2;   //SHSBrawlerScoreWindow.globalScore;     
+				// talliedScore = totalScoreResult * 2;
+				talliedScore = SHSBrawlerScoreWindow.globalScore;
 				totalScore.Text = string.Format("{0:n0}", talliedScore);
 			}
 			
 		}
-
+		// hash.Add("reward_tier", "1");
+		CspUtils.DebugLog("Total Score Result: " +(talliedScore).ToString());
+		// CspUtils.DebugLog("Reward tier: " + GetMedalForScore(talliedScore * 2));
+		CspUtils.DebugLog("Reward tier: " + GetMedalForScore(talliedScore));
+		// hash.Add("total_score", totalScoreResult * 2);
 		
+		// AnimClip toAdd3 = OpenNewCriteria(1);
+		// toAdd3 |= (CountScore(0, talliedScore, 10f));
+		// // toAdd3 |= CloseWithCurrentWinner(topScorer2);
+		// base.AnimationPieceManager.Add(toAdd3);
+
 		return hash;
 	}
 	public override void OnShow()
@@ -1787,12 +1848,12 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 			{
 				num = scoreToAdd;
 			}
-			//talliedScore += num - lastAddedScore;   // CSP temp comment out
+			// talliedScore += num - lastAddedScore;   // CSP temp comment out
 			lastAddedScore = num;
 			mainScore.Text = (lastAddedScore + startScore).ToString();
 			mainScoreShadow.Text = mainScore.Text;
 			totalScore.Text = string.Format("{0:n0}", talliedScore);
-			//UpdateScoreBar();    // CSP temp comment out
+			// UpdateScoreBar();    // CSP temp comment out
 		});
 		animClip.OnFinished += (Action)(object)(Action)delegate
 		{

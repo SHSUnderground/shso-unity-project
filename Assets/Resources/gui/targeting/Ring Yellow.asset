@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1551303785938387, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 4172005634625614, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 1030741230515973, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 4959750793565687, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 33549958790302562, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 23547564136757292, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 1734389190422938, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 4839190996248925, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 33350626852085573, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  - {fileID: 23901611750220163, guid: a05cda3ead69b51488f17793a5cff6aa, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Ring Yellow

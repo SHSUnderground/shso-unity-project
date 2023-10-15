@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CHALLENGE SKIP VALUES
+	These are ownable_type_id values that correspond to items in the DB that do the actual charging for purchase
+	These values go in <bypassItem></bypassItem>
+	50g   = 300258
+	100g  = 300259
+	200g  = 300260
+	300g  = 300261
+	400g  = 300262
+	500g  = 300263
+	600g  = 300264
+	700g  = 300266
+	800g  = 300267
+	900g  = 300268
+	1000g = 300269
+-->
+<challenges>
+
+</challenges>

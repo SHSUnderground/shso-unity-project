@@ -1,0 +1,173 @@
+<drop_table_data>
+
+  <drop_table>
+    <name>popcorn_drop_a</name>
+    <drop>
+      <prefab>Pickup_Health_Restore_Low</prefab>
+      <chance>5.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Health_Restore_Medium</prefab>
+      <chance>5.0</chance>
+    </drop>
+  </drop_table>
+
+  <drop_table>
+    <name>minion_drop_a</name>
+    <drop>
+      <prefab>Pickup_Power_Restore_Singlestar</prefab>
+      <chance>30.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Health_Restore_Low</prefab>
+      <chance>40.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Health_Restore_Medium</prefab>
+      <chance>20.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Health_Restore_High</prefab>
+      <chance>10.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Health_Regen</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Points</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Damage_Increase</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Super_Gain</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Move_Speed</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Super_Armor</prefab>
+      <chance>0.0</chance>
+    </drop>
+  </drop_table>
+
+  <drop_table>
+    <name>lieutenant_drop_a</name>
+    <drop>
+      <prefab>Pickup_Health_Restore</prefab>
+      <chance>100.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Damage_Increase</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Super_Gain</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Move_Speed</prefab>
+      <chance>0.0</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Super_Armor</prefab>
+      <chance>0.0</chance>
+    </drop>
+  </drop_table>
+  
+  
+  <drop_table>
+    <name>speed_drop_a</name>
+    <drop>
+      <prefab>Pickup_Move_Speed</prefab>
+      <chance>100</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>armor_drop_a</name>
+    <drop>
+      <prefab>Pickup_Super_Armor</prefab>
+      <chance>100.0</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>health_drop_a</name>
+    <drop>
+      <prefab>Pickup_Health_Regen</prefab>
+      <chance>100</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>damage_drop_a</name>
+    <drop>
+      <prefab>Pickup_Damage_Increase</prefab>
+      <chance>100</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>super_drop_a</name>
+    <drop>
+      <prefab>Pickup_Super_Gain</prefab>
+      <chance>100</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>random_box_drop_a</name>
+    <drop>
+      <prefab>Pickup_Super_Gain</prefab>
+      <chance>20</chance>
+    </drop>	
+    <drop>
+      <prefab>Pickup_Damage_Increase</prefab>
+      <chance>20</chance>
+    </drop>	
+    <drop>
+      <prefab>Pickup_Move_Speed</prefab>
+      <chance>20</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Super_Armor</prefab>
+      <chance>20</chance>
+    </drop>
+    <drop>
+      <prefab>Pickup_Health_Regen</prefab>
+      <chance>20</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>multi_drop_a</name>
+    <drop>
+      <prefab>Pickup_Multi_Reference</prefab>
+      <chance>100</chance>
+    </drop>
+  </drop_table>
+  
+  <drop_table>
+    <name>chaos_box_golden_apple</name>
+    <drop>
+      <prefab>Pickup_Golden_Apple_Loki</prefab>
+      <chance>20</chance>
+    </drop>	
+  
+  </drop_table>
+
+	<drop_table>
+		<name>nodrop</name>
+			<drop>
+			<prefab>Pickup_Super_Armor</prefab>
+			<chance>.001</chance>
+			</drop>
+	</drop_table>
+  
+</drop_table_data>

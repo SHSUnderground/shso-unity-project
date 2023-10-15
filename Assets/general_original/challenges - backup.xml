@@ -1,0 +1,2317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CHALLENGE SKIP VALUES
+	These are ownable_type_id values that correspond to items in the DB that do the actual charging for purchase
+	These values go in <bypassItem></bypassItem>
+	50g   = 300258
+	100g  = 300259
+	200g  = 300260
+	300g  = 300261
+	400g  = 300262
+	500g  = 300263
+	600g  = 300264
+	700g  = 300266
+	800g  = 300267
+	900g  = 300268
+	1000g = 300269
+-->
+<challenges>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>1</id>
+    <name>#SC1_TITLE</name>
+    <desc>#SC1_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>ui_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc31_robber_caught</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>1</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>425</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>2</id>
+    <name>#SC2_TITLE</name>
+    <desc>#SC2_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc33_hero_token_found</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>450</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>3</id>
+    <name>#SC3_TITLE</name>
+    <desc>#SC3_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_14</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc_fractal_found</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>10</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>50</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>4</id>
+    <name>#SC4_TITLE</name>
+    <desc>#SC4_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>tree_poke</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>400</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>5</id>
+    <name>#SC5_TITLE</name>
+    <desc>#SC5_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_5</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>76581</value>
+      <grantmode>Manual</grantmode>
+      <qualifier>daredevil;elektra;storm_mohawk;firestar;sentry;wolverine_jeans</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>15</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>6</id>
+    <name>#SC6_TITLE</name>
+    <desc>#SC6_DESC</desc>
+    <classname>ChallengeEvent</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_6</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>50</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC3_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>7</id>
+    <name>#SC7_TITLE</name>
+    <desc>#SC7_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_6</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>ui_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc02_open_shop</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>50</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC6_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>8</id>
+    <name>#SC8_TITLE</name>
+    <desc>#SC8_DESC</desc>
+    <classname>WandererChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_8</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>wanderer_message</message_type>
+    <parameters>
+      <parameter>
+        <name>counter_simple</name>
+        <value>true</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>3</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>75</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>9</id>
+    <name>#SC9_TITLE</name>
+    <desc>#SC9_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_8</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>character_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc08_flight_hotspot</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>4</value>
+      </parameter>
+      <parameter>
+        <name>client_msg_req:zone_name</name>
+        <value>baxter_building</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>125</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>10</id>
+    <name>#SC10_TITLE</name>
+    <desc>#SC10_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_10</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77188</value>
+      <grantmode>Auto</grantmode>
+      <qualifier>iron_man_stealth</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>25</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>11</id>
+    <name>#SC11_TITLE</name>
+    <desc>#SC11_DESC</desc>
+    <classname>ChallengeIOEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_11</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc11_asgard_statue</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>6</value>
+      </parameter>
+      <parameter>
+        <name>triggerFilter</name>
+        <value>_SocialSpaceController:asgard|static_bundles|Asgard_Bundle(Clone)|ScenarioObjects|Interactive Objects|Statues|Asgard_Statue</value>
+      </parameter>
+      <parameter>
+        <name>triggerFilter</name>
+        <value>_SocialSpaceController:asgard|static_bundles|Asgard_avengers_Bundle(Clone)|ScenarioObjects|Statues|Asgard_Statue</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>150</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>12</id>
+    <name>#SC12_TITLE</name>
+    <desc>#SC12_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_13</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc27_bubble_gum_star_open</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>400</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>13</id>
+    <name>#SC13_TITLE</name>
+    <desc>#SC13_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_13</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>character_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc13_hero_engoldened</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>4</value>
+      </parameter>
+      <parameter>
+        <name>counter_simple</name>
+        <value>true</value>
+      </parameter>
+      <parameter>
+        <name>client_msg_req:golden_in</name>
+        <value>true</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>175</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>14</id>
+    <name>#SC14_TITLE</name>
+    <desc>#SC14_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_14</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc_fractal_found</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>50</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>50</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>15</id>
+    <name>#SC15_TITLE</name>
+    <desc>#SC15_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_15</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77182</value>
+      <grantmode>Manual</grantmode>
+      <qualifier>daredevil;elektra;storm_mohawk;firestar;sentry;wolverine_jeans</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>60</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>16</id>
+    <name>#SC16_TITLE</name>
+    <desc>#SC16_DESC</desc>
+    <classname>ChallengeZoneEvent</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>collider_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc16_villainville_sewer</value>
+      </parameter>
+      <parameter>
+        <name>challenge_zone_name</name>
+        <value>Challenge_Spelunker_Zone</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>200</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC16_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>17</id>
+    <name>#SC17_TITLE</name>
+    <desc>#SC17_DESC</desc>
+    <classname>TargetedEmoteChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>ui_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>greet</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>18</id>
+    <name>#SC18_TITLE</name>
+    <desc>#SC18_DESC</desc>
+    <classname>ChallengeEventBitCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>gs_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>pizza_snack_prefab(Clone)</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>icecreambar_snack_prefab(Clone)|ice_cream_sundae_snack_prefab(Clone)|icecreamcone_snack_prefab(Clone)</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>hotdog_snack_prefab(Clone)</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>fish_snack_Prefab(Clone)</value>
+      </parameter>
+      <parameter>
+        <name>counter_simple</name>
+        <value>true</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>225</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC18_PIZZA_LABEL</label>
+      <label>#SQ_SC18_ICECREAM_LABEL</label>
+      <label>#SQ_SC18_HOTDOG_LABEL</label>
+      <label>#SQ_SC18_FISH_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>19</id>
+    <name>#SC19_TITLE</name>
+    <desc>#SC19_DESC</desc>
+    <classname>ChallengeEventBitCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_19</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>card_game_message</message_type>
+    <parameters>
+      <parameter>
+        <name>client_msg_req:card_quest_id</name>
+        <value>4013</value>
+      </parameter>
+      <parameter>
+        <name>client_msg_req:card_quest_won</name>
+        <value>true</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>card_quest_battle_end=94</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>card_quest_battle_end=95</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>card_quest_battle_end=96</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>100</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC19_BATTLE1_LABEL</label>
+      <label>#SQ_SC19_BATTLE2_LABEL</label>
+      <label>#SQ_SC19_BATTLE3_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>20</id>
+    <name>#SC20_TITLE</name>
+    <desc>#SC20_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_20</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77183</value>
+      <grantmode>Manual</grantmode>
+      <qualifier>daredevil;elektra;storm_mohawk;firestar;sentry;wolverine_jeans</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>110</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>21</id>
+    <name>#SC21_TITLE</name>
+    <desc>#SC21_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>character_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc21_astro_not</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>20</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>275</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>22</id>
+    <name>#SC22_TITLE</name>
+    <desc>#SC22_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Silver</type>
+      <value>300</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC22_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>23</id>
+    <name>#SC23_TITLE</name>
+    <desc>#SC23_DESC</desc>
+    <classname>ChallengeEventBitCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>collider_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc23_daily_bugle_pond</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc23_baxter_fountain</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc23_asgard_river</value>
+      </parameter>
+      <parameter>
+        <name>counter_simple</name>
+        <value>true</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>300</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC23_BUGLE_POND_LABEL</label>
+      <label>#SQ_SC23_BAXTER_FOUNTAIN_LABEL</label>
+      <label>#SQ_SC23_ASGARD_RIVER_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>24</id>
+    <name>#SC24_TITLE</name>
+    <desc>#SC24_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_24</icon_path>
+    <type>Default</type>
+    <bypassItem>300261</bypassItem>
+    
+    <message_type>card_game_message</message_type>
+    <parameters>
+      <parameter>
+        <name>client_msg_req:card_pvp_won</name>
+        <value>true</value>
+      </parameter>
+      <parameter>
+        <name>client_msg_req:card_pvp_won_rewards</name>
+        <value>true</value>
+      </parameter>
+      <parameter>
+        <name>event_trigger</name>
+        <value>card_pvp_battle_end</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>10</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>100</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>25</id>
+    <name>#SC25_TITLE</name>
+    <desc>#SC25_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_25</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77187</value>
+      <grantmode>Auto</grantmode>
+      <qualifier>colossus</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>200</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>26</id>
+    <name>#SC26_TITLE</name>
+    <desc>#SC26_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Silver</type>
+      <value>325</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC26_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>27</id>
+    <name>#SC27_TITLE</name>
+    <desc>#SC27_DESC</desc>
+    <classname>ChallengeCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>animation_message</message_type>
+    <parameters>
+      <parameter>
+        <name>client_msg_req:game_object_name</name>
+        <value>PigeonPrefab(Clone)</value>
+      </parameter>
+      <parameter>
+        <name>client_msg_req:animation_name</name>
+        <value>falldown|falldown_2</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>100</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>350</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>28</id>
+    <name>#SC28_TITLE</name>
+    <desc>#SC28_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc27_bubble_gum_star_open</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>30</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>400</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>29</id>
+    <name>#SC29_TITLE</name>
+    <desc>#SC29_DESC</desc>
+    <classname>CompleteMissionWithHeroSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_29</icon_path>
+    <type>Default</type>
+    <bypassItem>300262</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>hulk</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>hulk_red</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>hulk_gladiator</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>she_hulk</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>200</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC29_HULK_LABEL</label>
+      <label>#SQ_SC29_HULK_RED_LABEL</label>
+      <label>#SQ_SC29_HULK_GLADIATOR_LABEL</label>
+      <label>#SQ_SC29_SHE_HULK_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>30</id>
+    <name>#SC30_TITLE</name>
+    <desc>#SC30_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_30</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77184</value>
+      <grantmode>Manual</grantmode>
+      <qualifier>daredevil;elektra;storm_mohawk;firestar;sentry;wolverine_jeans</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>300</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>31</id>
+    <name>#SC31_TITLE</name>
+    <desc>#SC31_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>ui_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc31_robber_caught</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>25</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>425</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>32</id>
+    <name>#SC32_TITLE</name>
+    <desc>#SC32_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+	<bypassItem>300259</bypassItem>
+
+		<message_type>io_message</message_type>
+		<parameters>
+			<parameter>
+				<name>event_trigger</name>
+				<value>sc_scavenger_object_found</value>
+			</parameter>
+			<parameter>
+				<name>counter_goal</name>
+				<value>50</value>
+			</parameter>
+		</parameters>
+		<reward>
+			<type>Silver</type>
+			<value>450</value>
+			<grantmode>Auto</grantmode>
+		</reward>
+		<display>
+			<method>ShowProgressMeter</method>
+		</display>
+</challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>33</id>
+    <name>#SC33_TITLE</name>
+    <desc>#SC33_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>io_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc33_hero_token_found</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>100</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>450</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>34</id>
+    <name>#SC34_TITLE</name>
+    <desc>#SC34_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_34</icon_path>
+    <type>Default</type>
+    <bypassItem>300261</bypassItem>
+    
+    <message_type>card_game_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc34_win_card_quest</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>200</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>35</id>
+    <name>#SC35_TITLE</name>
+    <desc>#SC35_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_35</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77185</value>
+      <grantmode>Manual</grantmode>
+      <qualifier>daredevil;elektra;storm_mohawk;firestar;sentry;wolverine_jeans</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>400</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>36</id>
+    <name>#SC36_TITLE</name>
+    <desc>#SC36_DESC</desc>
+    <classname>ChallengeEvent</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+    
+    <message_type>collider_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc36_dance_machine</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>500</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC36_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>37</id>
+    <name>#SC37_TITLE</name>
+    <desc>#SC37_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+
+		<message_type>io_message</message_type>
+		<parameters>
+			<parameter>
+				<name>event_trigger</name>
+				<value>sc_item_crafted</value>
+			</parameter>
+			<parameter>
+				<name>counter_goal</name>
+				<value>10</value>
+			</parameter>
+		</parameters>
+		<reward>
+			<type>Silver</type>
+			<value>525</value>
+			<grantmode>Auto</grantmode>
+		</reward>
+		<display>
+			<method>ShowProgressMeter</method>
+		</display>
+</challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>38</id>
+    <name>#SC38_TITLE</name>
+    <desc>#SC38_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300259</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Silver</type>
+      <value>550</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSingleCheckbox</method>
+      <checkbox>#SQ_SC38_LABEL</checkbox>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>39</id>
+    <name>#SC39_TITLE</name>
+    <desc>#SC39_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_39</icon_path>
+    <type>Default</type>
+    <bypassItem>300262</bypassItem>
+    
+    <message_type>character_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc_39_cheered</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>100</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>300</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>40</id>
+    <name>#SC40_TITLE</name>
+    <desc>#SC40_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>
+    </icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>77186</value>
+      <grantmode>Auto</grantmode>
+      <qualifier>spider_man_future</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>540</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>41</id>
+    <name>#SC41_TITLE</name>
+    <desc>#SC41_DESC</desc>
+    <classname>ChallengeEventCounter</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>character_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>sc41_hero_eyebot</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+      <parameter>
+        <name>client_msg_req:rc_bot</name>
+        <value>true</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>450</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>42</id>
+    <name>#SC42_TITLE</name>
+    <desc>#SC42_DESC</desc>
+    <classname>CompleteMissionWithHeroSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_42</icon_path>
+    <type>Default</type>
+    <bypassItem>300262</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>iron_man</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>iron_man_stealth</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>iron_man_mk2</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>iron_man_avengers</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>200</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC42_IRON_MAN_LABEL</label>
+      <label>#SQ_SC42_IRON_MAN_STEALTH_LABEL</label>
+      <label>#SQ_SC42_IRON_MAN_MK2_LABEL</label>
+      <label>#SQ_SC42_IRON_MAN_AVENGERS_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>43</id>
+    <name>#SC43_TITLE</name>
+    <desc>#SC43_DESC</desc>
+    <classname>CompleteMissionWithHeroSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_42</icon_path>
+    <type>Default</type>
+    <bypassItem>300262</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>wolverine</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>wolverine_avenging</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>wolverine_samurai</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>wolverine_jeans</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>200</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC43_WOLVERINE_LABEL</label>
+      <label>#SQ_SC43_WOLVERINE_AVENGING_LABEL</label>
+      <label>#SQ_SC43_WOLVERINE_SAMURAI_LABEL</label>
+      <label>#SQ_SC43_WOLVERINE_JEANS_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>44</id>
+    <name>#SC44_TITLE</name>
+    <desc>#SC44_DESC</desc>
+    <classname>CompleteMissionWithHeroSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_42</icon_path>
+    <type>Default</type>
+    <bypassItem>300262</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>spider_man</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>spider_man_ben</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>spider_man_2099</value>
+      </parameter>
+      <parameter>
+        <name>hero_trigger</name>
+        <value>spider_man_future</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Gold</type>
+      <value>200</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC44_SPIDER_MAN_LABEL</label>
+      <label>#SQ_SC44_SPIDER_MAN_BEN_LABEL</label>
+      <label>#SQ_SC44_SPIDER_MAN_2099_LABEL</label>
+      <label>#SQ_SC44_SPIDER_MAN_FUTURE_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>45</id>
+    <name>#SC45_TITLE</name>
+    <desc>#SC45_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_45</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Hero</type>
+      <value>232423</value>
+      <grantmode>Manual</grantmode>
+      <qualifier>daredevil;elektra;storm_mohawk;firestar;sentry;wolverine_jeans</qualifier>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>600</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>46</id>
+    <name>#SC46_TITLE</name>
+    <desc>#SC46_DESC</desc>
+    <classname>CompleteMissionSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_2_Venom001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_3_GreenGoblin001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_1_DocOck001</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC46_VENOM_LABEL</label>
+      <label>#SQ_SC46_GREEN_GOBLIN_LABEL</label>
+      <label>#SQ_SC46_DOC_OCK_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>47</id>
+    <name>#SC47_TITLE</name>
+    <desc>#SC47_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_2_Venom001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>48</id>
+    <name>#SC48_TITLE</name>
+    <desc>#SC48_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_1_DocOck001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>49</id>
+    <name>#SC49_TITLE</name>
+    <desc>#SC49_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_3_GreenGoblin001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>50</id>
+    <name>#SC50_TITLE</name>
+    <desc>#SC50_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>700</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>51</id>
+    <name>#SC51_TITLE</name>
+    <desc>#SC51_DESC</desc>
+    <classname>CompleteMissionSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_4_SuperSkrull001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_5_MoleMan001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_6_Annihilus001</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC51_SUPER_SKRULL_LABEL</label>
+      <label>#SQ_SC51_MOLE_MAN_LABEL</label>
+      <label>#SQ_SC51_ANNIHILUS_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>52</id>
+    <name>#SC52_TITLE</name>
+    <desc>#SC52_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_6_Annihilus001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>53</id>
+    <name>#SC53_TITLE</name>
+    <desc>#SC53_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_5_MoleMan001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>54</id>
+    <name>#SC54_TITLE</name>
+    <desc>#SC54_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_4_SuperSkrull001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>55</id>
+    <name>#SC55_TITLE</name>
+    <desc>#SC55_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>800</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>56</id>
+    <name>#SC56_TITLE</name>
+    <desc>#SC56_DESC</desc>
+    <classname>CompleteMissionSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_7_Loki001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_8_Enchantress001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_9_AvengersLoki001</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC56_LOKI_LABEL</label>
+      <label>#SQ_SC56_ENCHANTRESS_LABEL</label>
+      <label>#SQ_SC56_AVENGERS_LOKI_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>57</id>
+    <name>#SC57_TITLE</name>
+    <desc>#SC57_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_8_Enchantress001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>58</id>
+    <name>#SC58_TITLE</name>
+    <desc>#SC58_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_7_Loki001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>59</id>
+    <name>#SC59_TITLE</name>
+    <desc>#SC59_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_9_AvengersLoki001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>60</id>
+    <name>#SC60_TITLE</name>
+    <desc>#SC60_DESC</desc>
+    <classname>ChallengeServer</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+	<authority>Server</authority>
+    <message_type>
+    </message_type>
+    <parameters />
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowSquadLevelProgress</method>
+      <goal>900</goal>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>61</id>
+    <name>#SC61_TITLE</name>
+    <desc>#SC61_DESC</desc>
+    <classname>CompleteMissionSetChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+    
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_10_Modok001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_11_Abomination001</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_12_DoctorDoom001</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>2000</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowBitCounterMultiCheckBox</method>
+      <label>#SQ_SC61_MODOK_LABEL</label>
+      <label>#SQ_SC61_ABOMINATION_LABEL</label>
+      <label>#SQ_SC61_DOCTOR_DOOM_LABEL</label>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>62</id>
+    <name>#SC62_TITLE</name>
+    <desc>#SC62_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_11_Abomination001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>63</id>
+    <name>#SC63_TITLE</name>
+    <desc>#SC63_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_10_Modok001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>64</id>
+    <name>#SC64_TITLE</name>
+    <desc>#SC64_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>challengerewards_bundle|challenge_reward_icons_16</icon_path>
+    <type>Default</type>
+    <bypassItem>300260</bypassItem>
+		
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_100M_12_DoctorDoom001</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+    <reward>
+      <type>Silver</type>
+      <value>250</value>
+      <grantmode>Auto</grantmode>
+    </reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+<!--
+	Name: Foo
+	Description: Bar
+-->
+<challenge>
+    <id>65</id>
+    <name>#SC65_TITLE</name>
+    <desc>#SC65_DESC</desc>
+    <classname>CompleteMissionMultipleTimesChallenge</classname>
+    <icon_path>
+    </icon_path>
+    <type>Default</type>
+    <bypassItem>300263</bypassItem>
+		
+    <authority>Server</authority>
+		<force_client_events>true</force_client_events>
+    <message_type>brawler_message</message_type>
+    <parameters>
+      <parameter>
+        <name>event_trigger</name>
+        <value>brawler_mission_complete</value>
+      </parameter>
+      <parameter>
+        <name>mission_name</name>
+        <value>m_1028_1_Modok002A</value>
+      </parameter>
+      <parameter>
+        <name>counter_goal</name>
+        <value>5</value>
+      </parameter>
+    </parameters>
+		<reward>
+			<type>Hero</type>
+			<value>291737</value>
+			<grantmode>Auto</grantmode>
+			<qualifier>modok_playable</qualifier>
+		</reward>
+    <display>
+      <method>ShowProgressMeter</method>
+    </display>
+ </challenge>
+</challenges>

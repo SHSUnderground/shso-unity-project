@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character>
+  <name>template</name>
+  <asset_bundle>Characters/template_01</asset_bundle>
+  <character_controller>
+    <height>2.0</height>
+    <radius>0.5</radius>
+    <slope_limit>50.0</slope_limit>
+    <step_offset>0.3</step_offset>
+    <center>
+      <x>0.0</x>
+      <y>1.1</y>
+      <z>0.0</z>
+    </center>
+    <pickup_bone>fx_Lpalm</pickup_bone>
+  </character_controller>
+  <character_model>
+    <model_name>template_01_prefab</model_name>
+  </character_model>
+  <behavior_manager>
+    <default_behavior_type>BehaviorBase</default_behavior_type>
+  </behavior_manager>
+  <character_motion_controller>
+    <landing_effect_name>landing</landing_effect_name>
+    <speed>6.0</speed>
+    <run_animation_speed>1.0</run_animation_speed>
+    <deceleration_distance>0.4</deceleration_distance>
+    <gravity>20.0</gravity>
+    <jump_height>10.0</jump_height>
+    <jump_timeout>0.15</jump_timeout>
+    <rotate_speed>500.0</rotate_speed>
+    <fall_tolerance>0.5</fall_tolerance>
+    <pickup_strength>4</pickup_strength>
+  </character_motion_controller>
+  <player_combat_controller>
+    <combat_controller>
+      <faction>Player</faction>
+      <knockdown_effect>knockdown</knockdown_effect>
+      <launch_land_effect>launch_land_sequence</launch_land_effect>
+      <stun_effect>stun1</stun_effect>
+    </combat_controller>
+    <health_increase_1>50</health_increase_1>
+    <health_increase_2>50</health_increase_2>
+    <power_damage_received_multiplier>0.5</power_damage_received_multiplier>
+    <power_damage_dealt_multiplier>0.5</power_damage_dealt_multiplier>
+  </player_combat_controller>
+  <character_stats>
+    <stat>
+      <stat_type>Health</stat_type>
+      <stat_change_pusle_rate>5.0</stat_change_pusle_rate>
+      <stat_change_amount>20.0</stat_change_amount>
+      <initial_value>200.0</initial_value>
+      <initial_maximum>200.0</initial_maximum>
+    </stat>
+    <stat>
+      <stat_type>Power</stat_type>
+      <stat_change_pusle_rate>0.0</stat_change_pusle_rate>
+      <stat_change_amount>0.0</stat_change_amount>
+      <initial_value>0.0</initial_value>
+      <initial_maximum>100.0</initial_maximum>
+    </stat>
+  </character_stats>
+  <effect_sequence_list>
+    <character_fx>FX/template_fx</character_fx>
+    <shared_fx>FX/character_shared_fx</shared_fx>
+    <logical_effect>
+      <name>Power Emote 1</name>
+      <prefab_name>Power Emote 1</prefab_name>
+    </logical_effect>
+    <logical_effect>
+      <name>Power Emote 2</name>
+      <prefab_name>Power Emote 2</prefab_name>
+    </logical_effect>
+    <logical_effect>
+      <name>Power Emote 3</name>
+      <prefab_name>Power Emote 3</prefab_name>
+    </logical_effect>
+  </effect_sequence_list>
+  <offset_data>
+    <default_offset>2.01</default_offset>
+    <animation_offset_data>
+      <animation_offset>
+        <name>jump_up</name>
+        <offset>2.50</offset>
+        <mode>normal</mode>
+      </animation_offset>
+      <animation_offset>
+        <name>jump_run_up</name>
+        <offset>2.50</offset>
+        <mode>normal</mode>
+      </animation_offset>
+    </animation_offset_data>
+  </offset_data>
+</character>

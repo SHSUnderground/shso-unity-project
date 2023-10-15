@@ -1,0 +1,103 @@
+<audio_preset_voice>
+  <preset_list>
+
+    <preset>
+      <preset_name>default</preset_name>
+      <audio_priority>0</audio_priority>
+      <audio_max_playbacks>6</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+
+    <preset>
+      <preset_name>single</preset_name>
+      <audio_priority>0</audio_priority>
+      <audio_max_playbacks>1</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+
+    <preset>
+      <preset_name>unlimited</preset_name>
+      <audio_priority>0</audio_priority>
+      <audio_max_playbacks>999</audio_max_playbacks>
+      <audio_steal_behavior>fail</audio_steal_behavior>
+    </preset>
+
+    <preset>
+      <preset_name>attack</preset_name>
+      <audio_priority>0</audio_priority>
+      <audio_max_playbacks>1</audio_max_playbacks>
+      <audio_steal_behavior>fail</audio_steal_behavior>
+    </preset>
+
+    <preset>
+      <preset_name>storm_lightning_bolt</preset_name>
+      <audio_priority>0</audio_priority>
+      <audio_max_playbacks>1</audio_max_playbacks>
+      <audio_steal_behavior>fail</audio_steal_behavior>
+    </preset>
+
+    <preset>
+      <preset_name>enemy_death</preset_name>
+      <audio_priority>1</audio_priority>
+      <audio_max_playbacks>1</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+
+    <preset>
+      <preset_name>hit_impact</preset_name>
+      <audio_priority>3</audio_priority>
+      <audio_max_playbacks>3</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox4pri2</preset_name>
+      <audio_priority>2</audio_priority>
+      <audio_max_playbacks>4</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox2pri0</preset_name>
+      <audio_priority>0</audio_priority>
+      <audio_max_playbacks>2</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox1pri1</preset_name>
+      <audio_priority>1</audio_priority>
+      <audio_max_playbacks>1</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox1pri2</preset_name>
+      <audio_priority>2</audio_priority>
+      <audio_max_playbacks>1</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox2pri1</preset_name>
+      <audio_priority>1</audio_priority>
+      <audio_max_playbacks>2</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox4pri1</preset_name>
+      <audio_priority>1</audio_priority>
+      <audio_max_playbacks>4</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+    
+    <preset>
+      <preset_name>vox2pri2</preset_name>
+      <audio_priority>2</audio_priority>
+      <audio_max_playbacks>2</audio_max_playbacks>
+      <audio_steal_behavior>steal_oldest</audio_steal_behavior>
+    </preset>
+
+  </preset_list>
+</audio_preset_voice>

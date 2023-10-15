@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<x_1002_BaxterMiniMission>
+  <name>Sabretoothinator</name>
+  <description>Doc Ock is using his Ock-Bots and grabby claws to attack Super Hero City!</description>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+  <blacklist_characters></blacklist_characters>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+<!-- This stuff might not be necessary START -->
+<stages>
+	<stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    
+    <scenario_bundle>Baxter_Avengers_MiniMission</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    
+    <scenario_bundle>Baxter_Avengers_MiniMission_Boss</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+</stages>
+<prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+ <bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>8057</player>
+    <player>10265</player>
+    <player>13152</player>
+    <player>14852</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>17143</player>
+    <player>21841</player>
+    <player>27985</player>
+    <player>31600</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>21700</player>
+    <player>27647</player>
+    <player>35425</player>
+    <player>40000</player>
+  </score_needed>
+ </adamantium>
+</rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>101,339</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>101,339</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>101,339</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>101,339</lootTableIDs>
+    </adamantium>
+  </awards>
+</x_1002_BaxterMiniMission>

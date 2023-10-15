@@ -1,0 +1,372 @@
+<audio_preset_bundle>
+
+  <bundle>
+    <bundle_name>Unassigned</bundle_name>
+    <audio_preset_volume>volume_06</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VFX_Hero</bundle_name>
+    <audio_preset_volume>volume_03</audio_preset_volume>
+    <audio_preset_pitch>standard-0.03rand</audio_preset_pitch>
+    <audio_preset_3d>Char</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle> 
+  
+  <bundle>
+    <bundle_name>VFX_Enem</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard-0.03rand</audio_preset_pitch>
+    <audio_preset_3d>Char</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VFX_Boss</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard-0.05rand</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_Impact</bundle_name>
+    <audio_preset_volume>volume_05</audio_preset_volume>
+    <audio_preset_pitch>standard-0.03rand</audio_preset_pitch>
+    <audio_preset_3d>Impacts</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+  
+  <bundle>
+    <bundle_name>FX_Explosion</bundle_name>
+    <audio_preset_volume>volume_12</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Explosions</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_Whoosh</bundle_name>
+    <audio_preset_volume>volume_05</audio_preset_volume>
+    <audio_preset_pitch>standard-0.3rand</audio_preset_pitch>
+    <audio_preset_3d>Char</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_Slam</bundle_name>
+    <audio_preset_volume>volume_12</audio_preset_volume>
+    <audio_preset_pitch>standard-0.3rand</audio_preset_pitch>
+    <audio_preset_3d>Explosions</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_Spawn</bundle_name>
+    <audio_preset_volume>volume_07</audio_preset_volume>
+    <audio_preset_pitch>standard-0.05rand</audio_preset_pitch>
+    <audio_preset_3d>Char</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_Pickups</bundle_name>
+    <audio_preset_volume>volume_09</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_CardGame</bundle_name>
+    <audio_preset_volume>volume_07</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_CardGameJeopardy</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_Brawler</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>FX_SocialSpace</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Char_Hero</bundle_name>
+    <audio_preset_volume>volume_06</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Char</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Char_Boss</bundle_name>
+    <audio_preset_volume>volume_15</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Bosses</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Char_Enemies</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard-0.05rand</audio_preset_pitch>
+    <audio_preset_3d>Char</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>HUD_UI</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>single</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>HUD_Brawler</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>HUD_Global</bundle_name>
+    <audio_preset_volume>volume_09</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Obj_HQ</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Obj_SocialSpace</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Ambient_3D_Effects</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Obj_Emitter</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>unlimited</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Obj_Brawler</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Obj_Brawler_Random</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard-0.3rand</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Obj_Consumable</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Ambient_3D_Effects</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Phy_Materials</bundle_name>
+    <audio_preset_volume>volume_09</audio_preset_volume>
+    <audio_preset_pitch>standard-0.05rand</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Amb_BaseLayer</bundle_name>
+    <audio_preset_volume>volume_06</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Amb_Sweetener</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Ambient_3D_Effects</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>unlimited</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Music</bundle_name>
+    <audio_preset_volume>volume_06</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Music</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Level_Music</bundle_name>
+    <audio_preset_volume>volume_03</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Music</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>Music_3D</bundle_name>
+    <audio_preset_volume>volume_04</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Ambient_3D_Music</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO</bundle_name>
+    <audio_preset_volume>volume_20</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>Medium</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_Boss</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>Bosses</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_Cutscene</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>Huge</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_Hero</bundle_name>
+    <audio_preset_volume>volume_06</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>CharVO</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_Hero_Important</bundle_name>
+    <audio_preset_volume>volume_06</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>Huge</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_UI</bundle_name>
+    <audio_preset_volume>volume_07</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>CharVO</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_UI_Boss</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_Announce</bundle_name>
+    <audio_preset_volume>volume_08</audio_preset_volume>
+    <audio_preset_pitch>vo_pitch_rand</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+  <bundle>
+    <bundle_name>VO_Tutorial</bundle_name>
+    <audio_preset_volume>volume_10</audio_preset_volume>
+    <audio_preset_pitch>standard</audio_preset_pitch>
+    <audio_preset_3d>GUI</audio_preset_3d>
+    <audio_preset_fade>default</audio_preset_fade>
+    <audio_preset_voice>default</audio_preset_voice>
+  </bundle>
+
+</audio_preset_bundle>

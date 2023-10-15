@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<s_0003_SampleScenario>
+  <name>The Abomination Snowman</name>
+  <title_key>Sample Scenario</title_key>
+  <description>
+    Abomination and Magneto are turning the local dry cleaning shop into a radioactive cheese like product facility.
+    Stop them at all costs!
+  </description>
+
+  <geometry_bundle>CardScenario1_geometry</geometry_bundle>
+  <scenario_bundle>CardScenario1_scenario1</scenario_bundle>
+  <sponsor>hulk</sponsor>
+  <sponsordeckId>14</sponsordeckId>
+
+  <links>
+    <!-- related entities (IronMan, Abomination, Subscriber, etc).
+          This is for filtering the scenarios based on their relationship
+          (NPC game world sponsors, for instance)-->
+    <link>magneto</link>
+    <link>abomination</link>
+    <link>subscriber</link>
+  </links>
+
+  <customrules>
+    <!-- Need to be defined. For now, made up. -->
+    <rule>
+      <rulekey>power</rulekey>
+      <rulevalue>+1</rulevalue>
+      <ruleconstraint>brotherhood</ruleconstraint>
+    </rule>
+  </customrules>
+
+  <requirements>
+    <requirement>
+      <name>HeroCollectionRequirement</name>
+      <value>IronMan</value>
+    </requirement>
+    <requirement>
+      <name>SubscriberRequirement</name>
+      <value>1</value>
+      <!-- Level of subscriber (Premium, Sanguine, bla bla bla...)-->
+    </requirement>
+    <requirement>
+      <name>ScenarioChainRequirement</name>
+      <value>s_0001_SampleScenario42</value>
+    </requirement>
+    <!--<requirements>
+      <name>TimedRequirement</name>
+      <value>Christmas_001</value>
+    </requirements>-->
+  </requirements>
+
+  <rewards>
+    <reward>
+      <type>Card</type>
+      <value>ST033</value>
+    </reward>
+    <reward>
+      <type>Coins</type>
+      <value>100</value>
+    </reward>
+  </rewards>
+</s_0003_SampleScenario>

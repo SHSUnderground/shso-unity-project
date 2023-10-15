@@ -38,11 +38,7 @@ public class GUIAlphaCutoffDrawTexture : GUIDrawTexture
 
 	public GUIAlphaCutoffDrawTexture()
 	{
-		//mat = new Material(Shader.Find("GUI/DualCutout"));
-		Shader s = Shader.Find("Specular");
-		if (s == null)
-			CspUtils.DebugLog("GUIalpha - shader find returns null!");
-		mat = new Material(s);  // CSP seems to be a problem with the above line, just use Standard for now.
+		mat = new Material(Shader.Find("GUI/DualCutout"));
 		AlphaCutoff = 0f;
 	}
 

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &-757050896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: 205820312}
+  - 114: {fileID: -75753263}
+  m_Layer: 0
+  m_Name: HUD_UI_EarnXP_audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 3452816845
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &-75753263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: -757050896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98c1dd4008f04b2e9800998ecf8427e, type: 3}
+  m_Name: 
+  PrefabName: 
+  AudioCategory: 4
+  Loop: 0
+  PlayOnAwake: 0
+  WaitForLoadToPlay: 1
+  UseCustomRolloff: 0
+  PlayBehavior: 0
+  Clips:
+    Array:
+    - Clip: {fileID: 0}
+      BundleName: 6
+      AssetName: HUD_UI_EarnXP
+      ClipRepeatCount: 1
+  presetBundleName: HUD_UI
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: -757050896}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!4 &205820312
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: -757050896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}

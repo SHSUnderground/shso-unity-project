@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_0006_1_SomethingStinks>
+  <name>Something Stinks</name>
+  <description>Something Stinks in Superhero City! 
+  
+Get to the bottom of the problem and let's hope it's not the bottom of the Hulk!!!
+  
+  The city sewers await you.</description>
+  <cinematic></cinematic>
+  <!-- <cinematic>0000_Comic_End</cinematic> -->
+  <cover_page>SomethingStinks_cover</cover_page>
+  <title_key>somethingstinks</title_key>
+  <!-- Entries always show up on the world map, so we're just going to shunt it off screen -->
+  <map>
+    <x>9078</x>
+    <y>140</y>
+  </map>
+  <target_level>1</target_level>
+
+
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Streets_Demo_geometry</geometry_bundle>
+    <scenario_bundle>Streets_Demo_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list></available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+    <!-- <cinematic>0000_Comic_01</cinematic> -->
+  </stage>
+
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Sewers_Demo_geometry</geometry_bundle>
+    <scenario_bundle>Sewers_Demo_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list></available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+	<splash_image>brawler_bundle|testBossSplash</splash_image>
+    <!-- <cinematic>0000_Comic_02</cinematic> -->
+  </stage>
+
+  <stage>
+    <stage_number>3</stage_number>
+    <type>brawler</type>
+    
+    <geometry_bundle>Factory_Demo_geometry</geometry_bundle>
+    <scenario_bundle>Factory_Demo_scenario1</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list></available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+    <!-- <cinematic>0000_Comic_03</cinematic> -->
+  </stage>
+
+
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+  </prerequisites>
+
+  <rating>
+    <bronze>
+      <score_needed>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+        <player>0</player>
+      </score_needed>
+    </bronze>
+    <silver>
+      <score_needed>
+        <player>4001</player>
+        <player>4001</player>
+        <player>4001</player>
+        <player>4001</player>
+      </score_needed>
+    </silver>
+    <gold>
+      <score_needed>
+        <player>8001</player>
+        <player>8001</player>
+        <player>8001</player>
+        <player>8001</player>
+      </score_needed>
+    </gold>
+    <adamantium>
+      <score_needed>
+        <player>16001</player>
+        <player>16001</player>
+        <player>16001</player>
+        <player>16001</player>
+      </score_needed>
+    </adamantium>
+  </rating>
+
+	<awards>
+		<bronze>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</bronze>
+		<silver>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</silver>
+		<gold>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</gold>
+		<adamantium>
+			<rewardTier>0</rewardTier>
+			<lootTableIDs></lootTableIDs>
+		</adamantium>
+	</awards>
+	<front_page>
+	<image>
+		<source>missions_bundle|DailyBugle</source>
+		<x>0</x>
+		<y>10</y>
+		<width>859</width>
+		<height>75</height>
+		<border>0</border>
+	</image>
+	<main_image>
+		<source>missions_bundle|L_Mission_001_Headline_Image_01</source>
+		<x>7</x>
+		<y>99</y>
+		<width>424</width>
+		<height>281</height>
+		<border>4</border>
+	</main_image>
+	<main_headline>
+    <font>GEORGIA__76_Bold</font>  <!-- Georgia Bold 76 -->
+    <line_height>67</line_height>
+    <text>Claw and
+Disorder!</text>
+    <x>442</x>
+    <y>84</y>
+    <width>414</width>
+    <height>144</height>
+	</main_headline>
+  <text_block>
+		<font>GEORGIA__48_Italic</font>  <!-- Georgia Italic 48 -->
+    <line_height>47</line_height>
+		<text>Doc Ock and Bots
+Knock Socks Off
+Shocked Blocks</text>
+		<x>442</x>
+		<y>225</y>
+		<width>414</width>
+		<height>135</height>
+	</text_block>
+	<text_block>
+		<font>GEORGIA__14</font>  <!-- Georgia 14 -->
+		<line_height>16</line_height>
+		<x>442</x>
+		<y>374</y>
+		<width>415</width>
+		<height>242</height>
+		<text>SUPER HERO CITY - Hundreds of claws appeared in the skies above Super Hero City this morning, sending our fair city into turmoil and making the populace feel uncomfortably like a collection of oversized stuffed animals.
+
+Those snatched by the claws were quick to describe the experience as "unsettling" and "excessive".  "It's obviously that goggle-eyed jerk Doc Ock who's doing this to us," said Selma Ross, who is still trapped.  "Just look at those ridiculous claws!  They look exactly like those creepy tentacles coming out of his back!"
+
+"Now can you get me out of here?" continued Ross.
+
+Local authorities have confirmed that the claws belong to Dr. Otto Octavius, known to Super Hero City as Doc Ock.</text>
+	</text_block>
+	<text_block>
+		<font>GEORGIA__14_Bold</font>  <!-- Georgia 14 Bold -->
+		<x>730</x>
+		<y>622</y>
+		<width>127</width>
+		<height>18</height>
+		<text>See DOC OCK, A3</text>
+	</text_block>
+	<text_block>
+		<font>GEORGIA__20_Bold</font>  <!-- Georgia Bold 20 -->
+		<line_height>20.5</line_height>
+		<x>6</x>
+		<y>386</y>
+		<width>201</width>
+		<height>63</height>
+		<text>Speedball's Skee-
+Balls No Longer an
+Imminent Threat</text>
+	</text_block>
+	<text_block>
+		<font>GEORGIA__14</font>
+		<line_height>16.5</line_height>
+		<x>6</x>
+		<y>453</y>
+		<width>202</width>
+		<height>196</height>
+		<text>SUPER HERO CITY - Visitors to Arcade's Arcade in the Quarters District received a welcome surprise this morning.
+
+"I can play Skee-Ball again!" shouted Derick Robinson, 8.  "They're not chasing me down the street anymore!  And they don't all have goggles and weird floppy blond hair!  Awesome!"</text>
+	</text_block>
+
+	<vertical_line>
+		<x>212</x>
+		<y>391</y>
+		<length>245</length>
+	</vertical_line>
+
+	<text_block>
+		<font>GEORGIA__20_Bold</font>
+		<line_height>20.5</line_height>
+		<x>220</x>
+		<y>386</y>
+		<width>206</width>
+		<height>63</height>
+		<text>Zoo's Whooping
+Cranes Explore
+Defamation Suit</text>
+	</text_block>
+	<text_block>
+		<font>GEORGIA__14</font>
+		<line_height>16.5</line_height>
+		<x>220</x>
+		<y>453</y>
+		<width>204</width>
+		<height>197</height>
+		<text>SUPER HERO CITY - On a regular day, whooping cranes don't get much attention when visitors come to the zoo.  But with Doc Ock's latest claw-based incursion to Super Hero City, that's about to change.
+
+"We cranes have nothing to do with this!  That crane game is something totally different!"</text>
+	</text_block>
+	<vertical_line>
+		<x>430</x>
+		<y>391</y>
+		<length>245</length>
+	</vertical_line>
+  </front_page>
+</m_0006_1_SomethingStinks>

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1823274086234028, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 4225149883617410, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 111714389174777657, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 1169356611329560, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 4367832149609334, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 33462220894294860, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 23699943772329445, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 1858826872556793, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 4403798206105217, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 33021271357087879, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  - {fileID: 23116194283889517, guid: c9337c5c3ce231f48aa70f550966c7a9, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Trgt_Rtcl_Cntr

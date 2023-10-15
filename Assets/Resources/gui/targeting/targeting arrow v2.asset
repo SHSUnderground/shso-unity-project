@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1082282653337512, guid: aa65d12ee30e5ac429d17983f76277d1, type: 2}
+  - {fileID: 4534390570443394, guid: aa65d12ee30e5ac429d17983f76277d1, type: 2}
+  - {fileID: 33602498027391030, guid: aa65d12ee30e5ac429d17983f76277d1, type: 2}
+  - {fileID: 23565438402011230, guid: aa65d12ee30e5ac429d17983f76277d1, type: 2}
+  - {fileID: 111982112275162468, guid: aa65d12ee30e5ac429d17983f76277d1, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: targeting arrow v2

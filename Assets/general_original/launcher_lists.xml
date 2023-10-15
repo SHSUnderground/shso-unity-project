@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<launcherlists>
+  <launcher_list>
+    <id>ml_0001_aboms_missions_1</id>
+    <type>BrawlerMission</type>
+    <short_desc>Abomination Missions for Training</short_desc>
+    <missions>
+	    <mission_entry>
+		    <mission_id>m_1001_1_DocOck001</mission_id>
+	    </mission_entry>
+	    <mission_entry>
+		    <mission_id>m_1002_1_SuperSkrull001</mission_id>
+	    </mission_entry>
+	    <mission_entry>
+		    <mission_id>m_1009_1_GreenGoblin001</mission_id>
+	    </mission_entry>
+    </missions>
+  </launcher_list>
+  <launcher_list>
+    <id>ml_0001_dooms_missions_1</id>
+    <type>BrawlerMission</type>
+    <missions>
+      <mission_entry>
+        <mission_id>m_0006_1_SomethingStinks</mission_id>
+      </mission_entry>
+    </missions>
+  </launcher_list>
+  <launcher_list>
+    <id>cs_0001_aboms_training1</id>
+    <type>CardScenario</type>
+    <cardscenarios>
+      <scenario_entry>
+        <scenario_id>cs_0001_AbomsTr1</scenario_id>
+      </scenario_entry>
+      <scenario_entry>
+        <scenario_id>cs_0002_AbomsTr2</scenario_id>
+        <desc_override>Abomination says YOU can't take him.</desc_override>
+      </scenario_entry>
+      <scenario_entry>
+        <scenario_id>cs_0003_AbomsTr3</scenario_id>
+      </scenario_entry>
+    </cardscenarios>
+  </launcher_list>
+  <launcher_list>
+    <id>cs_0001_dooms_training1</id>
+    <type>CardScenario</type>
+    <cardscenarios>
+      <scenario_entry>
+        <scenario_id>cs_0004_DoomsTr1</scenario_id>
+      </scenario_entry>
+      <scenario_entry>
+        <scenario_id>cs_0005_DoomsTr2</scenario_id>
+        <desc_override>Doom finds you almost unworthy to take him on.</desc_override>
+      </scenario_entry>
+      <scenario_entry>
+        <scenario_id>cs_0006_DoomsTr3</scenario_id>
+      </scenario_entry>
+    </cardscenarios>
+  </launcher_list>
+</launcherlists>

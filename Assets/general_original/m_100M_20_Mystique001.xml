@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<m_100M_20_Mystique001>
+	<name>Seeking Sneaky Mystique!</name>
+	<description>Mystique is putting the 'Style' in Hostile!  Stop her shapeshifting shenanigans!</description>
+	<mission_splash_screen_override>L_mystique_01</mission_splash_screen_override>
+	<mission_purchase_override>m_1013_1_Mystique001</mission_purchase_override>
+	<mission_briefing_speaker>wolverine_jeans</mission_briefing_speaker>
+	<map>
+		<x>78</x>
+		<y>170</y>
+	</map>
+	<target_level>1</target_level>
+	<stages>
+		<stage>
+			<stage_number>1</stage_number>
+			<scenario_bundle>Factory_M013_S03M_BOSS_scenario</scenario_bundle>
+		</stage>
+	</stages>
+	<rating>
+		<bronze>
+			<score_needed>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+			</score_needed>
+		</bronze>
+		<silver>
+			<score_needed>
+				<player>1113</player>
+				<player>1113</player>
+				<player>1113</player>
+				<player>1113</player>
+			</score_needed>
+		</silver>
+		<gold>
+			<score_needed>
+				<player>2370</player>
+				<player>2370</player>
+				<player>2370</player>
+				<player>2370</player>
+			</score_needed>
+		</gold>
+		<adamantium>
+			<score_needed>
+				<player>3000</player>
+				<player>3000</player>
+				<player>3000</player>
+				<player>3000</player>
+			</score_needed>
+		</adamantium>
+	</rating>
+	<awards>
+		<bronze>
+			<lootTableIDs>103,390</lootTableIDs>
+		</bronze>
+		<silver>
+			<lootTableIDs>103,390</lootTableIDs>
+		</silver>
+		<gold>
+			<lootTableIDs>103,390</lootTableIDs>
+		</gold>
+		<adamantium>
+			<lootTableIDs>103,390,115</lootTableIDs>
+		</adamantium>
+	</awards>
+</m_100M_20_Mystique001>

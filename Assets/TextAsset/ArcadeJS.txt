@@ -1,0 +1,60 @@
+﻿if (typeof HEROUPNS.RunArcade == "undefined") {
+	HEROUPNS.RunArcade = function(url, callbackObject, finishFunction) {
+		// add new unityArcade div
+		var mainDiv = $('#unityBrowser');
+		var arcadeDivDef = '<div id="unityArcade" style="width: ' + mainDiv.width() + 'px; height: ' + mainDiv.height() + 'px; visibility: visible; z-index: 12;"></div>';
+		var arcadeDiv = $(arcadeDivDef);
+		mainDiv.parent().append(arcadeDiv);
+
+		// embed unity player
+		var params = {
+			id: "unityPlayerArcade",
+			name: "unityPlayerArcade",
+			backgroundcolor: "000000",
+			bordercolor: "000000",
+			textcolor: "FFFFFF",
+			logoimage: $('#unityPlayer').attr('logoimage'),
+			disableContextMenu: true
+		};
+		
+		setTimeout(function(){HEROUPNS.ContinueArcade(params, url, callbackObject, finishFunction);}, 1);
+	}
+	
+	HEROUPNS.ContinueArcade = function(params, url, callbackObject, finishFunction) {
+		var arcadeDiv = $('#unityArcade');
+		unityObject.embedUnity("unityArcade", url, parseFloat(arcadeDiv.width()), parseFloat(arcadeDiv.height()), params);
+		
+		// embeding the player was stripping the class, so have to do it afterwards
+		var mainDiv = $('#unityBrowser');
+		if (mainDiv.attr('class') === 'lowRes') {
+			console.log("adding lowRes class");
+			$('#unityArcade').addClass('lowRes');
+		}
+		
+		// create exit callback for the arcade game
+		HEROUPNS.ExitArcade = function() { 
+			unityObject.removeUnity("unityArcade");
+			setTimeout("HEROUPNS.ExitArcadeDelay()", 1);
+		};
+		
+		// create delayed finish callback since the browser was choking
+		// on removing and calling back into a unity player on the same frame
+		HEROUPNS.ExitArcadeDelay = function() {
+			GetUnity().SendMessage(callbackObject, finishFunction, "web");
+		};
+	}
+}
+
+
+if (typeof HEROUPNS.SetArcadeCookie == "undefined") {
+	HEROUPNS.SetArcadeCookie = function(name, value, days) {
+		var expires='';
+		if (days) {	
+			var date = new Date();
+			date.setTime(date.getTime()+ (days*24*60*60*1000));
+			expires = '; expires='+date.toUTCString();
+		}
+		document.cookie = name+'='+value+expires+'; path=/';
+	}
+}
+

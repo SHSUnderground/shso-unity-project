@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<s_0004_SampleScenario>
+  <name>Sample Scenario 4</name>
+  <title_key>Sample Scenario Four</title_key>
+  <description>
+    Dr. Doom is sleeping. Attack him before he starts snoring the city into ruins!
+  </description>
+
+  <geometry_bundle>CardScenario1_geometry</geometry_bundle>
+  <scenario_bundle>CardScenario1_scenario1</scenario_bundle>
+  <sponsor>doom</sponsor>
+  <sponsordeckId>14</sponsordeckId>
+
+  <links>
+    <!-- related entities (IronMan, Abomination, Subscriber, etc).
+          This is for filtering the scenarios based on their relationship
+          (NPC game world sponsors, for instance)-->
+    <link>doom</link>
+    <link>season1</link>
+    <link>subscriber</link>
+  </links>
+
+  <customrules>
+    <!-- Need to be defined. For now, made up. -->
+    <rule>
+      <rulekey>power</rulekey>
+      <rulevalue>+1</rulevalue>
+      <ruleconstraint>brotherhood</ruleconstraint>
+    </rule>
+  </customrules>
+
+  <requirements>
+    <requirement>
+      <name>HeroCollectionRequirement</name>
+      <value>IronMan</value>
+    </requirement>
+    <requirement>
+      <name>SubscriberRequirement</name>
+      <value>1</value>
+      <!-- Level of subscriber (Premium, Sanguine, bla bla bla...)-->
+    </requirement>
+    <requirement>
+      <name>ScenarioChainRequirement</name>
+      <value>s_0001_SampleScenario42</value>
+    </requirement>
+    <!--<requirements>
+      <name>TimedRequirement</name>
+      <value>Christmas_001</value>
+    </requirements>-->
+  </requirements>
+
+  <rewards>
+    <reward>
+      <type>Card</type>
+      <value>ST033</value>
+    </reward>
+    <reward>
+      <type>Coins</type>
+      <value>100</value>
+    </reward>
+  </rewards>
+</s_0004_SampleScenario>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scavenger_data>
+	<item_info>
+		<ownableTypeID>322283</ownableTypeID>
+		<readableName>Uru Dust</readableName>
+		<zone_info>asgard,312499</zone_info>
+		<icon>uru_dust</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322284</ownableTypeID>
+		<readableName>Uru Coins</readableName>
+		<zone_info></zone_info>
+		<icon>uru_coins</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322285</ownableTypeID>
+		<readableName>Uru Plates</readableName>
+		<zone_info></zone_info>
+		<icon>uru_plates</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322286</ownableTypeID>
+		<readableName>Uru Ingots</readableName>
+		<zone_info></zone_info>
+		<icon>uru_ingots</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322287</ownableTypeID>
+		<readableName>Dark Energy Motes</readableName>
+		<zone_info>asgard,312500</zone_info>
+		<icon>dark_energy_ motes</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322288</ownableTypeID>
+		<readableName>Dark Energy Balls</readableName>
+		<zone_info></zone_info>
+		<icon>dark_energy_ balls</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322289</ownableTypeID>
+		<readableName>Dark Energy Spheres</readableName>
+		<zone_info></zone_info>
+		<icon>dark_energy_spheres</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322290</ownableTypeID>
+		<readableName>Symbiote Drop</readableName>
+		<zone_info>bugle,312499</zone_info>
+		<icon>symbiote_drop</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322291</ownableTypeID>
+		<readableName>Symbiote Goo</readableName>
+		<zone_info></zone_info>
+		<icon>symbiote_goo</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322292</ownableTypeID>
+		<readableName>Symbiote Extract</readableName>
+		<zone_info></zone_info>
+		<icon>symbiote_extract</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322293</ownableTypeID>
+		<readableName>Symbiote Sludge</readableName>
+		<zone_info></zone_info>
+		<icon>symbiote_sludge</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322294</ownableTypeID>
+		<readableName>Mutagen Solution</readableName>
+		<zone_info>bugle,312500</zone_info>
+		<icon>mutagen_solution</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322295</ownableTypeID>
+		<readableName>Mutagen Mist</readableName>
+		<zone_info></zone_info>
+		<icon>mutagen_mist</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322296</ownableTypeID>
+		<readableName>Mutagen Canister</readableName>
+		<zone_info></zone_info>
+		<icon>mutagen_canister</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322297</ownableTypeID>
+		<readableName>Psychic Residue</readableName>
+		<zone_info>baxter,312499</zone_info>
+		<icon>psychic_residue</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322298</ownableTypeID>
+		<readableName>Psychic Liquid</readableName>
+		<zone_info></zone_info>
+		<icon>psychic_liquid</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322299</ownableTypeID>
+		<readableName>Psychic Solution</readableName>
+		<zone_info></zone_info>
+		<icon>psychic_solution</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322300</ownableTypeID>
+		<readableName>Psychic Concentrate</readableName>
+		<zone_info></zone_info>
+		<icon>psychic_concentrate</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322301</ownableTypeID>
+		<readableName>Unstable Matter</readableName>
+		<zone_info>baxter,312500</zone_info>
+		<icon>unstable_matter</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322302</ownableTypeID>
+		<readableName>Unstable Atom</readableName>
+		<zone_info></zone_info>
+		<icon>unstable_atom</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322303</ownableTypeID>
+		<readableName>Unstable Moleclue</readableName>
+		<zone_info></zone_info>
+		<icon>unstable_molecule</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322304</ownableTypeID>
+		<readableName>Mechanical Bolts</readableName>
+		<zone_info>ville,312499</zone_info>
+		<icon>mechanical_bolts</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322305</ownableTypeID>
+		<readableName>Mechanical Parts</readableName>
+		<zone_info></zone_info>
+		<icon>mechanical_parts</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322306</ownableTypeID>
+		<readableName>Mechanical Frames</readableName>
+		<zone_info></zone_info>
+		<icon>mechanical_frames</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322307</ownableTypeID>
+		<readableName>Mechanical Chassis</readableName>
+		<zone_info></zone_info>
+		<icon>mechanical_chassis</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322308</ownableTypeID>
+		<readableName>Vishanti Wisps</readableName>
+		<zone_info>ville,312500</zone_info>
+		<icon>vishanti_wisp</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322309</ownableTypeID>
+		<readableName>Vishanti Threads</readableName>
+		<zone_info></zone_info>
+		<icon>vishanti_threads</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322310</ownableTypeID>
+		<readableName>Vishanti Shrouds</readableName>
+		<zone_info></zone_info>
+		<icon>vishanti_shrouds</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322311</ownableTypeID>
+		<readableName>Adamantium Fragments</readableName>
+		<zone_info>all,312495</zone_info>
+		<icon>adamantium_fragments</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322312</ownableTypeID>
+		<readableName>Adamantium Rods</readableName>
+		<zone_info></zone_info>
+		<icon>adamantium_rods</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322313</ownableTypeID>
+		<readableName>Adamantium Blocks</readableName>
+		<zone_info></zone_info>
+		<icon>adamantium_blocks</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322314</ownableTypeID>
+		<readableName>Adamantium Bars</readableName>
+		<zone_info></zone_info>
+		<icon>adamantium_bars</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322315</ownableTypeID>
+		<readableName>Astral Shard</readableName>
+		<zone_info>all,312496</zone_info>
+		<icon>astral_shard</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322316</ownableTypeID>
+		<readableName>Astral Crystal</readableName>
+		<zone_info></zone_info>
+		<icon>astral_crystal</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322317</ownableTypeID>
+		<readableName>Astral Prism</readableName>
+		<zone_info></zone_info>
+		<icon>astral_prism</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322318</ownableTypeID>
+		<readableName>Diamond Dust</readableName>
+		<zone_info>all,312497</zone_info>
+		<icon>diamond_dust</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322319</ownableTypeID>
+		<readableName>Rough Diamonds</readableName>
+		<zone_info></zone_info>
+		<icon>diamonds_rough</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322320</ownableTypeID>
+		<readableName>Pure Diamonds</readableName>
+		<zone_info></zone_info>
+		<icon>diamonds_pure</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322321</ownableTypeID>
+		<readableName>Pym Particles</readableName>
+		<zone_info>all,312498</zone_info>
+		<icon>pym_particles</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322327</ownableTypeID>
+		<readableName>Elemental Sparks</readableName>
+		<zone_info></zone_info>
+		<icon>elemental_sparks</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322328</ownableTypeID>
+		<readableName>Elemental Flames </readableName>
+		<zone_info></zone_info>
+		<icon>elemental_flames</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322329</ownableTypeID>
+		<readableName>Elemental Fire</readableName>
+		<zone_info></zone_info>
+		<icon>elemental_fire</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322330</ownableTypeID>
+		<readableName>Snowflakes</readableName>
+		<zone_info></zone_info>
+		<icon>ice_snowflakes</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322331</ownableTypeID>
+		<readableName>Ice Crystals</readableName>
+		<zone_info></zone_info>
+		<icon>ice_crystals</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322332</ownableTypeID>
+		<readableName>Ice Zero</readableName>
+		<zone_info></zone_info>
+		<icon>ice_zero</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322333</ownableTypeID>
+		<readableName>Shadows</readableName>
+		<zone_info></zone_info>
+		<icon>negative_shadows</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322334</ownableTypeID>
+		<readableName>Negative Sparks</readableName>
+		<zone_info></zone_info>
+		<icon>negative_sparks</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322335</ownableTypeID>
+		<readableName>Negative Energy</readableName>
+		<zone_info></zone_info>
+		<icon>negative_energy</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322336</ownableTypeID>
+		<readableName>Cosmic Energy</readableName>
+		<zone_info></zone_info>
+		<icon>cosmic_energy</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322337</ownableTypeID>
+		<readableName>Cosmic Charge</readableName>
+		<zone_info></zone_info>
+		<icon>cosmic_charge</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322338</ownableTypeID>
+		<readableName>Cosmic Batteries</readableName>
+		<zone_info></zone_info>
+		<icon>cosmic_batteries</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322339</ownableTypeID>
+		<readableName>Gamma Spark</readableName>
+		<zone_info></zone_info>
+		<icon>gamma_spark</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322340</ownableTypeID>
+		<readableName>Gamma Burst</readableName>
+		<zone_info></zone_info>
+		<icon>gamma_burst</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322341</ownableTypeID>
+		<readableName>Gamma Blast</readableName>
+		<zone_info></zone_info>
+		<icon>gamma_blast</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322342</ownableTypeID>
+		<readableName>Antimetal Shardz</readableName>
+		<zone_info></zone_info>
+		<icon>antimetal_shards</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322343</ownableTypeID>
+		<readableName>Omnium Ingotz</readableName>
+		<zone_info></zone_info>
+		<icon>omnium_ingots</icon>
+	</item_info>
+	<item_info>
+		<ownableTypeID>322344</ownableTypeID>
+		<readableName>Vibranium Ore</readableName>
+		<zone_info></zone_info>
+		<icon>vibranium_ore</icon>
+	</item_info>
+</scavenger_data>
+
+
+
+	

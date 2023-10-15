@@ -1,0 +1,33 @@
+<brawler_character_data>
+  <persistent_hero_up_character_effect>hero_up_effect_persistent_sequence</persistent_hero_up_character_effect>
+  <hero_up_character_effect>hero_up_effect_start_sequence</hero_up_character_effect>
+  <polymorph_data>
+    <valid_choice>thing</valid_choice>
+    <valid_choice>daredevil</valid_choice>
+    <valid_choice>wolverine</valid_choice>
+    <valid_choice>hulk</valid_choice>
+    <valid_choice>captain_america</valid_choice>
+    <valid_choice>mr_fantastic</valid_choice>
+    <valid_choice>giant_man</valid_choice>
+    <valid_choice>black_panther</valid_choice>
+    <valid_choice>wolverine_jeans</valid_choice>
+    <valid_choice>hulk_red</valid_choice>
+    <valid_choice>wolverine_samurai</valid_choice>
+    <valid_choice>hulk_gladiator</valid_choice>
+    <valid_choice>rogue</valid_choice>
+    <valid_choice>she_hulk</valid_choice>
+    <valid_choice>deadpool</valid_choice>
+    <valid_choice>reptil</valid_choice>
+    <valid_choice>elektra</valid_choice>
+    <valid_choice>blade</valid_choice>
+    <valid_choice>colossus</valid_choice>
+    <valid_choice>captain_america_bucky</valid_choice>
+    <valid_choice>nick_fury</valid_choice>
+    <valid_choice>daredevil_classic</valid_choice>
+    <valid_choice>elektra_pure</valid_choice>
+    <valid_choice>wolverine_classic</valid_choice>    
+    <valid_choice>american_dream</valid_choice> 
+    <valid_choice>she_hulk_red</valid_choice> 
+    <valid_choice>black_cat</valid_choice> 
+  </polymorph_data>
+</brawler_character_data>

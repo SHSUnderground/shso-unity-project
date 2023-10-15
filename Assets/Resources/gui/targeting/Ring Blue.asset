@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1082353811591598, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 4958421191189739, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 1191358224970043, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 4775198428710958, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 33518697735550489, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 23252096195869959, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 1793358253366872, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 4080903140235844, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 33642420106705406, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  - {fileID: 23462421105169196, guid: 3dbe1306ee2f9714ba877a912104b93a, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Ring Blue

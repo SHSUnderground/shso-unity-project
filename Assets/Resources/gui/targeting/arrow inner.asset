@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: arrow inner
+  m_Use16BitIndices: 1
+  m_SubMeshes:
+  - firstByte: 0
+    indexCount: 41
+    isTriStrip: 2
+    triangleCount: 14
+    firstVertex: 0
+    vertexCount: 18
+    localAABB:
+      m_Center:
+        x: 0.007982016
+        y: -0.09839186
+        z: 0.125
+      m_Extent:
+        x: 0.4119848
+        y: 0.7958429
+        z: 0.125
+  m_MeshCompression: 0
+  m_IndexBuffer: 070006000300050004000400010001000100000002000800070007000c000c000c000b0011000a00090009000f000f000f000e0010000d000c000c000300030003000200070007000c000c000c0011001000
+  m_Vertices:
+  - x: 0.41996676
+    y: 0.66036886
+    z: 0
+  - x: -0.38697705
+    y: 0.69745106
+    z: 0
+  - x: -0.22504133
+    y: 0.19467817
+    z: 0
+  - x: -0.21865408
+    y: -0.27841705
+    z: 0
+  - x: -0.4040028
+    y: -0.32060122
+    z: 0
+  - x: -0.026055
+    y: -0.8942348
+    z: 0
+  - x: 0.39965042
+    y: -0.36642364
+    z: 0
+  - x: 0.24034579
+    y: -0.29411975
+    z: 0
+  - x: 0.2704863
+    y: 0.18210004
+    z: 0
+  - x: -0.38697708
+    y: 0.69745106
+    z: 0.25
+  - x: 0.41996682
+    y: 0.6603689
+    z: 0.25
+  - x: 0.2704863
+    y: 0.18210004
+    z: 0.25
+  - x: 0.24034579
+    y: -0.29411975
+    z: 0.25
+  - x: 0.39965042
+    y: -0.36642364
+    z: 0.25
+  - x: -0.026054988
+    y: -0.8942348
+    z: 0.25
+  - x: -0.4040028
+    y: -0.32060122
+    z: 0.25
+  - x: -0.21865405
+    y: -0.27841708
+    z: 0.25
+  - x: -0.22504133
+    y: 0.19467817
+    z: 0.25
+  m_Skin: []
+  m_BindPose: []
+  m_UV:
+  - x: 0.54124033
+    y: 0.52034193
+  - x: 0.89617
+    y: 0.5306309
+  - x: 0.8249434
+    y: 0.39113057
+  - x: 0.82213414
+    y: 0.2598648
+  - x: 0.9036586
+    y: 0.24816029
+  - x: 0.73742044
+    y: 0.088998914
+  - x: 0.5501764
+    y: 0.23544633
+  - x: 0.6202456
+    y: 0.2555079
+  - x: 0.60698855
+    y: 0.38764066
+  - x: 0.89617
+    y: 0.5306309
+  - x: 0.54124033
+    y: 0.52034193
+  - x: 0.60698855
+    y: 0.38764066
+  - x: 0.6202456
+    y: 0.2555079
+  - x: 0.5501764
+    y: 0.23544633
+  - x: 0.73742044
+    y: 0.088998914
+  - x: 0.9036586
+    y: 0.24816029
+  - x: 0.82213414
+    y: 0.2598648
+  - x: 0.8249434
+    y: 0.39113057
+  m_UV1: []
+  m_Tangents:
+  - x: -1
+    y: -6.650913E-08
+    z: 0
+    w: 1
+  - x: -1
+    y: -2.6009005E-07
+    z: 0
+    w: 1
+  - x: -1
+    y: -6.963499E-08
+    z: 0
+    w: 1
+  - x: -1
+    y: -8.888457E-09
+    z: 0
+    w: 1
+  - x: -1
+    y: 4.1046408E-07
+    z: 0
+    w: 1
+  - x: -1
+    y: -7.076758E-09
+    z: 0
+    w: 1
+  - x: -1
+    y: -5.0985015E-08
+    z: 0
+    w: 1
+  - x: -1
+    y: 2.294519E-09
+    z: 0
+    w: 1
+  - x: -1
+    y: 2.742068E-07
+    z: 0
+    w: 1
+  - x: -1
+    y: -3.3506439E-07
+    z: 0
+    w: -1
+  - x: -1
+    y: -1.15342964E-07
+    z: 0
+    w: -1
+  - x: -1
+    y: 2.7248296E-07
+    z: 0
+    w: -1
+  - x: -1
+    y: -3.619578E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: -9.483427E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: -3.4331084E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: 5.502875E-07
+    z: 0
+    w: -1
+  - x: -1
+    y: -2.2670434E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: -1.1841061E-07
+    z: 0
+    w: -1
+  m_Normals:
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: -1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center:
+      x: 0.007982016
+      y: -0.09839186
+      z: 0.125
+    m_Extent:
+      x: 0.4119848
+      y: 0.7958429
+      z: 0.125
+  m_Colors:
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  m_CollisionTriangles:
+  - 7
+  - 6
+  - 3
+  - 3
+  - 6
+  - 5
+  - 3
+  - 5
+  - 4
+  - 1
+  - 0
+  - 2
+  - 2
+  - 0
+  - 8
+  - 2
+  - 8
+  - 7
+  - 12
+  - 11
+  - 17
+  - 17
+  - 11
+  - 10
+  - 17
+  - 10
+  - 9
+  - 15
+  - 14
+  - 16
+  - 16
+  - 14
+  - 13
+  - 16
+  - 13
+  - 12
+  - 3
+  - 2
+  - 7
+  - 12
+  - 17
+  - 16
+  m_CollisionVertexCount: 18
+  m_MeshUsageFlags: 0

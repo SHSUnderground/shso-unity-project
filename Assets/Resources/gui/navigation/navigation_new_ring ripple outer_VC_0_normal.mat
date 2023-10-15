@@ -2,25 +2,29 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: "navigation_new_ring ripple outer_VC_0_normal"
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 
-  m_EnableInstancingVariants: 0
-  m_CustomRenderQueue: 
-  stringTagMap: {}
-  disabledShaderPasses: []
+  m_Name: navigation_new_ring ripple outer_VC_0_normal
+  m_Shader: {fileID: 200, guid: 0000000000000000e000000000000000, type: 0}
   m_SavedProperties:
-    serializedVersion: 3
+    serializedVersion: 2
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 57388579ea2e4b72a4f37458a32b369e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: c56b4d15c4969a44e9138dcf36595291, type: 1}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _InvFade
+        second: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.7843137}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .5, g: .5, b: .5, a: .5}

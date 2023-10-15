@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogs>   
+  <catalog>
+    <id>1</id>
+    <name>HQ</name>
+    <description />
+    <pages>
+      <page>
+        <page_number>1</page_number>
+        <description>Lots of HQ Stuff</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>100</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>200</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>300</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>513</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>783</item_id>
+            <silver_price>100</silver_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>883</item_id>
+            <silver_price>100</silver_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>983</item_id>
+            <silver_price>100</silver_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>3</item_id>
+            <silver_price>100</silver_price>
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>2</page_number>
+        <description>Even more HQ Stuff</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>22</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>1</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>783</item_id>
+            <silver_price>100</silver_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>883</item_id>
+            <silver_price>100</silver_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>265</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>521</item_id>
+            <gold_price>500</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>983</item_id>
+            <silver_price>100</silver_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description />
+            <keywords />
+            <item_type_id>1</item_type_id>
+            <item_id>21</item_id>
+            <silver_price>100</silver_price>
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+  
+  <catalog>
+    <id>2</id>
+    <name>Specials</name>
+    <description />
+    <pages>
+      <page>
+        <page_number>1</page_number>
+        <description>Specials. Greatest Hits!</description>
+        <items>
+        <item>
+          <quantity>1</quantity>
+          <description />
+          <keywords />
+          <item_type_id>1</item_type_id>
+          <item_id>111</item_id>
+          <gold_price>500</gold_price>
+        </item>
+        <item>
+          <quantity>1</quantity>
+          <description />
+          <keywords />
+          <item_type_id>1</item_type_id>
+          <item_id>13</item_id>
+          <silver_price>100</silver_price>
+        </item>
+        <item>
+          <quantity>1</quantity>
+          <description />
+          <keywords />
+          <item_type_id>4</item_type_id>
+          <item_id>wolverine01</item_id>
+          <silver_price>100</silver_price>
+        </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+  
+  <catalog>
+    <id>3</id>
+    <name>Cards</name>
+    <description />
+    <pages>
+    </pages>
+  </catalog>
+
+  <catalog>
+    <id>4</id>
+    <name>Heroes</name>
+    <description />
+    <pages>
+      <page>
+        <page_number>1</page_number>
+        <description>Lots of Hero Stuff</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <description>Best. Hero. Ever.</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>ironman01</item_id>
+            <gold_price>1000</gold_price>
+            <diamond_price>3</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>You're not good enough for this hero.  Go away.</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>barney02</item_id>
+            <gold_price>2000</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 3</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>cyclops01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 4</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>spiderman01</item_id>
+            <gold_price>1600</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 5</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>spiderman02</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 6</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>wolverine02</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 7</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>elektra01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 8</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>hulk01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+        </items>
+      </page>
+      <page>
+        <page_number>1</page_number>
+        <description>Even more of Hero Stuff</description>
+        <items>
+          <item>
+            <quantity>1</quantity>
+            <description>You're not good enough for this hero.  Go away.</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>cyclops05</item_id>
+            <gold_price>2000</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 3</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>itsyspider01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 4</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>invisiblewoman01</item_id>
+            <gold_price>1600</gold_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Best. Hero. Ever.</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>thor01</item_id>
+            <gold_price>1000</gold_price>
+            <diamond_price>3</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 5</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>thor02</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 6</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>thing01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 7</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>mrfantastic01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+          <item>
+            <quantity>1</quantity>
+            <description>Hero 8</description>
+            <keywords />
+            <item_type_id>4</item_type_id>
+            <item_id>porkypig01</item_id>
+            <gold_price>600</gold_price>
+            <diamond_price>5</diamond_price>
+          </item>
+        </items>
+      </page>
+    </pages>
+  </catalog>
+  
+  <catalog>
+    <id>5</id>
+    <name>More</name>
+    <description />
+    <pages>
+    </pages>
+  </catalog>
+
+  <catalog>
+    <id>6</id>
+    <name>Missions</name>
+    <description />
+    <pages>
+    </pages>
+  </catalog>
+
+</catalogs>

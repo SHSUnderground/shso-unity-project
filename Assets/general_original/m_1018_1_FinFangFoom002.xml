@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<m_1018_1_FinFangFoom002>
+  <cinematic></cinematic>
+  <cover_page>work in progress</cover_page>
+  <title_key>work in progress</title_key>
+	<mission_briefing_speaker>iron_man</mission_briefing_speaker>
+  <blacklist_characters></blacklist_characters>
+  <map>
+    <x>78</x>
+    <y>170</y>
+  </map>
+  <target_level>1</target_level>
+<!-- This stuff might not be necessary START -->
+	<stages>
+  <stage>
+    <stage_number>1</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>SHC_Streets_M018_S01_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+  <stage>
+    <stage_number>2</stage_number>
+    <type>brawler</type>
+    <scenario_bundle>Skrull_M018_S02_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+  <stage>
+    <stage_number>3</stage_number>
+    <type>brawler</type>
+    <orders> </orders>
+    <scenario_bundle>Skrull_M018_S03_BOSS_scenario</scenario_bundle>
+    <objective>KillAllEnemies</objective>
+    <available_chars_type>blacklist</available_chars_type>
+    <available_chars_list>wolverine</available_chars_list>
+    <minimum_players>1</minimum_players>
+    <maximum_players>4</maximum_players>
+    <cinematic></cinematic>
+  </stage>
+	</stages>  
+  <prerequisites>
+    <minimum_level>1</minimum_level>
+    <maximum_level>10</maximum_level>
+  </prerequisites>
+<rating>
+ <bronze>
+  <score_needed>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+    <player>0</player>
+  </score_needed>
+ </bronze>
+ <silver>
+  <score_needed>
+    <player>15520</player>
+    <player>20425</player>
+    <player>26839</player>
+    <player>30613</player>
+  </score_needed>
+ </silver>
+ <gold>
+  <score_needed>
+    <player>33022</player>
+    <player>43458</player>
+    <player>57106</player>
+    <player>65135</player>
+  </score_needed>
+ </gold>
+ <adamantium>
+  <score_needed>
+    <player>41800</player>
+    <player>55011</player>
+    <player>72287</player>
+    <player>82450</player>
+  </score_needed>
+ </adamantium>
+</rating>
+  <awards>
+    <bronze>
+      <rewardTier>1</rewardTier>
+      <lootTableIDs>102,318</lootTableIDs>
+    </bronze>
+    <silver>
+      <rewardTier>2</rewardTier>
+      <lootTableIDs>102,318</lootTableIDs>
+    </silver>
+    <gold>
+      <rewardTier>3</rewardTier>
+      <lootTableIDs>102,318</lootTableIDs>
+    </gold>
+    <adamantium>
+      <rewardTier>4</rewardTier>
+      <lootTableIDs>102,318,111</lootTableIDs>
+    </adamantium>
+  </awards>
+</m_1018_1_FinFangFoom002>

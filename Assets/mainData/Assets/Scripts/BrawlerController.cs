@@ -1524,7 +1524,7 @@ public class BrawlerController : GameController, ICharacterCache
 		}
 		SetUIMode(BrawlerUIMode.MissionComplete);
 		OutputMissionResults(eventResultMissionEvent);
-		ReportMissionResults(eventResultMissionEvent);
+		// ReportMissionResults(eventResultMissionEvent);
 		StoreMissionResults(eventResultMissionEvent);
 		UserProfile profile = AppShell.Instance.Profile;
 		PlayerDictionary.Player value;
@@ -1808,13 +1808,27 @@ public class BrawlerController : GameController, ICharacterCache
 
 
 		MissionResults missionResults = results.PlayerResults[key];
-		  
+		List<BrawlerStatManager.CharacterScoreData> allStatBlocks = BrawlerStatManager.instance.GetAllStatBlocks();
+		int totalScoreResult = 0;
+		for (int i=0; i<allStatBlocks.Count; i++) {
+			totalScoreResult += allStatBlocks[i].individualScoreContribution;
+		}
+		totalScoreResult = totalScoreResult * 2;
 		playerResHT.Add("userID", playerID);
 		playerResHT.Add("hero", AppShell.Instance.Profile.SelectedCostume);
 		playerResHT.Add("xp", missionResults.earnedXp + missionResults.bonusXp);
 		playerResHT.Add("coins", missionResults.coins);
 		playerResHT.Add("tickets", missionResults.tickets);			
-		
+		playerResHT.Add("enemyKoScore", missionResults.enemyKoScore);
+		playerResHT.Add("survivalScore", missionResults.survivalScore);
+		playerResHT.Add("gimmickScore", missionResults.gimmickScore);
+		playerResHT.Add("comboScore", missionResults.comboScore);
+		playerResHT.Add("player_count", allStatBlocks.Count);
+		// playerResHT.Add("reward_tier", medalTier);
+		playerResHT.Add("individual_score", allStatBlocks[0].individualScoreContribution);
+		CspUtils.DebugLog("player_count: " + allStatBlocks.Count);
+		// CspUtils.DebugLog("reward_tier: " + medalTier);
+		CspUtils.DebugLog("individual_score: " + allStatBlocks[0].individualScoreContribution);
 		AppShell.Instance.EventReporter.ReportMissionResults(playerResHT);
 	}
 	protected void OutputMissionResults(EventResultMissionEvent results)
@@ -3191,7 +3205,7 @@ public class BrawlerController : GameController, ICharacterCache
 	{
 	}
 
-	protected void StoreMissionResults(EventResultMissionEvent results)
+	protected int StoreMissionResults(EventResultMissionEvent results)
 	{
 		SHSBrawlerCompleteWindow sHSBrawlerCompleteWindow = GUIManager.Instance["/SHSMainWindow/SHSBrawlerMainWindow/SHSBrawlerCompleteWindow"] as SHSBrawlerCompleteWindow;
 		if (sHSBrawlerCompleteWindow != null)
@@ -3199,6 +3213,13 @@ public class BrawlerController : GameController, ICharacterCache
 			sHSBrawlerCompleteWindow.ProcessMissionResultList(results);
 		}
 		AppShell.Instance.EventMgr.Fire(null, new BrawlerResultsMessage(results));
+		int totalScoreResult = 0;
+		List<BrawlerStatManager.CharacterScoreData> allStatBlocks = BrawlerStatManager.instance.GetAllStatBlocks();
+		for (int i=0; i<allStatBlocks.Count; i++) {
+			totalScoreResult += allStatBlocks[i].individualScoreContribution;
+		}
+		totalScoreResult = totalScoreResult * 2;
+		return sHSBrawlerCompleteWindow.GetMedalForScore(totalScoreResult);
 	}
 
 	protected void OnBossCreated(BossAIControllerBrawler.BossCreatedEvent e)

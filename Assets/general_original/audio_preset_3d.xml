@@ -1,0 +1,96 @@
+<audio_preset_3d>
+  <preset_list>
+
+    <preset>
+      <preset_name>Miniscule</preset_name>
+      <attenuation_start_distance>0.1</attenuation_start_distance>
+    </preset>
+
+    <preset>
+      <preset_name>Tiny</preset_name>
+      <attenuation_start_distance>1</attenuation_start_distance>
+    </preset>
+
+    <preset>
+      <preset_name>Small</preset_name>
+      <attenuation_start_distance>1</attenuation_start_distance>
+    <rolloff_prefab>small</rolloff_prefab>
+	</preset>
+
+    <preset>
+      <preset_name>Medium</preset_name>
+      <attenuation_start_distance>5</attenuation_start_distance>
+	  <rolloff_prefab>medium</rolloff_prefab>
+    </preset>
+
+    <preset>
+      <preset_name>Large</preset_name>
+      <attenuation_start_distance>50</attenuation_start_distance>
+    </preset>
+
+    <preset>
+      <preset_name>Larger</preset_name>
+      <attenuation_start_distance>100</attenuation_start_distance>
+    </preset>
+
+    <preset>
+      <preset_name>Huge</preset_name>
+      <attenuation_start_distance>1000</attenuation_start_distance>
+      <rolloff_prefab>huge</rolloff_prefab>
+    </preset>
+
+   <preset>
+      <preset_name>Impacts</preset_name>
+      <attenuation_start_distance>5</attenuation_start_distance>
+      <rolloff_prefab>impacts</rolloff_prefab>
+   </preset>
+   
+   <preset>
+      <preset_name>Char</preset_name>
+      <attenuation_start_distance>5</attenuation_start_distance>
+      <rolloff_prefab>characters</rolloff_prefab>
+   </preset>
+   
+   <preset>
+      <preset_name>Bosses</preset_name>
+      <attenuation_start_distance>20</attenuation_start_distance>
+      <rolloff_prefab>bosses</rolloff_prefab>
+   </preset>
+   
+   <preset>
+      <preset_name>Explosions</preset_name>
+      <attenuation_start_distance>5</attenuation_start_distance>
+      <rolloff_prefab>explosions</rolloff_prefab>
+   </preset>
+   
+   <preset>
+      <preset_name>Music</preset_name>
+      <attenuation_start_distance>10</attenuation_start_distance>
+      <rolloff_prefab>music</rolloff_prefab>
+   </preset>
+  
+  <preset>
+      <preset_name>Ambient_3D_Music</preset_name>
+      <attenuation_start_distance>1</attenuation_start_distance>
+    </preset>
+
+    <preset>
+      <preset_name>Ambient_3D_Effects</preset_name>
+      <attenuation_start_distance>5</attenuation_start_distance>
+      <rolloff_prefab>amb_3D_fxs</rolloff_prefab>
+	</preset>
+	
+	<preset>
+      <preset_name>GUI</preset_name>
+      <attenuation_start_distance>10</attenuation_start_distance>
+      <rolloff_prefab>gui</rolloff_prefab>
+   </preset>
+
+   <preset>
+      <preset_name>CharVO</preset_name>
+      <attenuation_start_distance>5</attenuation_start_distance>
+      <rolloff_prefab>characters_vo</rolloff_prefab>
+   </preset>
+    
+  </preset_list>
+</audio_preset_3d>

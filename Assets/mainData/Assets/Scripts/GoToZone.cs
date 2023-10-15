@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class GoToZone : AutomationCmd
 {
 	public string zone;
@@ -5,8 +7,23 @@ public class GoToZone : AutomationCmd
 	public GoToZone(string cmdline, string zn)
 		: base(cmdline)
 	{
+		/////// block added by CSP to free up memory ////////////////
+		GameObject go = GameObject.Find("static_bundles");
+		if (go != null) {
+		  GameObject.Destroy(go);
+		  CspUtils.DebugLog("SHSBrawlerGadget destroying static_bundles!");
+		}
+
+		garbageCollect();
+		////////////////////////////////////
 		zone = zn;
 		AutomationManager.Instance.nGameWorld++;
+	}
+
+	static void garbageCollect () {		// method added by CSP
+
+		Resources.UnloadUnusedAssets();
+		System.GC.Collect();
 	}
 
 	public override bool execute()

@@ -1,0 +1,1800 @@
+<character_combination_data>
+  
+  <!--!!Preset Combinations!!-->
+  
+  <!--Fantastic Four-->
+  <preset_combination>
+    <combo_id>cc_fantastic_four</combo_id>
+    <combo_character>human_torch</combo_character>
+    <combo_character>invisible_woman</combo_character>
+    <combo_character>mr_fantastic</combo_character>
+	<combo_family>
+		<combo_character>thing</combo_character>
+		<combo_character>thing_tuxedo</combo_character>
+	</combo_family>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_FANTASTIC_FOUR</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+   
+  <!--X-Triangle-->
+  <preset_combination>
+    <combo_id>cc_x_triangle</combo_id>
+	<combo_family>
+		<combo_character>cyclops</combo_character>
+		<combo_character>cyclops_astonishing</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>wolverine</combo_character>
+		<combo_character>wolverine_jeans</combo_character>
+		<combo_character>wolverine_classic</combo_character>
+		<combo_character>wolverine_samurai</combo_character>
+		<combo_character>wolverine_avenging</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>jean_grey</combo_character>
+		<combo_character>jean_grey_phoenix</combo_character>
+		<combo_character>jean_grey_dark_phoenix</combo_character>
+		<combo_character>jean_grey_phoenix_white</combo_character>
+	</combo_family>
+	<combo_character_min>3</combo_character_min>
+	<combo_min>3</combo_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_X-TRIANGLE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+  <!--Winged Warriors-->
+  <preset_combination>
+    <combo_id>cc_winged_warriors</combo_id>
+    <combo_character>falcon</combo_character>
+    <combo_character>wasp</combo_character>
+    <combo_character>angel</combo_character>
+    <combo_character>archangel</combo_character>
+    <combo_character>morbius</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_WINGED_WARRIORS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+  <!--Feeling Blue-->
+  <preset_combination>
+    <combo_id>cc_feeling_blue</combo_id>
+    <combo_character>beast</combo_character>
+    <combo_character>nightcrawler</combo_character>
+    <combo_character>mystique_playable</combo_character>
+    <combo_character>archangel</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_FEELING_BLUE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+   
+  <!--Blackout-->
+  <preset_combination>
+    <combo_id>cc_blackout</combo_id>
+    <combo_character>black_cat</combo_character>
+    <combo_character>arachne</combo_character>
+    <combo_character>havok</combo_character>
+    <combo_character>black_panther</combo_character>
+	<combo_character>black_widow</combo_character>
+	<combo_character>spider_man_black</combo_character>
+    <combo_character>venom_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_BLACKOUT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Clowder-->
+  <preset_combination>
+    <combo_id>cc_clowder</combo_id>
+    <combo_character>black_cat</combo_character>
+    <combo_character>black_panther</combo_character>
+    <combo_character>shadowcat</combo_character>
+    <combo_character>tigra</combo_character>
+    <combo_character>sabretooth_playable</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_CLOWDER</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Wakandan Royalty-->
+  <preset_combination>
+    <combo_id>cc_wakandan_royalty</combo_id>
+    <combo_character>storm</combo_character>
+    <combo_character>black_panther</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_WAKANDAN_ROYALTY</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Amazing Friends-->
+  <preset_combination>
+    <combo_id>cc_amazing_friends</combo_id>
+    <combo_character>spider_man</combo_character>
+    <combo_character>firestar</combo_character>
+	<combo_character>iceman</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_AMAZING_FRIENDS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+  
+    <!--I Gotta Wear Shades-->
+  <preset_combination>
+    <combo_id>cc_i_gotta_wear_shades</combo_id>
+    <combo_character>blade</combo_character>
+    <combo_character>luke_cage</combo_character>
+    <combo_character>cyclops</combo_character>
+    <combo_character>cyclops_astonishing</combo_character>
+    <combo_character>wonder_man</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_I_GOTTA_WEAR_SHADES</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Cape Town-->
+  <preset_combination>
+    <combo_id>cc_cape_town</combo_id>
+    <combo_character>storm</combo_character>
+    <combo_character>emma_frost</combo_character>
+    <combo_character>scarlet_witch</combo_character>
+    <combo_character>dr_strange</combo_character>
+    <combo_character>thor</combo_character>
+    <combo_character>thor_classic</combo_character>
+    <combo_character>thor_movie</combo_character>
+    <combo_character>thor_battle_armor</combo_character>
+    <combo_character>valkyrie</combo_character>
+    <combo_character>vision</combo_character>
+    <combo_character>sentry</combo_character>
+    <combo_character>dr_doom_future_foundation</combo_character>
+    <combo_character>dr_doom_playable</combo_character>
+    <combo_character>mysterio_playable</combo_character>
+    <combo_character>magneto_playable</combo_character>
+    <combo_character>dracula_playable</combo_character>
+    <combo_character>beta_ray_bill</combo_character>
+    <combo_character>taskmaster_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_CAPE_TOWN</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Fearless Leaders-->
+  <preset_combination>
+    <combo_id>cc_fearless_leaders</combo_id>
+    <combo_character>cyclops</combo_character>
+    <combo_character>cyclops_astonishing</combo_character>
+    <combo_character>captain_america</combo_character>
+    <combo_character>nick_fury</combo_character>
+    <combo_character>mr_fantastic</combo_character>
+    <combo_character>havok</combo_character>
+    <combo_character>guardian</combo_character>
+    <combo_character>magneto_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_FEARLESS_LEADERS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Incredible Hulks-->
+  <preset_combination>
+    <combo_id>cc_incredible_hulks</combo_id>
+    <combo_character>she_hulk</combo_character>
+    <combo_character>hulk</combo_character>
+    <combo_character>she_hulk_red</combo_character>
+    <combo_character>hulk_red</combo_character>
+    <combo_character>hulk_gladiator</combo_character>
+    <combo_character>hulk_indestructible</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_INCREDIBLE_HULKS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Seeing Red-->
+  <preset_combination>
+    <combo_id>cc_seeing_red</combo_id>
+    <combo_character>hulk_red</combo_character>
+    <combo_character>spider_man_scarlet</combo_character>
+    <combo_character>scarlet_witch</combo_character>
+    <combo_character>she_hulk_red</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SEEING_RED</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Head Start-->
+  <preset_combination>
+    <combo_id>cc_head_start</combo_id>
+    <combo_character>ms_marvel</combo_character>
+    <combo_character>thing</combo_character>
+    <combo_character>cyclops</combo_character>
+    <combo_character>falcon</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_HEAD_START</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Original Avengers-->
+  <preset_combination>
+    <combo_id>cc_original_avengers</combo_id>
+    <combo_character>captain_america</combo_character>
+    <combo_character>iron_man</combo_character>
+    <combo_character>thor_classic</combo_character>
+    <combo_character>wasp</combo_character>
+	<combo_family>
+		<combo_character>ant_man</combo_character>
+		<combo_character>giant_man</combo_character>
+	</combo_family>
+	<combo_character>hulk</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_ORIGINAL_AVENGERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Original X-Men-->
+  <preset_combination>
+    <combo_id>cc_original_x_men</combo_id>
+    <combo_character>jean_grey</combo_character>
+    <combo_character>angel</combo_character>
+    <combo_character>cyclops</combo_character>
+    <combo_character>beast</combo_character>
+	<combo_character>iceman</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_ORIGINAL_X_MEN</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Original Defenders-->
+  <preset_combination>
+    <combo_id>cc_original_defenders</combo_id>
+    <combo_character>dr_strange</combo_character>
+    <combo_character>hulk</combo_character>
+    <combo_character>silver_surfer</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_ORIGINAL_DEFENDERS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Original New Avengers-->
+  <preset_combination>
+    <combo_id>cc_original_new_avengers</combo_id>
+    <combo_character>iron_man</combo_character>
+    <combo_character>captain_america</combo_character>
+    <combo_character>luke_cage</combo_character>
+    <combo_character>spider_woman</combo_character>
+	<combo_character>spider_man</combo_character>
+	<combo_character>wolverine</combo_character>
+	<combo_character>wolverine_avenging</combo_character>
+	<combo_character>sentry</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_ORIGINAL_NEW_AVENGERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Original West Coast Avengers-->
+  <preset_combination>
+    <combo_id>cc_original_west_coast_avengers</combo_id>
+    <combo_character>hawkeye</combo_character>
+    <combo_character>vision</combo_character>
+    <combo_character>war_machine</combo_character>
+    <combo_character>tigra</combo_character>
+    <combo_character>moon_knight</combo_character>
+    <combo_character>wonder_man</combo_character>
+    <combo_character>arachne</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_ORIGINAL_WEST_COAST_AVENGERS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+   
+    <!--Marvel Knights-->
+  <preset_combination>
+    <combo_id>cc_marvel_knights</combo_id>
+    <combo_character>ghost_rider</combo_character>
+    <combo_character>punisher</combo_character>
+    <combo_character>daredevil</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_MARVEL_KNIGHTS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--X-Men-->
+  <preset_combination>
+    <combo_id>cc_x_men</combo_id>
+    <combo_character>angel</combo_character>
+    <combo_character>archangel</combo_character>
+    <combo_character>beast</combo_character>
+    <combo_character>cyclops</combo_character>
+    <combo_character>cyclops_astonishing</combo_character>
+    <combo_character>colossus</combo_character>
+	<combo_character>cable</combo_character>
+	<combo_character>emma_frost</combo_character>
+	<combo_character>gambit</combo_character>
+	<combo_character>hope_summers</combo_character>
+	<combo_character>iceman</combo_character>
+	<combo_family>
+		<combo_character>jean_grey</combo_character>
+		<combo_character>jean_grey_phoenix</combo_character>
+		<combo_character>jean_grey_phoenix_white</combo_character>
+	</combo_family>
+	<combo_character>nightcrawler</combo_character>
+	<combo_character>psylocke</combo_character>
+	<combo_character>rogue</combo_character>
+        <combo_character>rogue_avenging</combo_character>
+        <combo_character>havok</combo_character>
+	<combo_character>shadowcat</combo_character>
+	<combo_family>
+		<combo_character>storm</combo_character>
+		<combo_character>storm_mohawk</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>wolverine</combo_character>
+		<combo_character>wolverine_jeans</combo_character>
+		<combo_character>wolverine_classic</combo_character>
+		<combo_character>wolverine_samurai</combo_character>
+		<combo_character>wolverine_avenging</combo_character>
+	</combo_family>	
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_X_MEN</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Spider-Friends-->
+  <preset_combination>
+    <combo_id>cc_spider_friends</combo_id>
+	<combo_character>spider_girl</combo_character>
+	<combo_character>spider_woman</combo_character>
+	<combo_character>spider_man</combo_character>
+	<combo_character>spider_man_black</combo_character>
+	<combo_character>spider_man_armored</combo_character>
+	<combo_character>spider_man_future</combo_character>
+	<combo_character>spider_man_scarlet</combo_character>
+	<combo_character>spider_man_ultimate</combo_character>
+	<combo_character>spider_man_2099</combo_character>
+	<combo_character>spider_man_ben</combo_character>
+	<combo_character>spider_man_eote</combo_character>
+        <combo_character>spider_man_noir</combo_character>
+        <combo_character>spider_man_bagman</combo_character>
+        <combo_character>arachne</combo_character>
+        <combo_character>spider_man_iron</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SPIDER_FRIENDS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Gettin Jimmy With It-->
+  <preset_combination>
+    <combo_id>cc_gettin_jimmy_with_it</combo_id>
+    <combo_character>war_machine</combo_character>
+    <combo_character>war_machine_iron_patriot</combo_character>
+    <combo_character>guardian</combo_character>
+    <combo_character>captain_america_bucky</combo_character>
+	<combo_family>
+		<combo_character>wolverine</combo_character>
+		<combo_character>wolverine_jeans</combo_character>
+		<combo_character>wolverine_classic</combo_character>
+		<combo_character>wolverine_samurai</combo_character>
+		<combo_character>wolverine_avenging</combo_character>
+	</combo_family>
+	<combo_min>3</combo_min>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_GETTIN_JIMMY_WITH_IT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+      
+    <!--Mystical Might-->
+  <preset_combination>
+    <combo_id>cc_mystical_might</combo_id>
+    <combo_character>dr_strange</combo_character>
+    <combo_character>scarlet_witch</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_MYSTICAL_MIGHT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Now You See Me-->
+  <preset_combination>
+    <combo_id>cc_now_you_see_me</combo_id>
+    <combo_character>iron_man_stealth</combo_character>
+    <combo_character>black_panther</combo_character>
+	<combo_character>invisible_woman</combo_character>
+	<combo_family>
+		<combo_character>elektra</combo_character>
+		<combo_character>elektra_pure</combo_character>
+	</combo_family>
+	<combo_character>spider_man_ultimate</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_NOW_YOU_SEE_ME</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Razors Edge-->
+  <preset_combination>
+    <combo_id>cc_razors_edge</combo_id>
+    <combo_character>thor_ultimate</combo_character>
+    <combo_character>thor_movie</combo_character>
+    <combo_character>thor_battle_armor</combo_character>
+	<combo_character>dr_strange</combo_character>
+	<combo_character>luke_cage</combo_character>
+	<combo_character>wolverine_jeans</combo_character>
+	<combo_character>nick_fury_avengers</combo_character>
+	<combo_character>punisher</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_RAZORS_EDGE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+   
+    <!--The Doctors Are In-->
+  <preset_combination>
+    <combo_id>cc_the_doctors_are_in</combo_id>
+    <combo_character>dr_strange</combo_character>
+    <combo_character>giant_man</combo_character>
+	<combo_character>beast</combo_character>
+	<combo_character>hulk</combo_character>
+	<combo_character>mr_fantastic</combo_character>
+	<combo_character>morbius</combo_character>
+        <combo_character>goliath</combo_character>
+	<combo_character>sasquatch</combo_character>
+        <combo_character>dr_doom_future_foundation</combo_character>
+	<combo_character>dr_doom_playable</combo_character>
+        <combo_character>dr_octopus_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_THE_DOCTORS_ARE_IN</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Power of Attorney-->
+  <preset_combination>
+    <combo_id>cc_power_of_attorney</combo_id>
+    <combo_family>
+		<combo_character>daredevil</combo_character>
+		<combo_character>daredevil_classic</combo_character>
+	        <combo_character>daredevil_armored</combo_character>
+	</combo_family>
+	<combo_character>she_hulk</combo_character>
+    <combo_character_min>2</combo_character_min>
+	<combo_min>2</combo_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_POWER_OF_ATTORNEY</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Its Complicated-->
+  <preset_combination>
+    <combo_id>cc_its_complicated</combo_id>
+	<combo_family>
+		<combo_character>daredevil</combo_character>
+		<combo_character>daredevil_classic</combo_character>
+		<combo_character>daredevil_armored</combo_character>
+	</combo_family>
+	<combo_family>
+	<combo_character>elektra</combo_character>
+	<combo_character>elektra_pure</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_ITS_COMPLICATED</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Spider-Man Spider-man-->
+  <preset_combination>
+    <combo_id>cc_spider_man_spider_man</combo_id>
+    <combo_character>spider_man</combo_character>
+    <combo_character>spider_man_armored</combo_character>
+	<combo_character>spider_man_black</combo_character>
+	<combo_character>spider_man_future</combo_character>
+	<combo_character>spider_man_ultimate</combo_character>
+	<combo_character>spider_man_ben</combo_character>
+	<combo_character>spider_man_2099</combo_character>
+	<combo_character>spider_man_eote</combo_character>
+	<combo_character>spider_man_noir</combo_character>
+	<combo_character>spider_man_bagman</combo_character>
+	<combo_character>spider_man_iron</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SPIDER_MAN_SPIDER_MAN</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Whiteout-->
+  <preset_combination>
+    <combo_id>cc_whiteout</combo_id>
+    <combo_character>elektra_pure</combo_character>
+    <combo_character>emma_frost</combo_character>
+    <combo_character>moon_knight</combo_character>
+    <combo_character>jean_grey_phoenix_white</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_WHITEOUT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Cold-Hearted-->
+  <preset_combination>
+    <combo_id>cc_cold_hearted</combo_id>
+    <combo_character>emma_frost</combo_character>
+    <combo_character>iceman</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_COLD_HEARTED</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Thick-Skinned-->
+  <preset_combination>
+    <combo_id>cc_thick_skinned</combo_id>
+    <combo_character>luke_cage</combo_character>
+    <combo_character>emma_frost</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_THICK_SKINNED</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Winged Companions-->
+  <preset_combination>
+    <combo_id>cc_winged_companions</combo_id>
+    <combo_character>shadowcat</combo_character>
+    <combo_character>falcon</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_WINGED_COMPANIONS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Birds of a Feather-->
+  <preset_combination>
+    <combo_id>cc_birds_of_a_feather</combo_id>
+    <combo_character>falcon</combo_character>
+    <combo_character>hawkeye</combo_character>
+	<combo_character>jean_grey_phoenix</combo_character>
+	<combo_character>jean_grey_phoenix_white</combo_character>
+	<combo_character>jean_grey_dark_phoenix</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_BIRDS_OF_A_FEATHER</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Letterheads-->
+  <preset_combination>
+    <combo_id>cc_letterheads</combo_id>
+    <combo_character>hawkeye</combo_character>
+    <combo_character>scarlet_witch</combo_character>
+	<combo_character>captain_america_bucky</combo_character>
+	<combo_character>american_dream</combo_character>
+	<combo_family>
+		<combo_character>captain_america</combo_character>
+		<combo_character>captain_america_wwii</combo_character>
+		<combo_character>captain_america_avengers</combo_character>
+	</combo_family>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_LETTERHEADS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Smash and Clobber-->
+  <preset_combination>
+    <combo_id>cc_smash_and_clobber</combo_id>
+    <combo_family>
+		<combo_character>hulk</combo_character>
+		<combo_character>hulk_gladiator</combo_character>
+		<combo_character>hulk_avengers</combo_character>
+		<combo_character>hulk_indestructible</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>thing</combo_character>
+		<combo_character>thing_tuxedo</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SMASH_AND_CLOBBER</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Forgotten Friends-->
+  <preset_combination>
+    <combo_id>cc_forgotten_friends</combo_id>
+    <combo_character>hulk</combo_character>
+    <combo_character>sentry</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_FORGOTTEN_FRIENDS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Hotheads-->
+  <preset_combination>
+    <combo_id>cc_hotheads</combo_id>
+    <combo_character>human_torch</combo_character>
+    <combo_character>ghost_rider</combo_character>
+    <combo_character>ghost_rider_classic</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HOTHEADS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Storm Warning-->
+  <preset_combination>
+    <combo_id>cc_storm_warning</combo_id>
+    <combo_character>storm</combo_character>
+    <combo_character>storm_mohawk</combo_character>
+	<combo_character>human_torch</combo_character>
+	<combo_character>invisible_woman</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_STORM_WARNING</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Fire and Ice-->
+  <preset_combination>
+    <combo_id>cc_fire_and_ice</combo_id>
+    <combo_character>human_torch</combo_character>
+    <combo_character>iceman</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_FIRE_AND_ICE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Omega Hero Squad-->
+  <preset_combination>
+    <combo_id>cc_omega_hero_squad</combo_id>
+    <combo_character>iceman</combo_character>
+    <combo_character>storm</combo_character>
+	<combo_family>
+		<combo_character>jean_grey_phoenix</combo_character>
+		<combo_character>jean_grey_phoenix_white</combo_character>
+	</combo_family>
+	<combo_min>3</combo_min>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_OMEGA_HERO_SQUAD</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Husbands and Wives-->
+  <preset_combination>
+    <combo_id>cc_husbands_and_wives</combo_id>
+    <combo_character>storm</combo_character>
+    <combo_character>black_panther</combo_character>
+	<combo_character>invisible_woman</combo_character>
+	<combo_character>mr_fantastic</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_HUSBANDS_AND_WIVES</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--The Cousins Green-->
+  <preset_combination>
+    <combo_id>cc_the_cousins_green</combo_id>
+    <combo_character>she_hulk</combo_character>
+    <combo_family>
+	     <combo_character>hulk_gladiator</combo_character>
+	     <combo_character>hulk</combo_character>
+	     <combo_character>hulk_avengers</combo_character>
+             <combo_character>hulk_indestructible</combo_character>
+	  </combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_THE_COUSINS_GREEN</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Civil War Heroes-->
+  <preset_combination>
+    <combo_id>cc_civil_war_heroes</combo_id>
+    <combo_character>captain_america</combo_character>
+    <combo_character>iron_man</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_CIVIL_WAR_HEROES</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--We Are Iron Man-->
+  <preset_combination>
+    <combo_id>cc_we_are_iron_man</combo_id>
+    <combo_character>iron_man</combo_character>
+    <combo_character>iron_man_stealth</combo_character>
+	<combo_character>iron_man_arctic</combo_character>
+	<combo_character>iron_man_avengers</combo_character>
+	<combo_character>iron_man_hulkbuster</combo_character>
+	<combo_character>iron_man_mk1</combo_character>
+	<combo_character>iron_man_mk2</combo_character>
+	<combo_character>iron_man_mk42</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_WE_ARE_IRON_MAN</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Buster and Bustee-->
+  <preset_combination>
+    <combo_id>cc_buster_and_bustee</combo_id>
+    <combo_character>iron_man_hulkbuster</combo_character>
+    <combo_family>
+		<combo_character>hulk_gladiator</combo_character>
+		<combo_character>hulk</combo_character>
+		<combo_character>hulk_avengers</combo_character>
+		<combo_character>hulk_indestructible</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_BUSTER_AND_BUSTEE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Retro Looks-->
+  <preset_combination>
+    <combo_id>cc_retro_looks</combo_id>
+    <combo_character>iron_man_mk1</combo_character>
+    <combo_character>iron_man_mk2</combo_character>
+    <combo_character>wolverine_classic</combo_character>
+    <combo_character>ghost_rider_classic</combo_character>
+	<combo_character>jean_grey</combo_character>
+	<combo_character>daredevil_classic</combo_character>
+	<combo_character>thor_classic</combo_character>
+        <combo_character>rogue_avenging</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_RETRO_LOOKS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Not From Around Here-->
+  <preset_combination>
+    <combo_id>cc_not_from_around_here</combo_id>
+    <combo_character>captain_marvel</combo_character>
+    <combo_character>beta_ray_bill</combo_character>
+    <combo_character>super_skrull_playable</combo_character>
+    <combo_family>
+		<combo_character>silver_surfer</combo_character>
+		<combo_character>silver_surfer_dark</combo_character>
+		<combo_character>thanos_playable</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_NOT_FROM_AROUND_HERE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Thunderheads-->
+  <preset_combination>
+    <combo_id>cc_thunderheads</combo_id>
+    <combo_character>luke_cage</combo_character>
+    <combo_character>hawkeye</combo_character>
+	<combo_character>iron_patriot</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_THUNDERHEADS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Strange Fantastic and Giant-->
+  <preset_combination>
+    <combo_id>cc_strange_fantastic_and_giant</combo_id>
+    <combo_character>dr_strange</combo_character>
+    <combo_character>giant_man</combo_character>
+	<combo_character>mr_fantastic</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_STRANGE_FANTASTIC_AND_GIANT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Heads and Tails-->
+  <preset_combination>
+    <combo_id>cc_heads_and_tails</combo_id>
+    <combo_character>monkey_king</combo_character>
+    <combo_character>nightcrawler</combo_character>
+	<combo_character>reptil</combo_character>
+	<combo_character>tigra</combo_character>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HEADS_AND_TAILS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Skull and Bones-->
+  <preset_combination>
+    <combo_id>cc_skull_and_bones</combo_id>
+    <combo_character>punisher</combo_character>
+    <combo_character>ghost_rider</combo_character>
+    <combo_character>ghost_rider_classic</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SKULL_AND_BONES</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Never Say Dye-->
+  <preset_combination>
+    <combo_id>cc_never_say_dye</combo_id>
+    <combo_character>cable</combo_character>
+    <combo_character>rogue</combo_character>
+    <combo_character>rogue_avenging</combo_character>
+	<combo_character>mr_fantastic</combo_character>
+	<combo_family>
+		<combo_character>storm</combo_character>
+		<combo_character>storm_mohawk</combo_character>
+	</combo_family>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_NEVER_SAY_DYE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Southern Romance-->
+  <preset_combination>
+    <combo_id>cc_southern_romance</combo_id>
+    <combo_character>gambit</combo_character>
+    <combo_character>rogue</combo_character>
+    <combo_character>rogue_avenging</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SOUTHERN_ROMANCE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Famous Fathers-->
+  <preset_combination>
+    <combo_id>cc_famous_fathers</combo_id>
+    <combo_character>scarlet_witch</combo_character>
+    <combo_character>she_hulk_red</combo_character>
+	<combo_character>cable</combo_character>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_ultimate</combo_character>
+		<combo_character>thor_movie</combo_character>
+	</combo_family>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_FAMOUS_FATHERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Its Just a Phase-->
+  <preset_combination>
+    <combo_id>cc_its_just_a_phase</combo_id>
+    <combo_character>vision</combo_character>
+    <combo_character>shadowcat</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_ITS_JUST_A_PHASE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Super Sweet Damage Bonus-->
+  <preset_combination>
+    <combo_id>cc_super_sweet_damage_bonus</combo_id>
+    <combo_character>she_hulk</combo_character>
+    <combo_character>deadpool</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SUPER_SWEET_DAMAGE_BONUS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Girl Power-->
+  <preset_combination>
+    <combo_id>cc_girl_power</combo_id>
+    <combo_character>spider_girl</combo_character>
+    <combo_character>spider_woman</combo_character>
+	<combo_character>ms_marvel</combo_character>
+	<combo_character>she_hulk</combo_character>
+	<combo_character>she_hulk_red</combo_character>
+	<combo_character>american_dream</combo_character>
+        <combo_character>arachne</combo_character>
+        <combo_character>rescue</combo_character>
+        <combo_character>mystique_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_GIRL_POWER</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Captains Universe-->
+  <preset_combination>
+    <combo_id>cc_captains_universe</combo_id>
+    <combo_character>spider_man</combo_character>
+    <combo_character>hulk</combo_character>
+	<combo_character>daredevil</combo_character>
+	<combo_character>invisible_woman</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_CAPTAINS_UNIVERSE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Black and White-->
+  <preset_combination>
+    <combo_id>cc_black_and_white</combo_id>
+    <combo_character>spider_man_black</combo_character>
+    <combo_character>spider_man_future</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_BLACK_AND_WHITE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--The Ultimate Team-->
+  <preset_combination>
+    <combo_id>cc_the_ultimate_team</combo_id>
+    <combo_character>thor_ultimate</combo_character>
+    <combo_character>spider_man_ultimate</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_THE_ULTIMATE_TEAM</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--We Are Woman Hear Us Roar-->
+  <preset_combination>
+    <combo_id>cc_we_are_woman_hear_us_roar</combo_id>
+    <combo_character>invisible_woman</combo_character>
+    <combo_character>spider_woman</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_WE_ARE_WOMAN_HEAR_US_ROAR</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Thunder and Lightning-->
+  <preset_combination>
+    <combo_id>cc_thunder_and_lightning</combo_id>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_ultimate</combo_character>
+		<combo_character>thor_movie</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_battle_armor</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>storm_mohawk</combo_character>
+		<combo_character>storm</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_THUNDER_AND_LIGHTNING</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Short and Sweet-->
+  <preset_combination>
+    <combo_id>cc_short_and_sweet</combo_id>
+    <combo_character>beast</combo_character>
+    <combo_character>hulk</combo_character>
+	<combo_character>thing</combo_character>
+	<combo_character>storm</combo_character>
+	<combo_character>tigra</combo_character>
+	<combo_character>morbius</combo_character>
+	<combo_character>werewolf</combo_character>
+        <combo_character>guardian</combo_character>
+        <combo_character>sasquatch</combo_character>
+        <combo_character>magneto_playable</combo_character>
+        <combo_character>goliath</combo_character>
+        <combo_character>arachne</combo_character>
+        <combo_character>havok</combo_character>
+        <combo_character>modok_playable</combo_character>
+        <combo_character>rogue</combo_character>
+        <combo_character>gambit</combo_character>
+        <combo_character>mystique_playable</combo_character>
+        <combo_character>venom_playable</combo_character>
+        <combo_character>thanos_playable</combo_character>
+        <combo_character>sabretooth_playable</combo_character>
+        <combo_character>mysterio_playable</combo_character>
+        <combo_character>rescue</combo_character>
+        <combo_character>archangel</combo_character>
+	<combo_character>frankenstein</combo_character>
+	<combo_character>dracula_playable</combo_character>
+	<combo_character>destroyer_playable</combo_character>
+	<combo_character>taskmaster_playable</combo_character>
+	<combo_character>ultron_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SHORT_AND_SWEET</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Leather and Spikes-->
+  <preset_combination>
+    <combo_id>cc_leather_and_spikes</combo_id>
+    <combo_character>storm_mohawk</combo_character>
+    <combo_character>ghost_rider</combo_character>
+        <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_LEATHER_AND_SPIKES</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--The Best There Is At What We Do-->
+  <preset_combination>
+    <combo_id>cc_the_best_there_is_at_what_we_do</combo_id>
+    <combo_character>wolverine</combo_character>
+    <combo_character>wolverine_jeans</combo_character>
+	<combo_character>wolverine_samurai</combo_character>
+	<combo_character>wolverine_classic</combo_character>
+	<combo_character>wolverine_avenging</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_THE_BEST_THERE_IS_AT_WHAT_WE_DO</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Samurai and Ninja-->
+  <preset_combination>
+    <combo_id>cc_samurai_and_ninja</combo_id>
+    <combo_character>wolverine_samurai</combo_character>
+    <combo_family>
+		<combo_character>elektra_pure</combo_character>
+		<combo_character>elektra</combo_character>
+		<combo_character>psylocke</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SAMURAI_AND_NINJA</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+    
+    <!--The Odd Couple-->
+  <preset_combination>
+    <combo_id>cc_the_odd_couple</combo_id>
+    <combo_character>wolverine_jeans</combo_character>
+    <combo_character>thing_tuxedo</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_THE_ODD_COUPLE</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+    
+    <!--Swordmasters-->
+  <preset_combination>
+    <combo_id>cc_swordmasters</combo_id>
+    <combo_character>wolverine_samurai</combo_character>
+    <combo_character>blade</combo_character>
+	<combo_character>silver_surfer_dark</combo_character>
+	<combo_character>valkyrie</combo_character>
+	<combo_character>taskmaster_playable</combo_character>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SWORDMASTERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+      
+    <!--Dual Wielders-->
+  <preset_combination>
+    <combo_id>cc_dual_wielders</combo_id>
+    <combo_character>deadpool</combo_character>
+	<combo_family>
+		<combo_character>wolverine</combo_character>
+		<combo_character>wolverine_jeans</combo_character>
+		<combo_character>wolverine_classic</combo_character>
+		<combo_character>wolverine_avenging</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>daredevil</combo_character>
+		<combo_character>daredevil_classic</combo_character>
+	</combo_family>
+		<combo_family>
+		<combo_character>elektra</combo_character>
+		<combo_character>elektra_pure</combo_character>
+	</combo_family>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_DUAL_WIELDERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Ever Lovin Blue Eyed Things-->
+  <preset_combination>
+    <combo_id>cc_ever_lovin_blue_eyed_things</combo_id>
+    <combo_character>thing_tuxedo</combo_character>
+	<combo_character>thing</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_EVER_LOVIN_BLUE_EYED_THINGS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Small Packages-->
+  <preset_combination>
+    <combo_id>cc_small_packages</combo_id>
+    <combo_character>ant_man</combo_character>
+	<combo_character>wasp</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SMALL_PACKAGES</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Dont Step On Me-->
+  <preset_combination>
+    <combo_id>cc_dont_step_on_me</combo_id>
+    <combo_character>giant_man</combo_character>
+	<combo_character>wasp</combo_character>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_DONT_STEP_ON_ME</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Magic and Technology-->
+  <preset_combination>
+    <combo_id>cc_magic_and_technology</combo_id>
+    <combo_character>scarlet_witch</combo_character>
+	<combo_character>vision</combo_character>
+	<combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_MAGIC_AND_TECHNOLOGY</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Warriors of Asgard-->
+  <preset_combination>
+    <combo_id>cc_warriors_of_asgard</combo_id>
+    <combo_character>valkyrie</combo_character>
+    <combo_character>loki_thor2_playable</combo_character>
+    <combo_character>destroyer_playable</combo_character>
+    <combo_character>beta_ray_bill</combo_character>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_movie</combo_character>
+		<combo_character>thor_ultimate</combo_character>
+		<combo_character>thor_battle_armor</combo_character>
+	</combo_family>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_WARRIORS_OF_ASGARD</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Sons of Asgard-->
+  <preset_combination>
+    <combo_id>cc_sons_of_asgard</combo_id>
+    <combo_character>thor</combo_character>
+	<combo_character>thor_movie</combo_character>
+	<combo_character>thor_ultimate</combo_character>
+	<combo_character>thor_classic</combo_character>
+	<combo_character>thor_battle_armor</combo_character>
+	<combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SONS_OF_ASGARD</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Fun in the Sun-->
+  <preset_combination>
+    <combo_id>cc_fun_in_the_sun</combo_id>
+    <combo_character>vision</combo_character>
+	<combo_character>reptil</combo_character>
+	<combo_character>captain_marvel</combo_character>
+	<combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_FUN_IN_THE_SUN</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Heroes of Legend-->
+  <preset_combination>
+    <combo_id>cc_heroes_of_legend</combo_id>
+    <combo_character>monkey_king</combo_character>
+	<combo_character>thor_classic</combo_character>
+	<combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HEROES_OF_LEGEND</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Helmetheads-->
+  <preset_combination>
+    <combo_id>cc_helmetheads</combo_id>
+    <combo_character>captain_america_wwii</combo_character>
+    <combo_character>magneto</combo_character>
+    <combo_character>beta_ray_bill</combo_character>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_battle_armor</combo_character>
+	</combo_family>
+	<combo_character>ant_man</combo_character>
+	<combo_min>3</combo_min>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HELMETHEADS</display_name>
+    <display_icon>armor_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Silver Screen Super Stars-->
+  <preset_combination>
+    <combo_id>cc_silver_screen_super_stars</combo_id>
+	<combo_family>
+		<combo_character>wolverine</combo_character>
+		<combo_character>wolverine_jeans</combo_character>
+		<combo_character>wolverine_classic</combo_character>
+		<combo_character>wolverine_samurai</combo_character>
+		<combo_character>wolverine_avenging</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_ultimate</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_movie</combo_character>
+		<combo_character>thor_battle_armor</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>spider_man</combo_character>
+		<combo_character>spider_man_black</combo_character>
+		<combo_character>spider_man_future</combo_character>
+		<combo_character>spider_man_armored</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>iron_man</combo_character>
+		<combo_character>iron_man_stealth</combo_character>
+		<combo_character>iron_man_mk1</combo_character>
+		<combo_character>iron_man_mk2</combo_character>
+		<combo_character>iron_man_mk42</combo_character>
+		<combo_character>iron_man_hulkbuster</combo_character>
+		<combo_character>iron_man_arctic</combo_character>
+		<combo_character>iron_man_avengers</combo_character>
+	</combo_family>
+	<combo_character>punisher</combo_character>
+	<combo_character>ghost_rider</combo_character>
+        <combo_character>magneto</combo_character>
+	<combo_family>
+		<combo_character>hulk</combo_character>
+		<combo_character>hulk_gladiator</combo_character>
+		<combo_character>hulk_avengers</combo_character>
+                <combo_character>hulk_indestructible</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>captain_america</combo_character>
+		<combo_character>captain_america_wwii</combo_character>
+		<combo_character>captain_america_avengers</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>daredevil</combo_character>
+		<combo_character>daredevil_classic</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>elektra</combo_character>
+		<combo_character>elektra_pure</combo_character>
+	</combo_family>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_SILVER_SCREEN_SUPER_STARS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Avengers Assemble-->
+  <preset_combination>
+    <combo_id>cc_avengers_assemble</combo_id>
+    <combo_character>black_widow_avengers</combo_character>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_ultimate</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_movie</combo_character>
+		<combo_character>thor_battle_armor</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>iron_man</combo_character>
+		<combo_character>iron_man_mk1</combo_character>
+		<combo_character>iron_man_mk2</combo_character>
+		<combo_character>iron_man_mk42</combo_character>
+		<combo_character>iron_man_stealth</combo_character>
+		<combo_character>iron_man_hulkbuster</combo_character>
+		<combo_character>iron_man_avengers</combo_character>
+	</combo_family>
+	<combo_character>wasp</combo_character>
+	<combo_character>vision</combo_character>
+        <combo_character>rogue_avenging</combo_character>
+        <combo_character>goliath</combo_character>
+        <combo_character>wonder_man</combo_character>
+        <combo_character>havok</combo_character>
+        <combo_character>arachne</combo_character>
+	<combo_family>
+		<combo_character>ant_man</combo_character>
+		<combo_character>giant_man</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>captain_america</combo_character>
+		<combo_character>captain_america_wwii</combo_character>
+		<combo_character>captain_america_avengers</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>hawkeye</combo_character>
+		<combo_character>hawkeye_avengers</combo_character>
+	</combo_family>
+	<combo_family>
+		<combo_character>hulk</combo_character>
+		<combo_character>hulk_gladiator</combo_character>
+		<combo_character>hulk_avengers</combo_character>
+                <combo_character>hulk_indestructible</combo_character>
+                <combo_character>hulk_red</combo_character>
+	</combo_family>
+	<combo_character>black_panther</combo_character>
+	<combo_character>scarlet_witch</combo_character>
+	<combo_character>tigra</combo_character>
+	<combo_character>moon_knight</combo_character>
+	<combo_character>war_machine</combo_character>
+        <combo_character>iron_fist</combo_character>
+	<combo_character>spider_man_iron</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>true</all_players>
+    <display_name>#TEAMUP_BONUS_AVENGERS_ASSEMBLE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+  
+    <!--Hammer and Nails-->
+  <preset_combination>
+    <combo_id>cc_hammer_and_nails</combo_id>
+    <combo_character>reptil</combo_character>
+	<combo_family>
+		<combo_character>thor</combo_character>
+		<combo_character>thor_classic</combo_character>
+		<combo_character>thor_movie</combo_character>
+		<combo_character>thor_battle_armor</combo_character>
+	</combo_family>
+	<combo_character>beast</combo_character>
+	<combo_min>3</combo_min>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HAMMER_AND_NAILS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+ 
+    <!--Creatures of the Night-->
+  <preset_combination>
+    <combo_id>cc_creatures_of_the_night</combo_id>
+    <combo_character>morbius</combo_character>
+    <combo_character>Werewolf</combo_character>
+    <combo_character>moon_knight</combo_character>
+    <combo_character>tigra</combo_character>
+    <combo_character>beast</combo_character>
+    <combo_character>ghost_rider</combo_character>
+    <combo_character>ghost_rider_classic</combo_character>
+    <combo_character>frankenstein</combo_character>
+    <combo_character>dracula_playable</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_CREATURES_OF_THE_NIGHT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Alpha Flight-->
+  <preset_combination>
+    <combo_id>cc_alpha_flight</combo_id>
+    <combo_character>guardian</combo_character>
+    <combo_character>sasquatch</combo_character>
+    <combo_character>arachne</combo_character>
+    <combo_character>wolverine</combo_character>
+    <combo_character>wolverine_jeans</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_ALPHA_FLIGHT</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Furry Friends-->
+  <preset_combination>
+    <combo_id>cc_furry_friends</combo_id>
+    <combo_character>beast</combo_character>
+    <combo_character>sasquatch</combo_character>
+    <combo_character>nightcrawler</combo_character>
+    <combo_character>tigra</combo_character>
+    <combo_character>sabretooth_playable</combo_character>
+    <combo_character>werewolf</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_FURRY_FRIENDS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Big Fellas-->
+  <preset_combination>
+    <combo_id>cc_big_fellas</combo_id>
+    <combo_character>goliath</combo_character>
+    <combo_character>thanos_playable</combo_character>
+    <combo_character>sasquatch</combo_character>
+    <combo_character>giant_man</combo_character>
+    <combo_character>hulk</combo_character>
+    <combo_character>hulk_indestructible</combo_character>
+    <combo_character>hulk_avengers</combo_character>
+    <combo_character>hulk_gladiator</combo_character>
+    <combo_character>hulk_red</combo_character>
+    <combo_character>super_skrull_playable</combo_character>
+    <combo_character>frankenstein</combo_character>
+    <combo_character>destroyer_playable</combo_character>
+    <combo_character>ultron_playable</combo_character>
+	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_BIG_FELLAS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+
+    <!--Bad Guys-->
+  <preset_combination>
+    <combo_id>cc_bad_guys</combo_id>
+    <combo_character>magneto_playable</combo_character>
+    <combo_character>dr_doom_future_foundation</combo_character>
+    <combo_character>dr_doom_playable</combo_character>
+    <combo_character>iron_patriot</combo_character>
+    <combo_character>mystique_playable</combo_character>
+    <combo_character>sabretooth_playable</combo_character>
+    <combo_character>venom_playable</combo_character>
+    <combo_character>dr_octopus_playable</combo_character>
+    <combo_character>modok_playable</combo_character>
+    <combo_character>green_goblin_playable</combo_character>
+    <combo_character>thanos_playable</combo_character>
+    <combo_character>mysterio_playable</combo_character>
+    <combo_character>jean_grey_dark_phoenix</combo_character>
+    <combo_character>titanium_man_playable</combo_character>
+    <combo_character>super_skrull_playable</combo_character>
+    <combo_character>loki_thor2_playable</combo_character>
+    <combo_character>destroyer_playable</combo_character>
+    <combo_character>dracula_playable</combo_character>
+    <combo_character>ultron_playable</combo_character>
+    <combo_character>taskmaster_playable</combo_character>
+    	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_BAD_GUYS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+
+    <!--Uncanny Avengers-->
+  <preset_combination>
+    <combo_id>cc_uncanny_avengers</combo_id>
+    <combo_character>thor</combo_character>
+    <combo_character>havok</combo_character>
+    <combo_character>captain_america</combo_character>
+    <combo_character>rogue_avenging</combo_character>
+    <combo_character>scarlet_witch</combo_character>
+    <combo_character>wolverine_avenging</combo_character>
+    <combo_character>wasp</combo_character>
+    <combo_character>wonder_man</combo_character>
+    	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_UNCANNY_AVENGERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+
+    <!--Spider Gals-->
+  <preset_combination>
+    <combo_id>cc_spider_gals</combo_id>
+    <combo_character>arachne</combo_character>
+    <combo_character>spider_girl</combo_character>
+    <combo_character>spider_woman</combo_character>
+    	<combo_min>3</combo_min>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_SPIDER_GALS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--House of M-->
+  <preset_combination>
+    <combo_id>cc_house_of_m</combo_id>
+    <combo_character>magneto</combo_character>
+    <combo_character>scarlet_witch</combo_character>
+    <combo_character>quicksilver</combo_character>
+    	<combo_min>3</combo_min>
+    <combo_character_min>3</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HOUSE_OF_M</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Endless Summers-->
+  <preset_combination>
+    <combo_id>cc_endless_summers</combo_id>
+    <combo_character>cable</combo_character>
+    <combo_character>hope_summers</combo_character>
+    <combo_character>havok</combo_character>
+    <combo_character>cyclops</combo_character>
+    <combo_character>cyclops_astonishing</combo_character>
+    	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_ENDLESS_SUMMERS</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Heroes For Hire-->
+  <preset_combination>
+    <combo_id>cc_heroes_for_hire</combo_id>
+    <combo_character>luke_cage</combo_character>
+    <combo_character>iron_fist</combo_character>
+	<combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_HEROES_FOR_HIRE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Kree Skrull War-->
+  <preset_combination>
+    <combo_id>cc_kree_skrull_war</combo_id>
+    <combo_character>captain_marvel</combo_character>
+    <combo_character>super_skrull_playable</combo_character>
+	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_KREE_SKRULL_WAR</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+    <!--Artificial Life-->
+  <preset_combination>
+    <combo_id>cc_artificial_life</combo_id>
+    <combo_character>vision</combo_character>
+    <combo_character>ultron_playable</combo_character>
+    <combo_character>destroyer_playable</combo_character>
+    	<combo_min>2</combo_min>
+    <combo_character_min>2</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_ARTIFICIAL_LIFE</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_ARMOR</display_description>
+    <combat_effect>ComboArmorBuff</combat_effect>
+  </preset_combination>
+
+   <!--Guardians of the Galaxy-->
+  <preset_combination>
+    <combo_id>cc_guardians_of_the_galaxy</combo_id>
+    <combo_character>groot</combo_character>
+    <combo_character>star_lord</combo_character>
+    <combo_character>gamora</combo_character>
+    <combo_character>drax</combo_character>
+    <combo_character>rocket_raccoon</combo_character>
+    	<combo_min>4</combo_min>
+    <combo_character_min>4</combo_character_min>
+    <all_players>false</all_players>
+    <display_name>#TEAMUP_BONUS_GUARDIANS_OF_THE_GALAXY</display_name>
+    <display_icon>damage_up</display_icon>
+	<display_description>#TEAMUP_DESCRIPTION_DAMAGE</display_description>
+    <combat_effect>ComboDamageBuff</combat_effect>
+  </preset_combination>
+
+
+</character_combination_data>

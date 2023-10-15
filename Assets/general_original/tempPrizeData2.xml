@@ -1,0 +1,3150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wheel>
+  <gold>
+    <stop>
+      <stop>1</stop>
+      <item_id />
+      <description>gold_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>5</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>2</stop>
+      <item_id />
+      <description>gold_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>1</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>3</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>30</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>4</stop>
+      <item_id />
+      <description>gold_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>5</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>5</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>50</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>6</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>7</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>70</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>8</stop>
+      <item_id />
+      <description>gold_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>1</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>9</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>90</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>10</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>11</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>110</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>12</stop>
+      <item_id />
+      <description>gold_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>5</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>13</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>130</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>14</stop>
+      <item_id />
+      <description>gold_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>1</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>15</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>150</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>16</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>17</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>170</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>18</stop>
+      <item_id />
+      <description>gold_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>5</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>19</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>190</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>20</stop>
+      <item_id />
+      <description>gold_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>1</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>21</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>210</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>22</stop>
+      <item_id />
+      <description>gold_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>2</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>23</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>240</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>24</stop>
+      <item_id />
+      <description>gold_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>5</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+  </gold>
+  <silver>
+    <stop>
+      <stop>1</stop>
+      <item_id />
+      <description>silver_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>3</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>2</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>20</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>3</stop>
+      <item_id />
+      <description>silver_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>6</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>4</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>40</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>5</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>6</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>60</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>7</stop>
+      <item_id />
+      <description>silver_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>3</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>8</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>80</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>9</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>10</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>100</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>11</stop>
+      <item_id />
+      <description>silver_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>6</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>12</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>120</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>13</stop>
+      <item_id />
+      <description>silver_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>3</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>14</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>140</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>15</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>16</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>160</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>17</stop>
+      <item_id />
+      <description>silver_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>6</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>18</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>180</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>19</stop>
+      <item_id />
+      <description>silver_items</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>3</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>20</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>200</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>21</stop>
+      <item_id />
+      <description>silver_other</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>4</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>22</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>220</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>23</stop>
+      <item_id />
+      <description>silver_card_rarity</description>
+      <prize_type>S</prize_type>
+      <coin_value>0</coin_value>
+      <card_type_id />
+      <sub_wheel_id>6</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+    <stop>
+      <stop>24</stop>
+      <item_id />
+      <description />
+      <prize_type>M</prize_type>
+      <coin_value>240</coin_value>
+      <card_type_id />
+      <sub_wheel_id>0</sub_wheel_id>
+      <quantity>0</quantity>
+    </stop>
+  </silver>
+  <subwheels>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>52</item_id>
+        <description>Arcade Machine</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>177</item_id>
+        <description>Boom Box</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>32</item_id>
+        <description>Radar Monitoring Station</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>30</item_id>
+        <description>Command Globe</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>33</item_id>
+        <description>Gadget-man 101 Computer</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>93</item_id>
+        <description>Hearty Hero Microwave Oven</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>95</item_id>
+        <description>Kool Kitchen Oven</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>104</item_id>
+        <description>Punching Bag</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>183</item_id>
+        <description>Wobbly Punching Bag</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>112</item_id>
+        <description>X-Ray Machine</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>42</item_id>
+        <description>Trampoline</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>97</item_id>
+        <description>Dining Chair</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>96</item_id>
+        <description>Dining Table</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>37</item_id>
+        <description>A Big Stool</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>31</item_id>
+        <description>Standard Captains Chair</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>58</item_id>
+        <description>Iron Man's Bed</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>55</item_id>
+        <description>Spider-man's Bed</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>54</item_id>
+        <description>Spider-man's Chair</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>65</item_id>
+        <description>Hulk's Bed</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>64</item_id>
+        <description>Hulk's Chair</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>68</item_id>
+        <description>Hulk's Dresser</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>60</item_id>
+        <description>Iron Man's Lamp</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>59</item_id>
+        <description>Iron Man's Trash Can</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>1</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>70</item_id>
+        <description>Wolverine's Bed</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>565</item_id>
+        <description>Hand Grenade</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>2</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>564</item_id>
+        <description>Explod-i-cake</description>
+        <zone></zone>
+        <wheel_type>G</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>239</item_id>
+        <description>Adamantium Ball, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>240</item_id>
+        <description>Adamantium Ball, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>241</item_id>
+        <description>Adamantium Ball, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>315</item_id>
+        <description>Plastic Ball, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>316</item_id>
+        <description>Plastic Ball, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>323</item_id>
+        <description>Plastic Ball, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>341</item_id>
+        <description>Steel Cube, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>340</item_id>
+        <description>Steel Cube, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>339</item_id>
+        <description>Steel Cube, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>239</item_id>
+        <description>Adamantium Ball, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>240</item_id>
+        <description>Adamantium Ball, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>241</item_id>
+        <description>Adamantium Ball, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>315</item_id>
+        <description>Plastic Ball, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>316</item_id>
+        <description>Plastic Ball, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>323</item_id>
+        <description>Plastic Ball, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>239</item_id>
+        <description>Adamantium Ball, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>240</item_id>
+        <description>Adamantium Ball, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>241</item_id>
+        <description>Adamantium Ball, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>339</item_id>
+        <description>Steel Cube, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>340</item_id>
+        <description>Steel Cube, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>341</item_id>
+        <description>Steel Cube, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>315</item_id>
+        <description>Plastic Ball, Large</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>316</item_id>
+        <description>Plastic Ball, Medium</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>3</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>323</item_id>
+        <description>Plastic Ball, Small</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>4</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>39</item_id>
+        <description>Humongous! Burger</description>
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity />
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>5</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+    </subwheel>
+    <subwheel>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>1</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>2</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>3</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>r</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>4</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>5</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>6</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>7</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>8</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>9</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>10</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>u</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>11</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>12</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>13</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>14</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>15</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>16</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>17</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>18</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>19</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>20</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>21</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>22</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>23</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+      <stop>
+        <sub_wheel_id>6</sub_wheel_id>
+        <wheel_stop>24</wheel_stop>
+        <item_id>0</item_id>
+        <description />
+        <zone></zone>
+        <wheel_type>S</wheel_type>
+        <begin>2010-08-11 00:00:00</begin>
+        <end>2010-10-01 00:00:00</end>
+        <prize_type>I</prize_type>
+        <card_type_id />
+        <coin_value />
+        <quantity>1</quantity>
+        <rarity>c</rarity>
+        <card_wheel />
+      </stop>
+    </subwheel>
+  </subwheels>
+  <cardwheel>
+    <slot>
+      <card_type_id>ST600</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST233</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST249</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST251</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST262</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST263</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST267</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST271</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST300</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST311</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST316</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST317</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST231</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST060</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST059</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST011</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST012</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST027</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST032</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST035</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST040</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST041</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST050</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST053</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST056</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>7</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST068</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST066</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST064</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST063</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST070</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST073</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST082</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST095</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST100</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST105</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST107</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST033</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST051</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST067</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST005</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST009</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST013</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST015</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST019</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST023</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST024</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST026</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST031</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+    <slot>
+      <card_type_id>ST052</card_type_id>
+      <rarity></rarity>
+      <slot>0</slot>
+      <sub_wheel_id>8</sub_wheel_id>
+      <quantity>0</quantity>
+    </slot>
+  </cardwheel>
+</wheel>

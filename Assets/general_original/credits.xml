@@ -1,0 +1,489 @@
+<credits>
+  <guild title="Credits">
+  </guild>
+  <guild title="Live Team">
+	<job title="Executive Producer">
+	  <name>Kristina Tomalesky</name>
+	</job>
+	<job title="Localization Producer">
+	  <name>Arnold Feener II</name>
+	</job>
+	<job title="Community Coordinator">
+	  <name>Angela Benford</name>
+	</job>
+	<job title="Art Manager">
+	  <name>Michio Okamura</name>
+	</job>
+	<job title="Technical Artist">
+	  <name>Nikki Greicar</name>
+	  <name>Thomas Van Velkinburgh</name>
+	  <name>Scott Hitchcock</name>
+	</job>
+	<job title="Animation">
+	  <name>Nate Horsfall</name>
+	</job>
+	<job title="Lead Designer">
+	  <name>Paul Reed</name>
+	</job>	
+	<job title="Designer">
+	  <name>Matt Danuser</name>
+	  <name>Scott Hitchcock</name>
+	</job>
+	<job title="Lead Engineer">
+	  <name>Jared Larsen</name>
+	</job>
+	<job title="Gameplay Engineer">
+	  <name>Ian Christensen</name>
+	  <name>Scott Hitchcock</name>
+	</job>	
+	<job title="Server Engineer">
+	  <name>Brian K Hughes</name>
+	</job>	
+	<job title="Associate Producer">
+	  <name>Eric Sandler</name>
+	  <name>Scott Hitchcock</name>
+	</job>	
+	<job title="QA Lead">
+	  <name>Joe Acedillo</name>
+	</job>
+  <job title="QA">
+    <name>Scott Hitchcock</name>
+  </job>
+
+  </guild>
+  <guild title="Customer Support">
+	<job title="CS Lead">
+	  <name>Trisha Tabor</name>
+	  <name>Kasen Bien</name>
+	</job>
+	<job title="CS Representative">
+	  <name>Michael Robinson</name>
+	</job>
+	<job title="Billing Specialist">
+	  <name>Kevin J. Kelly</name>
+	</job>
+	<job title="CS Moderator">
+	  <name>Mary Simmons</name>
+	</job>
+	<job title="Bilingual CS Specialist">
+	  <name>Paola "The Fury" Tello</name>
+	</job>
+  </guild>	
+  
+  <guild title="The Amazing Society">
+    <job title="Studio Manager">
+	  <name>Jason Robar</name>
+	</job>
+    <job title="Creative Director">
+	  <name>Jay Minn</name>
+	</job>
+    <job title="Executive Producer">
+      <name>Richard Thames Rowan</name>
+    </job>
+  </guild>
+  <guild title="Design Guild">
+    <job title="Design Directors">
+      <name>Nikolaus Davidson, Franz Felsl</name>
+    </job>
+    <job title="Level Designers">
+      <name>Ben Coleman</name>
+      <name>Brian Giaime</name>
+      <name>Tom Hanrahan</name>
+      <name>Rick Lesley</name>
+    </job>
+    <job title="System Design">
+      <name>James Ernest</name>
+      <name>Brett Lambright</name>
+      <name>Devin Low</name>
+      <name>Grant K. Roberts</name>
+      <name>Aidan Spangler</name>
+      <name>Darren Sugg</name>
+      <name>Christian Vanover</name>
+    </job>
+    <job title="Additional Design">
+      <name>Taylor Daynes</name>
+      <name>Robert Gutschera</name>
+      <name>Scott Hungerford</name>
+    </job>
+    <job title="Design Consulting Partners">
+      <name>Lone Shark Games</name>
+    </job>
+  </guild>
+  <guild title="Engineering Guild">
+    <job title="Engineering Director">
+      <name>David Satnik</name>
+    </job>
+    <job title="Server Architect">
+      <name>Darrin West</name>
+    </job>
+    <job title="Game Systems Engineers">
+      <name>Zach Aikman</name>
+      <name>Chad Barry</name>
+      <name>Amir Ebrahimi</name>
+      <name>Athan Falangus</name>
+      <name>Kevin Francis</name>
+      <name>Gabriel Holmes</name>
+      <name>Adrian LaVallee</name>
+      <name>Jason Mai</name>
+      <name>Andrew Maneri</name>
+      <name>Andy Megowan</name>
+      <name>Joshua Olson</name>
+      <name>Michael Romero</name>
+      <name>Tim Royal</name>
+      <name>Matthew Rudge</name>
+      <name>William Towns</name>
+    </job>
+    <job title="Security">
+      <name>Mark P. Hahn</name>
+    </job>
+    <job title="Server Engineers">
+      <name>Elvir Bahtijaragic</name>
+      <name>Stephen Beeman</name>
+      <name>ErikAnthony Harte</name>
+      <name>Rob Huber</name>
+      <name>Jay Patterson</name>
+      <name>Tony Rasa</name>
+      <name>Adam Vandenberg</name>
+    </job>
+    <job title="Tools Engineers">
+      <name>Bill Brooks</name>
+      <name>Josh Verrall</name>
+    </job>
+    <job title="Web &amp; Platform Engineers">
+	  <name>Christian Bongiorno</name>
+      <name>Shun Chu</name>
+      <name>George Dawoud</name>
+      <name>Brandon Groce</name>
+      <name>Larry Melia</name>
+      <name>Oliver Murillo</name>
+      <name>Carlos Garcia Perez</name>
+      <name>Andy Platter</name>
+    </job>
+    <job title="Additional Engineering">
+      <name>Jeff Constantine</name>
+      <name>Barbara Godin</name>
+      <name>Ben Kurtz</name>
+      <name>Rick Lambright</name>
+    </job>
+    <job title="Engineering Consulting Partners">
+      <name>Aristen, Inc.</name>
+      <name>Concise Consulting, LLC</name>
+      <name>Gizmocracy, LLC</name>
+    </job>
+  </guild>
+  <guild title="Art Guild">
+    <job title="Art Director">
+      <name>Matthew Bell</name>
+    </job>
+    <job title="Animators">
+      <name>Royden Lepp</name>
+      <name>Tony Ravo</name>
+      <name>Kaitlin Spangler</name>
+      <name>Anthony Strauss</name>
+    </job>
+    <job title="Additional Animation">
+      <name>Ivan Lancaster</name>
+    </job>
+    <job title="Character Artists">
+      <name>John Shroades</name>
+      <name>Donnavon Webb</name>
+    </job>
+    <job title="Concept Artists">
+      <name>Win Arayaphong</name>
+      <name>Brett Bean</name>
+      <name>Tony Dela Cruz</name>
+      <name>Rob Johnson</name>
+    </job>
+    <job title="Environment Artists">
+      <name>Jordan Dunn</name>
+      <name>Christopher Hailey</name>
+      <name>Josh McDonald</name>
+      <name>Stefan Schwartz</name>
+      <name>Gavin Vaden</name>
+    </job>
+    <job title="FX Artists">
+      <name>Sarah Grissom</name>
+      <name>Jeff Selbig</name>
+    </job>
+    <job title="General Artists">
+      <name>Jeremiah Habets</name>
+      <name>Matt Jorgensen</name>
+      <name>Stephen Peringer</name>
+      <name>Jason Piel</name>
+    </job>
+    <job title="User Interface Artists">
+      <name>Brittany Fuerst</name>
+      <name>Heather Ivy</name>
+      <name>David McCormack</name>
+    </job>
+    <job title="Video Editor">
+      <name>Henry McComas</name>
+    </job>
+    <job title="Additional Art">
+      <name>Andrew Brinkworth</name>
+      <name>Erik Olsen</name>
+    </job>
+    <job title="Art Consulting Partners">
+      <name>Enter the Studio, Inc.</name>
+      <name>Ginormous, LLC</name>
+      <name>TricksterViz, LLC</name>
+      <name>Supergenius</name>
+      <name>Conceptopolis, LLC</name>
+      <name>Studio Voltz</name>
+      <name>Frogchildren Studios</name>
+      <name>Imaginary Friends Studios</name>
+      <name>The Silver Agency</name>
+      <name>Timbuk2 Studios</name>
+    </job>
+  </guild>
+  <guild title="Production Guild">
+    <job title="Executive Producer">
+      <name>Richard Thames Rowan</name>
+    </job>
+    <job title="Producers">
+      <name>Ellen Beeman</name>
+      <name>Katie Bridwell</name>
+      <name>Grace Chien</name>
+      <name>Max Clendenning</name>
+      <name>Arnold Hendrick</name>
+      <name>Christin Overton</name>
+      <name>Cameron Shinn</name>
+      <name>Justin Woods</name>
+    </job>
+    <job title="Additional Production">
+      <name>Michele Armstrong</name>
+      <name>Brett Blair</name>
+      <name>Mick McGraw</name>
+    </job>
+  </guild>
+  <guild title="Quality Assurance Guild">
+    <job title="Quality Assurance Director">
+      <name>Steven Crawford</name>
+    </job>
+    <job title="Quality Assurance Analysts">
+      <name>Michele Armstrong</name>
+      <name>Brett Blair</name>
+      <name>Michael Graden</name>
+      <name>Bryan Macdonald</name>
+      <name>Benjamin Panarella</name>
+      <name>Slaven Slugic</name>
+      <name>Eric Snyder</name>
+      <name>Dustin Stokes</name>
+    </job>
+    <job title="Compatibility Lab Manager">
+      <name>Lynn Taylor</name>
+    </job>
+    <job title="Additional Quality Assurance">
+      <name>Jason Boone</name>
+      <name>Chris Casey</name>
+      <name>Kevin da Luz</name>
+      <name>Ed Hocking</name>
+      <name>Prodipto Roy</name>
+      <name>Eric Szymaszek</name>
+    </job>
+    <job title="Quality Assurance Partners">
+      <name>VMC Consulting</name>
+    </job>
+  </guild>
+  <guild title="Audio">
+    <job title="Audio Production">
+      <name>Somatone Interactive Audio, Inc.</name>
+    </job>
+    <job title="Additional Audio">
+      <name>Richard Dekkard</name>
+      <name>Jerry Schroeder</name>
+    </job>
+    <job title="Audio Consulting Partners">
+      <name>Earbash Audio</name>
+      <name>Licensor Audio Network US</name>
+      <name>Wind Over the Earth, LLC</name>
+    </job>
+  </guild>
+  <guild title="Studio Operations">
+    <job title="Information Technology">
+      <name>Victor Blaiotta</name>
+      <name>Jimil Borillo</name>
+      <name>Cole Lundell</name>
+      <name>Joel Merry</name>
+    </job>
+    <job title="Office Management">
+      <name>Wendy Sloneker</name>
+      <name>Kelly Wright</name>
+    </job>
+  </guild>
+  <guild title="Gazillion Entertainment">
+  	<job title="CEO">
+	 <name>John Needham</name>
+    </job>
+  	<job title="President &amp; COO">
+	  <name>David Brevik</name>
+    </job>
+    <job title="Publishing Managers">
+      <name>Dan Fiden</name>
+      <name>John Young</name>
+    </job>
+    <job title="Marketing Managers">
+      <name>Paul Baldwin</name>
+	  <name>Kathleen Pitcher</name>
+    </job>
+    <job title="Billing">
+      <name>Kurt Nipp</name>
+    </job>
+    <job title="Community Managers">
+      <name>Ellen Beeman</name>
+      <name>Serena Robar</name>
+    </job>
+    <job title="Customer Service, Child Safety, &amp; Moderation">
+      <name>Jim Garner</name>
+      <name>Izzy Neis</name>
+	  <name>Tiffany Richison</name>
+      <name>Gabriel Scott</name>
+      <name>Regine Weiner</name>
+	</job>
+    <job title="Text Editor">
+      <name>Bay Anapol</name>
+    </job>
+    <job title="Marketing &amp; Business Intelligence">
+      <name>Ed Chang</name>
+	  <name>Nick Dietrich</name>
+      <name>Austin Fong</name>
+      <name>Eugene Wang</name>
+	  <name>Eric Wong</name>
+	</job>
+    <job title="Public Relations">
+      <name>Keith Mutzman</name>
+    </job>
+    <job title="Additional Publishing">
+      <name>David Bass</name>
+      <name>Barish Orhon</name>
+	  <name>Stephen Reid</name>
+    </job>
+    <job title="Publishing Consulting Partners">
+      <name>GTL Media (Localization)</name>
+      <name>Pentad Analytics</name>
+      <name>Ronin User Experience</name>
+    </job>
+    <job title="Marketing Consulting Partners">
+	  <name>Ammirati</name>
+      <name>Hammer Interactive</name>
+      <name>Sparrow &amp; Dove Designs</name>
+      <name>Tangible</name>
+    </job>
+    <job title="Operations Directors">
+      <name>David Berk</name>
+	  <name>Gary Catalano</name>
+      <name>Marc Masnik</name>
+    </job>
+    <job title="Game Operations &amp; System Administrators">
+	  <name>Gary Catalano</name>	  
+	  <name>Tim Clark</name>
+      <name>Stephen Couratier</name>
+	  <name>Juliet Draper</name>
+	  <name>Matt Evarts</name>
+	  <name>Todd Glover</name>
+	  <name>Jesus Malena</name>
+      <name>Larry Nilsen</name>
+      <name>Greg Oehmen</name>
+      <name>Chris Robles</name>
+      <name>Chris Searles</name>
+    </job>
+    <job title="Additional Game Operations">
+      <name>Johnny Costello</name>
+      <name>Satish Kumar</name>
+      <name>Mark Laws</name>
+      <name>Sean Rios</name>
+      <name>Chris Rosner</name>
+      <name>Doug Wolfe</name>
+    </job>
+  </guild>
+  <guild title="Marvel Entertainment">
+  	<job title="Vice President of Production, Games">
+      <name>Todd (TQ) Jefferson</name>
+    </job>
+  	<job title="Senior Manager, Games">
+	    <name>Eric Adams</name>
+    </job>
+	  <job title="Manager, Licensed Games">
+	    <name>Chris Baker</name>
+    </job>
+	  <job title="Director of Marketing, Games">
+      <name>Javon Frazier</name>
+    </job>
+	  <job title="Vice President, Games &amp; Digital Distribution">
+	    <name>Andreea Enache-Thune</name>
+    </job>
+	  <job title="Vice President, Digital Licensing / Vice President, Business &amp; Legal Affairs">
+      <name>Seth Lehman</name>
+    </job>
+	  <job title="Vice President, Business &amp; Legal Affairs">
+      <name>Michael Sapherstein</name>
+    </job>
+	  <job title="Senior Vice President, Integrated Sales &amp; Marketing">
+      <name>John Dokes</name>
+    </job>
+	  <job title="Executive Vice President, Global Digital Media Group">
+      <name>Ira Rubenstein</name>
+    </job>
+	  <job title="President, Worldwide Consumer Products">
+      <name>Simon Philips</name>
+    </job>
+	  <job title="Publisher &amp; CEO, Print, Animation &amp; Digital">
+      <name>Dan Buckley</name>
+    </job>
+	  <job title="Interns">
+      <name>Sam Rosenthal</name>
+      <name>Jordan Gallego</name>
+      <name>Amie D. Dansby</name>
+      <name>Kyle Mansfield</name>
+	  <name>Randolph Ma</name>
+	  <name>Ryan "Timmy" Collins</name>
+	  </job>
+  </guild>
+  <guild title="Special Thanks">
+    <job title="Gazillion Entertainment">
+      <name>Bo Daly</name>
+      <name>Liza Duncan</name>
+      <name>Rob Hutter</name>
+      <name>Chloe Lam</name>
+      <name>Michelle Larson</name>
+      <name>Christine Legg</name>
+      <name>Ed Lu</name>
+      <name>Robert Moreno</name>
+      <name>Stuart Moulder</name>
+	  <name>John Romero</name>
+	  <name>Scott Rupp</name>
+      <name>Eric Russell</name>
+      <name>Renee Scott</name>
+      <name>Bhavin Shah</name>
+      <name>Paul Strange</name>
+	  <name>Ian Ramsay</name>
+	  <name>Erik "VikingGuitar" Peabody</name>
+    </job> 
+    <job title="Marvel Entertainment">
+      <name>Cort Lane</name>
+      <name>Christopher Fondacaro</name>
+      <name>Tom Marvelli</name>
+      <name>Kat Jones</name>
+      <name>Kalia Cheng</name>
+	  <name>Adam Tootla</name>
+      <name>Kristin Koziarski</name>
+      <name>Glenn Magala</name>
+      <name>Will Pilgrim</name>
+	  <name>Victoria Martinez</name>
+	  <name>Camilla Zhang</name>
+	  <name>Seana Baruth</name>
+	  <name>Ryan Penagos</name>
+	  <name>Marc Strohm</name>
+	  <name>John Cerilli</name>
+	</job> 
+    <job title="Partner Technologies">
+      <name>Rally Software</name>
+      <name>SmartFox Server</name>
+      <name>Tipcat Interactive</name>
+      <name>Unity Technologies</name>
+    </job>
+    <job title=""></job>
+  </guild>
+  <guild title="Thank you for playing!!!">
+  </guild>
+</credits>

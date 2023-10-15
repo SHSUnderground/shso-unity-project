@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1156771936005803, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 4398096065798794, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 111119571318473039, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 1547902279421893, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 4092670495905738, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 33882183383475796, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 23100086502472384, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 1362558260363173, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 4611931553356858, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 33894232777630507, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  - {fileID: 23539798222026315, guid: 4e0f7d734d4733a468e710e33d751492, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: navigation_new

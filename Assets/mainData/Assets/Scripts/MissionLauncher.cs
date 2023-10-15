@@ -14,6 +14,13 @@ public class MissionLauncher : GlowableInteractiveController
 
 		private bool skipApproach;
 
+		static void garbageCollect () {		// method added by CSP
+
+			Resources.UnloadUnusedAssets();
+			
+			System.GC.Collect();
+		}
+
 		public Use(GameObject player, GlowableInteractiveController owner, OnDone onDone, bool skipApproach)
 			: base(player, owner, onDone)
 		{
@@ -72,6 +79,15 @@ public class MissionLauncher : GlowableInteractiveController
 			}
 			else
 			{
+			/////// block added by CSP to free up memory ////////////////
+			GameObject go = GameObject.Find("static_bundles");
+			if (go != null) {
+			GameObject.Destroy(go);
+			CspUtils.DebugLog("SHSBrawlerGadget destroying static_bundles!");
+			}
+
+			garbageCollect();
+			////////////////////////////////////
 				LaunchMission();
 			}
 		}

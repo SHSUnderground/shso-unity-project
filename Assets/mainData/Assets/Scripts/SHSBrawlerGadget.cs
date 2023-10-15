@@ -2534,29 +2534,8 @@ public class SHSBrawlerGadget : SHSGadget
 
 	private BrawlerPlayerDataManager DataManager;
 
-	static void garbageCollect () {		// method added by CSP
-
-		Resources.UnloadUnusedAssets();
-		#if UNITY_EDITOR		
-			EditorUtility.UnloadUnusedAssetsIgnoreManagedReferences();
-			CspUtils.DebugLog("CALLED EditorUtility.UnloadUnusedAssetsIgnoreManagedReferences()");
-    	#endif
-		
-		System.GC.Collect();
-	}
-
 	public SHSBrawlerGadget()
 	{
-		/////// block added by CSP to free up memory ////////////////
-		GameObject go = GameObject.Find("static_bundles");
-		if (go != null) {
-		  GameObject.Destroy(go);
-		  CspUtils.DebugLog("SHSBrawlerGadget destroying static_bundles!");
-		}
-
-		garbageCollect();
-		////////////////////////////////////
-
 		DataManager = new BrawlerPlayerDataManager(this);
 		nameLoader = new BrawlerRAttacksNameLoader();
 		MissionLaunchWindow = new BrawlerMissionLaunchWindow(this);

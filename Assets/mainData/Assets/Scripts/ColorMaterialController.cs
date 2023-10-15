@@ -79,21 +79,20 @@ public class ColorMaterialController : MonoBehaviour
 		if (colorMaterial == null)
 		{
 			Texture2D texture = Resources.Load("Shaders/Textures/" + colorRampTexture, typeof(Texture2D)) as Texture2D;
-			colorMaterial = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("GoldShader")); //Modified by doggo
-			//colorMaterial.SetTexture("_RampTex", texture); Commented by doggo
-			colorMaterial.SetTexture("_MainTex",texture);
+			colorMaterial = new Material(Shader.Find("GoldShader"));
+			colorMaterial.SetTexture("_RampTex", texture);
 		}
 		if (greyscaleMaterial == null)
 		{
-			greyscaleMaterial = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("GoldShader")); Modified by doggo
+			greyscaleMaterial = new Material(Shader.Find("GoldShader"));
 		}
 		if (highPassMaterial == null)
 		{
-			highPassMaterial = new Material(Shader.Find("Transparent/Diffuse"));//new Material(Shader.Find("HighPassFilter")); Modified by doggo
+			highPassMaterial = new Material(Shader.Find("HighPassFilter"));
 		}
 		if (overrideMaterial == null)
 		{
-			overrideMaterial = new Material(Shader.Find("Transparent/Specular"));//new Material(Shader.Find("Specular")); Modified by doggo
+			overrideMaterial = new Material(Shader.Find("Specular"));
 		}
 		ResetResources();
 		for (int i = 0; i < meshes.Length; i++)

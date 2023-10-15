@@ -90,14 +90,16 @@ public class ChallengeManagerServerStub
 			}
 			else if (currentMode == ServerMode.Passthrough)
 			{
-				string uri = string.Format("{0}/{1}/{2}/{3}/{4}/{5}/", "resources$", "users/", AppShell.Instance.Profile.UserId, "challenge", "met", challenge.Id);
+				WWWForm wWWForm = new WWWForm();
+				wWWForm.AddField("challenge_id", challenge.Id);
+				string uri = "resources$users/challenge_met.py";
 				AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 				{
 					if (response.Status != 200)
 					{
 						CspUtils.DebugLog("Challenge Reporting error: " + response.Status + ":" + response.Body);
 					}
-				}, null, ShsWebService.ShsWebServiceType.RASP);
+				}, wWWForm.data, ShsWebService.ShsWebServiceType.RASP);
 			}
 		}
 	}

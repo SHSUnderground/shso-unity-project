@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<m_100M_12_DoctorDoom001>
+	<name>Doctor Doom Mayhem Mission</name>
+	<description>Doctor Doom is on the loose in Super Hero City!</description>
+	<mission_splash_screen_override>L_dr_doom_01</mission_splash_screen_override>
+	<mission_purchase_override>m_1006_1_DrDoom001</mission_purchase_override>
+	<map>
+		<x>78</x>
+		<y>170</y>
+	</map>
+	<target_level>1</target_level>
+	<stages>
+		<stage>
+			<stage_number>1</stage_number>
+			<scenario_bundle>Factory_M006_S03M_BOSS_scenario</scenario_bundle>
+		</stage>
+	</stages>
+	<rating>
+		<bronze>
+			<score_needed>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+				<player>0</player>
+			</score_needed>
+		</bronze>
+		<silver>
+			<score_needed>
+				<player>1113</player>
+				<player>1113</player>
+				<player>1113</player>
+				<player>1113</player>
+			</score_needed>
+		</silver>
+		<gold>
+			<score_needed>
+				<player>2370</player>
+				<player>2370</player>
+				<player>2370</player>
+				<player>2370</player>
+			</score_needed>
+		</gold>
+		<adamantium>
+			<score_needed>
+				<player>3000</player>
+				<player>3000</player>
+				<player>3000</player>
+				<player>3000</player>
+			</score_needed>
+		</adamantium>
+	</rating>
+	<awards>
+		<bronze>
+			<lootTableIDs>103,362</lootTableIDs>
+		</bronze>
+		<silver>
+			<lootTableIDs>103,362</lootTableIDs>
+		</silver>
+		<gold>
+			<lootTableIDs>103,362</lootTableIDs>
+		</gold>
+		<adamantium>
+			<lootTableIDs>103,362,115</lootTableIDs>
+		</adamantium>
+	</awards>
+</m_100M_12_DoctorDoom001>

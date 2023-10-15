@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &-2009120932
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556378958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &-462675462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556378958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98c1dd4008f04b2e9800998ecf8427e, type: 3}
+  m_Name: 
+  PrefabName: 
+  AudioCategory: 5
+  Loop: 0
+  PlayOnAwake: 0
+  WaitForLoadToPlay: 0
+  UseCustomRolloff: 0
+  PlayBehavior: 0
+  Clips:
+    Array:
+    - Clip: {fileID: 0}
+      BundleName: 2
+      AssetName: Phy_Materials_Rubber_Medium_1
+      ClipRepeatCount: 1
+    - Clip: {fileID: 0}
+      BundleName: 2
+      AssetName: Phy_Materials_Rubber_Medium_2
+      ClipRepeatCount: 1
+    - Clip: {fileID: 0}
+      BundleName: 2
+      AssetName: Phy_Materials_Rubber_Medium_3
+      ClipRepeatCount: 1
+    - Clip: {fileID: 0}
+      BundleName: 2
+      AssetName: Phy_Materials_Rubber_Medium_4
+      ClipRepeatCount: 1
+    - Clip: {fileID: 0}
+      BundleName: 2
+      AssetName: Phy_Materials_Rubber_Medium_5
+      ClipRepeatCount: 1
+  presetBundleName: Phy_Materials
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1556378958}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!82 &603320232
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1556378958}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 4.63820303e-36
+      outSlope: 1.1437538e-36
+      tangentMode: 0
+    - time: .000200000009
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .000400000019
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .000800000038
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .00160000008
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: .00320000015
+      value: .943396211
+      inSlope: -45.1818085
+      outSlope: -43.8380966
+      tangentMode: 0
+    - time: .0064000003
+      value: .819672108
+      inSlope: -34.4980507
+      outSlope: -32.7344971
+      tangentMode: 0
+    - time: .0128000006
+      value: .649350643
+      inSlope: -21.996954
+      outSlope: -20.2415962
+      tangentMode: 0
+    - time: .0256000012
+      value: .458715588
+      inSlope: -11.1772795
+      outSlope: -9.93751431
+      tangentMode: 0
+    - time: .0512000024
+      value: .289017349
+      inSlope: -4.51025534
+      outSlope: -3.88882446
+      tangentMode: 0
+    - time: .102400005
+      value: .166112959
+      inSlope: -1.50792325
+      outSlope: -1.2715317
+      tangentMode: 0
+    - time: .20480001
+      value: .0897666067
+      inSlope: -.443686068
+      outSlope: -.368984908
+      tangentMode: 0
+    - time: .409600019
+      value: .0467726849
+      inSlope: -.120972067
+      outSlope: -.0998222232
+      tangentMode: 0
+    - time: .819200039
+      value: .0238891542
+      inSlope: -.0316295177
+      outSlope: -.0259913355
+      tangentMode: 0
+    - time: 1
+      value: .0196463652
+      inSlope: 4.63820303e-36
+      outSlope: 1.1437538e-36
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!1 &1556378958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 3
+  m_Component:
+  - 4: {fileID: -2009120932}
+  - 114: {fileID: -462675462}
+  - 82: {fileID: 603320232}
+  m_Layer: 0
+  m_Name: Phy_Materials_Rubber_Medium_audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 3452816845
+  m_StaticEditorFlags: 0
+  m_IsActive: 0

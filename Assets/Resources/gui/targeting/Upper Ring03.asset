@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Upper Ring03
+  m_Use16BitIndices: 1
+  m_SubMeshes:
+  - firstByte: 0
+    indexCount: 7
+    isTriStrip: 2
+    triangleCount: 5
+    firstVertex: 0
+    vertexCount: 7
+    localAABB:
+      m_Center:
+        x: 0
+        y: 0
+        z: 0
+      m_Extent:
+        x: 0.5
+        y: 0.5
+        z: 0
+  m_MeshCompression: 0
+  m_IndexBuffer: 0600000005000100040002000300
+  m_Vertices:
+  - x: 0.5
+    y: -0.5
+    z: 0
+  - x: 0.5
+    y: 0
+    z: 0
+  - x: 0
+    y: 0.5
+    z: 0
+  - x: -0.5
+    y: 0.5
+    z: 0
+  - x: -0.5
+    y: 0.26898268
+    z: 0
+  - x: 0
+    y: -1.9073486E-08
+    z: 0
+  - x: 0.26666915
+    y: -0.5
+    z: 0
+  m_Skin: []
+  m_BindPose: []
+  m_UV:
+  - x: 0
+    y: 0
+  - x: 0
+    y: 0.5
+  - x: 0.5
+    y: 1
+  - x: 1
+    y: 1
+  - x: 1
+    y: 0.7689827
+  - x: 0.5
+    y: 0.49999997
+  - x: 0.23333083
+    y: 0
+  m_UV1: []
+  m_Tangents:
+  - x: -1
+    y: 1.4630282E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: 2.2563742E-09
+    z: 0
+    w: -1
+  - x: -1
+    y: -3.8061568E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: 0
+    z: 0
+    w: -1
+  - x: -1
+    y: -2.3274033E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: 2.0197625E-08
+    z: 0
+    w: -1
+  - x: -1
+    y: 0
+    z: 0
+    w: -1
+  m_Normals:
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extent:
+      x: 0.5
+      y: 0.5
+      z: 0
+  m_Colors: []
+  m_CollisionTriangles:
+  - 6
+  - 0
+  - 5
+  - 5
+  - 0
+  - 1
+  - 5
+  - 1
+  - 4
+  - 4
+  - 1
+  - 2
+  - 4
+  - 2
+  - 3
+  m_CollisionVertexCount: 7
+  m_MeshUsageFlags: 0

@@ -33,11 +33,13 @@ public class SHSStartupWaitWindow : SHSWaitWindow
 
 	private GUILabel percentLabel;
 
-	private GUIImage tasLogo;
+	// private GUIImage tasLogo;
 
-	private GUIImage gazLogo;
+	// private GUIImage gazLogo;
 
-	private GUIImage marvelImage;
+	// private GUIImage marvelImage;
+
+	private GUIImage titanImage;
 
 	private GUILabel versionLabel;
 
@@ -45,7 +47,8 @@ public class SHSStartupWaitWindow : SHSWaitWindow
 	{
 		loadingBg = new GUIImage();
 		loadingBg.SetPositionAndSize(QuickSizingHint.ParentSize);
-		loadingBg.TextureSource = "GUI/loading/welcome/mshs_welcome_screen_bg";
+		System.Random random = new System.Random();
+		loadingBg.TextureSource = "GUI/loading/background/" + random.Next(0, 7).ToString();
 		loadingBg.Id = "loading background";
 		Add(loadingBg);
 		contentBgd = new GUIImage();
@@ -109,28 +112,33 @@ public class SHSStartupWaitWindow : SHSWaitWindow
 		heroBgd = new GUIImage();
 		heroBgd.SetPositionAndSize(QuickSizingHint.ParentSize);
 		heroBgd.Id = "hero characters";
-		heroBgd.TextureSource = "GUI/loading/welcome/mshs_welcome_screen_characters_r2";
+		heroBgd.TextureSource = "GUI/loading/characters/" + random.Next(0, 7).ToString();
 		Add(heroBgd);
 		shsLogo = new GUIImage();
 		shsLogo.SetPositionAndSize(DockingAlignmentEnum.Middle, AnchorAlignmentEnum.Middle, OffsetType.Absolute, new Vector2(0f, -210f), new Vector2(231f, 209f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
-		shsLogo.TextureSource = "GUI/loading/welcome/mshs_welcome_screen_game_logo";
+		shsLogo.TextureSource = "GUI/loading/logos/shsu_game_logo";
 		shsLogo.Id = "logo";
 		Add(shsLogo);
-		gazLogo = new GUIImage();
-		gazLogo.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(-240f, 0f), new Vector2(127f, 64f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
-		gazLogo.TextureSource = "GUI/loading/welcome_gaz_logo";
-		gazLogo.Id = "gazlogo";
-		Add(gazLogo);
-		tasLogo = new GUIImage();
-		tasLogo.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(-110f, 6f), new Vector2(130f, 75f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
-		tasLogo.TextureSource = "GUI/loading/welcome_tas_logo";
-		tasLogo.Id = "taslogo";
-		Add(tasLogo);
-		marvelImage = new GUIImage();
-		marvelImage.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 12f), new Vector2(117f, 81f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
-		marvelImage.TextureSource = "GUI/loading/welcome_marvel_logo_normal";
-		marvelImage.Id = "marvelImage";
-		Add(marvelImage);
+		// gazLogo = new GUIImage();
+		// gazLogo.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(-240f, 0f), new Vector2(127f, 64f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
+		// gazLogo.TextureSource = "GUI/loading/welcome_gaz_logo";
+		// gazLogo.Id = "gazlogo";
+		// Add(gazLogo);
+		// tasLogo = new GUIImage();
+		// tasLogo.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(-110f, 6f), new Vector2(130f, 75f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
+		// tasLogo.TextureSource = "GUI/loading/welcome_tas_logo";
+		// tasLogo.Id = "taslogo";
+		// Add(tasLogo);
+		// marvelImage = new GUIImage();
+		// marvelImage.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 12f), new Vector2(117f, 81f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
+		// marvelImage.TextureSource = "GUI/loading/welcome_marvel_logo_normal";
+		// marvelImage.Id = "marvelImage";
+		// Add(marvelImage);
+		titanImage = new GUIImage();
+		titanImage.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 0f), new Vector2(105f, 105f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
+		titanImage.TextureSource = "GUI/loading/logos/Titan";
+		titanImage.Id = "titanImage";
+		Add(titanImage);
 
 		/////// block added by CSP ///////////
 		versionLabel = new GUILabel();

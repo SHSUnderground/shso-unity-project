@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<arcadegames>
+  <game>
+    <name>#ARCADE_MINDMATCH_NAME</name>
+    <keyword>arcade07</keyword>
+    <description>#ARCADE_MINDMATCH_DESC</description>
+    <img>L_arcade_launcher_game4</img>
+    <helperimg>L_arcade_launcher_howto_game2</helperimg>
+  </game>
+  <game>
+    <name>#ARCADE_WHACK_NAME</name>
+    <keyword>arcade02</keyword>
+    <description>#ARCADE_WHACK_DESC</description>
+    <img>L_arcade_launcher_game2</img>
+    <helperimg>L_arcade_launcher_howto_game2</helperimg>
+  </game>
+  <game>
+    <name>#ARCADE_BASEINV_NAME</name>
+    <keyword>arcade01</keyword>
+    <description>#ARCADE_BASEINV_DESC</description>
+    <img>L_arcade_launcher_game1</img>
+    <helperimg>L_arcade_launcher_howto_game1</helperimg>
+  </game>
+  <game>
+    <name>#ARCADE_NIGHTPAT_NAME</name>
+    <keyword>arcade03</keyword>
+    <description>#ARCADE_NIGHTPAT_DESC</description>
+    <img>L_arcade_launcher_game3</img>
+    <helperimg>L_arcade_launcher_howto_game3</helperimg>
+  </game>
+</arcadegames>

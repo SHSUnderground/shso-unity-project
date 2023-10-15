@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: Hotspot Directional
+  m_Use16BitIndices: 1
+  m_SubMeshes:
+  - firstByte: 0
+    indexCount: 10
+    isTriStrip: 2
+    triangleCount: 4
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center:
+        x: 0
+        y: 0
+        z: 0
+      m_Extent:
+        x: 0.5
+        y: 0.5
+        z: 0
+  m_MeshCompression: 0
+  m_IndexBuffer: 0100000004000300030002000200060005000700
+  m_Vertices:
+  - x: 0.5
+    y: -0.5
+    z: 0
+  - x: 0
+    y: -0.5
+    z: 0
+  - x: -0.5
+    y: -0.5
+    z: 0
+  - x: 0.5
+    y: 0.5
+    z: 0
+  - x: 0
+    y: 0.5
+    z: 0
+  - x: -0.5
+    y: 0.5
+    z: 0
+  - x: 0
+    y: -0.5
+    z: 0
+  - x: 0
+    y: 0.5
+    z: 0
+  m_Skin: []
+  m_BindPose: []
+  m_UV:
+  - x: 0.009803921
+    y: 0.009803921
+  - x: 0.9901961
+    y: 0.009803921
+  - x: 0.009803687
+    y: 0.009804053
+  - x: 0.009803921
+    y: 0.9901961
+  - x: 0.9901961
+    y: 0.9901961
+  - x: 0.00980398
+    y: 0.99019635
+  - x: 0.9901959
+    y: 0.009803805
+  - x: 0.99019635
+    y: 0.990196
+  m_UV1: []
+  m_Tangents:
+  - x: -1
+    y: 0
+    z: 0
+    w: -1
+  - x: -1
+    y: 0
+    z: 0
+    w: -1
+  - x: 1
+    y: 5.072727E-07
+    z: 0
+    w: 1
+  - x: -1
+    y: 0
+    z: 0
+    w: -1
+  - x: -1
+    y: 0
+    z: 0
+    w: -1
+  - x: 1
+    y: 6.6394864E-07
+    z: 0
+    w: 1
+  - x: 1
+    y: 5.7288486E-07
+    z: 0
+    w: 1
+  - x: 1
+    y: 7.2956084E-07
+    z: 0
+    w: 1
+  m_Normals:
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  - x: 0
+    y: 0
+    z: 1
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data:
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data:
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center:
+      x: 0
+      y: 0
+      z: 0
+    m_Extent:
+      x: 0.5
+      y: 0.5
+      z: 0
+  m_Colors:
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  - serializedVersion: 2
+    rgba: 4288059030
+  m_CollisionTriangles:
+  - 1
+  - 0
+  - 4
+  - 4
+  - 0
+  - 3
+  - 2
+  - 1
+  - 5
+  - 5
+  - 1
+  - 4
+  m_CollisionVertexCount: 6
+  m_MeshUsageFlags: 0

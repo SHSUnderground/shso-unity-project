@@ -101,7 +101,7 @@ public class SHSWelcomeWindow : GUIDynamicWindow
 		Add(becomeAgentButton);
 		shsLogo = new GUIImage();
 		shsLogo.SetPositionAndSize(DockingAlignmentEnum.Middle, AnchorAlignmentEnum.Middle, OffsetType.Absolute, new Vector2(0f, -210f), new Vector2(231f, 209f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
-		shsLogo.TextureSource = "GUI/loading/welcome/mshs_welcome_screen_game_logo";
+		shsLogo.TextureSource = "GUI/loading/welcome/shsu_game_logo";
 		shsLogo.Id = "logo";
 		Add(shsLogo);
 		gazLogo = new GUIImage();
