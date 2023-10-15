@@ -10,8 +10,8 @@ PlayerSettings:
   targetPlatform: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: The Amazing Society
-  productName: SHS
+  companyName: SHSU
+  productName: SHSU
   AndroidLicensePublicKey: 
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -94,7 +94,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 0}
+    - m_Icon: {fileID: 2800000, guid: 8da0d564adb192c4f8b1ef0c49939f26, type: 1}
       m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
