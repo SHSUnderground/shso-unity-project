@@ -194,12 +194,12 @@ public class ExpendablesManager
 			string uri = "resources$users/potion_persist.py";
 			WWWForm wWWForm = new WWWForm();
 			wWWForm.AddField("shsoid", AppShell.Instance.ServerConnection.getNotificationServer().PlayerId);
-			Debug.Log("PLAYER ID: " + AppShell.Instance.ServerConnection.getNotificationServer().PlayerId);
+			CspUtils.DebugLog("PLAYER ID: " + AppShell.Instance.ServerConnection.getNotificationServer().PlayerId);
 			if ((bool)AppShell.Instance.WebService)
 			{
 				AppShell.Instance.WebService.StartRequest(uri, delegate(ShsWebResponse response)
 				{
-					Debug.Log(response);
+					CspUtils.DebugLog(response);
 					if (response.Status != 200)
 					{
 						CspUtils.DebugLog("Persist Effect Request failure: " + response.Status + ":" + response.Body);
@@ -210,12 +210,12 @@ public class ExpendablesManager
 						
 						foreach(var message in expiredPotions){
 							if(message != null && message != ""){
-								Debug.Log("ATTEMPTING TO CLOSE EFFECT!");
-								Debug.Log (message);
+								CspUtils.DebugLog("ATTEMPTING TO CLOSE EFFECT!");
+								CspUtils.DebugLog(message);
 								string[] potion = message.Split(',');
 								string OwnableID =  potion[0].ToString();
 								CancelEffect(OwnableID);
-								Debug.Log("Closed Effect!");
+								CspUtils.DebugLog("Closed Effect!");
 							}	
 						}
 						

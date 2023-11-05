@@ -1011,7 +1011,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 						}
 						else {
 							string[] responseValues = response.Body.Split(',');
-							Debug.Log(response.Body);
+							CspUtils.DebugLog(response.Body);
 							localResult.coins = (int)(float.Parse(responseValues[0]));
 							localResult.tickets = (int)(float.Parse(responseValues[0]));
 							localResult.earnedXp = (int)(float.Parse(responseValues[1]));

@@ -176,7 +176,7 @@ public class SocialSpaceController : GameController
 		}
 		controller.Start();
 
-		Debug.Log("SocialSpaceController Start!");
+		CspUtils.DebugLog("SocialSpaceController Start!");
 		// force garbage collection every 30 sec.
 		//InvokeRepeating("CallGC", 30.0f, 600.0f);  // CSP
 	}

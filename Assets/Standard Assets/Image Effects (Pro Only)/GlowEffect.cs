@@ -110,7 +110,7 @@ public class GlowEffect : MonoBehaviour
 		// Disable the effect if no downsample shader is setup
 		if( downsampleShader == null )
 		{
-			Debug.Log ("No downsample shader assigned! Disabling glow.");
+			Debug.LogError ("No downsample shader assigned! Disabling glow.");
 			enabled = false;
 		}
 		// Disable if any of the shaders can't run on the users graphics card

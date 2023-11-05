@@ -426,7 +426,10 @@ public class HairTrafficController : MonoBehaviour
 			AnimClip animClip = AnimClipBuilder.Custom.Function(AnimClipBuilder.Path.Linear(num, num2, time), delegate(float x)
 			{
 				currentBillboardAlpha = x;
-				SetAlpha(materials, x);
+				try {
+					SetAlpha(materials, x);
+				}
+				catch(Exception e) {}
 			});
 			if (!state)
 			{

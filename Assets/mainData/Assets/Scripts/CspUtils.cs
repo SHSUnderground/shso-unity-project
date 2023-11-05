@@ -8,21 +8,48 @@ using UnityEngine;
 public class CspUtils
 {
     public static string version = "18.1";  // use this as the client version number....make sure always length of 9 chars.
+    
+    public static bool printDebug = false;
 
     public static void DebugLog(object s) {
-      //  try {
-        //        Debug.Log(s);
-         //    }
-        //catch (Exception e) {
+        try {
+            if (Debug.isDebugBuild || printDebug)
+                {
+                    Debug.Log("[INFO]");
+                    Debug.Log(s);
+                }
+        }
+        catch (Exception e) {
 		
-          //  }
+           }
     }
 
     public static void DebugLogWarning(object s) {
-        // try {
-        //         Debug.Log(s);
-        //     }
-        // catch (Exception e) {
+        try {
+            if (Debug.isDebugBuild || printDebug)
+                {
+                    Debug.Log("[WARN]");
+                    Debug.Log(s);
+                }
+            }
+        catch (Exception e) {
+
+            }
+    }
+
+    public static void DebugLogError (object s) {
+        try {
+            if (Debug.isDebugBuild || printDebug)
+                {
+                    Debug.Log("[ERROR]");
+                    Debug.Log(s);
+                }
+            }
+        catch (Exception e) {
+
+            }
+    }
+
     public static int maxFilename = 7;
 
     public static int MaxFilename

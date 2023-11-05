@@ -56,7 +56,7 @@ public class AFKWatcher : MonoBehaviour
 				isAFK = true;
 				statusPriorToAFK = GetCurrentStatus();
 				PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("AFK"));
-				Debug.Log ("Idle for too long! Quitting Application!");
+				CspUtils.DebugLog("Idle for too long! Quitting Application!");
 				Application.Quit();
 			}
 			else

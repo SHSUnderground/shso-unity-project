@@ -860,9 +860,7 @@ public class ShsWebService : MonoBehaviour
 		catch (Exception ex2)
 		{
 			CspUtils.DebugLog("Web Requested URI: " + response.RequestUri);
-			Debug.Log("Web Requested URI: " + response.RequestUri);
 			CspUtils.DebugLog("An " + ex2 + " (" + ex2.Message + ") occurred while parsing: \n" + www.text);
-			Debug.Log("An " + ex2 + " (" + ex2.Message + ") occurred while parsing: \n" + www.text);
 			response.Status = 404;
 		}
 		if (response.Status >= 500 && response.Status <= 599)

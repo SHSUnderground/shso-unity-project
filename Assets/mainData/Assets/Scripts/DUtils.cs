@@ -40,7 +40,7 @@ public class DUtils : MonoBehaviour {
 			}
 			
 		}
-		Debug.Log("FILTER: "+filtered);
+		CspUtils.DebugLog("FILTER: "+filtered);
 		
 		return filtered;
 		

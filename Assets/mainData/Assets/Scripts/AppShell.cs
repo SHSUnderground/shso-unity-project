@@ -1910,9 +1910,9 @@ public class AppShell : MonoBehaviour, IInputHandler
 	
 	protected void OnDutilAfk(ShsWebResponse response){
 		
-		Debug.Log("SETTING MAX AFK");
+		CspUtils.DebugLog("SETTING MAX AFK");
 		float d = float.Parse(response.Body);
-		Debug.Log(d);
+		CspUtils.DebugLog(d);
 		SHSInput.maxAFK = d;
 		
 	}
