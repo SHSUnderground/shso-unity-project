@@ -23,17 +23,48 @@ public class CspUtils
         //         Debug.Log(s);
         //     }
         // catch (Exception e) {
+    public static int maxFilename = 7;
 
-        //     }
+    public static int MaxFilename
+    {
+        get
+        {
+            return maxFilename;
+        }
+        set
+        {
+            maxFilename = value;
+        }
     }
 
-    public static void DebugLogError(object s) {
-        // try {
-        //         Debug.Log(s);
-        //     }
-        // catch (Exception e) {
+    public static int maxFilenameHalloween = 5;
 
-        //     }
+    public static string halloweenSuffix = "";
+
+    public static string HalloweenSuffix 
+    {
+        get
+        {
+            return halloweenSuffix;
+        }
+        set
+        {
+            halloweenSuffix = value;
+        }
+    }
+
+    public static string halloweenPathSuffix = "";
+
+    public static string HalloweenPathSuffix 
+    {
+        get
+        {
+            return halloweenPathSuffix;
+        }
+        set
+        {
+            halloweenPathSuffix = value;
+        }
     }
 
     public static UnityEngine.Object CspLoad(AssetBundle bundle, string assetName) {

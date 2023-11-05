@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +19,7 @@ public class SHSWaitWindow : GUITopLevelWindow
 	private const string rightTipBoxTexSrc = "GUI/loading/loading_tipbox_rightside";
 
 	private const string loadingBarFillTexSrc = "GUI/loading/loading_bar_fill";
-
+	
 	private const string loadingBarFillTipTexSrc = "GUI/loading/loading_bar_rightside";
 
 	private const float maxWidthResolution = 1920f;
@@ -261,13 +262,13 @@ public class SHSWaitWindow : GUITopLevelWindow
 		progressBar.UpdateSpeed = 50f;
 		progressBar.SetPosition(DockingAlignmentEnum.BottomMiddle, AnchorAlignmentEnum.BottomMiddle, OffsetType.Absolute, new Vector2(0f, -14f * ResolutionHeightPercentage));
 		progressBar.SetSize(500f * ResolutionWidthPercentage, 47f * ResolutionHeightPercentage);
-		progressBar.ForegroundTexture = "GUI/loading/loading_bar_fill";
+		progressBar.ForegroundTexture = "GUI/loading/loading_bar_fill" + CspUtils.halloweenSuffix;
 		Add(progressBar);
 		loadingBarFillTip = new GUIImage();
 		loadingBarFillTip.Id = "loadingBarFillTip";
 		loadingBarFillTip.Position = Vector2.zero;
 		loadingBarFillTip.Size = new Vector2(61f * ResolutionWidthPercentage, 82f * ResolutionHeightPercentage);
-		loadingBarFillTip.TextureSource = "GUI/loading/loading_bar_rightside";
+		loadingBarFillTip.TextureSource = "GUI/loading/loading_bar_rightside" + CspUtils.halloweenSuffix;
 		loadingBarFillTip.IsVisible = false;
 		Add(loadingBarFillTip);
 		loadingBarFrame = new GUIImage();
@@ -282,17 +283,17 @@ public class SHSWaitWindow : GUITopLevelWindow
 		Add(loadingTextImg);
 		leftTipBoxImg = new GUIImage();
 		leftTipBoxImg.Id = "leftTipBoxImg";
-		leftTipBoxImg.TextureSource = "GUI/loading/loading_tipbox_leftside";
+		leftTipBoxImg.TextureSource = "GUI/loading/loading_tipbox_leftside" + CspUtils.halloweenSuffix;
 		leftTipBoxImg.IsVisible = false;
 		Add(leftTipBoxImg);
 		centerTipBoxImg = new GUIImage();
 		centerTipBoxImg.Id = "centerTipBoxImg";
-		centerTipBoxImg.TextureSource = "GUI/loading/loading_tipbox_center";
+		centerTipBoxImg.TextureSource = "GUI/loading/loading_tipbox_center" + CspUtils.halloweenSuffix;
 		centerTipBoxImg.IsVisible = false;
 		Add(centerTipBoxImg);
 		rightTipBoxImg = new GUIImage();
 		rightTipBoxImg.Id = "rightTipBoxImg";
-		rightTipBoxImg.TextureSource = "GUI/loading/loading_tipbox_rightside";
+		rightTipBoxImg.TextureSource = "GUI/loading/loading_tipbox_rightside" + CspUtils.halloweenSuffix;
 		rightTipBoxImg.IsVisible = false;
 		Add(rightTipBoxImg);
 		titleText = new GUIDropShadowTextLabel();

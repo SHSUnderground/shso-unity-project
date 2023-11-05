@@ -62,8 +62,8 @@ public class GUILoadingScreenContext
 	public delegate void CustomContextSetup(SHSWaitWindow window);
 
 	private const string loadingScreenBundle = "loading_bundle";
-	
-	public string UnityLoadingScreenSrc = "GUI/loading/background/" + (new System.Random()).Next(0, 7).ToString();
+
+	public string UnityLoadingScreenSrc = "GUI/loading/background/" + CspUtils.halloweenPathSuffix + (new System.Random()).Next(0, maxFilename).ToString();
 
 	public const string UnityPreLoadingScreenSrc = "GUI/loading/preloading_blue_backdrop";
 
@@ -71,13 +71,13 @@ public class GUILoadingScreenContext
 
 	public const string TitanLogo = "GUI/loading/logos/Titan";
 
-	public string StandardLoadingScreenSrc = "GUI/loading/game_loading/" + (new System.Random()).Next(0, 8).ToString();
+	public string StandardLoadingScreenSrc = loadingScreensFilePath + (new System.Random()).Next(0, 8).ToString();
 
-	public string HeroCityLoadingScreenSrc = "GUI/loading/game_loading/" + (new System.Random()).Next(0, 8).ToString();
+	public string HeroCityLoadingScreenSrc = loadingScreensFilePath + (new System.Random()).Next(0, 8).ToString();
 
-	public string HeadquartersLoadingScreenSrc = "GUI/loading/game_loading/" + (new System.Random()).Next(0, 8).ToString();
+	public string HeadquartersLoadingScreenSrc = loadingScreensFilePath + (new System.Random()).Next(0, 8).ToString();
 
-	public string BrawlerLoadingScreenSrc = "GUI/loading/game_loading/" + (new System.Random()).Next(0, 8).ToString();
+	public string BrawlerLoadingScreenSrc = loadingScreensFilePath + (new System.Random()).Next(0, 8).ToString();
 
 	private static Hashtable contextLookup;
 
@@ -107,6 +107,10 @@ public class GUILoadingScreenContext
 
 	private string locationName;
 
+	private static string loadingScreensFilePath = "GUI/loading/game_loading/";
+
+	private static int maxFilename = CspUtils.maxFilename;
+	
 	public static bool LoadingScreenAssetsAvailable
 	{
 		get
@@ -152,11 +156,11 @@ public class GUILoadingScreenContext
 		get
 		{
 			System.Random random = new System.Random();
-			bool flag = backgroundTextureSource == "GUI/loading/background/" + (new System.Random()).Next(0, 7).ToString();;
+			bool flag = backgroundTextureSource == "GUI/loading/background/" + (new System.Random()).Next(0, maxFilename).ToString();;
 			bool flag2 = backgroundTextureSource == string.Empty || !loadingScreenAssetsAvailable || !validLoadingScreens.Contains(backgroundTextureSource);
 			if (!flag && flag2)
 			{
-				backgroundTextureSource = "GUI/loading/background/" + (new System.Random()).Next(0, 7).ToString();
+				backgroundTextureSource = "GUI/loading/background/" + (new System.Random()).Next(0, maxFilename).ToString();
 			}
 			return backgroundTextureSource;
 		}
@@ -237,63 +241,63 @@ public class GUILoadingScreenContext
 			contextLookup[GameController.ControllerType.DeckBuilder] = new Hashtable();
 			contextLookup[GameController.ControllerType.ArcadeShell] = new Hashtable();
 			System.Random random = new System.Random();
-			LoadingContext loadingContext = new LoadingContext("GUI/loading/background/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
+			LoadingContext loadingContext = new LoadingContext("GUI/loading/background/" + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
 			loadingContext.additionalTextureSource = TitanLogo;
 			loadingContext.additionalTextureOffset = new Vector2(0f, -165f);
 			loadingContext.additionalTextureSize = new Vector2(231f, 231);
 			((Hashtable)contextLookup[GameController.ControllerType.None])[GameController.ControllerType.None] = loadingContext;
-			((Hashtable)contextLookup[GameController.ControllerType.RailsGameWorld])[GameController.ControllerType.RailsGameWorld] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.RailsGameWorld])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.DeckBuilder] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Missions");
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.RailsGameWorld] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.DeckBuilder] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Missions");
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.DeckBuilder] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Missions");
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.DeckBuilder] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
-			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Missions");
-			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Missions");
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.DeckBuilder] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.SocialSpace] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "GameWorld");
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.Brawler] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Missions");
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.HeadQuarters] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "HQ");
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.CardGame] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.FrontEnd] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.RailsGameWorld] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), string.Empty);
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.DeckBuilder] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "CardGame");
-			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.ArcadeShell] = new LoadingContext("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.RailsGameWorld])[GameController.ControllerType.RailsGameWorld] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.RailsGameWorld])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.DeckBuilder] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.FrontEnd])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Missions");
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.RailsGameWorld] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.DeckBuilder] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.SocialSpace])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Missions");
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.DeckBuilder] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.CardGame])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Missions");
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.DeckBuilder] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.Brawler])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Missions");
+			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.HeadQuarters])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Missions");
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.DeckBuilder] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.DeckBuilder])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.Brawler] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Missions");
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.HeadQuarters] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "HQ");
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.CardGame] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.FrontEnd] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.RailsGameWorld] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.DeckBuilder] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "CardGame");
+			((Hashtable)contextLookup[GameController.ControllerType.ArcadeShell])[GameController.ControllerType.ArcadeShell] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "Arcade");
 		}
 	}
 
@@ -369,10 +373,10 @@ public class GUILoadingScreenContext
 		{
 			validLoadingScreens = new List<string>();
 			validLoadingScreens.Add("GUI/loading/mshs_loading_background_01");
-			validLoadingScreens.Add("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString());
-			validLoadingScreens.Add("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString());
-			validLoadingScreens.Add("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString());
-			validLoadingScreens.Add("GUI/loading/game_loading/" + (new System.Random()).Next(0, 7).ToString());
+			validLoadingScreens.Add(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString());
+			validLoadingScreens.Add(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString());
+			validLoadingScreens.Add(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString());
+			validLoadingScreens.Add(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString());
 		}
 	}
 

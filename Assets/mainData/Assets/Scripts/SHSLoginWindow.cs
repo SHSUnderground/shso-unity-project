@@ -59,8 +59,8 @@ public class SHSLoginWindow : GUIDialogWindow
 		Traits.LifeSpan = ControlTraits.LifeSpanTraitEnum.KeepAlive;
 		bgd1 = new GUIDrawTexture();
 		bgd1.SetPositionAndSize(QuickSizingHint.ParentSize);
-		System.Random random = new System.Random();
-		bgd1.TextureSource = "GUI/loading/background/" + random.Next(0, 7);
+		int randomBg = new System.Random().Next(0, CspUtils.maxFilename);
+		bgd1.TextureSource = "GUI/loading/background/" + CspUtils.halloweenPathSuffix + randomBg;
 		bgd1.IsVisible = true;
 		bgd1.TooltipKey = string.Empty;
 		bgd1.Id = "LoginBgd";
@@ -70,7 +70,7 @@ public class SHSLoginWindow : GUIDialogWindow
 		// GUIDrawTexture gUIDrawTexture7 = characterGroup;
 		// Vector2 vector6 = autoCenter(characterGroup, point);
 		// gUIDrawTexture7.SetPosition(vector6.x + 10f, 52f);
-		characterGroup.TextureSource = "GUI/loading/characters/" + random.Next(0, 7);
+		characterGroup.TextureSource = "GUI/loading/characters/" + CspUtils.halloweenPathSuffix + randomBg;
 		characterGroup.IsVisible = true;
 		characterGroup.TooltipKey = string.Empty;
 		Add(characterGroup);
