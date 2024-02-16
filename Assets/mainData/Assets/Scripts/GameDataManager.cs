@@ -59,6 +59,14 @@ public class GameDataManager : MonoBehaviour
 		assetBundlePrefix = "bundle$";
 	}
 
+	protected void OnGetCharacterData(ShsWebResponse response)
+	{
+		CspUtils.DebugLog("OnGetCharacterData: " + response.Body);
+		byte[] fileBytes = Convert.FromBase64String(response.Body);
+        string filePath = Path.Combine(Path.Combine(Path.Combine(Application.dataPath, "AssetBundles"), "Data"), "general.unity3d");
+        File.WriteAllBytes(filePath, fileBytes);
+	}
+
 	public void Start()
 	{
 		if (Application.platform == RuntimePlatform.OSXEditor || Application.platform == RuntimePlatform.WindowsEditor)
@@ -67,6 +75,7 @@ public class GameDataManager : MonoBehaviour
 			return;
 		}
 		startTransaction.AddStepBundle("general", "Data/general");
+		AppShell.Instance.WebService.StartRequest("resources$data/json/character_data.py", OnGetCharacterData,null,ShsWebService.ShsWebServiceType.RASP); // Titan
 		AppShell.Instance.BundleLoader.FetchAssetBundle("Data/general", OnAssetBundleLoaded, null, false);
 	}
 
