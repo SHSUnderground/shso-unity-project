@@ -584,14 +584,14 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 		// "tickets",
 		// "coins",
 		"common_bundle|fractal",
-		"common_bundle|fractal",
+		"gold",
 		"xp"
 	};
 
 	private string[] rewardLabels = new string[3]
 	{
 		"#FRACTAL_NAME_303943",
-		"#FRACTAL_NAME_303943",
+		"#MISSIONREWARDS_TT_GOLDMEDAL",
 		"#missionrewards_experience_label"
 	};
 
@@ -1185,7 +1185,7 @@ public class SHSBrawlerCompleteWindow : GUIControlWindow
 			AnimClip toAdd4 = AnimateOutCriteriaSection(1f);
 			//medal.TextureSource = "brawler_bundle|mc_medal_" + medalNames[rewardTier - 1];   // CSP temp comment out
 			rewardPlates[0].SetReward(ticketReward, rewardLabels[0], rewardNames[0], rewardTooltips[0]);
-			rewardPlates[1].SetReward(coinReward, rewardLabels[1], rewardNames[1], rewardTooltips[1]);
+			rewardPlates[1].SetReward(0, rewardLabels[1], rewardNames[1], rewardTooltips[1]);
 			rewardPlates[2].SetReward(xpReward, rewardLabels[2], rewardNames[2], rewardTooltips[2]);
 			if (bonusXPReward > 0)
 			{
