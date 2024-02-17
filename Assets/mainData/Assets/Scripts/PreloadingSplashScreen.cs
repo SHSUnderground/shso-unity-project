@@ -54,52 +54,9 @@ public class PreloadingSplashScreen : MonoBehaviour
 		// splashTexture = (Texture2D)Resources.Load("GUI/loading/preloading_blue_backdrop");
 
 
-		string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "dgVoodoo/dgVoodoo.conf");
-		string filePathDLL = Path.Combine(Path.Combine(Application.dataPath, ".."), "d3d9.dll");
 		string filePathDebug = Path.Combine(Application.dataPath, "debug");
-		if (File.Exists(filePathDLL)) {
+		if (File.Exists(filePathDebug)) {
 			CspUtils.printDebug = true;
-		}
-		// string filePathDXGIDLL = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "dxgi.dll");
-
-		string searchString = "dgVoodooWatermark                   = true";
-		string vsyncSearchString = "ForceVerticalSync                   = false";
-		string replacementString = "dgVoodooWatermark                   = false";
-		string vsyncReplacementString = "ForceVerticalSync                   = true";
-		string fullconf = "[DirectX]\nForceVerticalSync                   = true\ndgVoodooWatermark                   = false";
-		// if (File.Exists(filePathDLL) && !File.Exists(filePathDXGIDLL))
-		if (File.Exists(filePathDLL))
-		{
-			if (File.Exists(filePath))
-			{
-				try
-				{
-					string fileContents = File.ReadAllText(filePath);
-					fileContents = fileContents.Replace(searchString, replacementString);
-					fileContents = fileContents.Replace(vsyncSearchString, vsyncReplacementString);
-					File.WriteAllText(filePath, fileContents);
-				}
-				catch (Exception e)
-				{
-					CspUtils.DebugLogError("Error replacing string in dgVoodoo config: " + e.Message);
-				}
-			}
-			else
-			{
-				// File doesn't exist, so create it and write the replacement string
-				try
-					{
-						// Ensure the parent directories exist before creating the file
-						Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-						// Create a new file
-						File.WriteAllText(filePath, fullconf);
-						// Debug.Log("File created with replacement string.");
-					}
-					catch (Exception e)
-					{
-						CspUtils.DebugLogError("Error creating dgVoodoo config file: " + e.Message);
-					}
-			}
 		}
 
 		// System.Random random = new System.Random();
