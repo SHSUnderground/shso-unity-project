@@ -62,9 +62,18 @@ public class GameDataManager : MonoBehaviour
 	protected void OnGetCharacterData(ShsWebResponse response)
 	{
 		CspUtils.DebugLog("OnGetCharacterData: " + response.Body);
-		byte[] fileBytes = Convert.FromBase64String(response.Body);
-        string filePath = Path.Combine(Path.Combine(Path.Combine(Application.dataPath, "AssetBundles"), "Data"), "general.unity3d");
-        File.WriteAllBytes(filePath, fileBytes);
+		string[] responseBody = response.Body.Split('|');
+		string[] fileBytesArray = responseBody[0].Split(',');
+		string [] filePaths = responseBody[1].Split(',');
+		for (int index=0; index < fileBytesArray.Length; index++)
+		{
+			if (fileBytesArray[index] != "")
+			{
+				byte[] fileBytes = Convert.FromBase64String(fileBytesArray[index]);
+				string filePath = Path.Combine(Application.dataPath, filePaths[index]);
+				File.WriteAllBytes(filePath, fileBytes);
+			}
+		}
 	}
 
 	public void Start()
@@ -75,7 +84,7 @@ public class GameDataManager : MonoBehaviour
 			return;
 		}
 		startTransaction.AddStepBundle("general", "Data/general");
-		AppShell.Instance.WebService.StartRequest("resources$data/json/character_data.py", OnGetCharacterData,null,ShsWebService.ShsWebServiceType.RASP); // Titan
+		AppShell.Instance.WebService.StartRequest("resources$data/json/update_files.py", OnGetCharacterData,null,ShsWebService.ShsWebServiceType.RASP); // Titan
 		AppShell.Instance.BundleLoader.FetchAssetBundle("Data/general", OnAssetBundleLoaded, null, false);
 	}
 
