@@ -1048,7 +1048,9 @@ public class RTCClient : IDisposable
 				int heroLevel = int.Parse(array2[4]);
 				int squadLevel = int.Parse(array2[5]);
 				string name = array2[2];  // DecodeString(array2[2]);   // CSP removed base 64 decoding.
-				AppShell.Instance.PlayerDictionary.Update(new PlayerDictionary.Player(int.Parse(array2[0]), int.Parse(array2[1]), name, bool.Parse(array2[3]), false, heroLevel, squadLevel));
+				bool isModerator = bool.Parse(array2[3]);
+				
+				AppShell.Instance.PlayerDictionary.Update(new PlayerDictionary.Player(int.Parse(array2[0]), int.Parse(array2[1]), name, bool.Parse(array2[3]), isModerator, heroLevel, squadLevel));
 			}
 			break;
 		}
