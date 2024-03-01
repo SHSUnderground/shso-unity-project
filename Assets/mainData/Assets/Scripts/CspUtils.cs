@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class CspUtils
 {
-    public static string version = "18.1";  // use this as the client version number....make sure always length of 9 chars.
+    public static string version = "18.3";  // use this as the client version number....make sure always length of 9 chars.
     
     public static bool printDebug = false;
 
