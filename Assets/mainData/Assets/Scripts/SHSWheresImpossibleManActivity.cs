@@ -164,8 +164,8 @@ public class SHSWheresImpossibleManActivity : SHSActivityBase
 	{
 		//EditorApplication.isPaused = true;
 		// CSP - temporarily commented out this block
-		//ClearActiveImpossibleMan();
-		//SpawnImpossibleMan();
+		ClearActiveImpossibleMan();
+		SpawnImpossibleMan();
 	}
 
 	public override void Reset()
