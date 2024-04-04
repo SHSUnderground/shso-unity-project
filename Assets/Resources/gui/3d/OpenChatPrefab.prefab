@@ -253,7 +253,7 @@ MonoBehaviour:
   messageTxt: {fileID: 10200000}
   messageRender: {fileID: 2300000}
   CSPMaterial: {fileID: 2100000, guid: 7ddfdd2e22934daeae3445635d48809e, type: 1}
-  offsetObject: {fileID: 0}
+  offsetObject: {fileID: 100006}
   NameZOffset: 1
   TextZOffset: 1
 --- !u!1001 &100100000

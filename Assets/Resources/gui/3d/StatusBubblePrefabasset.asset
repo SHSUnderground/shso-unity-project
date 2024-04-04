@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+DataTemplate:
+  m_LastMergeIdentifier: 00000000000000000000000000000000
+  m_Objects:
+  - {fileID: 1487516759120534, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 4175033252789431, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 114290246707882838, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 1816828807983536, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 4767192886718982, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 1999659024394410, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 4398880090155620, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 33856941021302460, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  - {fileID: 23781824994881745, guid: 3cb54830bdec28d4ba6d4694fc2c8274, type: 2}
+  m_Father: {fileID: 0}
+  m_IsDataTemplate: 1
+  m_ObjectHideFlags: 0
+  m_ExtensionPtr: {fileID: 0}
+  m_Name: StatusBubblePrefab
