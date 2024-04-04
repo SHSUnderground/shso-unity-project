@@ -47,9 +47,9 @@ public class CharacterSpawn : MonoBehaviour
 
 	public delegate void CharacterSpawned(GameObject characterObject, CharacterSpawnData spawnData);
 
-	public string CharacterName = "wolverine";
+	public string CharacterName = "";
 
-	protected string SpawnName = "wolverine";
+	protected string SpawnName = "";
 
 	public int R2Attack = 1;
 
