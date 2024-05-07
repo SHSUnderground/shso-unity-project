@@ -330,14 +330,14 @@ public class AIControllerBrawler : MonoBehaviour
 								 	targetAssignedTime = Time.time;
 									TargetType fnt = findNewTarget();
 									// CSP commented out this block for testing
-								 	//if (fnt == TargetType.TargetPlayer && !currentTarget.targetNet.IsOwner())
-								 	//{
-									//	CspUtils.DebugLog("AICB breaking! ");
-									//	CspUtils.DebugLog("breaking ai=" + this.gameObject.name + "target=" + GetTarget().gameObject.name);
-									//	CspUtils.DebugLog("1st= " + (fnt == TargetType.TargetPlayer));
-									//	CspUtils.DebugLog("2nd= " + !currentTarget.targetNet.IsOwner()); 
-								 	//	break;
-								 	//}
+								 	if (fnt == TargetType.TargetPlayer && !currentTarget.targetNet.IsOwner())
+								 	{
+										CspUtils.DebugLog("AICB breaking! ");
+										CspUtils.DebugLog("breaking ai=" + this.gameObject.name + "target=" + GetTarget().gameObject.name);
+										CspUtils.DebugLog("1st= " + (fnt == TargetType.TargetPlayer));
+										CspUtils.DebugLog("2nd= " + !currentTarget.targetNet.IsOwner()); 
+								 		break;
+								 	}
 								 }
 								if (!combatController.InPursuitOfTarget(GetTarget()) && !combatController.AwaitingPursuitOfTarget(GetTarget()))
 								{

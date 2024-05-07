@@ -537,13 +537,13 @@ public class PlayerInputController : MonoBehaviour
 				if (playerMoveEffectInstance != null)
 				{
 					// CSP - temporarily comment out block
-					// CoroutineContainer component = playerMoveEffectInstance.GetComponent<CoroutineContainer>();
-					// if (component.enabled)
-					// {
-					// 	component.enabled = true;
-					// 	component.StartCoroutine(CoShrinkMoveEffect(playerMoveEffectInstance, 0f));
-					// 	playerMoveEffectInstance = null;
-					// }
+					CoroutineContainer component = playerMoveEffectInstance.GetComponent<CoroutineContainer>();
+					if (component.enabled)
+					{
+						component.enabled = true;
+						component.StartCoroutine(CoShrinkMoveEffect(playerMoveEffectInstance, 0f));
+						playerMoveEffectInstance = null;
+					}
 				}
 			}
 		}

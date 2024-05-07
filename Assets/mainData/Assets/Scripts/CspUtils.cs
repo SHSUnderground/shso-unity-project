@@ -7,7 +7,8 @@ using UnityEngine;
 
 public class CspUtils
 {
-    public static string version = "18.3";  // use this as the client version number....make sure always length of 9 chars.
+    public static string version = "18.4";  // use this as the client version number....make sure always length of 9 chars.
+    public static string disclaimer = "SHSO Remake is a non-profit fan game project. It is not affiliated with Gazillion, The Amazing Society, Marvel or Disney in any way.\nThe developers of this project have no intent to infringe said copyrights or registered trademarks. No financial gain is made from this project.\n\nSHS is a trademark of Marvel and Disney. All copyrights and registered trademarks regarding the SHS and Marvel characters belong to Marvel and Disney.\nOriginal SHSO assets used in this project are property of Gazillion, The Amazing Society, Marvel, Disney and their respective owners.";
     
     public static bool printDebug = false;
 

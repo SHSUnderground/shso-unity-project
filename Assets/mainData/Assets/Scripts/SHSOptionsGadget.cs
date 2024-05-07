@@ -2276,12 +2276,17 @@ public class SHSOptionsGadget : SHSGadget
 
 	public override void OnShow()
 	{
+		PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("Options"));
 		optionsCurrentlyShowing = true;
 		base.OnShow();
 	}
 
 	public override void OnHide()
 	{
+		if (PlayerStatus.GetLocalStatus() == PlayerStatusDefinition.Instance.GetStatus("Options"))
+		{
+			PlayerStatus.ClearLocalStatus();
+		}
 		optionsCurrentlyShowing = false;
 		base.OnHide();
 	}

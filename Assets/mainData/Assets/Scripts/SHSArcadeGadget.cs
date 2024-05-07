@@ -33,7 +33,10 @@ public class SHSArcadeGadget : SHSGadget
 
 	public override void CloseGadget()
 	{
-		PlayerStatus.ClearLocalStatus();
+		if (PlayerStatus.GetLocalStatus() == PlayerStatusDefinition.Instance.GetStatus("Arcade"))
+			{
+				PlayerStatus.ClearLocalStatus();
+			}
 		base.CloseGadget();
 	}
 }

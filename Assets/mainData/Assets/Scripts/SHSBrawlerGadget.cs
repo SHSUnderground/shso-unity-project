@@ -2590,6 +2590,7 @@ public class SHSBrawlerGadget : SHSGadget
 		{
 			GUIDialogNotificationSink notificationSink = new GUIDialogNotificationSink(delegate
 			{
+				PlayerStatus.ClearLocalStatus();
 				MissionLaunchTopWindow.Hide();
 				MissionLaunchWindow.Hide();
 				Hide();
@@ -2826,6 +2827,7 @@ public class SHSBrawlerGadget : SHSGadget
 
 	public override void OnShow()
 	{
+		PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("Missions"));
 		base.OnShow();
 		AppShell.Instance.EventMgr.AddListener<FriendListUpdatedMessage>(InviteFriendsWindow.OnFriendListUpdated);
 		AppShell.Instance.EventMgr.AddListener<CollectionAddedMessage>(AppShell.Instance.Profile.AvailableCostumes, OnCollectionAddedMessage);
@@ -2833,6 +2835,10 @@ public class SHSBrawlerGadget : SHSGadget
 
 	public override void OnHide()
 	{
+		if (PlayerStatus.GetLocalStatus() == PlayerStatusDefinition.Instance.GetStatus("Missions"))
+			{
+				PlayerStatus.ClearLocalStatus();
+			}
 		base.OnHide();
 		AppShell.Instance.EventMgr.RemoveListener<FriendListUpdatedMessage>(InviteFriendsWindow.OnFriendListUpdated);
 		AppShell.Instance.EventMgr.RemoveListener<CollectionAddedMessage>(AppShell.Instance.Profile.AvailableCostumes, OnCollectionAddedMessage);

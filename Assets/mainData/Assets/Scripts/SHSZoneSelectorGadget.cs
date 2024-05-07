@@ -26,5 +26,15 @@ public class SHSZoneSelectorGadget : SHSGadget
 		SetupOpeningTopWindow(topWindow);
 		SetupOpeningWindow(BackgroundType.OnePanel, ZoneSelectorWindow);
 		SetBackgroundImage("persistent_bundle|gadget_mainwindow_frame");
+		PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("ZoneChooser"));
 	}
+
+	public override void OnHide()
+		{
+			if (PlayerStatus.GetLocalStatus() == PlayerStatusDefinition.Instance.GetStatus("ZoneChooser"))
+			{
+				PlayerStatus.ClearLocalStatus();
+			}
+			base.OnHide();
+		}
 }

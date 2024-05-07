@@ -84,6 +84,7 @@ public class MySquadWindow : GUIDialogWindow
 	public new void init()
 	{
 		instance = this;
+		PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("MySquad"));
 		Traits.FullScreenOpaqueBackgroundTrait = ControlTraits.FullScreenOpaqueBackgroundTraitEnum.HasFullScreenOpaqueBackground;
 		Traits.EventListenerRegistrationTrait = ControlTraits.EventListenerRegistrationTraitEnum.Ignore;
 		SetSize(new Vector2(1f, 1f), AutoSizeTypeEnum.Percentage, AutoSizeTypeEnum.Percentage);
@@ -420,6 +421,10 @@ public class MySquadWindow : GUIDialogWindow
 	public void Close()
 	{
 		IsVisible = false;
+		if (PlayerStatus.GetLocalStatus() == PlayerStatusDefinition.Instance.GetStatus("MySquad"))
+		{
+			PlayerStatus.ClearLocalStatus();
+		}
 		AppShell.Instance.EventMgr.RemoveListener<PlayerChangedSquadInfoMessage>(OnSquadInfoChanged);
 		AppShell.Instance.EventMgr.RemoveListener<CharacterSelectedMessage>(OnCharacterSelected);
 		SHSInput.RevertInputBlockingMode(this);

@@ -7,6 +7,8 @@ public class PreloadingSplashScreen : MonoBehaviour
 		
 	public GUIStyle presentsStyle;
 
+	public GUIStyle disclaimerStyle;
+
 	private Texture2D splashTexture;
 
 	// private Texture2D TASGAZLogo;
@@ -36,6 +38,8 @@ public class PreloadingSplashScreen : MonoBehaviour
 	private float pwidth;
 
 	private string presents = "Presents...";
+
+	private GUILabel disclaimerLabel;
 
 	private float dotTime;
 
@@ -131,6 +135,8 @@ public class PreloadingSplashScreen : MonoBehaviour
 			GUI.Label(new Rect((float)px - pwidth / 2f + 1f, py + 1, pwidth, 35f), presents, presentsStyle);
 			GUI.color = ColorUtil.FromRGB255(16, 18, 64);
 			GUI.Label(new Rect((float)px - pwidth / 2f, py, pwidth, 35f), presents, presentsStyle);
+			Vector2 vector2 = disclaimerStyle.CalcSize(new GUIContent(CspUtils.disclaimer));
+			GUI.Label(new Rect((float)px + 100f - vector2.x / 2f, py + 20f, vector2.x, vector2.y), CspUtils.disclaimer, presentsStyle);
 			GUI.color = color;
 		}
 	}

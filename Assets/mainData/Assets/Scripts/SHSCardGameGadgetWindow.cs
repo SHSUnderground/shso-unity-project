@@ -71,6 +71,7 @@ public class SHSCardGameGadgetWindow : SHSGadget
 				item.CloseGadget();
 			}
 		}
+		PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("CardGame"));
 		LaunchManager = new CardGameLaunchManager(this);
 		IntroTopWindow = new SHSCardGameTopWindows.CardGameTopWindow(298f, 48f, "cardgamegadget_bundle|L_cardlauncher_title_cardgamelaunch");
 		MainTopWindow = new SHSCardGameTopWindows.CardGameTopWindow(280f, 46f, "cardgamegadget_bundle|L_cardlauncher_title_playacardgame");
@@ -85,6 +86,15 @@ public class SHSCardGameGadgetWindow : SHSGadget
 		ChooseAQuestWindow = new SHSCardGameGadgetPickAQuestWindow(this);
 		FriendsWindow = new SHSCardGameGadgetFriendsWindow(this);
 		GoToWindow(initialWindow, true);
+	}
+
+	public override void OnHide()
+	{
+		base.OnHide();
+		if (PlayerStatus.GetLocalStatus() == PlayerStatusDefinition.Instance.GetStatus("CardGame"))
+		{
+			PlayerStatus.ClearLocalStatus();
+		}
 	}
 
 	public void GoToWindow(CardGameWindowTypeEnum windowType)

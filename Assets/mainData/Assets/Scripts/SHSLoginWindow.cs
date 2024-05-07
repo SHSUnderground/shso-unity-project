@@ -41,7 +41,7 @@ public class SHSLoginWindow : GUIDialogWindow
 
 	// public GUIDrawTexture GazLogo;
 
-	public GUIDrawTexture TitanLogo;
+	public GUIDrawTexture SHSUDevs;
 
 	public float lightRaysTopRotation = 1f;
 
@@ -172,8 +172,9 @@ public class SHSLoginWindow : GUIDialogWindow
 		ErrorLabel = new GUILabel();
 		ErrorLabel.Text = string.Empty;
 		ErrorLabel.Color = Color.red;
-		ErrorLabel.Size = new Vector2(250f, 100f);
-		ErrorLabel.Position = new Vector2(PasswordTextField.Rect.x + 2f, PasswordTextField.Rect.y);
+		// ErrorLabel.Size = new Vector2(250f, 100f);
+		// ErrorLabel.Position = new Vector2(PasswordTextField.Rect.x + 2f, PasswordTextField.Rect.y);
+		ErrorLabel.SetPositionAndSize(DockingAlignmentEnum.Middle, AnchorAlignmentEnum.Middle, OffsetType.Absolute, new Vector2(0, 200f), new Vector2(250f, 100f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
 		ErrorLabel.IsVisible = true;
 		ErrorLabel.TooltipKey = string.Empty;
 		ErrorLabel.StyleInfo = new SHSNamedStyleInfo("ErrorField");
@@ -182,7 +183,7 @@ public class SHSLoginWindow : GUIDialogWindow
 		Iforgot = new GUILabel();
 		Iforgot.Text = "#forgot";
 		// Iforgot.Size = new Vector2(230f, 20f);
-		GUILabel iforgot = Iforgot;
+		// GUIDefaultButton iforgot = Iforgot;
 		// Vector2 vector7 = autoCenter(ErrorLabel, point);
 		// iforgot.Position = new Vector2(vector7.x + 10f, point.y + 342f);
 		Iforgot.IsVisible = true;
@@ -253,21 +254,11 @@ public class SHSLoginWindow : GUIDialogWindow
 		};
 		OkButton.HitTestType = HitTestTypeEnum.Circular;
 		Add(OkButton);
-		// TASLogo = new GUIDrawTexture();
-		// TASLogo.SetSize(105f, 105f);
-		// TASLogo.SetPosition(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(-10f, -10f));
-		// TASLogo.TextureSource = "login_bundle|logo_theamazingsociety_normal";
-		// Add(TASLogo);
-		// GazLogo = new GUIDrawTexture();
-		// GazLogo.SetSize(103f, 41f);
-		// GazLogo.SetPosition(DockingAlignmentEnum.BottomLeft, AnchorAlignmentEnum.BottomLeft, OffsetType.Absolute, new Vector2(10f, -10f));
-		// GazLogo.TextureSource = "GUI/loading/logos/Titan";
-		// Add(GazLogo);
-		TitanLogo = new GUIDrawTexture();
-		TitanLogo.SetSize(105f, 105f);
-		TitanLogo.SetPosition(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 0f));
-		TitanLogo.TextureSource = "GUI/loading/logos/Titan";
-		Add(TitanLogo);
+		SHSUDevs = new GUIDrawTexture();
+		SHSUDevs.SetSize(375f, 125f);
+		SHSUDevs.SetPosition(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 0f));
+		SHSUDevs.TextureSource = "GUI/loading/logos/SHSU_Devs";
+		Add(SHSUDevs);
 		Traits.VisibleAncestryTrait = ControlTraits.VisibilityAncestryTraitEnum.EnsureAncestorsVisible;
 	}
 
@@ -346,11 +337,11 @@ public class SHSLoginWindow : GUIDialogWindow
 		}
 		if (isMouseIsOver(Iforgot))
 		{
-			Iforgot.FontSize = 15;
+			Iforgot.FontSize = 14;
 		}
 		else
 		{
-			Iforgot.FontSize = 14;
+			Iforgot.FontSize = 13;
 		}
 		if (isMouseIsOver(rememberMeButton))
 		{

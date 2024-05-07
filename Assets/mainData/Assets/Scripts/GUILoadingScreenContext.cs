@@ -69,7 +69,7 @@ public class GUILoadingScreenContext
 
 	// public const string TASGAZLogoSrc = "GUI/loading/loader_gaz_tas_logos";
 
-	public const string TitanLogo = "GUI/loading/logos/Titan";
+	public const string SHSUDevs = "GUI/loading/logos/SHSU_Devs";
 
 	public string StandardLoadingScreenSrc = loadingScreensFilePath + (new System.Random()).Next(0, 8).ToString();
 
@@ -242,9 +242,9 @@ public class GUILoadingScreenContext
 			contextLookup[GameController.ControllerType.ArcadeShell] = new Hashtable();
 			System.Random random = new System.Random();
 			LoadingContext loadingContext = new LoadingContext("GUI/loading/background/" + (new System.Random()).Next(0, maxFilename).ToString(), string.Empty);
-			loadingContext.additionalTextureSource = TitanLogo;
+			loadingContext.additionalTextureSource = SHSUDevs;
 			loadingContext.additionalTextureOffset = new Vector2(0f, -165f);
-			loadingContext.additionalTextureSize = new Vector2(231f, 231);
+			loadingContext.additionalTextureSize = new Vector2(375f, 125f);
 			((Hashtable)contextLookup[GameController.ControllerType.None])[GameController.ControllerType.None] = loadingContext;
 			((Hashtable)contextLookup[GameController.ControllerType.RailsGameWorld])[GameController.ControllerType.RailsGameWorld] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");
 			((Hashtable)contextLookup[GameController.ControllerType.RailsGameWorld])[GameController.ControllerType.SocialSpace] = new LoadingContext(loadingScreensFilePath + (new System.Random()).Next(0, maxFilename).ToString(), "GameWorld");

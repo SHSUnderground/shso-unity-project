@@ -235,7 +235,7 @@ public class SeeThrough : MonoBehaviour
 				}
 				else
 				{
-					//ActiveObjects.Add(item, Transparentize(item));   // commented out by CSP - this seems to be a workaround for pink shader problem.
+					ActiveObjects.Add(item, Transparentize(item));   // commented out by CSP - this seems to be a workaround for pink shader problem.
 				}
 			}
 		}

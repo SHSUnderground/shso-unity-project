@@ -51,11 +51,14 @@ public class AFKWatcher : MonoBehaviour
 					}
 				}
 			}
-			else if (!Disabled && SHSInput.IdleTime > SHSInput.maxAFK)
+			else if (!Disabled && SHSInput.IdleTime > SHSInput.maxAFK/2)
 			{
 				isAFK = true;
 				statusPriorToAFK = GetCurrentStatus();
 				PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("AFK"));
+			}
+			else if (!Disabled && SHSInput.IdleTime > SHSInput.maxAFK)
+			{
 				CspUtils.DebugLog("Idle for too long! Quitting Application!");
 				Application.Quit();
 			}

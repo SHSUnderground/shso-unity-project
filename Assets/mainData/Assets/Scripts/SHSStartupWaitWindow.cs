@@ -39,7 +39,7 @@ public class SHSStartupWaitWindow : SHSWaitWindow
 
 	// private GUIImage marvelImage;
 
-	private GUIImage titanImage;
+	private GUIImage SHSUDevs;
 
 	private GUILabel versionLabel;
 
@@ -135,11 +135,11 @@ public class SHSStartupWaitWindow : SHSWaitWindow
 		// marvelImage.TextureSource = "GUI/loading/welcome_marvel_logo_normal";
 		// marvelImage.Id = "marvelImage";
 		// Add(marvelImage);
-		titanImage = new GUIImage();
-		titanImage.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 0f), new Vector2(105f, 105f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
-		titanImage.TextureSource = "GUI/loading/logos/Titan";
-		titanImage.Id = "titanImage";
-		Add(titanImage);
+		SHSUDevs = new GUIImage();
+		SHSUDevs.SetPositionAndSize(DockingAlignmentEnum.BottomRight, AnchorAlignmentEnum.BottomRight, OffsetType.Absolute, new Vector2(0f, 0f), new Vector2(375f, 125f), AutoSizeTypeEnum.Absolute, AutoSizeTypeEnum.Absolute);
+		SHSUDevs.TextureSource = "GUI/loading/logos/SHSU_Devs";
+		SHSUDevs.Id = "SHSUDevs";
+		Add(SHSUDevs);
 
 		/////// block added by CSP ///////////
 		versionLabel = new GUILabel();
@@ -149,6 +149,7 @@ public class SHSStartupWaitWindow : SHSWaitWindow
 		versionLabel.Text = "client version: " + CspUtils.version;
 		Add(versionLabel);
 		//////////////////
+		///
 
 		base.AnimationOnOpen = SHSAnimations.WindowOpenCloseDelegates.FadeIn(0f, this);
 		base.AnimationOnClose = SHSAnimations.WindowOpenCloseDelegates.FadeOut(0.5f, this);

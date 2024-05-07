@@ -624,6 +624,10 @@
 			<family>wasp</family>
 		</hero>
 		<hero>
+			<name>watcher</name>
+			<family>watcher</family>
+		</hero>
+		<hero>
 			<name>werewolf</name>
 			<family>werewolf</family>
 		</hero>
@@ -947,8 +951,11 @@
 		</villain>
 		<villain>
 			<name>ymir_boss</name>
-			<family>
-			</family>
+			<family>ymir</family>
+		</villain>
+		<villain>
+			<name>ymir_christmas</name>
+			<family>ymir</family>
 		</villain>
 	</villains>
 </CharacterDescriptions>

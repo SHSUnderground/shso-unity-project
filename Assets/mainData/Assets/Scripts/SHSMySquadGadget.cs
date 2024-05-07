@@ -1452,12 +1452,14 @@ public class SHSMySquadGadget : SHSGadget
 
 	public override void OnShow()
 	{
+		PlayerStatus.SetLocalStatus(PlayerStatusDefinition.Instance.GetStatus("MySquad"));
 		base.OnShow();
 		startTime = Time.time;
 	}
 
 	public override void OnHide()
 	{
+		PlayerStatus.ClearLocalStatus();
 		if (ActiveProfile != null && ActiveProfile.ProfileType == UserProfile.ProfileTypeEnum.RemotePlayer)
 		{
 			((RemotePlayerProfile)ActiveProfile).Dispose();
