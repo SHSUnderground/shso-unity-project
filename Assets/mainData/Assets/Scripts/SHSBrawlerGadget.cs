@@ -2708,7 +2708,7 @@ public class SHSBrawlerGadget : SHSGadget
 	{
 		DataManager.SelectedMissionKey = missionKey;
 
-		DataManager.DailyMissionKey = DataManager.SelectedMissionKey; // CSP - temporarily always make seelcted misison daily mission
+		// DataManager.DailyMissionKey = DataManager.SelectedMissionKey; // CSP - temporarily always make seelcted misison daily mission
 
 		MissionLaunchWindow.UpdateSelectedMission();
 		if (!DataManager.PlayModeClicked)
