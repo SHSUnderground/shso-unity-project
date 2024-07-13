@@ -170,13 +170,13 @@ public class GraphicsOptions
 		switch ((SystemInfo.graphicsPixelFillrate < 0) ? Mathf.Clamp(3, 0, max) : ((SystemInfo.graphicsPixelFillrate <= 3000) ? Mathf.Clamp(1, 0, max) : ((SystemInfo.graphicsPixelFillrate > 10000) ? Mathf.Clamp(3, 0, max) : Mathf.Clamp(2, 0, max))))
 		{
 		default:
-			SetLowDefaults();
+			SetExcellentDefaults();
 			break;
 		case 1:
-			SetMediumDefaults();
+			SetExcellentDefaults();
 			break;
 		case 2:
-			SetHighDefaults();
+			SetExcellentDefaults();
 			break;
 		case 3:
 			SetExcellentDefaults();
